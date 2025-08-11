@@ -6,30 +6,21 @@
 
 ---
 
-## 🎯 **Objective**
+## **Objective**
 <objective will change per job application>
 
----
-
-## 🎓 **Education**
-
-**Bachelor of Science, Computer Engineering**  
-*The University of Texas at Austin* — December 2018  
-
-**Relevant Courses and Labs:**
-- Embedded Systems Design Lab, Embedded and Real-Time Operating Systems Laboratory, Computer Architecture, Digital Systems Design Using HDL, Digital Logic Design, Fundamentals of Electronic Circuits  
-- Algorithms, Software Design and Implementation, Solid-State Electronic Devices, Electromagnetic Engineering, Probability and Random Processes, Linear Systems and Signals, Circuit Theory, Vector Calculus, Discrete Mathematics  
-- **Arm IoT Senior Design Project** – 1st Place, UT Austin ECE
 
 ---
 
-## 💼 **Professional Experience**
+## **Professional Experience**
 
 ### **Senior Software Engineer**  
 **Arm** — Austin, TX | *Apr 2023 – Present*  
-- Lead developer on the **Arm Interconnect Architect**, a complex Angular/TypeScript desktop tool enabling the design and generation of interconnect microarchitectures.  
-- Built interactive canvas tools, real-time console feedback systems, and configuration-driven build pipelines with a custom Python backend.  
-- Supports both internal engineers and external partners working on Arm's coherent and non-coherent interconnect products.
+- Lead developer on the Arm Interconnect Architect, a scalable desktop application for configuring coherent and non-coherent interconnect microarchitectures. The tool features an Angular/TypeScript frontend and a custom Python backend with an extensive set of interconnect configuration APIs.
+
+- Developed core features including the interactive canvas for system visualization and editing, a configuration-driven build tab for RTL generation, and a real-time console for user feedback.
+
+- The tool supports both internal engineers and external partners, enabling a structured and consistent interconnect design workflow.
 
 ### **Software Engineer**  
 **Arm** — Austin, TX | *Apr 2020 – Apr 2023*  
@@ -58,7 +49,7 @@
 
 ---
 
-## 👨‍💻 **Internships**
+## **Internships**
 
 **IoT Engineering Intern**  
 *Arm* — Austin, TX | *May 2018 – Aug 2018*  
@@ -83,7 +74,7 @@
 
 ---
 
-## 🛠 **Skills**
+## **Skills**
 
 - **Programming:** C/C++, Python, JavaScript, Verilog, SystemVerilog, Bash, Java, HTML/CSS, PHP, SQL, NoSQL, Markdown  
 - **Technologies:** Embedded Systems, FPGA Programming, RTOS, Mbed OS, UVM, Arm ISA, Arduino, React, Flask, Express  
@@ -92,7 +83,18 @@
 
 ---
 
-## 🏆 **Accomplishments**
+## **Education**
+
+**Bachelor of Science, Computer Engineering**  
+*The University of Texas at Austin* — December 2018  
+
+**Relevant Courses and Labs:**
+- Embedded Systems Design Lab, Embedded and Real-Time Operating Systems Laboratory, Computer Architecture, Digital Systems Design Using HDL, Digital Logic Design, Fundamentals of Electronic Circuits  
+- Algorithms, Software Design and Implementation, Solid-State Electronic Devices, Electromagnetic Engineering, Probability and Random Processes, Linear Systems and Signals, Circuit Theory, Vector Calculus, Discrete Mathematics  
+- **Arm IoT Senior Design Project** – 1st Place, UT Austin ECE
+---
+
+## **Accomplishments**
 
 - **Arm Quality Award** – Mbed OS FPGA CI Test Shield  
 - **1st Place – Senior Design Competition** – UT Austin Arm IoT Wireless Home Security System  
@@ -100,7 +102,7 @@
 
 ---
 
-## 🎯 **Extracurricular Activities**
+## **Extracurricular Activities**
 
 - **Electronics/DIY Projects:** Hobbyist in embedded hardware, sensors, and automation  
 - **Sports:** Golf, Basketball  
@@ -108,6 +110,6 @@
 
 ---
 
-## 📄 **References**
+## **References**
 
 Available upon request.
