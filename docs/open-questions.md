@@ -24,3 +24,24 @@ family mapping are owner-confirmed; waveform viewers were used, not created; the
 degree is BS Electrical and Computer Engineering with the documented primary and
 secondary focuses; repair scope includes test and application defects; the 92 cases
 are historical real-engine contract/integration cases, separate from agent tasks.
+
+
+## Gaps after direct Interconnect Architect history review
+
+The 2026-10-27 [research capture](interconnect-architect-research.md) establishes
+implementation mechanisms and commit milestones. The following evidence would
+strengthen outcome or attribution claims without reopening resolved owner statements:
+
+| Area | Focused follow-up evidence | Record/source reference |
+| --- | --- | --- |
+| Migration corpus | Retain original dated audit output, corpus identity and validity criteria; distinguish DRC repairs from semantic/RTL equivalence | `accomplishment-nic400-migration#corpus`; `src-ia-results-attribution-2026-10-27` |
+| Performance/layout | Before/after workload, renderer/hardware, repeated timings and memory measurements; distinguish 64×64 identifier support from actual rendered scale | `accomplishment-canvas-performance#mesh-scale`; `accomplishment-physical-autoplacement` |
+| Guided/OWO outcome | Disclosable user adoption and configuration/debugging effort; preserve product-revision scope and original pass/skip logs | `accomplishment-guided-noc-flow`; `accomplishment-owo-wizard` |
+| Diagnostics/export | Representative user outcomes; whether vector export beyond current logical-mesh SVG is intended | `accomplishment-structured-drc-diagnostics`; `accomplishment-canvas-vector-export#current-limit` |
+| Release rehearsal | Actual dated staging/installer results and deployment acceptance, if needed for a delivery claim | `accomplishment-isolated-installer-staging#execution-limit` |
+| MCP qualification | Retain raw historical runs and repeated bounded-agent evaluations; never relabel 92 integration cases as agent tasks | `accomplishment-ia-mcp-real-engine-qualification`; `accomplishment-ia-mcp-agent-evaluations` |
+| Leadership timing | Exact start of CMN GUI lead responsibility, separate from 2022 code milestones and April 2023 formal promotion | `leadership-cmn-gui`; `exp-arm-senior` |
+
+Local history coverage includes every reachable ref available at the captured HEAD,
+with representative deep implementation review. Additional remote/unreachable history
+would require a separately authorized source collection; it is not silently assumed.

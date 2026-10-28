@@ -7,6 +7,11 @@ requires only Python 3.9+: no API, database, subscription, or Python packages.
 
 Start with [AGENTS.md](AGENTS.md) and [the workflows](docs/workflows.md).
 
+The October 27 Interconnect Architect research adds direct local Git/source evidence,
+expanded contribution records and [27 achievement/narrative options](docs/interconnect-architect-contributions.md).
+Read [the research scope and reconciliation](docs/interconnect-architect-research.md)
+for attribution, historical metrics and validation limits.
+
 | Location | Purpose |
 | --- | --- |
 | `sources/registry.json` | Evidence paths, SHA-256 fingerprints, authority, revisions and extraction relationships |
@@ -26,7 +31,9 @@ python3 scripts/career.py search "Python MCP checkpoint rollback" --limit 5
 python3 -m unittest discover -s tests -v
 ```
 
-The complete example uses a **fictional opening and documented real career facts**:
+The preserved example uses a **fictional opening and documented real career facts**.
+Its prior claim trace now has expected drift after the evidence expansion; review
+and deliberately refresh it before treating the audit as current:
 
 ```sh
 python3 scripts/career.py match applications/example-labs/staff-ai-developer-tools/2026-10-27

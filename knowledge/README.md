@@ -19,3 +19,9 @@ Facts, not summaries, are citable. Notes and private facts retain context that m
 never belong in a résumé. All originals remain separately registered; this first
 normalization is not a claim that every career detail is known. Add depth over time
 without replacing source evidence or rewriting this directory structure.
+
+The 2026-10-27 Interconnect Architect expansion adds six distinct accomplishments
+and one Electron desktop skill record, reaching 95 records and 304 facts. Existing
+summary/detail facts can overlap; they are not additive accomplishments. See the
+[contribution map and reconciliation](../docs/interconnect-architect-research.md)
+and [achievement library](../docs/interconnect-architect-contributions.md).
