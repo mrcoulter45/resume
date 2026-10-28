@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-product-version-policy",
+  "type": "accomplishment",
+  "title": "Configuration-driven product compatibility policy",
+  "summary": "Made product availability, retirement and import constraints explicit in shared policy.",
+  "technologies": [
+    "JavaScript",
+    "TypeScript",
+    "Electron",
+    "JSON"
+  ],
+  "competencies": [
+    "Compatibility engineering",
+    "Policy design",
+    "Product lifecycle"
+  ],
+  "tags": [
+    "versions",
+    "migration",
+    "configuration",
+    "ip-policy"
+  ],
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": "2026-07-17",
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "First inspected milestone: 2026-07-17. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
+  },
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "configurable-policy",
+      "text": "Centralized supported/retired product-version decisions in configurable policy and integrated import/retirement behavior and subsection availability gates.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L499-L499"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4321-L4436"
+        }
+      ]
+    },
+    {
+      "id": "maintenance-outcome",
+      "text": "Made compatibility rules explicit across application flows, reducing dependence on scattered hardcoded product assumptions.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L500-L500"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4321-L4436"
+        }
+      ]
+    },
+    {
+      "id": "collaboration-limit",
+      "text": "Later lifecycle/epoch guards in the shared data service include other authors; static policy inspection does not prove every product revision was exercised.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L501-L501"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4321-L4436"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
+  ]
+}

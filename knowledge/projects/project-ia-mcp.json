@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2026-04-21",
     "end": null,
     "ongoing": true,
     "as_of": "2026-10-27",
-    "note": "Current internal use is confirmed in October 2026; the source documents a September 4, 2026 completion baseline without establishing the initial project date."
+    "note": "First inspected milestone: 2026-04-21. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Python",
@@ -28,7 +28,10 @@
     "AI-engineering",
     "MCP",
     "interconnect",
-    "developer-tools"
+    "developer-tools",
+    "ai-planning",
+    "ai-runtime",
+    "release"
   ],
   "related": [
     "project-interconnect-architect",
@@ -56,6 +59,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L309-L327"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3602-L3911"
         }
       ]
     },
@@ -70,10 +77,35 @@
           "locator": "L14-L20"
         }
       ]
+    },
+    {
+      "id": "source-history",
+      "text": "Introduced the internal MCP capability pack in April 2026 and developed transactional planning, compatibility and packaging through later 2026 changes; the inspected code supports bounded engineering automation rather than a new model execution loop.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L448-L448"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3602-L3911"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3912-L4113"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4114-L4320"
+        }
+      ]
     }
   ],
   "notes": [
     "Internal engineering use is established qualitatively; exact adoption counts, release dates, productivity savings and external deployment are not established.",
-    "Does not establish unrestricted autonomous generation, general autonomous DRC repair, a hosted LLM service or authorship of Codex."
+    "Does not establish unrestricted autonomous generation, general autonomous DRC repair, a hosted LLM service or authorship of Codex.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2024-08-28",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+    "note": "First inspected milestone: 2024-08-28. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Pixi.js",
@@ -29,7 +29,8 @@
     "performance",
     "canvas",
     "GPU",
-    "frontend"
+    "frontend",
+    "desktop-dev"
   ],
   "related": [
     "project-interconnect-architect"
@@ -56,6 +57,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L83-L94"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1054-L1343"
         }
       ]
     },
@@ -68,23 +73,92 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L89-L94"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1054-L1343"
         }
       ]
     },
     {
       "id": "mesh-scale",
-      "text": "Extended GUI coordinate and identifier handling to support 64×64 coherent meshes.",
+      "text": "Extended GUI coordinate and identifier handling to support 64\u00d764 coherent meshes.",
       "status": "reported",
       "visibility": "public",
       "evidence": [
         {
           "source_id": "src-ia-analysis",
           "locator": "L97-L112"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1054-L1343"
+        }
+      ]
+    },
+    {
+      "id": "optimization-mechanism",
+      "text": "Reduced repeated canvas event-path work through cached geometry, animation-frame batching and processing outside Angular change detection; repaired retained observer/subscription lifecycles.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L174-L174"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1054-L1343"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4662-L4725"
+        }
+      ]
+    },
+    {
+      "id": "scale-boundary",
+      "text": "The 64\u00d764 change establishes coordinate and identifier support, not a measured full-scale rendering benchmark or a claim of 4,096 independently tested nodes.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L175-L175"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1054-L1343"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4662-L4725"
+        }
+      ]
+    },
+    {
+      "id": "cpu-compatibility",
+      "text": "Improved desktop rendering compatibility for CPU/headless environments and configurations without an available GPU.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L176-L176"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1054-L1343"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4662-L4725"
         }
       ]
     }
   ],
   "notes": [
-    "No defensible measured speedup, memory-reduction percentage, or before/after timing is supplied."
+    "No defensible measured speedup, memory-reduction percentage, or before/after timing is supplied.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

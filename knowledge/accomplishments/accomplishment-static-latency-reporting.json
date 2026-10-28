@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2024-10-11",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+    "note": "First inspected milestone: 2024-10-11. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Python"
@@ -40,6 +40,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L223-L242"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2192-L2397"
         }
       ]
     },
@@ -52,11 +56,56 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L223-L242"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2192-L2397"
+        }
+      ]
+    },
+    {
+      "id": "attribute-contract",
+      "text": "Exposed default-latency attributes through the engine API and replaced extensive report-specific conditionals with metadata-backed minimum/configured latency handling.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L286-L286"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2192-L2397"
+        }
+      ]
+    },
+    {
+      "id": "active-lineage",
+      "text": "The historical standalone resource script was pruned in March 2026, while an active CE static-latency report still reads DefaultLatency and retiming metadata; resource cleanup did not remove the entire reporting capability.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L287-L287"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2192-L2397"
+        },
+        {
+          "source_id": "src-ia-focused-code-2026-10-27",
+          "locator": "L1074-L1165"
+        },
+        {
+          "source_id": "src-ia-results-attribution-2026-10-27",
+          "locator": "L75-L87"
         }
       ]
     }
   ],
   "notes": [
-    "The historical standalone script was later removed by another contributor. Describe this as improving an existing capability, not current sole ownership of an active reporting system."
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun.",
+    "A standalone resource entry was pruned by a colleague; active reporting remains under CE. Hardware latency defaults include supplied values credited to another engineer."
   ]
 }

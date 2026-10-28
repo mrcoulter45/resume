@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-isolated-installer-staging",
+  "type": "accomplishment",
+  "title": "Isolated installer staging and API-aware packaging",
+  "summary": "Separated installer rehearsal from production outputs and bound internal tooling to reviewed API contracts.",
+  "technologies": [
+    "Jenkins",
+    "Groovy",
+    "Python",
+    "Bash",
+    "Git",
+    "JSON"
+  ],
+  "competencies": [
+    "Release engineering",
+    "Reproducibility",
+    "Compatibility contracts",
+    "CI architecture"
+  ],
+  "tags": [
+    "staging",
+    "packaging",
+    "release",
+    "API-drift"
+  ],
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": "2026-09-13",
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "First inspected milestone: 2026-09-13. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
+  },
+  "related": [
+    "project-interconnect-architect",
+    "project-ia-mcp",
+    "accomplishment-product-version-policy"
+  ],
+  "facts": [
+    {
+      "id": "isolated-rehearsal",
+      "text": "Built a manual, nonconcurrent installer-staging pipeline selecting exact review patchsets or validated branches, with isolated release/archive outputs and post-installer rehearsal.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L481-L481"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4114-L4320"
+        }
+      ]
+    },
+    {
+      "id": "optional-payload",
+      "text": "Added optional internal MCP packaging through a checkout-owned wrapper while keeping API-sensitive release gates explicit.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L482-L482"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4114-L4320"
+        }
+      ]
+    },
+    {
+      "id": "contract-binding",
+      "text": "Implemented staged API contract binding that preserves reviewed authority and limits native support for drifted operations while retaining controlled-fallback discovery.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L483-L483"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4114-L4320"
+        },
+        {
+          "source_id": "src-ia-focused-code-2026-10-27",
+          "locator": "L942-L1020"
+        }
+      ]
+    },
+    {
+      "id": "execution-limit",
+      "text": "This investigation inspected staging and deployment-binding code; no installer build, Jenkins execution, module publication or remote acceptance was performed.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L484-L484"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4114-L4320"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
+  ]
+}

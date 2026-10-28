@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2026-06-22",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+    "note": "First inspected milestone: 2026-06-22. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "TypeScript",
@@ -30,7 +30,8 @@
     "architecture",
     "GPU",
     "CPU",
-    "route-visualization"
+    "route-visualization",
+    "renderers"
   ],
   "related": [
     "project-interconnect-architect"
@@ -45,6 +46,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L52-L68"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L904-L1053"
         }
       ]
     },
@@ -57,6 +62,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L61-L68"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L904-L1053"
         }
       ]
     },
@@ -69,11 +78,53 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L71-L77"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L904-L1053"
+        }
+      ]
+    },
+    {
+      "id": "persistence",
+      "text": "Repaired route, CAL and grouped-node connectivity presentation and export/re-import behavior while preserving backend connection and placement semantics.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-semantic-review-2026-10-27",
+          "locator": "L7-L21"
+        },
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L152-L152"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L904-L1053"
+        }
+      ]
+    },
+    {
+      "id": "shared-boundary",
+      "text": "Current shared input and renderer infrastructure includes substantive contributions by multiple engineers; Michael authored selected metadata, classification and persistence changes rather than the entire shared architecture.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L153-L153"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L904-L1053"
         }
       ]
     }
   ],
   "notes": [
-    "Other engineers contributed shared scene and renderer architecture; this record describes Michael's documented changes."
+    "Other engineers contributed shared scene and renderer architecture; this record describes Michael's documented changes.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun.",
+    "An unsupported acronym expansion in the draft Git findings was corrected to grouped-node connectivity; the immutable earlier wording is superseded by the final semantic review."
   ]
 }

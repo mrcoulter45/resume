@@ -28,7 +28,8 @@
     "AI-engineering",
     "evaluation",
     "cluster",
-    "configuration-build"
+    "configuration-build",
+    "ai-planning"
   ],
   "related": [
     "project-ia-mcp"
@@ -55,6 +56,14 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L336-L345"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3602-L3911"
+        },
+        {
+          "source_id": "src-ia-results-attribution-2026-10-27",
+          "locator": "L88-L200"
         }
       ]
     },
@@ -69,12 +78,33 @@
           "locator": "L81-L95"
         }
       ]
+    },
+    {
+      "id": "evaluation-boundary",
+      "text": "The two historical bounded agent evaluations remain separate from the 92 real-engine contract/integration cases and later scenario definitions; none is a newly executed agent campaign in this research.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L447-L447"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3602-L3911"
+        },
+        {
+          "source_id": "src-ia-results-attribution-2026-10-27",
+          "locator": "L88-L200"
+        }
+      ]
     }
   ],
   "notes": [
     "Current scenario definitions are not newly executed passes and are not interchangeable with the two historical evaluations.",
     "Configuration builds are not silicon tapeout, synthesis results or full hardware verification.",
     "No repeated-run success distribution, broad autonomous-agent benchmark, model/version comparison, latency/cost study or fleet reliability metric is established.",
-    "Installed-module use is currently confirmed, but does not retroactively prove publication at the earlier September completion milestone."
+    "Installed-module use is currently confirmed, but does not retroactively prove publication at the earlier September completion milestone.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

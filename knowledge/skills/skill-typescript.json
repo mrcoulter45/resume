@@ -21,7 +21,8 @@
   ],
   "tags": [
     "skill",
-    "TypeScript"
+    "TypeScript",
+    "lifecycle"
   ],
   "related": [
     "project-interconnect-architect",
@@ -37,11 +38,32 @@
         {
           "source_id": "src-legacy-profile",
           "locator": "L17-L23"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2952-L3184"
+        }
+      ]
+    },
+    {
+      "id": "stateful-systems",
+      "text": "Used TypeScript and RxJS to implement graph interactions, request ownership, cancellation, project lifecycle guards and renderer-independent hardware semantics.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L365-L365"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2952-L3184"
         }
       ]
     }
   ],
   "notes": [
-    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

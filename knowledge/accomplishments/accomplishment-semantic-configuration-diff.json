@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2025-10-13",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+    "note": "First inspected milestone: 2025-10-13. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Python",
@@ -55,6 +55,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L223-L239"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2398-L2593"
         }
       ]
     },
@@ -67,9 +71,55 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L228-L239"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2398-L2593"
+        }
+      ]
+    },
+    {
+      "id": "semantic-snapshots",
+      "text": "Compared two isolated engine snapshots across hardware entities, routes and parameters alongside recursive raw YAML differences, linking changes to logical-canvas overlays.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L303-L303"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2398-L2593"
+        },
+        {
+          "source_id": "src-ia-focused-code-2026-10-27",
+          "locator": "L191-L381"
+        }
+      ]
+    },
+    {
+      "id": "precise-highlights",
+      "text": "Implemented escaped, line-aligned HTML configuration reports with changed-span highlighting to expose precise differences in nested design data.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L304-L304"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2398-L2593"
+        },
+        {
+          "source_id": "src-ia-focused-code-2026-10-27",
+          "locator": "L191-L381"
         }
       ]
     }
   ],
-  "notes": []
+  "notes": [
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
+  ]
 }

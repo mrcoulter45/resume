@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "skill-electron-desktop",
+  "type": "skill",
+  "title": "Electron desktop engineering",
+  "summary": "Applied desktop runtime and cross-language lifecycle engineering in Interconnect Architect.",
+  "technologies": [
+    "Electron",
+    "Node.js",
+    "JavaScript",
+    "TypeScript",
+    "RxJS",
+    "Python"
+  ],
+  "competencies": [
+    "Desktop architecture",
+    "Asynchronous correctness",
+    "Cross-platform engineering"
+  ],
+  "tags": [
+    "desktop",
+    "runtime",
+    "developer-tools",
+    "lifecycle",
+    "desktop-dev",
+    "electron-karma",
+    "console"
+  ],
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Git milestone dates describe implementation evidence, not formal role start, release acceptance or current continuing responsibility."
+  },
+  "related": [
+    "project-interconnect-architect",
+    "accomplishment-desktop-async-correctness",
+    "accomplishment-electron-karma",
+    "accomplishment-configuration-console"
+  ],
+  "facts": [
+    {
+      "id": "implementation",
+      "text": "Engineered Electron/Node desktop workflows spanning Python backend commands, asynchronous project loading, platform close/quit behavior, graphics compatibility and runtime-aligned tests.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L366-L366"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2952-L3184"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4662-L4725"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2841-L2951"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3185-L3403"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
+  ]
+}

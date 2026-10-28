@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": "2022",
+    "start": "2022-04-29",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Historical analysis identifies GUI CI expansion in 2022, initial Playwright check-in work in 2025 and further coverage in 2026."
+    "note": "First inspected milestone: 2022-04-29. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Playwright",
@@ -59,6 +59,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L245-L274"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2594-L2840"
         }
       ]
     },
@@ -71,6 +75,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L251-L274"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2594-L2840"
         }
       ]
     },
@@ -83,12 +91,49 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L257-L268"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2594-L2840"
+        }
+      ]
+    },
+    {
+      "id": "capability-fixtures",
+      "text": "Replaced fixed assumptions in group-regression inputs with live engine capability metadata and added persistence, renderer and rich-workflow assertions.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L325-L325"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2594-L2840"
+        }
+      ]
+    },
+    {
+      "id": "coverage-count-boundary",
+      "text": "The June 2026 expansion changed 51 Angular source .spec.ts files; spec-file counts describe change scope and exclude two tsconfig.spec JSON files, not case totals, coverage percentages or newly executed passes.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L326-L326"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2594-L2840"
         }
       ]
     }
   ],
   "notes": [
     "Direct creation evidence supersedes older interpretations limiting Michael to infrastructure extensions. Shared fixtures and later implementations still have contributions by others.",
-    "File counts are change scope, not coverage percentages or independent business accomplishments."
+    "File counts are change scope, not coverage percentages or independent business accomplishments.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

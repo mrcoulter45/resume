@@ -22,7 +22,8 @@
   ],
   "tags": [
     "skill",
-    "Playwright"
+    "Playwright",
+    "testing"
   ],
   "related": [
     "project-interconnect-architect",
@@ -40,9 +41,26 @@
           "locator": "L34-L43"
         }
       ]
+    },
+    {
+      "id": "desktop-qualification",
+      "text": "Built Electron/Playwright regression tooling with product-aware fixtures, engine-metadata-driven inputs and renderer/persistence assertions.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L327-L327"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2594-L2840"
+        }
+      ]
     }
   ],
   "notes": [
-    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

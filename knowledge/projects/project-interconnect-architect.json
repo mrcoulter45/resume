@@ -32,10 +32,22 @@
     "software-architecture",
     "systems-engineering",
     "technical-leadership",
-    "interconnect"
+    "interconnect",
+    "cmn-editor",
+    "testing",
+    "lifecycle",
+    "conversion",
+    "release"
   ],
   "related": [
-    "exp-arm-senior"
+    "exp-arm-senior",
+    "accomplishment-catalog-configuration-interchange",
+    "accomplishment-metadata-parameter-controls",
+    "accomplishment-structured-drc-diagnostics",
+    "accomplishment-canvas-vector-export",
+    "accomplishment-isolated-installer-staging",
+    "accomplishment-product-version-policy",
+    "skill-electron-desktop"
   ],
   "facts": [
     {
@@ -97,11 +109,76 @@
           "locator": "L27-L31"
         }
       ]
+    },
+    {
+      "id": "verified-history",
+      "text": "Locally reachable Git history attributes changes to Michael Coulter from November 2021 through October 2026 across configuration UX, graph visualization, migration, diagnostics, desktop lifecycle, testing and internal AI tooling.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L90-L90"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L325-L554"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2594-L2840"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2952-L3184"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1463-L1623"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4114-L4320"
+        }
+      ]
+    },
+    {
+      "id": "cross-layer-delivery",
+      "text": "Delivered interconnect engineering workflows across Angular/TypeScript components, Electron/Node integration, Python engine APIs and product-aware regression infrastructure.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L91-L91"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L325-L554"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2594-L2840"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2952-L3184"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1463-L1623"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4114-L4320"
+        }
+      ]
     }
   ],
   "notes": [
     "Product shipping history is not CMN-tooling tenure, Senior Software Engineer tenure, or sole authorship of the entire application.",
     "No customer names, revenue, personal deal attribution, numerical commercial lift, or ownership of every release operation is established.",
-    "The supplied engineering analysis records identifiable contributions from November 2021 to October 2026, not the start of employment or necessarily first application work."
+    "The supplied engineering analysis records identifiable contributions from November 2021 to October 2026, not the start of employment or necessarily first application work.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2025-08-28",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+    "note": "First inspected milestone: 2025-08-28. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Angular",
@@ -27,7 +27,8 @@
     "deadlock",
     "routing",
     "CMN",
-    "debugging"
+    "debugging",
+    "routing-editors"
   ],
   "related": [
     "project-interconnect-architect",
@@ -55,11 +56,60 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L214-L242"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2077-L2191"
+        }
+      ]
+    },
+    {
+      "id": "channel-navigation",
+      "text": "Connected channel/subchannel route filtering and permissible-turn selection to scoped deadlock loops, crosspoint summaries and editable mesh routes.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L268-L268"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2077-L2191"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4554-L4661"
+        }
+      ]
+    },
+    {
+      "id": "algorithm-boundary",
+      "text": "The engine deadlock-analysis algorithm predates Michael\u2019s investigation GUI; contribution evidence supports routing/diagnostic integration and visualization, not original authorship of the detector.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L269-L269"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2077-L2191"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4554-L4661"
+        },
+        {
+          "source_id": "src-ia-results-attribution-2026-10-27",
+          "locator": "L64-L74"
         }
       ]
     }
   ],
   "notes": [
-    "The original Configuration Engine deadlock-analysis algorithm belongs to other engineers; this record covers investigation and visualization workflows."
+    "The original Configuration Engine deadlock-analysis algorithm belongs to other engineers; this record covers investigation and visualization workflows.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

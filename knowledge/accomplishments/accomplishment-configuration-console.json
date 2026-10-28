@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2022-03-30",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+    "note": "First inspected milestone: 2022-03-30. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Angular",
@@ -31,7 +31,9 @@
     "EDA"
   ],
   "related": [
-    "project-interconnect-architect"
+    "project-interconnect-architect",
+    "accomplishment-structured-drc-diagnostics",
+    "accomplishment-desktop-async-correctness"
   ],
   "facts": [
     {
@@ -55,11 +57,72 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L277-L306"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3185-L3403"
+        }
+      ]
+    },
+    {
+      "id": "command-replay",
+      "text": "Fixed executable Python command generation across the JavaScript/Python boundary, serializing nulls, booleans, nested containers, strings and numeric special values as Python literals.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L384-L384"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3185-L3403"
+        },
+        {
+          "source_id": "src-ia-focused-code-2026-10-27",
+          "locator": "L4-L76"
+        }
+      ]
+    },
+    {
+      "id": "stream-observability",
+      "text": "Extended console/report integration with engine log capture, command-stream reporting and subprocess stdout/stderr/status handling.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L385-L385"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3185-L3403"
+        }
+      ]
+    },
+    {
+      "id": "literal-limit",
+      "text": "Command serialization deliberately substitutes None for circular/unsupported values; it is not a general lossless object-graph serializer.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L386-L386"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3185-L3403"
+        },
+        {
+          "source_id": "src-ia-focused-code-2026-10-27",
+          "locator": "L4-L76"
         }
       ]
     }
   ],
   "notes": [
-    "Console creation is associated with the original NCI tooling; exact creation date is unspecified."
+    "Console creation is associated with the original NCI tooling; exact creation date is unspecified.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-canvas-vector-export",
+  "type": "accomplishment",
+  "title": "Canvas vector export",
+  "summary": "Extended configuration export with vector snapshots of the rendered design view.",
+  "technologies": [
+    "TypeScript",
+    "Angular",
+    "SVG",
+    "XMLSerializer",
+    "Blob"
+  ],
+  "competencies": [
+    "Data export",
+    "Visualization",
+    "Desktop UX"
+  ],
+  "tags": [
+    "export",
+    "graphics",
+    "developer-tools",
+    "exports"
+  ],
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": "2023-11-15",
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "First inspected milestone: 2023-11-15. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
+  },
+  "related": [
+    "project-interconnect-architect",
+    "accomplishment-shared-renderer-semantics",
+    "accomplishment-semantic-configuration-diff"
+  ],
+  "facts": [
+    {
+      "id": "svg-export",
+      "text": "Added SVG export of the rendered design canvas through XML serialization and downloadable Blob/object URLs, enabling vector snapshots of engineering views.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L399-L399"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3404-L3468"
+        }
+      ]
+    },
+    {
+      "id": "export-integration",
+      "text": "Integrated canvas-image export into the configuration export dialog and subsequently refined dialog behavior.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L400-L400"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3404-L3468"
+        }
+      ]
+    },
+    {
+      "id": "current-limit",
+      "text": "At the captured HEAD, SVG export is conditional on a logical-mesh SVG element; PNG paths serve other available canvases. Historical SVG work does not establish universal Pixi vector export support.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L401-L401"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3404-L3468"
+        },
+        {
+          "source_id": "src-ia-focused-code-2026-10-27",
+          "locator": "L77-L190"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
+  ]
+}

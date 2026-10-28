@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": "2026-09",
+    "start": "2026-09-29",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "The supplied engineering analysis dates wizard introduction to September 2026."
+    "note": "First inspected milestone: 2026-09-29. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Angular",
@@ -29,10 +29,13 @@
     "OWO",
     "NoC",
     "hardware-aware-software",
-    "wizard"
+    "wizard",
+    "owo"
   ],
   "related": [
-    "project-interconnect-architect"
+    "project-interconnect-architect",
+    "accomplishment-guided-noc-flow",
+    "accomplishment-desktop-async-correctness"
   ],
   "facts": [
     {
@@ -56,6 +59,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L181-L199"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1937-L2076"
         }
       ]
     },
@@ -68,6 +75,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L187-L211"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1937-L2076"
         }
       ]
     },
@@ -80,12 +91,73 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L202-L211"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1937-L2076"
+        }
+      ]
+    },
+    {
+      "id": "constraint-design",
+      "text": "Implemented sparse source/target topology checks, source-dependent credit-capacity calculations and memory-range alignment within the OWO plan/review/apply workflow.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L249-L249"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1937-L2076"
+        }
+      ]
+    },
+    {
+      "id": "checkpoint-validation",
+      "text": "Added project-bound opening checkpoints, content-fingerprint validation and stale-design detection to support safe wizard recovery.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L250-L250"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1937-L2076"
+        },
+        {
+          "source_id": "src-ia-focused-code-2026-10-27",
+          "locator": "L1021-L1073"
+        }
+      ]
+    },
+    {
+      "id": "recovery-collaboration",
+      "text": "The current opening-checkpoint restore includes later colleague changes to full Configuration Engine state/undo restoration; attribute wizard and checkpoint/fingerprint work to Michael without claiming every current recovery line.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L251-L251"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1937-L2076"
+        },
+        {
+          "source_id": "src-ia-focused-code-2026-10-27",
+          "locator": "L1021-L1073"
         }
       ]
     }
   ],
   "notes": [
     "Ownership covers the wizard and orchestration, not authorship of the OWO hardware feature or every underlying Configuration Engine rule.",
-    "Spec-file counts describe a historical change, not coverage percentage or total current suite size."
+    "Spec-file counts describe a historical change, not coverage percentage or total current suite size.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": "2022",
+    "start": "2022-06-14",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "The supplied engineering analysis places the beginning of CMN GUI contributions in 2022; individual feature dates are not all established."
+    "note": "First inspected milestone: 2022-06-14. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Angular",
@@ -29,11 +29,17 @@
     "coherent-mesh",
     "frontend",
     "EDA",
-    "systems"
+    "systems",
+    "cmn-editor",
+    "cmn-tiles",
+    "cmn-multiport"
   ],
   "related": [
     "project-interconnect-architect",
-    "leadership-cmn-gui"
+    "leadership-cmn-gui",
+    "accomplishment-metadata-parameter-controls",
+    "accomplishment-mesh-deadlock-investigation",
+    "accomplishment-structured-drc-diagnostics"
   ],
   "facts": [
     {
@@ -45,6 +51,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L23-L40"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L325-L554"
         }
       ]
     },
@@ -57,6 +67,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L29-L40"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L325-L554"
         }
       ]
     },
@@ -69,9 +83,112 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L37-L43"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L325-L554"
+        }
+      ]
+    },
+    {
+      "id": "evolution",
+      "text": "Evolved CMN GUI tooling from API-backed mesh and device inspection into editable groups, port assignments, tile definitions and combined-mesh views.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L86-L86"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L325-L554"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L555-L652"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L653-L793"
+        }
+      ]
+    },
+    {
+      "id": "tile-integration",
+      "text": "Integrated tile service APIs, tile editor/viewer components and navigation with mesh visualization to support tile-definition and combined-mesh workflows.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L87-L87"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L325-L554"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L555-L652"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L653-L793"
+        }
+      ]
+    },
+    {
+      "id": "multiport-model",
+      "text": "Implemented multiport and super-device group-member configuration, preserving distinctions between logical devices, physical ports and group assignments.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L88-L88"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L325-L554"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L555-L652"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L653-L793"
+        }
+      ]
+    },
+    {
+      "id": "metadata-tests",
+      "text": "Drove user-defined-group regression inputs from live engine metadata and hardened duplicate-name handling in group creation.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L89-L89"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L325-L554"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L555-L652"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L653-L793"
         }
       ]
     }
   ],
-  "notes": []
+  "notes": [
+    "June 2022 is the inspected node-configuration scaffold milestone, not delivery of the complete editor. API-backed rendering followed in December 2022; editing, tiles and multiport workflows were added later.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
+  ]
 }

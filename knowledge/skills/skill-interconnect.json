@@ -27,7 +27,8 @@
   ],
   "tags": [
     "skill",
-    "Interconnect architecture and AMBA"
+    "Interconnect architecture and AMBA",
+    "owo"
   ],
   "related": [
     "project-interconnect-architect"
@@ -42,6 +43,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L369-L374"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1937-L2076"
         }
       ]
     },
@@ -56,9 +61,26 @@
           "locator": "L14-L17"
         }
       ]
+    },
+    {
+      "id": "applied-domain",
+      "text": "Translated routing, clock crossings, width conversion, resource-plane/credit constraints and memory alignment into validated configuration and migration workflows.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L252-L252"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1937-L2076"
+        }
+      ]
     }
   ],
   "notes": [
-    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

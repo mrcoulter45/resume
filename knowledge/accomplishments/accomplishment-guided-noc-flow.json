@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2026-07-29",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+    "note": "First inspected milestone: 2026-07-29. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Angular",
@@ -28,7 +28,8 @@
     "NoC",
     "guided-flow",
     "compliance",
-    "configuration"
+    "configuration",
+    "guided"
   ],
   "related": [
     "project-interconnect-architect"
@@ -55,6 +56,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L148-L178"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1624-L1936"
         }
       ]
     },
@@ -67,11 +72,68 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L157-L169"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1624-L1936"
+        }
+      ]
+    },
+    {
+      "id": "lifecycle-persistence",
+      "text": "Implemented a persistent Guided Flow lifecycle with starting, active and retired states, queued policy mutations, project-context checks and atomic metadata replacement.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L232-L232"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1624-L1936"
+        }
+      ]
+    },
+    {
+      "id": "engine-authority",
+      "text": "Connected product-specific guided editing to backend compliance checks for supported constraints, structured violations and persistence/export preflight.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L233-L233"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1624-L1936"
+        }
+      ]
+    },
+    {
+      "id": "historical-qualification",
+      "text": "An October 1, 2026 commit separately reports 79 Guided Flow executions, 132 Playwright passes with seven competing-load skips, 105 CE passes with nine missing-fixture skips, 522 Angular passes and two renderer builds; these are historical reports, not newly rerun results.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L234-L234"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1624-L1936"
+        },
+        {
+          "source_id": "src-ia-results-attribution-2026-10-27",
+          "locator": "L5-L41"
         }
       ]
     }
   ],
   "notes": [
-    "Integration of existing area-reduction functionality is not ownership of the underlying algorithm; no silicon area or latency percentage is established."
+    "Integration of existing area-reduction functionality is not ownership of the underlying algorithm; no silicon area or latency percentage is established.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

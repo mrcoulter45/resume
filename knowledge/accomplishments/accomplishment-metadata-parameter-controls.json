@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-metadata-parameter-controls",
+  "type": "accomplishment",
+  "title": "Metadata-driven hardware parameter editing",
+  "summary": "Reusable bitfield forms preserve engine-defined field and mode constraints.",
+  "technologies": [
+    "Angular",
+    "TypeScript",
+    "Angular Forms",
+    "ControlValueAccessor"
+  ],
+  "competencies": [
+    "Reusable UI architecture",
+    "Metadata-driven design",
+    "Validation",
+    "Hardware-aware UX"
+  ],
+  "tags": [
+    "parameters",
+    "bitfields",
+    "forms"
+  ],
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": "2022-03-29",
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "First inspected milestone: 2022-03-29. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
+  },
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "reusable-control",
+      "text": "Built a reusable Angular form control for engine-defined bitfields, mapping hardware metadata and grouped labels to editable numeric values with disabled-state propagation.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L66-L66"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L194-L324"
+        }
+      ]
+    },
+    {
+      "id": "mode-sensitive-fields",
+      "text": "Extended bitfield editing to multi-bit segments and wiremode-dependent masks, integrating the control across parameter-editing surfaces.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L67-L67"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L194-L324"
+        }
+      ]
+    },
+    {
+      "id": "pattern",
+      "text": "Used ControlValueAccessor and NG_VALUE_ACCESSOR to integrate domain-specific numeric editing with Angular forms rather than maintaining an unrelated value model.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L68-L68"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L194-L324"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
+  ]
+}

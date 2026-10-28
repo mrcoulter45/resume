@@ -28,7 +28,8 @@
     "AI-engineering",
     "evaluation",
     "real-backend",
-    "testing"
+    "testing",
+    "ai-planning"
   ],
   "related": [
     "project-ia-mcp"
@@ -43,6 +44,10 @@
         {
           "source_id": "src-testing-correspondence",
           "locator": "L4-L44"
+        },
+        {
+          "source_id": "src-ia-results-attribution-2026-10-27",
+          "locator": "L88-L200"
         }
       ]
     },
@@ -79,6 +84,30 @@
         {
           "source_id": "src-testing-correspondence",
           "locator": "L49-L71"
+        },
+        {
+          "source_id": "src-ia-results-attribution-2026-10-27",
+          "locator": "L88-L200"
+        }
+      ]
+    },
+    {
+      "id": "result-provenance",
+      "text": "The repository completion report preserves the September 2026 baseline as separate non-live suite, real-engine contract/integration, bounded agent evaluation and rollback evidence; this research inspected records and definitions without rerunning employer tests.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L446-L446"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3602-L3911"
+        },
+        {
+          "source_id": "src-ia-results-attribution-2026-10-27",
+          "locator": "L88-L200"
         }
       ]
     }
@@ -86,6 +115,7 @@
   "notes": [
     "No employer tests were executed by this repository migration. The reporting source inspected current code and the historical baseline without rerunning the suite.",
     "92 cases are not 92 Codex prompts or independent agent tasks. Overlapping tier counts must not be added together.",
-    "Current source assets and September 2026 recorded passes are distinct evidence."
+    "Current source assets and September 2026 recorded passes are distinct evidence.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

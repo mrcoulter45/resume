@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2026-07-01",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+    "note": "First inspected milestone: 2026-07-01. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "TypeScript",
@@ -57,6 +57,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L100-L109"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1344-L1462"
         }
       ]
     },
@@ -69,11 +73,64 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L100-L109"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1344-L1462"
+        }
+      ]
+    },
+    {
+      "id": "project-operation",
+      "text": "Designed auto-placement as a deferred, project-bound operation with active-run and generation guards, reconciling live model state before allocating and persisting locations.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L189-L189"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1344-L1462"
+        }
+      ]
+    },
+    {
+      "id": "incremental-layout",
+      "text": "Implemented full and missing-only layout modes with grid/collision allocation, interface/bridge adjacency, blockage grouping and die sizing; missing-only reserves valid existing placements.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L190-L190"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1344-L1462"
+        }
+      ]
+    },
+    {
+      "id": "preservation-limit",
+      "text": "Missing-only placement does not promise to preserve invalid or overlapping locations; no elapsed-time or silicon PPA improvement has been established.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L191-L191"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1344-L1462"
         }
       ]
     }
   ],
   "notes": [
-    "No placement-time saving or silicon PPA improvement has been measured in the supplied sources."
+    "No placement-time saving or silicon PPA improvement has been measured in the supplied sources.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

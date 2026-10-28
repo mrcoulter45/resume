@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-catalog-configuration-interchange",
+  "type": "accomplishment",
+  "title": "IP-catalog configuration interchange",
+  "summary": "Connected catalog and desktop configuration representations with metadata-aware Python adapters.",
+  "technologies": [
+    "Python",
+    "XML",
+    "CCXML",
+    "YAML",
+    "JSON",
+    "lxml"
+  ],
+  "competencies": [
+    "Data modeling",
+    "Interoperability",
+    "Backend integration",
+    "Error handling"
+  ],
+  "tags": [
+    "configuration",
+    "integration",
+    "EDA"
+  ],
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": "2022-01-24",
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "First inspected milestone: 2022-01-24. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
+  },
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "adapters",
+      "text": "Built Python adapters translating IP-catalog CCXML and engine YAML/JSON, reconstructing domain hierarchies, protocol mappings and interface clock relationships.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L49-L49"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L8-L193"
+        }
+      ]
+    },
+    {
+      "id": "incremental-import",
+      "text": "Used content hashes to avoid reimporting unchanged build datasets and added subprocess/error reporting for the historical catalog-to-desktop workflow.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L50-L50"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L8-L193"
+        }
+      ]
+    },
+    {
+      "id": "historical-scope",
+      "text": "Integration adapters date to 2022; the legacy launcher was deprecated in May 2024, so historical launcher functionality is not asserted as current supported architecture.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L51-L51"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L8-L193"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
+  ]
+}

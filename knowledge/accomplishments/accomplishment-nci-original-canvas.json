@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2025-01-14",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+    "note": "First inspected milestone: 2025-01-14. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Angular",
@@ -27,7 +27,9 @@
     "NCI",
     "NoC",
     "canvas",
-    "frontend"
+    "frontend",
+    "nci-canvas",
+    "routing-editors"
   ],
   "related": [
     "project-interconnect-architect"
@@ -54,6 +56,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L52-L68"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L794-L903"
         }
       ]
     },
@@ -68,9 +74,50 @@
           "locator": "L36-L43"
         }
       ]
+    },
+    {
+      "id": "logical-editing",
+      "text": "Extended the original NoC logical canvas with connection creation, transformed connector gestures and route-editing state tied to backend topology.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L136-L136"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L794-L903"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4554-L4661"
+        }
+      ]
+    },
+    {
+      "id": "layout-model",
+      "text": "Implemented hardware-aware logical layout classification and connectivity grouping so the graph view reflects design structure rather than only physical coordinates.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L137-L137"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L794-L903"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4554-L4661"
+        }
+      ]
     }
   ],
   "notes": [
-    "Original canvas ownership does not claim exclusive authorship of every later shared renderer or scene component."
+    "Original canvas ownership does not claim exclusive authorship of every later shared renderer or scene component.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2025-09-26",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+    "note": "First inspected milestone: 2025-09-26. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "JavaScript",
@@ -28,7 +28,8 @@
     "developer-tools",
     "documentation",
     "AI-context",
-    "navigation"
+    "navigation",
+    "docs"
   ],
   "related": [
     "project-interconnect-architect"
@@ -43,12 +44,49 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L348-L363"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3469-L3601"
+        }
+      ]
+    },
+    {
+      "id": "source-pipeline",
+      "text": "Built a source-aware GUI documentation pipeline using TypeScript metadata collection, Python rendering, curated narrative overrides and navigation/source indexes.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L417-L417"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3469-L3601"
+        }
+      ]
+    },
+    {
+      "id": "guard-limit",
+      "text": "The inspected documentation guard returns no findings; surrounding orchestration scaffolding does not establish fully enforced automated documentation parity.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L418-L418"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3469-L3601"
         }
       ]
     }
   ],
   "notes": [
     "The inspected documentation collector and renderer were attributed to Michael in the supplied analysis.",
-    "Surrounding orchestration included scaffolding; an inspected documentation-parity helper returned an empty result. Do not present the whole framework as fully enforced autonomous orchestration."
+    "Surrounding orchestration included scaffolding; an inspected documentation-parity helper returned an empty result. Do not present the whole framework as fully enforced autonomous orchestration.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": "2023",
+    "start": "2023-05-04",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Source analysis identifies initial scripts in 2023, expansion in 2024 and integrated engine introduction in 2026; exact months are not established."
+    "note": "First inspected milestone: 2023-05-04. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Python",
@@ -30,10 +30,13 @@
     "migration",
     "interconnect",
     "DRC",
-    "systems-engineering"
+    "systems-engineering",
+    "conversion"
   ],
   "related": [
-    "project-interconnect-architect"
+    "project-interconnect-architect",
+    "accomplishment-catalog-configuration-interchange",
+    "accomplishment-static-latency-reporting"
   ],
   "facts": [
     {
@@ -45,6 +48,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L115-L145"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1463-L1623"
         }
       ]
     },
@@ -57,6 +64,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L124-L136"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1463-L1623"
         }
       ]
     },
@@ -69,6 +80,62 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L127-L145"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1463-L1623"
+        },
+        {
+          "source_id": "src-ia-results-attribution-2026-10-27",
+          "locator": "L42-L63"
+        }
+      ]
+    },
+    {
+      "id": "graph-model",
+      "text": "Modeled legacy source microarchitecture as nodes, edges and paths, mapping bus matrices, clock crossings and width conversion into target routers and helper blocks.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L209-L209"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1463-L1623"
+        }
+      ]
+    },
+    {
+      "id": "bounded-repair",
+      "text": "Built bounded DRC closure with at most six iterations, per-fix fidelity-impact records, initial/iteration/final results and a stop when no further repair progress is possible.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L210-L210"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1463-L1623"
+        }
+      ]
+    },
+    {
+      "id": "equivalence-limit",
+      "text": "DRC-clean migration is not proof of RTL or functional equivalence: target repairs may introduce helpers or adjust mappings, endpoints and memory maps.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L211-L211"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1463-L1623"
         }
       ]
     }
@@ -76,6 +143,7 @@
   "notes": [
     "Scripts began in 2023 and expanded in 2024; the integrated engine was introduced in 2026.",
     "The corpus result is a historical commit report; raw execution logs were not independently recovered and tests were not rerun here.",
-    "Primary implementation responsibility is documented alongside subsequent fixes by colleagues."
+    "Primary implementation responsibility is documented alongside subsequent fixes by colleagues.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

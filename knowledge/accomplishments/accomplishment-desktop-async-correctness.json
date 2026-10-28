@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2024-04-17",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+    "note": "First inspected milestone: 2024-04-17. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Angular",
@@ -31,7 +31,8 @@
     "desktop",
     "async",
     "DRC",
-    "reliability"
+    "reliability",
+    "lifecycle"
   ],
   "related": [
     "project-interconnect-architect"
@@ -46,6 +47,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L277-L306"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2952-L3184"
         }
       ]
     },
@@ -58,9 +63,47 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L286-L300"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2952-L3184"
+        }
+      ]
+    },
+    {
+      "id": "load-ownership",
+      "text": "Prevented superseded project loads from applying late state through per-load snapshots, revision/request identities, subscription cancellation and callback ownership checks.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L363-L363"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2952-L3184"
+        }
+      ]
+    },
+    {
+      "id": "drc-ownership",
+      "text": "Hardened DRC dialogs with separate module/result request sequences, response listeners attached before dispatch and corrected warning initialization.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L364-L364"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L2952-L3184"
         }
       ]
     }
   ],
-  "notes": []
+  "notes": [
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
+  ]
 }

@@ -7,11 +7,11 @@
   "organization": "Arm",
   "role": "Software engineer and individual contributor",
   "dates": {
-    "start": null,
+    "start": "2026-08-30",
     "end": null,
     "ongoing": false,
     "as_of": "2026-10-27",
-    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+    "note": "First inspected milestone: 2026-08-30. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
   },
   "technologies": [
     "Python",
@@ -27,7 +27,8 @@
     "AI-engineering",
     "planning",
     "validation",
-    "MCP"
+    "MCP",
+    "ai-planning"
   ],
   "related": [
     "project-ia-mcp"
@@ -42,6 +43,10 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L315-L327"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3602-L3911"
         }
       ]
     },
@@ -54,11 +59,52 @@
         {
           "source_id": "src-ia-analysis",
           "locator": "L318-L327"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3602-L3911"
+        }
+      ]
+    },
+    {
+      "id": "compilation-boundary",
+      "text": "Compiled validated design intent against live product capabilities and strict operation schemas, explicitly rejecting mismatched families or incomplete source identity before authorizing native plans.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L440-L440"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3602-L3911"
+        },
+        {
+          "source_id": "src-ia-focused-code-2026-10-27",
+          "locator": "L382-L530"
+        }
+      ]
+    },
+    {
+      "id": "engineering-lowering",
+      "text": "Implemented domain-specific plan lowering for interconnect instances, interfaces, routing, domains, memory configuration and planned artifacts, with explicit dependencies and semantic postconditions.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L441-L441"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L3602-L3911"
         }
       ]
     }
   ],
   "notes": [
-    "A bounded engineering plan compiler is not a claim to have authored a general-purpose model/tool execution loop."
+    "A bounded engineering plan compiler is not a claim to have authored a general-purpose model/tool execution loop.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }

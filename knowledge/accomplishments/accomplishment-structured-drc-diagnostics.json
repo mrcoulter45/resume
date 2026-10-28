@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-structured-drc-diagnostics",
+  "type": "accomplishment",
+  "title": "Structured design-rule diagnostics",
+  "summary": "Made backend validation results navigable through reusable hierarchical UI tooling.",
+  "technologies": [
+    "Angular",
+    "TypeScript",
+    "Angular Material",
+    "Angular CDK",
+    "RxJS"
+  ],
+  "competencies": [
+    "Diagnostics",
+    "Component design",
+    "Backend integration",
+    "Developer experience"
+  ],
+  "tags": [
+    "DRC",
+    "tree",
+    "observability",
+    "diagnostics"
+  ],
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": "2024-05-20",
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "First inspected milestone: 2024-05-20. See facts for earlier/later feature stages; this is neither proof of first-ever work nor a formal role/leadership start or shipped release date."
+  },
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "diagnostic-tree",
+      "text": "Replaced flat/paged DRC result presentation with expandable rule and issue trees showing descriptions, severity, affected components and matching engine logs.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L514-L514"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4437-L4553"
+        }
+      ]
+    },
+    {
+      "id": "reusable-tree",
+      "text": "Created a reusable Angular Material/CDK diagnostic tree and integrated typed DRC categories and RxJS lifecycle teardown across status-bar and report flows.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L515-L515"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4437-L4553"
+        }
+      ]
+    },
+    {
+      "id": "scope-limit",
+      "text": "Work covers diagnostic presentation and application integration; it does not establish authorship of the underlying design-rule library or a measured debugging-time reduction.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L516-L516"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L4437-L4553"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
+  ]
+}

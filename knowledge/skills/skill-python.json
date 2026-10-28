@@ -22,7 +22,8 @@
   ],
   "tags": [
     "skill",
-    "Python"
+    "Python",
+    "conversion"
   ],
   "related": [
     "project-architectural-test-data",
@@ -51,11 +52,32 @@
         {
           "source_id": "src-role-fit",
           "locator": "L27-L31"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1463-L1623"
+        }
+      ]
+    },
+    {
+      "id": "engineering-tools",
+      "text": "Implemented Python topology reconstruction, bounded rule-driven repair, semantic comparison, typed planning and modern/legacy runtime integration.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-research-findings-2026-10-27",
+          "locator": "L212-L212"
+        },
+        {
+          "source_id": "src-ia-implementation-2026-10-27",
+          "locator": "L1463-L1623"
         }
       ]
     }
   ],
   "notes": [
-    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency.",
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
   ]
 }
