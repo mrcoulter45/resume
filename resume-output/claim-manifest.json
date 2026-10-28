@@ -1,0 +1,972 @@
+{
+  "resume": {
+    "claims": {
+      "cmn_gui": [
+        "CLARIFICATIONS:19-30",
+        "IA:23-49",
+        "IA:214-242"
+      ],
+      "ai_platform": [
+        "AI:22-40"
+      ],
+      "migration": [
+        "IA:115-145",
+        "CLARIFICATIONS:32-43"
+      ],
+      "mcp": [
+        "IA:309-345"
+      ],
+      "workbench": [
+        "AI:110-144",
+        "AI:436-451"
+      ],
+      "noc_canvas": [
+        "CLARIFICATIONS:32-43",
+        "IA:52-80",
+        "README:17-23",
+        "LI:p1"
+      ],
+      "pelion_ml": [
+        "DOCX:Experience/Pelion Machine Learning",
+        "README:32-34"
+      ],
+      "occupancy": [
+        "DOCX:Experience/Return to Work",
+        "README:36-37"
+      ],
+      "fpga": [
+        "DOCX:Experience/FPGA CI Test Shield",
+        "DOCX:Accomplishments",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual",
+        "CLARIFICATIONS:5-11",
+        "CLARIFICATIONS:53-61"
+      ],
+      "analytics": [
+        "DOCX:Experience/Space Analytics",
+        "README:46-48"
+      ]
+    },
+    "claim_parents": {},
+    "pages": 1,
+    "layout_bottoms_pt": [
+      35.7
+    ],
+    "body_size_pt": 10.5,
+    "leading_pt": 13.6,
+    "identity_sources": [
+      "README:1-5",
+      "LINKS:1-6",
+      "DOCX:Header",
+      "LI:p1"
+    ],
+    "history_sources": [
+      "README:17-48",
+      "DOCX:Experience",
+      "LI:p1-3"
+    ],
+    "scope_sources": [
+      "README:17-23",
+      "AI:22-40",
+      "AI:110-144",
+      "AI:216-329",
+      "LI:p1",
+      "CLARIFICATIONS:13-30"
+    ],
+    "summary_sources": [],
+    "recognition_sources": [
+      "LI:p1",
+      "AI_AWARD:visual"
+    ],
+    "education_sources": [
+      "README:86-100",
+      "DOCX:Education",
+      "DOCX:Accomplishments",
+      "LI:p3",
+      "CAPSTONE_AWARD:visual",
+      "CLARIFICATIONS:63-73"
+    ],
+    "skill_sources": [
+      "README:77-82",
+      "IA:369-374",
+      "DOCX:Experience",
+      "AI:436-451",
+      "LI:p1",
+      "CLARIFICATIONS:32-43"
+    ],
+    "target": null,
+    "prepared_date": "2026-10-20",
+    "include_portfolio": true
+  },
+  "resume-ai-systems": {
+    "claims": {
+      "ai_platform": [
+        "AI:22-40"
+      ],
+      "mcp_validated": [
+        "IA:309-345"
+      ],
+      "workspace": [
+        "AI:74-107"
+      ],
+      "ci_repair": [
+        "AI:216-254"
+      ],
+      "release": [
+        "AI:257-290"
+      ],
+      "packaged_agents": [
+        "AI:293-329"
+      ],
+      "pelion_ml": [
+        "DOCX:Experience/Pelion Machine Learning",
+        "README:32-34"
+      ],
+      "occupancy": [
+        "DOCX:Experience/Return to Work",
+        "README:36-37"
+      ],
+      "fpga": [
+        "DOCX:Experience/FPGA CI Test Shield",
+        "DOCX:Accomplishments",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual",
+        "CLARIFICATIONS:5-11",
+        "CLARIFICATIONS:53-61"
+      ],
+      "analytics": [
+        "DOCX:Experience/Space Analytics",
+        "README:46-48"
+      ]
+    },
+    "claim_parents": {},
+    "pages": 1,
+    "layout_bottoms_pt": [
+      62.9
+    ],
+    "body_size_pt": 10.5,
+    "leading_pt": 13.6,
+    "identity_sources": [
+      "README:1-5",
+      "LINKS:1-6",
+      "DOCX:Header",
+      "LI:p1"
+    ],
+    "history_sources": [
+      "README:17-48",
+      "DOCX:Experience",
+      "LI:p1-3"
+    ],
+    "scope_sources": [
+      "README:17-23",
+      "AI:22-40",
+      "AI:110-144",
+      "AI:216-329",
+      "LI:p1",
+      "CLARIFICATIONS:13-30"
+    ],
+    "summary_sources": [],
+    "recognition_sources": [
+      "LI:p1",
+      "AI_AWARD:visual"
+    ],
+    "education_sources": [
+      "README:86-100",
+      "DOCX:Education",
+      "DOCX:Accomplishments",
+      "LI:p3",
+      "CAPSTONE_AWARD:visual",
+      "CLARIFICATIONS:63-73"
+    ],
+    "skill_sources": [
+      "README:77-82",
+      "IA:369-374",
+      "DOCX:Experience",
+      "AI:436-451",
+      "LI:p1",
+      "CLARIFICATIONS:32-43"
+    ],
+    "target": null,
+    "prepared_date": "2026-10-20",
+    "include_portfolio": true
+  },
+  "resume-systems-engineering": {
+    "claims": {
+      "cmn_gui": [
+        "CLARIFICATIONS:19-30",
+        "IA:23-49",
+        "IA:214-242"
+      ],
+      "migration": [
+        "IA:115-145",
+        "CLARIFICATIONS:32-43"
+      ],
+      "noc_canvas": [
+        "CLARIFICATIONS:32-43",
+        "IA:52-80",
+        "README:17-23",
+        "LI:p1"
+      ],
+      "owo": [
+        "IA:181-211",
+        "CLARIFICATIONS:32-43"
+      ],
+      "placement": [
+        "IA:83-112",
+        "CLARIFICATIONS:32-43"
+      ],
+      "noc_infrastructure": [
+        "CLARIFICATIONS:32-43",
+        "IA:83-112",
+        "IA:245-274"
+      ],
+      "rtl": [
+        "README:25-30",
+        "LI:p1",
+        "CLARIFICATIONS:5-11",
+        "CLARIFICATIONS:53-61"
+      ],
+      "pelion_ml": [
+        "DOCX:Experience/Pelion Machine Learning",
+        "README:32-34"
+      ],
+      "fpga": [
+        "DOCX:Experience/FPGA CI Test Shield",
+        "DOCX:Accomplishments",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual",
+        "CLARIFICATIONS:5-11",
+        "CLARIFICATIONS:53-61"
+      ],
+      "analytics": [
+        "DOCX:Experience/Space Analytics",
+        "README:46-48"
+      ]
+    },
+    "claim_parents": {},
+    "pages": 1,
+    "layout_bottoms_pt": [
+      49.3
+    ],
+    "body_size_pt": 10.5,
+    "leading_pt": 13.6,
+    "identity_sources": [
+      "README:1-5",
+      "LINKS:1-6",
+      "DOCX:Header",
+      "LI:p1"
+    ],
+    "history_sources": [
+      "README:17-48",
+      "DOCX:Experience",
+      "LI:p1-3"
+    ],
+    "scope_sources": [
+      "README:17-23",
+      "AI:22-40",
+      "AI:110-144",
+      "AI:216-329",
+      "LI:p1",
+      "CLARIFICATIONS:13-30"
+    ],
+    "summary_sources": [],
+    "recognition_sources": [
+      "LI:p1",
+      "AI_AWARD:visual"
+    ],
+    "education_sources": [
+      "README:86-100",
+      "DOCX:Education",
+      "DOCX:Accomplishments",
+      "LI:p3",
+      "CAPSTONE_AWARD:visual",
+      "CLARIFICATIONS:63-73"
+    ],
+    "skill_sources": [
+      "README:77-82",
+      "IA:369-374",
+      "DOCX:Experience",
+      "AI:436-451",
+      "LI:p1",
+      "CLARIFICATIONS:32-43"
+    ],
+    "target": null,
+    "prepared_date": "2026-10-20",
+    "include_portfolio": true
+  },
+  "resume-senior-software": {
+    "claims": {
+      "workbench": [
+        "AI:110-144",
+        "AI:436-451"
+      ],
+      "workspace": [
+        "AI:74-107"
+      ],
+      "migration": [
+        "IA:115-145",
+        "CLARIFICATIONS:32-43"
+      ],
+      "noc_canvas": [
+        "CLARIFICATIONS:32-43",
+        "IA:52-80",
+        "README:17-23",
+        "LI:p1"
+      ],
+      "noc_infrastructure": [
+        "CLARIFICATIONS:32-43",
+        "IA:83-112",
+        "IA:245-274"
+      ],
+      "async": [
+        "IA:277-306"
+      ],
+      "pelion_ml": [
+        "DOCX:Experience/Pelion Machine Learning",
+        "README:32-34"
+      ],
+      "occupancy": [
+        "DOCX:Experience/Return to Work",
+        "README:36-37"
+      ],
+      "fpga": [
+        "DOCX:Experience/FPGA CI Test Shield",
+        "DOCX:Accomplishments",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual",
+        "CLARIFICATIONS:5-11",
+        "CLARIFICATIONS:53-61"
+      ],
+      "analytics": [
+        "DOCX:Experience/Space Analytics",
+        "README:46-48"
+      ]
+    },
+    "claim_parents": {},
+    "pages": 1,
+    "layout_bottoms_pt": [
+      49.3
+    ],
+    "body_size_pt": 10.5,
+    "leading_pt": 13.6,
+    "identity_sources": [
+      "README:1-5",
+      "LINKS:1-6",
+      "DOCX:Header",
+      "LI:p1"
+    ],
+    "history_sources": [
+      "README:17-48",
+      "DOCX:Experience",
+      "LI:p1-3"
+    ],
+    "scope_sources": [
+      "README:17-23",
+      "AI:22-40",
+      "AI:110-144",
+      "AI:216-329",
+      "LI:p1",
+      "CLARIFICATIONS:13-30"
+    ],
+    "summary_sources": [],
+    "recognition_sources": [
+      "LI:p1",
+      "AI_AWARD:visual"
+    ],
+    "education_sources": [
+      "README:86-100",
+      "DOCX:Education",
+      "DOCX:Accomplishments",
+      "LI:p3",
+      "CAPSTONE_AWARD:visual",
+      "CLARIFICATIONS:63-73"
+    ],
+    "skill_sources": [
+      "README:77-82",
+      "IA:369-374",
+      "DOCX:Experience",
+      "AI:436-451",
+      "LI:p1",
+      "CLARIFICATIONS:32-43"
+    ],
+    "target": null,
+    "prepared_date": "2026-10-20",
+    "include_portfolio": true
+  },
+  "resume-two-page": {
+    "claims": {
+      "cmn_gui": [
+        "CLARIFICATIONS:19-30",
+        "IA:23-49",
+        "IA:214-242"
+      ],
+      "noc_canvas": [
+        "CLARIFICATIONS:32-43",
+        "IA:52-80",
+        "README:17-23",
+        "LI:p1"
+      ],
+      "migration": [
+        "IA:115-145",
+        "CLARIFICATIONS:32-43"
+      ],
+      "async": [
+        "IA:277-306"
+      ],
+      "ai_platform": [
+        "AI:22-40"
+      ],
+      "workbench": [
+        "AI:110-144",
+        "AI:436-451"
+      ],
+      "workspace": [
+        "AI:74-107"
+      ],
+      "ci_repair": [
+        "AI:216-254"
+      ],
+      "release": [
+        "AI:257-290"
+      ],
+      "mcp_detail": [
+        "IA:309-345"
+      ],
+      "mcp_validation": [
+        "IA:309-345"
+      ],
+      "noc_infrastructure": [
+        "CLARIFICATIONS:32-43",
+        "IA:83-112",
+        "IA:245-274"
+      ],
+      "placement": [
+        "IA:83-112",
+        "CLARIFICATIONS:32-43"
+      ],
+      "owo": [
+        "IA:181-211",
+        "CLARIFICATIONS:32-43"
+      ],
+      "noc_workflows": [
+        "CLARIFICATIONS:32-43",
+        "IA:148-178",
+        "IA:214-242"
+      ],
+      "pelion_ml": [
+        "DOCX:Experience/Pelion Machine Learning",
+        "README:32-34"
+      ],
+      "occupancy": [
+        "DOCX:Experience/Return to Work",
+        "README:36-37"
+      ],
+      "rtl": [
+        "README:25-30",
+        "LI:p1",
+        "CLARIFICATIONS:5-11",
+        "CLARIFICATIONS:53-61"
+      ],
+      "fpga_detail": [
+        "DOCX:Experience/FPGA CI Test Shield",
+        "DOCX:Accomplishments",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual",
+        "CLARIFICATIONS:5-11",
+        "CLARIFICATIONS:53-61"
+      ],
+      "analytics": [
+        "DOCX:Experience/Space Analytics",
+        "README:46-48"
+      ],
+      "internships": [
+        "DOCX:Internships",
+        "README:52-73",
+        "LI:p2-3"
+      ]
+    },
+    "claim_parents": {},
+    "pages": 2,
+    "layout_bottoms_pt": [
+      121.1,
+      69.0
+    ],
+    "body_size_pt": 11,
+    "leading_pt": 15.4,
+    "identity_sources": [
+      "README:1-5",
+      "LINKS:1-6",
+      "DOCX:Header",
+      "LI:p1"
+    ],
+    "history_sources": [
+      "README:17-48",
+      "DOCX:Experience",
+      "LI:p1-3"
+    ],
+    "scope_sources": [
+      "README:17-23",
+      "AI:22-40",
+      "AI:110-144",
+      "AI:216-329",
+      "LI:p1",
+      "CLARIFICATIONS:13-30"
+    ],
+    "summary_sources": [],
+    "recognition_sources": [
+      "LI:p1",
+      "AI_AWARD:visual"
+    ],
+    "education_sources": [
+      "README:86-100",
+      "DOCX:Education",
+      "DOCX:Accomplishments",
+      "LI:p3",
+      "CAPSTONE_AWARD:visual",
+      "CLARIFICATIONS:63-73"
+    ],
+    "skill_sources": [
+      "README:77-82",
+      "IA:369-374",
+      "DOCX:Experience",
+      "AI:436-451",
+      "LI:p1",
+      "CLARIFICATIONS:32-43"
+    ],
+    "target": null,
+    "prepared_date": "2026-10-20",
+    "include_portfolio": true
+  },
+  "resume-netflix-agent-platform": {
+    "claims": {
+      "netflix_harness": [
+        "ROLE_FIT:13-21",
+        "ROLE_FIT:35-39",
+        "CURRENT:5-12",
+        "AI:22-40",
+        "AI:403-430"
+      ],
+      "netflix_ci_skill": [
+        "REPAIR_SCOPE:3-7",
+        "ROLE_FIT:41-47",
+        "WORKFLOW:9-17",
+        "AI:176-211",
+        "AI:216-254",
+        "IMPACT:5-12"
+      ],
+      "netflix_workbench": [
+        "AI:110-144",
+        "RUNTIME:5-10"
+      ],
+      "netflix_mcp": [
+        "CURRENT:14-20",
+        "IA:309-345",
+        "RUNTIME:12-18",
+        "ROLE_FIT:23-27"
+      ],
+      "netflix_evals": [
+        "ROLE_FIT:23-27",
+        "TESTING:4-44",
+        "TESTING:69-92",
+        "IMPACT:14-26",
+        "IA:309-345"
+      ],
+      "netflix_backend_bridge": [
+        "DUAL_RUNTIME:4-24",
+        "RUNTIME:12-18",
+        "IA:315-333"
+      ],
+      "netflix_cmn_impact": [
+        "ROLE_FIT:5-11",
+        "ROLE_FIT:29-33",
+        "CLARIFICATIONS:19-30",
+        "CURRENT:22-29",
+        "IA:115-178"
+      ],
+      "netflix_pelion_storage": [
+        "WORKFLOW:19-21",
+        "DOCX:Experience/Pelion Machine Learning",
+        "README:32-34"
+      ],
+      "netflix_fpga_shield": [
+        "WORKFLOW:23-29",
+        "DOCX:Experience/FPGA Test Shield",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual"
+      ]
+    },
+    "claim_parents": {
+      "netflix_ci_skill": "netflix_harness",
+      "netflix_workbench": "netflix_harness",
+      "netflix_evals": "netflix_mcp",
+      "netflix_backend_bridge": "netflix_mcp"
+    },
+    "pages": 1,
+    "layout_bottoms_pt": [
+      36.3
+    ],
+    "body_size_pt": 11,
+    "leading_pt": 14.2,
+    "identity_sources": [
+      "README:1-5",
+      "LINKS:1-6",
+      "DOCX:Header",
+      "LI:p1"
+    ],
+    "history_sources": [
+      "README:17-48",
+      "DOCX:Experience",
+      "LI:p1-3"
+    ],
+    "scope_sources": [
+      "README:17-23",
+      "LI:p1",
+      "CURRENT:22-29",
+      "WORKFLOW:5-7",
+      "ROLE_FIT:5-11"
+    ],
+    "summary_sources": [
+      "README:17-48",
+      "AI:22-40",
+      "AI:110-144",
+      "IA:309-345",
+      "CURRENT:5-20",
+      "ROLE_FIT:5-21"
+    ],
+    "recognition_sources": [
+      "LI:p1",
+      "AI_AWARD:visual"
+    ],
+    "education_sources": [
+      "README:86-100",
+      "DOCX:Education",
+      "DOCX:Accomplishments",
+      "LI:p3",
+      "CAPSTONE_AWARD:visual",
+      "CLARIFICATIONS:63-73"
+    ],
+    "skill_sources": [
+      "README:77-82",
+      "IA:369-374",
+      "DOCX:Experience",
+      "AI:436-451",
+      "LI:p1",
+      "CLARIFICATIONS:32-43",
+      "CURRENT:5-20",
+      "IA:315-333",
+      "AI:216-254",
+      "WORKFLOW:5-29",
+      "RUNTIME:12-18",
+      "IA:315-345",
+      "AI:43-71",
+      "AI:403-430",
+      "ROLE_FIT:29-47",
+      "AI:293-329"
+    ],
+    "target": {
+      "company": "Netflix",
+      "title": "Software Engineer 5 - Agent Platform, AI Platform",
+      "requisition": "JR41100",
+      "url": "https://explore.jobs.netflix.net/careers/job/790316292023"
+    },
+    "prepared_date": "2026-10-22",
+    "include_portfolio": false
+  },
+  "resume-openai-codex-agents": {
+    "claims": {
+      "app_mcp_execution": [
+        "IA:309-345"
+      ],
+      "app_agent_evals": [
+        "IA:336-345"
+      ],
+      "app_cmn_owner": [
+        "CLARIFICATIONS:19-30",
+        "IA:23-49",
+        "IA:214-242"
+      ],
+      "app_fresh_codex": [
+        "AI:293-329"
+      ],
+      "app_ci_repair": [
+        "AI:216-254"
+      ],
+      "app_workbench": [
+        "AI:110-144"
+      ],
+      "app_context": [
+        "IA:348-363",
+        "AI:403-430"
+      ],
+      "app_guided_state": [
+        "IA:148-178",
+        "CLARIFICATIONS:32-43"
+      ],
+      "app_pelion": [
+        "DOCX:Experience/Pelion Machine Learning",
+        "README:32-34"
+      ],
+      "app_fpga": [
+        "DOCX:Experience/FPGA CI Test Shield",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual",
+        "CLARIFICATIONS:53-61"
+      ]
+    },
+    "claim_parents": {},
+    "pages": 1,
+    "layout_bottoms_pt": [
+      51.1
+    ],
+    "body_size_pt": 11,
+    "leading_pt": 14.2,
+    "identity_sources": [
+      "README:1-5",
+      "LINKS:1-6",
+      "DOCX:Header",
+      "LI:p1"
+    ],
+    "history_sources": [
+      "README:17-48",
+      "DOCX:Experience",
+      "LI:p1-3"
+    ],
+    "scope_sources": [
+      "README:17-23",
+      "LI:p1",
+      "AI:22-40",
+      "IA:309-345"
+    ],
+    "summary_sources": [],
+    "recognition_sources": [
+      "LI:p1",
+      "AI_AWARD:visual"
+    ],
+    "education_sources": [
+      "README:86-100",
+      "DOCX:Education",
+      "DOCX:Accomplishments",
+      "LI:p3",
+      "CAPSTONE_AWARD:visual",
+      "CLARIFICATIONS:63-73"
+    ],
+    "skill_sources": [
+      "README:77-82",
+      "IA:369-374",
+      "DOCX:Experience",
+      "AI:436-451",
+      "LI:p1",
+      "CLARIFICATIONS:32-43"
+    ],
+    "target": {
+      "company": "OpenAI",
+      "title": "AI Systems Engineer, Codex Agents",
+      "url": "https://openai.com/careers/ai-systems-engineer-codex-agents-san-francisco/"
+    },
+    "prepared_date": "2026-10-21",
+    "include_portfolio": false
+  },
+  "resume-anthropic-claude-code": {
+    "claims": {
+      "app_workbench": [
+        "AI:110-144"
+      ],
+      "app_mcp_product": [
+        "IA:309-345"
+      ],
+      "app_agent_evals": [
+        "IA:336-345"
+      ],
+      "app_cmn_ui": [
+        "CLARIFICATIONS:19-30",
+        "IA:23-49",
+        "README:17-23"
+      ],
+      "app_noc_canvas": [
+        "CLARIFICATIONS:32-43",
+        "IA:52-80",
+        "README:17-23",
+        "LI:p1"
+      ],
+      "app_ui_quality": [
+        "CLARIFICATIONS:32-43",
+        "IA:83-112",
+        "IA:245-306"
+      ],
+      "app_editor_tests": [
+        "AI:332-365"
+      ],
+      "app_ci_repair": [
+        "AI:216-254"
+      ],
+      "app_pelion": [
+        "DOCX:Experience/Pelion Machine Learning",
+        "README:32-34"
+      ],
+      "app_fpga": [
+        "DOCX:Experience/FPGA CI Test Shield",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual",
+        "CLARIFICATIONS:53-61"
+      ]
+    },
+    "claim_parents": {},
+    "pages": 1,
+    "layout_bottoms_pt": [
+      51.1
+    ],
+    "body_size_pt": 11,
+    "leading_pt": 14.2,
+    "identity_sources": [
+      "README:1-5",
+      "LINKS:1-6",
+      "DOCX:Header",
+      "LI:p1"
+    ],
+    "history_sources": [
+      "README:17-48",
+      "DOCX:Experience",
+      "LI:p1-3"
+    ],
+    "scope_sources": [
+      "README:17-23",
+      "LI:p1",
+      "AI:22-40",
+      "IA:309-345"
+    ],
+    "summary_sources": [],
+    "recognition_sources": [
+      "LI:p1",
+      "AI_AWARD:visual"
+    ],
+    "education_sources": [
+      "README:86-100",
+      "DOCX:Education",
+      "DOCX:Accomplishments",
+      "LI:p3",
+      "CAPSTONE_AWARD:visual",
+      "CLARIFICATIONS:63-73"
+    ],
+    "skill_sources": [
+      "README:77-82",
+      "IA:369-374",
+      "DOCX:Experience",
+      "AI:436-451",
+      "LI:p1",
+      "CLARIFICATIONS:32-43"
+    ],
+    "target": {
+      "company": "Anthropic",
+      "title": "Staff Software Engineer, Claude Code",
+      "requisition": "5383610008",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383610008"
+    },
+    "prepared_date": "2026-10-21",
+    "include_portfolio": false
+  },
+  "resume-google-agent-architecture": {
+    "claims": {
+      "app_mcp_execution": [
+        "IA:309-345"
+      ],
+      "app_platform_arch": [
+        "AI:22-40"
+      ],
+      "app_agent_evals": [
+        "IA:336-345"
+      ],
+      "app_cmn_owner": [
+        "CLARIFICATIONS:19-30",
+        "IA:23-49",
+        "IA:214-242"
+      ],
+      "app_topology_migration": [
+        "IA:115-145",
+        "CLARIFICATIONS:32-43"
+      ],
+      "app_guided_state": [
+        "IA:148-178",
+        "CLARIFICATIONS:32-43"
+      ],
+      "app_sidecar": [
+        "IA:315-333"
+      ],
+      "app_design_diff": [
+        "IA:214-242",
+        "CLARIFICATIONS:32-43"
+      ],
+      "app_pelion": [
+        "DOCX:Experience/Pelion Machine Learning",
+        "README:32-34"
+      ],
+      "app_fpga": [
+        "DOCX:Experience/FPGA CI Test Shield",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual",
+        "CLARIFICATIONS:53-61"
+      ]
+    },
+    "claim_parents": {},
+    "pages": 1,
+    "layout_bottoms_pt": [
+      51.1
+    ],
+    "body_size_pt": 11,
+    "leading_pt": 14.2,
+    "identity_sources": [
+      "README:1-5",
+      "LINKS:1-6",
+      "DOCX:Header",
+      "LI:p1"
+    ],
+    "history_sources": [
+      "README:17-48",
+      "DOCX:Experience",
+      "LI:p1-3"
+    ],
+    "scope_sources": [
+      "README:17-23",
+      "LI:p1",
+      "AI:22-40",
+      "IA:309-345"
+    ],
+    "summary_sources": [],
+    "recognition_sources": [
+      "LI:p1",
+      "AI_AWARD:visual"
+    ],
+    "education_sources": [
+      "README:86-100",
+      "DOCX:Education",
+      "DOCX:Accomplishments",
+      "LI:p3",
+      "CAPSTONE_AWARD:visual",
+      "CLARIFICATIONS:63-73"
+    ],
+    "skill_sources": [
+      "README:77-82",
+      "IA:369-374",
+      "DOCX:Experience",
+      "AI:436-451",
+      "LI:p1",
+      "CLARIFICATIONS:32-43"
+    ],
+    "target": {
+      "company": "Google",
+      "title": "Software Engineer, Enterprise AI Platforms and Agent Architecture",
+      "requisition": "91999936312156870",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/91999936312156870-software-engineer-enterprise-ai-platforms-and-agent-architecture?q=agent"
+    },
+    "prepared_date": "2026-10-21",
+    "include_portfolio": false
+  }
+}

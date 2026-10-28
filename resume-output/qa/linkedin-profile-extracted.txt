@@ -1,0 +1,116 @@
+Source: LinkedIn-Profile-Export/Profile.pdf
+Original preserved unchanged. All three pages also rendered and visually inspected.
+
+=== PAGE 1 ===
+
+   
+Contact
+1(760) 694-6310 (Mobile)
+mrcoulter45@gmail.com
+www.linkedin.com/in/michael-
+coulter-164868153 (LinkedIn)
+mrcoulter45.github.io/portfolio/
+(Portfolio)
+Top Skills
+System on a Chip (SoC)
+Interconnect Architecture
+AMBA Protocols
+Honors-Awards
+Arm Quality Award 2020 for the
+Mbed OS FPGA CI Test Shield
+UT ECE Senior Design First Place
+Engineering AI Showcase Most
+Innovative Award
+Michael Coulter
+Senior Software Engineer at Arm
+Austin, Texas, United States
+Summary
+I am a Software Engineer working in the Systems IP group at Arm. I
+currently work on tooling for coherent and non-coherent interconnect
+IP.
+Experience
+Arm
+7 years 10 months
+Senior Software Engineer
+April 2023 - Present (3 years 7 months)
+Austin, Texas, United States
+Working as a software engineer for the Arm Interconnect Architect, a desktop
+application software tool dedicated to the coherent and non-coherent
+interconnect product lines. The application is built with Angular/TypeScript
+and employs object-oriented programming for a scalable codebase. The
+application serves both internal engineers and external customers, enabling a
+structured process for building interconnect microarchitecture configurations.
+Notable features include a canvas tool for viewing and editing the entire
+interconnect system, a build tab for generating RTL from configurations,
+and a console for real-time user feedback. The tool utilizes a custom Python
+backend, with a large set of interconnect configuration APIs.
+Software Engineer
+April 2020 - April 2023 (3 years 1 month)
+Austin, Texas, United States
+- Arm graduate rotation program:
+- Wrote RTL for several safety mechanisms for one of the Arm non-coherent
+interconnect product lines
+- Worked on the Virtual IP (VIP) team running simulations and working with
+various VIP software blocks
+- Started working on the Arm Interconnect Assistant desktop tool
+- Worked on a web-application dashboard for the Arm Pelion Products group
+Graduate Software Engineer
+  Page 1 of 3
+
+=== PAGE 2 ===
+
+   
+January 2019 - April 2020 (1 year 4 months)
+Austin, Texas Area
+- Worked on the Arm mbed FPGA test shield. The FPGA test shield was
+created to test all of the various IO functionality for the myriad of mbed
+supported development boards. I helped to create an entire verilog code base
+for the FPGA, as well as the FPGA test shield PCB and form factor boards in
+order to achieve this.
+- Debugged issues and implemented fixes for Mbed OS.
+Arm
+Internet of Things Engineering Intern
+May 2018 - August 2018 (4 months)
+Austin, Texas Metropolitan Area
+- Outlined and began initial work on the Mbed FPGA CI test shield project
+- Worked with and made improvements to Mbed OS
+- Integrated the ATECC608A cryptography chip library with Mbed I2C API to
+enable future hardware
+encryption goal
+- Developed content for Mbed OS handbook, code examples and tutorials
+- Added I2C tests to CI test shield library
+Arm
+Systems and Software IP Engineering Intern
+May 2017 - August 2017 (4 months)
+Austin, Texas Metropolitan Area
+- Tested and debugged an Arm Cortex-A CPU embedded logic analyzer using
+a UVM test bench
+- Created a script to decompress trace data from the embedded logic analyzer
+(ELA) that was shipped to customers
+Arm
+ATG Verification Enablement Intern
+May 2016 - August 2016 (4 months)
+Austin, Texas Metropolitan Area
+- Helped to implement architectural system coverage 
+- Wrote Python scripts to manage TPIs (architectural test suites) and test data
+from assembly test 
+generation tool
+- SQLite3 database for test data management  
+  Page 2 of 3
+
+=== PAGE 3 ===
+
+   
+Arm
+IT Intern
+October 2014 - August 2015 (11 months)
+Austin, Texas Metropolitan Area
+- Imaged and distributed new machines, made local admins 
+- Worked on service tickets including network patching and machine, phone,
+monitor, and desk setup
+- Developed customer service, delegation, and organizational skills  
+Education
+The University of Texas at Austin
+Electrical and Computer Engineering, Computer Architecture and Embedded
+Systems, Integrated Circuits · (2014 - 2018)
+  Page 3 of 3

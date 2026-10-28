@@ -1,0 +1,79 @@
+{
+  "prepared_date": "2026-10-22",
+  "edition": "Qualification-focused production delivery, shared Codex operations/memory, API/stakeholder value and cluster policies",
+  "changed_claims": [
+    "netflix_harness",
+    "netflix_mcp",
+    "netflix_evals",
+    "netflix_cmn_impact",
+    "netflix_ci_skill",
+    "netflix_backend_bridge",
+    "netflix_workbench"
+  ],
+  "version_changes": [
+    "summary",
+    "scope and sources",
+    "skills and sources",
+    "edition"
+  ],
+  "pages": 1,
+  "words": 387,
+  "body_font_pt": 11,
+  "body_leading_pt": 14.2,
+  "layout_bottom_pt": 36.3,
+  "pdf_sha256": "76fb4026ba1d393a739174876297b298e14be8aaf4c1e512b678daaae1756a0f",
+  "markdown_sha256": "f7b719e9f5b41991e60de600aa84d305e257c6630b527493edf1a1dcf49ca3b2",
+  "byte_identical_repeat_build": true,
+  "grouped_claims_checked": 4,
+  "grouping_unchanged": true,
+  "ia_mcp_monospace_occurrences": 2,
+  "repair_jenkins_monospace_retained": true,
+  "visual_review": {
+    "renderer": "Poppler scale-to 1800",
+    "image": "qa/resume-netflix-agent-platform.png",
+    "sha256": "c633041ee888f976c13ab3cab872ace36c02d602afc2e271df36f9f7f202a339",
+    "result": "PASS: latest final page opened and inspected. Seven current-role claims remain three main/four supporting bullets. Harness 2 lines, repair/policy 4, workbench 1, MCP 2, evaluations 3, runtime 2, CMN/API/business 3. No clipping, overlap or single-word bullet tail. One-page layout, 11 pt body and margins unchanged. Repeat build matches inspected PDF."
+  },
+  "other_eight_resume_pairs_unchanged": {
+    "resume.pdf": "202dc4ac9ce9383a9bb80dc324f07279f56da7e7b56d0972851c80f31e5fdbe5",
+    "resume.md": "97a06dbc2bc6bbc9c5f65f4556f83629ac51e048ea822b63dfb7f22bf2da5989",
+    "resume-ai-systems.pdf": "0a1e045566fd0fecf4617978d89ea54c6edd4da51f205e3d93db78683eef4272",
+    "resume-ai-systems.md": "f2a3c1666f812327994e7aa971702f987e59351ea080da1878c98153699f3ff2",
+    "resume-systems-engineering.pdf": "6761a96e1536c3a7e3a6fc05d967dfbba90c535a1451baa7ed24b92e2c529b56",
+    "resume-systems-engineering.md": "e971f583f429a707ec98737b969a8295845aa5d40ef5c15ee5834a59e9d9bf09",
+    "resume-senior-software.pdf": "2a76c2170e922129cc1e8c97fe5900ca7714c567c6c33f64c4f2c41873495695",
+    "resume-senior-software.md": "cb54cc21e0e92b1b7a9db1dccc7c0642dbd5eebf5dff8a75a45ada9167c76fbd",
+    "resume-two-page.pdf": "824e4675a4fd7a4fc99a9891486d9cdc847c5f8bea0e7f76592b23694f9b5f52",
+    "resume-two-page.md": "11fbacf28a3b163eddff1d7431ca144a25a54e80bc58b0e3292894fd0bb1ed79",
+    "resume-openai-codex-agents.pdf": "f16a99ebe25962ed539a10a6bad966c3fa59a3b17f6211f3917d77a390dbb40c",
+    "resume-openai-codex-agents.md": "42ccda1798e8b968f31a68880fb67f5d657ef94d261020f519e9125391394331",
+    "resume-anthropic-claude-code.pdf": "f164b0f8614cdac45602f1ab913e87bd008efd185c723bf8ad30b023f64d1966",
+    "resume-anthropic-claude-code.md": "70be9b2a01e6ed6f36d5e1a318ac41c349157825be856da64ea8db65f7605650",
+    "resume-google-agent-architecture.pdf": "fbe67659d26df16a8da291a7bbc3f66423222fdc1d6b7d356743324a363b2d9f",
+    "resume-google-agent-architecture.md": "d8183efb546a4bd8a2bee87efe2b453c185be88a5e0aba64a5414b30e0e6d3e4"
+  },
+  "all_20_previous_career_sources_unchanged": true,
+  "registered_career_sources": 21,
+  "new_evidence": {
+    "id": "ROLE_FIT",
+    "path": "career-clarifications-netflix-fit-2026-10-22.md",
+    "sha256": "68dbe86988a6e44e1af5cffff63b528a175f1c2ce796c3def9490c46deb31008",
+    "authority": "Direct user clarification of professional production delivery, Codex harness workflow, backend API contribution, stakeholder requests, automatic engineering memory and cluster operating policies."
+  },
+  "accuracy_checks": [
+    "Production software shipping/maintenance and product release history explicit; no eight-year Senior-title or eight-year agent-development claim.",
+    "Shared Codex harness and automatic engineering-memory capture/retrieval reflect direct current operating facts; Codex remains the model/tool loop provider.",
+    "Repair workflow requires three consecutive passes and human patch review; hours-to-days is a reported manual baseline, not a measured automated runtime or percentage saving.",
+    "User-scoped cluster writes/LSF are stated as defined policies; no blanket OS-sandbox, company-wide identity or LLM spend-governance claim.",
+    "Authored Codex evaluations check valid builds, DRC, artifacts and cleanup; exact configuration-hash result remains a specific historical rollback outcome.",
+    "92 historical real-engine contract/integration cases remain separate from agent evaluations; no new employer test execution or statistical agent-quality gain claimed.",
+    "Current Python 3.13 direct engine versus isolated authenticated legacy Python 3.7 execution and exact-version checks retained.",
+    "Shared Python backend API contribution is explicit, without sole API/SDK lifecycle ownership.",
+    "Licensee/technical-lead feature requirements and qualitative product-level interconnect licensing value are explicit; no customer identities or personal revenue attribution.",
+    "Python packaging grounded in corpus; Rust/React desktop-CLI and earlier professional C++/Kubernetes/PostgreSQL evidence retained.",
+    "No invented framework, large-scale service ownership, tracing/learning platform, high-scale memory, open-source contribution or LLM budget metrics."
+  ],
+  "full_validation": "qa/validation.json",
+  "review": "netflix-resume-review.md",
+  "before_revision": "qa/netflix-before-role-fit-2026-10-22.json"
+}

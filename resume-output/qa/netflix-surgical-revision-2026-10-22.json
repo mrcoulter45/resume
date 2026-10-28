@@ -1,0 +1,93 @@
+{
+  "prepared_date": "2026-10-22",
+  "edition": "Focused revision: separate validation evidence, harness boundaries/knowledge capture and precise ownership/product history",
+  "pages": 1,
+  "words": 376,
+  "body_font_pt": 11,
+  "leading_pt": 14.2,
+  "layout_bottom_pt": 50.5,
+  "pdf_sha256": "d23f927de54a2d2199594e0094765607a3b1c9597c9cf581ce262010b0b19a4d",
+  "markdown_sha256": "b1b82f457ab7ccca91318c3fe580833a833db53f1adf96f78b535efd9c03f206",
+  "byte_identical_repeat_build": true,
+  "grouping_unchanged": true,
+  "grouping_checks_passed": 4,
+  "other_eight_resume_pairs_unchanged": {
+    "resume.pdf": "202dc4ac9ce9383a9bb80dc324f07279f56da7e7b56d0972851c80f31e5fdbe5",
+    "resume.md": "97a06dbc2bc6bbc9c5f65f4556f83629ac51e048ea822b63dfb7f22bf2da5989",
+    "resume-ai-systems.pdf": "0a1e045566fd0fecf4617978d89ea54c6edd4da51f205e3d93db78683eef4272",
+    "resume-ai-systems.md": "f2a3c1666f812327994e7aa971702f987e59351ea080da1878c98153699f3ff2",
+    "resume-systems-engineering.pdf": "6761a96e1536c3a7e3a6fc05d967dfbba90c535a1451baa7ed24b92e2c529b56",
+    "resume-systems-engineering.md": "e971f583f429a707ec98737b969a8295845aa5d40ef5c15ee5834a59e9d9bf09",
+    "resume-senior-software.pdf": "2a76c2170e922129cc1e8c97fe5900ca7714c567c6c33f64c4f2c41873495695",
+    "resume-senior-software.md": "cb54cc21e0e92b1b7a9db1dccc7c0642dbd5eebf5dff8a75a45ada9167c76fbd",
+    "resume-two-page.pdf": "824e4675a4fd7a4fc99a9891486d9cdc847c5f8bea0e7f76592b23694f9b5f52",
+    "resume-two-page.md": "11fbacf28a3b163eddff1d7431ca144a25a54e80bc58b0e3292894fd0bb1ed79",
+    "resume-openai-codex-agents.pdf": "f16a99ebe25962ed539a10a6bad966c3fa59a3b17f6211f3917d77a390dbb40c",
+    "resume-openai-codex-agents.md": "42ccda1798e8b968f31a68880fb67f5d657ef94d261020f519e9125391394331",
+    "resume-anthropic-claude-code.pdf": "f164b0f8614cdac45602f1ab913e87bd008efd185c723bf8ad30b023f64d1966",
+    "resume-anthropic-claude-code.md": "70be9b2a01e6ed6f36d5e1a318ac41c349157825be856da64ea8db65f7605650",
+    "resume-google-agent-architecture.pdf": "fbe67659d26df16a8da291a7bbc3f66423222fdc1d6b7d356743324a363b2d9f",
+    "resume-google-agent-architecture.md": "d8183efb546a4bd8a2bee87efe2b453c185be88a5e0aba64a5414b30e0e6d3e4"
+  },
+  "all_17_career_source_fingerprints_unchanged": true,
+  "visual_review": {
+    "image": "qa/resume-netflix-agent-platform.png",
+    "sha256": "3258a56b2ee430d77bbb1baf0e2af4b856d065221c6a186641b52850a50ed47a",
+    "renderer": "Poppler scale-to 1800",
+    "result": "PASS: final page opened and inspected after final content change; readable hierarchy, intact nested bullets, no clipping/overlap/orphaned bullet tails; same font, margins and vertical extent. Repeat build matches inspected PDF bytes."
+  },
+  "changes": {
+    "netflix_evals": {
+      "sources": [
+        "IA:336-345"
+      ],
+      "result": "Restored 92 passing live checks and separate two scoped agent evaluations with exact rollback-hash restoration. No assertion that all 92 checks cover each listed operation or are agent tasks."
+    },
+    "netflix_harness": {
+      "sources": [
+        "CURRENT:5-12",
+        "AI:22-40",
+        "AI:403-430"
+      ],
+      "result": "Shared/project separation and source-verified knowledge-capture procedures replace feature laundry list. No invented distributed memory/model loop."
+    },
+    "netflix_ci_skill": {
+      "sources": [
+        "WORKFLOW:9-17",
+        "AI:216-254"
+      ],
+      "result": "Removed vague many and invocation prefix from display; retained teammate adoption, iterative cluster repair, three-pass gate and manual review."
+    },
+    "scope": {
+      "sources": [
+        "README:17-23",
+        "LI:p1",
+        "CURRENT:22-29"
+      ],
+      "result": "Product lifetime explicitly belongs to product, not tenure in Senior title."
+    },
+    "netflix_cmn_impact": {
+      "sources": [
+        "CLARIFICATIONS:19-30",
+        "IA:23-49",
+        "IA:214-242"
+      ],
+      "result": "Direct ownership and delivered configuration/routing/deadlock interfaces replace broad product licensing claim; licensing context preserved in inventory."
+    },
+    "netflix_pelion_storage": {
+      "sources": [
+        "WORKFLOW:19-21",
+        "DOCX:Experience/Pelion Machine Learning"
+      ],
+      "result": "Notebook file persistence through Kubernetes storage backed by EFS; no unverified object/cluster-operation detail."
+    }
+  },
+  "limits": [
+    "Historical source results were not rerun as employer tests during resume generation.",
+    "Production operating scale, deployment/support/monitoring responsibilities, and detailed memory architecture still need evidence.",
+    "No hiring scores/probabilities, invented measures, new framework expertise or financial attribution added."
+  ],
+  "review": "netflix-resume-review.md",
+  "full_validation": "qa/validation.json",
+  "before_revision": "qa/netflix-before-surgical-revision-2026-10-22.json"
+}

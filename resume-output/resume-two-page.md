@@ -1,0 +1,59 @@
+# Michael Remington Coulter
+
+Buda, TX | [mrcoulter45@gmail.com](mailto:mrcoulter45@gmail.com) | (760) 694-6310
+[linkedin.com/in/michael-coulter-164868153](https://www.linkedin.com/in/michael-coulter-164868153/) | [github.com/mrcoulter45](https://github.com/mrcoulter45) | [mrcoulter45.github.io/portfolio](https://mrcoulter45.github.io/portfolio/)
+
+## Professional Experience
+
+**Arm - Austin, TX**
+
+### Senior Software Engineer | Apr 2023 - Present
+
+Interconnect Architect | CMN GUI Lead | Tools for internal engineers and external customers.
+
+**Recognition:** Most Innovative Award, Engineering AI Showcase (Dec 2025), for a project-agnostic multi-agent orchestration and context-gathering system.
+
+- Created all coherent-mesh (CMN) GUI tooling from CMN-800 onward, including Multi-CHI port devices, MCS group configuration, custom routing and mesh deadlock detection interfaces.
+- Created the NCI/NoC logical canvas and console for configuration logs and design-rule results; built canvas exports and configuration-report scripts.
+- Built a Python NIC-400 XML/CCXML migration engine that reconstructs topology and routes while preserving placement; historical validation recorded 4,130/4,130 valid configurations passing design-rule checks and 5/5 curated invalid configurations rejected.
+- Prevented stale or concurrent design-rule responses from updating the wrong view using request IDs and reload checks; added unit and end-to-end regressions.
+- Designed a modular AI engineering platform with four project packs, separating shared tooling from product-owned runtimes through manifest-driven configuration.
+- Built a Rust/Tauri 2 workbench with React/TypeScript UI, a shared desktop/CLI core, bounded asynchronous Git inspection and verified process controls.
+- Built isolated workspaces with dedicated ports, caches and editor state; coordinated concurrent checkout allocation through atomic locks, tokenized leases and ownership-checked recovery.
+- Built Jenkins/LSF repair tooling for exact-revision replay and binary patch transfer; required three consecutive clean replays of the latest patch before finalizing flaky-test fixes.
+- Built resumable RHEL 8/LSF release automation with archive checks and packaged acceptance, preserving payload hashes/permissions and verifying source/dependency provenance.
+- Architected Python Model Context Protocol (MCP) tooling to compile typed design intent into dependency-ordered operations, execute against checkpoints, verify postconditions and support rollback and reproducible Python/YAML exports.
+- Built acceptance and bounded agent-evaluation infrastructure for two interconnect construction workflows; recorded results include 5,063 full-suite passes, 92 live checks and exact configuration-hash restoration in a rollback evaluation.
+## Professional Experience (continued)
+
+- Introduced Pixi.js to improve NoC canvas performance and created Playwright test infrastructure for newer non-coherent interconnect tooling.
+- Implemented grid-aligned physical auto-placement with collision avoidance, grouping and die sizing; tested overlap, containment and adjacency across both renderers.
+- Built an Ordered Write Observation wizard for topology, credit/buffer limits and address constraints, with review/apply/restore operations and unit/Playwright tests.
+- Delivered guided NoC configuration and logical design comparison; isolated backend sessions to compare topology, routes, attributes and source YAML.
+
+### Software Engineer | Apr 2020 - Apr 2023
+
+- Implemented Flask services to start and stop Jupyter notebooks and persist files in AWS EFS for Pelion's embedded-ML platform; defined PostgreSQL schemas and built end-to-end tests.
+- Built sensor-ingestion and dashboard APIs with InfluxDB, including a fixed-radius neighbor algorithm for workspace proximity detection.
+- Designed safety-mechanism RTL for lightweight non-coherent interconnects; used waveform viewers to debug testbenches and RTL/IP during RTL and VIP simulation rotations.
+
+### Graduate Software Engineer | Jan 2019 - Apr 2020
+
+- Built Verilog FPGA modules and Mbed OS firmware for I2C, GPIO, ADC, DAC and PWM; used waveform viewers to debug testbenches and RTL/IP, and contributed to shield/form-factor PCBs. 2020 Arm Quality Award (team).
+- Built Node.js/Express REST APIs, PostgreSQL schemas and React dashboards to monitor occupancy from thermal cameras and PIR sensors.
+
+Earlier Arm internships: IoT Engineering (May-Aug 2018), Systems & Software IP (May-Aug 2017), ATG Verification Enablement (May-Aug 2016), and IT (Oct 2014-Aug 2015).
+
+## Technical Skills
+
+**Languages:** Python, TypeScript/JavaScript, Rust, SQL, Verilog  
+**Applications:** Angular, RxJS, Electron, React, Tauri 2, Flask, Node.js/Express, SVG/Pixi  
+**Engineering:** MCP, Playwright, Karma, Jenkins, Git, LSF, RHEL 8; interconnects, FPGA, Mbed OS  
+**Cloud / data:** Docker, Kubernetes, AWS EKS/EFS, PostgreSQL, InfluxDB, SQLite  
+
+## Education
+
+**The University of Texas at Austin**
+Bachelor of Science, Electrical and Computer Engineering | Dec 2018
+Primary focus: Computer Architecture and Embedded Systems | Secondary: Integrated Circuits
+1st Place (Industry), ECE Capstone Design Award - IoT Wireless Home Security System (2018)

@@ -1,0 +1,35 @@
+{
+  "prepared_date": "2026-10-21",
+  "edition": "Four company-specific agentic engineering applications",
+  "pdf_sha256": {
+    "resume-netflix-agent-platform.pdf": "399cd18e64f41b77a7bcd7203596ed4e4a0de713e01415c9f032319ae2c85720",
+    "resume-openai-codex-agents.pdf": "a8791c74a196f585018a27752a0de887d64abe21625baabae044641efbadba93",
+    "resume-anthropic-claude-code.pdf": "c2ea808453e1a7fca0606a6571c95cb02124d9027f693429669f7bfa6f9e447c",
+    "resume-google-agent-architecture.pdf": "4b3993476736cb33df1da150af8693e31bb36f942633b476a17cc9825d7ec010"
+  },
+  "identical_content_rebuild_byte_identical": true,
+  "five_previous_pdf_hashes_unchanged": true,
+  "body_font_pt": 11,
+  "body_leading_pt": 14.2,
+  "portfolio_present": false,
+  "source_fingerprints_match": true,
+  "visual_inspection": "PASS: all four final 1800 px Poppler renders opened and inspected; no clipping, overlap, orphaned bullet tails or hierarchy defects",
+  "rendered_images": {
+    "resume-netflix-agent-platform.png": {
+      "sha256": "479c41cb4f08d27eadc65986312528561c098f202bf85a4e534e5bd465a99d5c",
+      "inspection": "PASS"
+    },
+    "resume-openai-codex-agents.png": {
+      "sha256": "bbecfbb3a34fcb5d6192721721ad69271e36bbfc5bb3ec30a16be264bd4268f0",
+      "inspection": "PASS"
+    },
+    "resume-anthropic-claude-code.png": {
+      "sha256": "6fdee3d14da9f657609f2d533cb99ea75773095a5140f7d01006616290a77943",
+      "inspection": "PASS"
+    },
+    "resume-google-agent-architecture.png": {
+      "sha256": "897ba1eca9d8ca14d32f3ee716d29197682002ed5df8ba57c8500a6e9d1a0db9",
+      "inspection": "PASS"
+    }
+  }
+}

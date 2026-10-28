@@ -1,0 +1,1038 @@
+{
+  "name": "Michael Remington Coulter",
+  "prepared_date": "2026-10-20",
+  "location": "Buda, TX",
+  "email": "mrcoulter45@gmail.com",
+  "phone": "(760) 694-6310",
+  "linkedin": "https://www.linkedin.com/in/michael-coulter-164868153/",
+  "github": "https://github.com/mrcoulter45",
+  "portfolio": "https://mrcoulter45.github.io/portfolio/",
+  "employer": "Arm",
+  "employer_location": "Austin, TX",
+  "identity_sources": [
+    "README:1-5",
+    "LINKS:1-6",
+    "DOCX:Header",
+    "LI:p1"
+  ],
+  "history_sources": [
+    "README:17-48",
+    "DOCX:Experience",
+    "LI:p1-3"
+  ],
+  "scope_sources": [
+    "README:17-23",
+    "AI:22-40",
+    "AI:110-144",
+    "AI:216-329",
+    "LI:p1",
+    "CLARIFICATIONS:13-30"
+  ],
+  "roles": {
+    "senior": {
+      "title": "Senior Software Engineer",
+      "dates": "Apr 2023 - Present"
+    },
+    "software": {
+      "title": "Software Engineer",
+      "dates": "Apr 2020 - Apr 2023"
+    },
+    "graduate": {
+      "title": "Graduate Software Engineer",
+      "dates": "Jan 2019 - Apr 2020"
+    }
+  },
+  "scope": "Interconnect Architect | CMN GUI Lead | Tools for internal engineers and external customers.",
+  "recognition": {
+    "text": "Most Innovative Award, Engineering AI Showcase (Dec 2025), for a project-agnostic multi-agent orchestration and context-gathering system.",
+    "sources": [
+      "LI:p1",
+      "AI_AWARD:visual"
+    ]
+  },
+  "claims": {
+    "ai_platform": {
+      "text": "Designed a modular AI engineering platform with four project packs, separating shared tooling from product-owned runtimes through manifest-driven configuration.",
+      "sources": [
+        "AI:22-40"
+      ]
+    },
+    "workspace": {
+      "text": "Built isolated workspaces with dedicated ports, caches and editor state; coordinated concurrent checkout allocation through atomic locks, tokenized leases and ownership-checked recovery.",
+      "sources": [
+        "AI:74-107"
+      ]
+    },
+    "workbench": {
+      "text": "Built a Rust/Tauri 2 workbench with React/TypeScript UI, a shared desktop/CLI core, bounded asynchronous Git inspection and verified process controls.",
+      "sources": [
+        "AI:110-144",
+        "AI:436-451"
+      ]
+    },
+    "ci_repair": {
+      "text": "Built Jenkins/LSF repair tooling for exact-revision replay and binary patch transfer; required three consecutive clean replays of the latest patch before finalizing flaky-test fixes.",
+      "sources": [
+        "AI:216-254"
+      ]
+    },
+    "release": {
+      "text": "Built resumable RHEL 8/LSF release automation with archive checks and packaged acceptance, preserving payload hashes/permissions and verifying source/dependency provenance.",
+      "sources": [
+        "AI:257-290"
+      ]
+    },
+    "packaged_agents": {
+      "text": "Built immutable macOS/Windows modules and isolated AI-agent verification in fresh sessions, checking payload integrity, MCP registration, provider routing and runtime cleanup.",
+      "sources": [
+        "AI:293-329"
+      ]
+    },
+    "catalog": {
+      "text": "Implemented deterministic capability catalogs with SHA-256 freshness checks and explicit runtime availability; made skill registration transactional through destination preflight, conflict rejection and rollback on partial failure.",
+      "sources": [
+        "AI:43-71"
+      ]
+    },
+    "qualification": {
+      "text": "Built GUI qualification and coverage orchestration with a 56-cell regression fixture spanning 28 IP projects and two renderers; preserved raw coverage and rejected resume attempts when source, matrix or dependency fingerprints changed.",
+      "sources": [
+        "AI:370-400"
+      ]
+    },
+    "mcp_validated": {
+      "text": "Implemented Python Model Context Protocol (MCP) planning and rollback for two bounded interconnect workflows; recorded validation lists 5,063 full-suite passes and 92 live checks.",
+      "sources": [
+        "IA:309-345"
+      ]
+    },
+    "migration": {
+      "text": "Built a Python NIC-400 XML/CCXML migration engine that reconstructs topology and routes while preserving placement; historical validation recorded 4,130/4,130 valid configurations passing design-rule checks and 5/5 curated invalid configurations rejected.",
+      "sources": [
+        "IA:115-145",
+        "CLARIFICATIONS:32-43"
+      ]
+    },
+    "mcp": {
+      "text": "Designed and implemented Python tooling using Model Context Protocol (MCP) for two bounded interconnect construction workflows, with typed intent, dependency-ordered plans, checkpointed execution, semantic validation and rollback.",
+      "sources": [
+        "IA:309-345"
+      ]
+    },
+    "canvas": {
+      "text": "Developed Angular/Electron topology editors in TypeScript, with 64x64 mesh coordinates and shared route-aware layout and interactions across SVG/Pixi renderers.",
+      "sources": [
+        "IA:23-112",
+        "README:17-23",
+        "LI:p1",
+        "CLARIFICATIONS:19-43"
+      ]
+    },
+    "placement": {
+      "text": "Implemented grid-aligned physical auto-placement with collision avoidance, grouping and die sizing; tested overlap, containment and adjacency across both renderers.",
+      "sources": [
+        "IA:83-112",
+        "CLARIFICATIONS:32-43"
+      ]
+    },
+    "tests": {
+      "text": "Created Playwright infrastructure for newer NoC tooling and built Electron-hosted Karma execution; expanded regressions for renderer behavior, persistence and cross-layer workflows.",
+      "sources": [
+        "IA:245-274",
+        "CLARIFICATIONS:32-43"
+      ]
+    },
+    "async": {
+      "text": "Prevented stale or concurrent design-rule responses from updating the wrong view using request IDs and reload checks; added unit and end-to-end regressions.",
+      "sources": [
+        "IA:277-306"
+      ]
+    },
+    "mcp_detail": {
+      "text": "Architected Python Model Context Protocol (MCP) tooling to compile typed design intent into dependency-ordered operations, execute against checkpoints, verify postconditions and support rollback and reproducible Python/YAML exports.",
+      "sources": [
+        "IA:309-345"
+      ]
+    },
+    "mcp_validation": {
+      "text": "Built acceptance and bounded agent-evaluation infrastructure for two interconnect construction workflows; recorded results include 5,063 full-suite passes, 92 live checks and exact configuration-hash restoration in a rollback evaluation.",
+      "sources": [
+        "IA:309-345"
+      ]
+    },
+    "sidecar": {
+      "text": "Implemented current/legacy Python runtime routing and an authenticated sidecar with API allowlisting, path restrictions, provenance checks and parent-lifetime cleanup.",
+      "sources": [
+        "IA:315-333"
+      ]
+    },
+    "docs": {
+      "text": "Created reproducible source-aware documentation collection and rendering tools, source indexes and task-to-code navigation for the Angular engineering application.",
+      "sources": [
+        "IA:348-363"
+      ]
+    },
+    "guided": {
+      "text": "Delivered NoC-Lite configuration using Python policies and Angular editors, with product constraints, versioned state, recovery and compliance status invalidated by design changes.",
+      "sources": [
+        "IA:148-178",
+        "CLARIFICATIONS:32-43"
+      ]
+    },
+    "owo": {
+      "text": "Built an Ordered Write Observation wizard for topology, credit/buffer limits and address constraints, with review/apply/restore operations and unit/Playwright tests.",
+      "sources": [
+        "IA:181-211",
+        "CLARIFICATIONS:32-43"
+      ]
+    },
+    "diagnostics": {
+      "text": "Built interactive deadlock investigation and route visualization, and semantic configuration comparisons across isolated backend sessions, comparing instances, interfaces, connections, attributes, routes and source YAML.",
+      "sources": [
+        "IA:214-242",
+        "CLARIFICATIONS:32-43"
+      ]
+    },
+    "performance": {
+      "text": "Optimized canvas interaction using cached DOM geometry, frame-batched pointer updates and processing outside Angular change detection; repaired observer and subscription cleanup.",
+      "sources": [
+        "IA:83-112",
+        "CLARIFICATIONS:32-43"
+      ]
+    },
+    "tests_detail": {
+      "text": "Created NoC Playwright infrastructure and Electron-hosted Karma execution with dynamic loopback ports and isolated logs; added or extended 51 Angular spec files in one change.",
+      "sources": [
+        "IA:245-274",
+        "CLARIFICATIONS:32-43"
+      ]
+    },
+    "pelion_ml": {
+      "text": "Implemented Flask services to start and stop Jupyter notebooks and persist files in AWS EFS for Pelion's embedded-ML platform; defined PostgreSQL schemas and built end-to-end tests.",
+      "sources": [
+        "DOCX:Experience/Pelion Machine Learning",
+        "README:32-34"
+      ]
+    },
+    "occupancy": {
+      "text": "Built sensor-ingestion and dashboard APIs with InfluxDB, including a fixed-radius neighbor algorithm for workspace proximity detection.",
+      "sources": [
+        "DOCX:Experience/Return to Work",
+        "README:36-37"
+      ]
+    },
+    "rtl": {
+      "text": "Designed safety-mechanism RTL for lightweight non-coherent interconnects; used waveform viewers to debug testbenches and RTL/IP during RTL and VIP simulation rotations.",
+      "sources": [
+        "README:25-30",
+        "LI:p1",
+        "CLARIFICATIONS:5-11",
+        "CLARIFICATIONS:53-61"
+      ]
+    },
+    "fpga": {
+      "text": "Built Verilog FPGA modules and Mbed OS firmware for I2C, GPIO, ADC, DAC and PWM; contributed to shield/form-factor PCBs. 2020 Arm Quality Award (team).",
+      "sources": [
+        "DOCX:Experience/FPGA CI Test Shield",
+        "DOCX:Accomplishments",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual",
+        "CLARIFICATIONS:5-11",
+        "CLARIFICATIONS:53-61"
+      ]
+    },
+    "analytics": {
+      "text": "Built Node.js/Express REST APIs, PostgreSQL schemas and React dashboards to monitor occupancy from thermal cameras and PIR sensors.",
+      "sources": [
+        "DOCX:Experience/Space Analytics",
+        "README:46-48"
+      ]
+    },
+    "internships": {
+      "text": "Earlier Arm internships: IoT Engineering (May-Aug 2018), Systems & Software IP (May-Aug 2017), ATG Verification Enablement (May-Aug 2016), and IT (Oct 2014-Aug 2015).",
+      "sources": [
+        "DOCX:Internships",
+        "README:52-73",
+        "LI:p2-3"
+      ]
+    },
+    "internship_work": {
+      "text": "Initiated the FPGA test shield, integrated an ATECC608A cryptography library with Mbed I2C, delivered an embedded-logic-analyzer trace decompression script to customers, and built Python/SQLite tooling for architectural test data.",
+      "sources": [
+        "DOCX:Internships",
+        "README:54-68",
+        "LI:p2"
+      ]
+    },
+    "cmn_gui": {
+      "text": "Created all coherent-mesh (CMN) GUI tooling from CMN-800 onward, including Multi-CHI port devices, MCS group configuration, custom routing and mesh deadlock detection interfaces.",
+      "sources": [
+        "CLARIFICATIONS:19-30",
+        "IA:23-49",
+        "IA:214-242"
+      ]
+    },
+    "noc_canvas": {
+      "text": "Created the NCI/NoC logical canvas and console for configuration logs and design-rule results; built canvas exports and configuration-report scripts.",
+      "sources": [
+        "CLARIFICATIONS:32-43",
+        "IA:52-80",
+        "README:17-23",
+        "LI:p1"
+      ]
+    },
+    "noc_infrastructure": {
+      "text": "Introduced Pixi.js to improve NoC canvas performance and created Playwright test infrastructure for newer non-coherent interconnect tooling.",
+      "sources": [
+        "CLARIFICATIONS:32-43",
+        "IA:83-112",
+        "IA:245-274"
+      ]
+    },
+    "noc_workflows": {
+      "text": "Delivered guided NoC configuration and logical design comparison; isolated backend sessions to compare topology, routes, attributes and source YAML.",
+      "sources": [
+        "CLARIFICATIONS:32-43",
+        "IA:148-178",
+        "IA:214-242"
+      ]
+    },
+    "fpga_detail": {
+      "text": "Built Verilog FPGA modules and Mbed OS firmware for I2C, GPIO, ADC, DAC and PWM; used waveform viewers to debug testbenches and RTL/IP, and contributed to shield/form-factor PCBs. 2020 Arm Quality Award (team).",
+      "sources": [
+        "DOCX:Experience/FPGA CI Test Shield",
+        "DOCX:Accomplishments",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual",
+        "CLARIFICATIONS:5-11",
+        "CLARIFICATIONS:53-61"
+      ]
+    },
+    "app_mcp_execution": {
+      "text": "Implemented Python Model Context Protocol (MCP) tools compiling typed intent into dependency-ordered execution plans, with checkpoints, semantic checks and rollback.",
+      "sources": [
+        "IA:309-345"
+      ]
+    },
+    "app_agent_evals": {
+      "text": "Validated creation, import, modification, diagnosis and rollback in two bounded agent evaluations; rollback restored the exact configuration hash. 92 live acceptance checks passed.",
+      "sources": [
+        "IA:336-345"
+      ]
+    },
+    "app_workspace": {
+      "text": "Built isolated workspaces with separate ports, caches and editor state; coordinated concurrent allocation with atomic locks, tokenized leases and ownership-checked recovery.",
+      "sources": [
+        "AI:74-107"
+      ]
+    },
+    "app_sidecar": {
+      "text": "Connected current and legacy Python backends through an authenticated sidecar with API/path restrictions and provenance checks, enabling tooling across supported engine versions.",
+      "sources": [
+        "IA:315-333"
+      ]
+    },
+    "app_release": {
+      "text": "Built resumable RHEL 8/LSF release automation to validate packaged tools against source and dependencies, preserve artifact integrity and recover from interrupted runs.",
+      "sources": [
+        "AI:257-290"
+      ]
+    },
+    "app_catalog": {
+      "text": "Implemented capability discovery with SHA-256 freshness checks and runtime status; made skill registration transactional with preflight checks, conflict rejection and rollback.",
+      "sources": [
+        "AI:43-71"
+      ]
+    },
+    "app_workbench": {
+      "text": "Developed a Rust/Tauri 2 workbench for repository, build and process control, with a React/TypeScript UI, shared desktop/CLI core and bounded asynchronous Git inspection.",
+      "sources": [
+        "AI:110-144"
+      ]
+    },
+    "app_cmn_owner": {
+      "text": "CMN GUI Lead: created and own all coherent-mesh GUI tooling from CMN-800 onward, including device/group configuration, custom routing and deadlock investigation.",
+      "sources": [
+        "CLARIFICATIONS:19-30",
+        "IA:23-49",
+        "IA:214-242"
+      ]
+    },
+    "app_fresh_codex": {
+      "text": "Built reproducible verification for packaged MCP tools in clean macOS/Windows Codex sessions, checking payload integrity, provider routing, handshake and cleanup without inherited context.",
+      "sources": [
+        "AI:293-329"
+      ]
+    },
+    "app_ci_repair": {
+      "text": "Automated Jenkins/LSF failure replay at the original revision, patch transfer and repair validation; gated flaky-test fixes on three consecutive clean replays.",
+      "sources": [
+        "AI:216-254"
+      ]
+    },
+    "app_context": {
+      "text": "Created reproducible documentation generation and task-to-code indexes to give agents source-aware context for navigating an Angular/Python application.",
+      "sources": [
+        "IA:348-363",
+        "AI:403-430"
+      ]
+    },
+    "app_cmn_ui": {
+      "text": "CMN GUI Lead: created and own all coherent-mesh GUI tooling from CMN-800 onward, translating hierarchical hardware models into Angular/TypeScript editors and diagnostics.",
+      "sources": [
+        "CLARIFICATIONS:19-30",
+        "IA:23-49",
+        "README:17-23"
+      ]
+    },
+    "app_ui_performance": {
+      "text": "Introduced Pixi.js for NoC rendering; optimized interactions with cached geometry and frame-batched pointer updates outside Angular change detection, with lifecycle cleanup.",
+      "sources": [
+        "CLARIFICATIONS:32-43",
+        "IA:83-112"
+      ]
+    },
+    "app_editor_tests": {
+      "text": "Built VS Code launch/test tools with exact Playwright test-ID verification, plus a multi-root navigation extension with stale-result protection.",
+      "sources": [
+        "AI:332-365"
+      ]
+    },
+    "app_ui_async": {
+      "text": "Prevented stale design-rule responses from updating the wrong view using request IDs and reload checks; added unit and end-to-end regressions.",
+      "sources": [
+        "IA:277-306"
+      ]
+    },
+    "app_platform_arch": {
+      "text": "Separated shared AI tools from project-specific capability packs using manifests; consolidated MCP implementation and acceptance assets under product ownership.",
+      "sources": [
+        "AI:22-40"
+      ]
+    },
+    "app_topology_migration": {
+      "text": "Built a Python interconnect migration engine; preserved topology, routes and placement, with 4,130 valid configurations passing design-rule checks and five curated invalid cases rejected.",
+      "sources": [
+        "IA:115-145",
+        "CLARIFICATIONS:32-43"
+      ]
+    },
+    "app_guided_state": {
+      "text": "Integrated Python configuration policies with Angular editors, coordinating versioned state, checkpoints, recovery and editing permissions; invalidated compliance after design changes.",
+      "sources": [
+        "IA:148-178",
+        "CLARIFICATIONS:32-43"
+      ]
+    },
+    "app_design_diff": {
+      "text": "Built semantic design comparison across isolated backend sessions, checking topology, routes, attributes and source YAML; added visual overlays and HTML change reports.",
+      "sources": [
+        "IA:214-242",
+        "CLARIFICATIONS:32-43"
+      ]
+    },
+    "app_pelion": {
+      "text": "Built Flask services for Jupyter notebook lifecycle and AWS EFS persistence in Pelion's embedded-ML platform; designed PostgreSQL schemas and end-to-end tests.",
+      "sources": [
+        "DOCX:Experience/Pelion Machine Learning",
+        "README:32-34"
+      ]
+    },
+    "app_fpga": {
+      "text": "Built Verilog FPGA modules and Mbed OS firmware to test board I/O; contributed to test-shield PCBs. Arm Quality Award (team, 2020).",
+      "sources": [
+        "DOCX:Experience/FPGA CI Test Shield",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual",
+        "CLARIFICATIONS:53-61"
+      ]
+    },
+    "app_mcp_product": {
+      "text": "Built Python Model Context Protocol (MCP) tools for agent-driven interconnect configuration, with typed plans, checkpointed execution, semantic validation and rollback.",
+      "sources": [
+        "IA:309-345"
+      ]
+    },
+    "app_noc_canvas": {
+      "text": "Created the NoC topology editor and configuration/diagnostic console; implemented route-aware layout and shared interaction behavior across SVG and Pixi.js renderers.",
+      "sources": [
+        "CLARIFICATIONS:32-43",
+        "IA:52-80",
+        "README:17-23",
+        "LI:p1"
+      ]
+    },
+    "app_ui_quality": {
+      "text": "Introduced Pixi.js and optimized Angular interactions for NoC canvas performance; created Playwright infrastructure and guarded against stale validation results.",
+      "sources": [
+        "CLARIFICATIONS:32-43",
+        "IA:83-112",
+        "IA:245-306"
+      ]
+    },
+    "netflix_harness": {
+      "text": "Designed and built a shared Codex harness used by several Arm engineers, with reusable tools/skills, project context and automatic capture/retrieval of persistent engineering memory.",
+      "sources": [
+        "ROLE_FIT:13-21",
+        "ROLE_FIT:35-39",
+        "CURRENT:5-12",
+        "AI:22-40",
+        "AI:403-430"
+      ]
+    },
+    "netflix_mcp": {
+      "text": "Designed and built ia-mcp, an internal Python MCP interface used by several engineers for configuration, with typed plans, checkpoints, semantic validation and backend fallback.",
+      "sources": [
+        "CURRENT:14-20",
+        "IA:309-345",
+        "RUNTIME:12-18",
+        "ROLE_FIT:23-27"
+      ],
+      "code_spans": [
+        "ia-mcp"
+      ]
+    },
+    "netflix_evals": {
+      "text": "Implemented Codex-driven NCI/CMN evaluations on installed modules, checking valid builds, DRC, artifacts and cleanup; verified exact configuration-hash restoration in rollback. Separately passed 92 real-engine contract/integration cases.",
+      "sources": [
+        "ROLE_FIT:23-27",
+        "TESTING:4-44",
+        "TESTING:69-92",
+        "IMPACT:14-26",
+        "IA:309-345"
+      ]
+    },
+    "netflix_cmn_impact": {
+      "text": "CMN GUI Lead: created and own all coherent-mesh GUI tooling from CMN-800 onward. Deliver features requested by licensees and technical leads; contribute to shared Python backend APIs in a product supporting Arm interconnect licensing.",
+      "sources": [
+        "ROLE_FIT:5-11",
+        "ROLE_FIT:29-33",
+        "CLARIFICATIONS:19-30",
+        "CURRENT:22-29",
+        "IA:115-178"
+      ]
+    },
+    "netflix_ci_skill": {
+      "text": "Created repair-jenkins, a team-used Codex skill to identify failing Playwright tests and autonomously fix flakiness, test-code defects and underlying source bugs; requires three consecutive passes and human patch review. Replaces hours-to-days manual debugging; cluster skills use user-scoped write policies and LSF scheduling.",
+      "sources": [
+        "REPAIR_SCOPE:3-7",
+        "ROLE_FIT:41-47",
+        "WORKFLOW:9-17",
+        "AI:176-211",
+        "AI:216-254",
+        "IMPACT:5-12"
+      ],
+      "code_spans": [
+        "repair-jenkins"
+      ]
+    },
+    "netflix_backend_bridge": {
+      "text": "Built ia-mcp on Python 3.13; product-aware routing runs current backends directly and legacy Python 3.7 in an isolated, authenticated subprocess with exact-version checks.",
+      "sources": [
+        "DUAL_RUNTIME:4-24",
+        "RUNTIME:12-18",
+        "IA:315-333"
+      ],
+      "code_spans": [
+        "ia-mcp"
+      ]
+    },
+    "netflix_pelion_storage": {
+      "text": "Built Flask services for Pelion's Jupyter notebooks, persisting files through Kubernetes storage backed by AWS EFS; designed PostgreSQL schemas and end-to-end tests.",
+      "sources": [
+        "WORKFLOW:19-21",
+        "DOCX:Experience/Pelion Machine Learning",
+        "README:32-34"
+      ]
+    },
+    "netflix_fpga_shield": {
+      "text": "Built Verilog I/O test modules and C++ firmware for the Arm Mbed OS FPGA Test Shield.",
+      "sources": [
+        "WORKFLOW:23-29",
+        "DOCX:Experience/FPGA Test Shield",
+        "README:39-44",
+        "LI:p2",
+        "QUALITY_AWARD:visual"
+      ]
+    },
+    "netflix_workbench": {
+      "text": "Developed a Rust/Tauri 2 workbench with React UI and shared desktop/CLI core.",
+      "sources": [
+        "AI:110-144",
+        "RUNTIME:5-10"
+      ]
+    }
+  },
+  "education": {
+    "institution": "The University of Texas at Austin",
+    "degree": "Bachelor of Science, Electrical and Computer Engineering",
+    "date": "Dec 2018",
+    "award": "1st Place (Industry), ECE Capstone Design Award - IoT Wireless Home Security System (2018)",
+    "sources": [
+      "README:86-100",
+      "DOCX:Education",
+      "DOCX:Accomplishments",
+      "LI:p3",
+      "CAPSTONE_AWARD:visual",
+      "CLARIFICATIONS:63-73"
+    ],
+    "focus": "Primary focus: Computer Architecture and Embedded Systems | Secondary: Integrated Circuits"
+  },
+  "skill_sources": [
+    "README:77-82",
+    "IA:369-374",
+    "DOCX:Experience",
+    "AI:436-451",
+    "LI:p1",
+    "CLARIFICATIONS:32-43"
+  ],
+  "versions": {
+    "resume": {
+      "label": "Primary",
+      "senior": [
+        "cmn_gui",
+        "ai_platform",
+        "migration",
+        "mcp",
+        "workbench",
+        "noc_canvas"
+      ],
+      "software": [
+        "pelion_ml",
+        "occupancy"
+      ],
+      "graduate": [
+        "fpga",
+        "analytics"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, TypeScript/JavaScript, Rust, SQL, Verilog"
+        ],
+        [
+          "Applications",
+          "Angular, Electron, React, Tauri 2, Flask, Node.js, SVG/Pixi"
+        ],
+        [
+          "Engineering",
+          "MCP, Jenkins, Playwright, Git, LSF; SoC/interconnects, AMBA, FPGA, Mbed OS"
+        ]
+      ]
+    },
+    "resume-ai-systems": {
+      "label": "AI Systems / Developer Productivity",
+      "senior": [
+        "ai_platform",
+        "mcp_validated",
+        "workspace",
+        "ci_repair",
+        "release",
+        "packaged_agents"
+      ],
+      "software": [
+        "pelion_ml",
+        "occupancy"
+      ],
+      "graduate": [
+        "fpga",
+        "analytics"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, TypeScript/JavaScript, Rust, SQL"
+        ],
+        [
+          "AI / developer systems",
+          "MCP, typed plans, rollback, session isolation, Git, Jenkins, Playwright"
+        ],
+        [
+          "Platforms",
+          "LSF, RHEL 8, macOS, Windows; React, Tauri 2, Flask, PostgreSQL"
+        ]
+      ]
+    },
+    "resume-systems-engineering": {
+      "label": "Systems / Computer Engineering",
+      "senior": [
+        "cmn_gui",
+        "migration",
+        "noc_canvas",
+        "owo",
+        "placement",
+        "noc_infrastructure"
+      ],
+      "software": [
+        "rtl",
+        "pelion_ml"
+      ],
+      "graduate": [
+        "fpga",
+        "analytics"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, TypeScript/JavaScript, Verilog, SQL"
+        ],
+        [
+          "Systems",
+          "Interconnect topology, AMBA, routing, memory maps, design-rule checks, FPGA, Mbed OS"
+        ],
+        [
+          "Tools",
+          "Angular, Electron, SVG/Pixi, Playwright, Jenkins, Git, LSF, RHEL 8; UVM (earlier work)"
+        ]
+      ]
+    },
+    "resume-senior-software": {
+      "label": "Senior Software Engineering",
+      "senior": [
+        "workbench",
+        "workspace",
+        "migration",
+        "noc_canvas",
+        "noc_infrastructure",
+        "async"
+      ],
+      "software": [
+        "pelion_ml",
+        "occupancy"
+      ],
+      "graduate": [
+        "fpga",
+        "analytics"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, TypeScript/JavaScript, Rust, SQL"
+        ],
+        [
+          "Applications",
+          "Angular, RxJS, Electron, React, Tauri 2, Flask, Node.js, PostgreSQL"
+        ],
+        [
+          "Quality / delivery",
+          "Playwright, Karma, Jenkins, Git, LSF; SVG/Pixi visualization"
+        ]
+      ]
+    },
+    "resume-two-page": {
+      "label": "Two-page technical alternative",
+      "pages": [
+        {
+          "title": "Professional Experience",
+          "senior": [
+            "cmn_gui",
+            "noc_canvas",
+            "migration",
+            "async",
+            "ai_platform",
+            "workbench",
+            "workspace",
+            "ci_repair",
+            "release",
+            "mcp_detail",
+            "mcp_validation"
+          ]
+        },
+        {
+          "title": "Professional Experience (continued)",
+          "senior": [
+            "noc_infrastructure",
+            "placement",
+            "owo",
+            "noc_workflows"
+          ],
+          "software": [
+            "pelion_ml",
+            "occupancy",
+            "rtl"
+          ],
+          "graduate": [
+            "fpga_detail",
+            "analytics"
+          ],
+          "internships": true,
+          "education": true,
+          "skills": true
+        }
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, TypeScript/JavaScript, Rust, SQL, Verilog"
+        ],
+        [
+          "Applications",
+          "Angular, RxJS, Electron, React, Tauri 2, Flask, Node.js/Express, SVG/Pixi"
+        ],
+        [
+          "Engineering",
+          "MCP, Playwright, Karma, Jenkins, Git, LSF, RHEL 8; interconnects, FPGA, Mbed OS"
+        ],
+        [
+          "Cloud / data",
+          "Docker, Kubernetes, AWS EKS/EFS, PostgreSQL, InfluxDB, SQLite"
+        ]
+      ]
+    },
+    "resume-netflix-agent-platform": {
+      "application": true,
+      "prepared_date": "2026-10-22",
+      "include_portfolio": false,
+      "include_education_award": false,
+      "recognition_position": "before",
+      "recognition": "Most Innovative Award, Engineering AI Showcase (Dec 2025): multi-agent system.",
+      "software": [
+        "netflix_pelion_storage"
+      ],
+      "graduate": [
+        "netflix_fpga_shield"
+      ],
+      "label": "Netflix - Software Engineer 5, Agent Platform, AI Platform",
+      "target": {
+        "company": "Netflix",
+        "title": "Software Engineer 5 - Agent Platform, AI Platform",
+        "requisition": "JR41100",
+        "url": "https://explore.jobs.netflix.net/careers/job/790316292023"
+      },
+      "scope": "Ship and maintain Interconnect Architect, Arm's Angular/TypeScript and Python SoC configuration tool. The product has about six years of customer releases and ships internally twice a month.",
+      "scope_sources": [
+        "README:17-23",
+        "LI:p1",
+        "CURRENT:22-29",
+        "WORKFLOW:5-7",
+        "ROLE_FIT:5-11"
+      ],
+      "senior": [
+        "netflix_harness",
+        "netflix_ci_skill",
+        "netflix_workbench",
+        "netflix_mcp",
+        "netflix_evals",
+        "netflix_backend_bridge",
+        "netflix_cmn_impact"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, Rust, TypeScript/JavaScript, C++, SQL"
+        ],
+        [
+          "Agent systems",
+          "MCP, tool integration, persistent memory, semantic validation, checkpointing, rollback"
+        ],
+        [
+          "Platform",
+          "Python packaging; Angular, React, Flask, PostgreSQL; Kubernetes, Jenkins/LSF, CI/CD"
+        ]
+      ],
+      "body_size_pt": 11,
+      "leading_pt": 14.2,
+      "edition": "Production software delivery, Codex harness operations, persistent engineering memory, shared APIs and responsible cluster execution",
+      "summary": "Senior Software Engineer with nearly 8 years shipping and maintaining production engineering software. Built a shared Codex harness and MCP tool used in Arm engineering workflows.",
+      "summary_sources": [
+        "README:17-48",
+        "AI:22-40",
+        "AI:110-144",
+        "IA:309-345",
+        "CURRENT:5-20",
+        "ROLE_FIT:5-21"
+      ],
+      "skill_sources": [
+        "README:77-82",
+        "IA:369-374",
+        "DOCX:Experience",
+        "AI:436-451",
+        "LI:p1",
+        "CLARIFICATIONS:32-43",
+        "CURRENT:5-20",
+        "IA:315-333",
+        "AI:216-254",
+        "WORKFLOW:5-29",
+        "RUNTIME:12-18",
+        "IA:315-345",
+        "AI:43-71",
+        "AI:403-430",
+        "ROLE_FIT:29-47",
+        "AI:293-329"
+      ],
+      "claim_parents": {
+        "netflix_ci_skill": "netflix_harness",
+        "netflix_workbench": "netflix_harness",
+        "netflix_evals": "netflix_mcp",
+        "netflix_backend_bridge": "netflix_mcp"
+      }
+    },
+    "resume-openai-codex-agents": {
+      "application": true,
+      "prepared_date": "2026-10-21",
+      "include_portfolio": false,
+      "include_education_award": false,
+      "recognition_position": "after",
+      "recognition": "Most Innovative Award, Engineering AI Showcase (Dec 2025): multi-agent orchestration and context-gathering system.",
+      "software": [
+        "app_pelion"
+      ],
+      "graduate": [
+        "app_fpga"
+      ],
+      "label": "OpenAI - AI Systems Engineer, Codex Agents",
+      "target": {
+        "company": "OpenAI",
+        "title": "AI Systems Engineer, Codex Agents",
+        "url": "https://openai.com/careers/ai-systems-engineer-codex-agents-san-francisco/"
+      },
+      "scope": "Develop Interconnect Architect, Arm's Python/TypeScript SoC interconnect configuration tool for internal engineers and external customers, alongside AI tools for engineering workflows.",
+      "scope_sources": [
+        "README:17-23",
+        "LI:p1",
+        "AI:22-40",
+        "IA:309-345"
+      ],
+      "senior": [
+        "app_mcp_execution",
+        "app_agent_evals",
+        "app_cmn_owner",
+        "app_fresh_codex",
+        "app_ci_repair",
+        "app_workbench",
+        "app_context",
+        "app_guided_state"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, Rust, TypeScript/JavaScript, SQL, Verilog"
+        ],
+        [
+          "Agent / validation",
+          "MCP, typed plans, semantic checks, rollback, Codex, session isolation"
+        ],
+        [
+          "Developer systems",
+          "Git, Jenkins, Playwright, LSF, RHEL 8; React, Tauri 2, Flask, PostgreSQL"
+        ]
+      ],
+      "body_size_pt": 11,
+      "leading_pt": 14.2,
+      "edition": "Restored product context and broader accomplishments; allocator omitted"
+    },
+    "resume-anthropic-claude-code": {
+      "application": true,
+      "prepared_date": "2026-10-21",
+      "include_portfolio": false,
+      "include_education_award": false,
+      "recognition_position": "after",
+      "recognition": "Most Innovative Award, Engineering AI Showcase (Dec 2025): multi-agent orchestration and context-gathering system.",
+      "software": [
+        "app_pelion"
+      ],
+      "graduate": [
+        "app_fpga"
+      ],
+      "label": "Anthropic - Staff Software Engineer, Claude Code",
+      "target": {
+        "company": "Anthropic",
+        "title": "Staff Software Engineer, Claude Code",
+        "requisition": "5383610008",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383610008"
+      },
+      "scope": "Develop Interconnect Architect, Arm's Python/TypeScript SoC interconnect configuration tool for internal engineers and external customers, alongside AI tools for engineering workflows.",
+      "scope_sources": [
+        "README:17-23",
+        "LI:p1",
+        "AI:22-40",
+        "IA:309-345"
+      ],
+      "senior": [
+        "app_workbench",
+        "app_mcp_product",
+        "app_agent_evals",
+        "app_cmn_ui",
+        "app_noc_canvas",
+        "app_ui_quality",
+        "app_editor_tests",
+        "app_ci_repair"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "TypeScript/JavaScript, Python, Rust, SQL"
+        ],
+        [
+          "Applications",
+          "React, Angular, RxJS, Electron, Tauri 2, Flask, Node.js, PostgreSQL"
+        ],
+        [
+          "AI / developer tools",
+          "MCP, agent evaluation, Git, VS Code extensions, Playwright, Karma, Jenkins"
+        ]
+      ],
+      "body_size_pt": 11,
+      "leading_pt": 14.2,
+      "edition": "Restored product context and broader accomplishments; allocator omitted"
+    },
+    "resume-google-agent-architecture": {
+      "application": true,
+      "prepared_date": "2026-10-21",
+      "include_portfolio": false,
+      "include_education_award": false,
+      "recognition_position": "after",
+      "recognition": "Most Innovative Award, Engineering AI Showcase (Dec 2025): multi-agent orchestration and context-gathering system.",
+      "software": [
+        "app_pelion"
+      ],
+      "graduate": [
+        "app_fpga"
+      ],
+      "label": "Google - Software Engineer, Enterprise AI Platforms and Agent Architecture",
+      "target": {
+        "company": "Google",
+        "title": "Software Engineer, Enterprise AI Platforms and Agent Architecture",
+        "requisition": "91999936312156870",
+        "url": "https://www.google.com/about/careers/applications/jobs/results/91999936312156870-software-engineer-enterprise-ai-platforms-and-agent-architecture?q=agent"
+      },
+      "scope": "Develop Interconnect Architect, Arm's Python/TypeScript SoC interconnect configuration tool for internal engineers and external customers, alongside AI tools for engineering workflows.",
+      "scope_sources": [
+        "README:17-23",
+        "LI:p1",
+        "AI:22-40",
+        "IA:309-345"
+      ],
+      "senior": [
+        "app_mcp_execution",
+        "app_platform_arch",
+        "app_agent_evals",
+        "app_cmn_owner",
+        "app_topology_migration",
+        "app_guided_state",
+        "app_sidecar",
+        "app_design_diff"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, TypeScript/JavaScript, SQL, Verilog"
+        ],
+        [
+          "Architecture",
+          "MCP, typed schemas, dependency planning, topology migration, semantic validation"
+        ],
+        [
+          "Applications / delivery",
+          "Angular, Electron, Flask, PostgreSQL, AWS EFS; Git, Jenkins, Playwright"
+        ]
+      ],
+      "body_size_pt": 11,
+      "leading_pt": 14.2,
+      "edition": "Restored product context and broader accomplishments; allocator omitted"
+    }
+  }
+}

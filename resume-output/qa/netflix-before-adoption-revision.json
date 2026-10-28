@@ -1,0 +1,454 @@
+{
+  "date": "2026-10-21",
+  "reason": "Before Netflix adoption and product-impact clarification revision",
+  "pdf_md_hashes": {
+    "resume-systems-engineering.pdf": "6761a96e1536c3a7e3a6fc05d967dfbba90c535a1451baa7ed24b92e2c529b56",
+    "resume-google-agent-architecture.pdf": "fbe67659d26df16a8da291a7bbc3f66423222fdc1d6b7d356743324a363b2d9f",
+    "resume-google-agent-architecture.md": "d8183efb546a4bd8a2bee87efe2b453c185be88a5e0aba64a5414b30e0e6d3e4",
+    "resume-netflix-agent-platform.md": "8eb5684ec10833fc209e3926ed19e5c8b4a0cc6da1c5f313c434405490cd8ab7",
+    "resume-anthropic-claude-code.md": "70be9b2a01e6ed6f36d5e1a318ac41c349157825be856da64ea8db65f7605650",
+    "resume.pdf": "202dc4ac9ce9383a9bb80dc324f07279f56da7e7b56d0972851c80f31e5fdbe5",
+    "resume-review.md": "53abcd0089ffe33c4d6fa81d9eb882b19eab643a053c15e03e6df4487fbe5c8c",
+    "resume.md": "97a06dbc2bc6bbc9c5f65f4556f83629ac51e048ea822b63dfb7f22bf2da5989",
+    "resume-two-page.pdf": "824e4675a4fd7a4fc99a9891486d9cdc847c5f8bea0e7f76592b23694f9b5f52",
+    "resume-two-page.md": "11fbacf28a3b163eddff1d7431ca144a25a54e80bc58b0e3292894fd0bb1ed79",
+    "resume-openai-codex-agents.md": "42ccda1798e8b968f31a68880fb67f5d657ef94d261020f519e9125391394331",
+    "resume-senior-software.md": "cb54cc21e0e92b1b7a9db1dccc7c0642dbd5eebf5dff8a75a45ada9167c76fbd",
+    "resume-anthropic-claude-code.pdf": "f164b0f8614cdac45602f1ab913e87bd008efd185c723bf8ad30b023f64d1966",
+    "resume-ai-systems.pdf": "0a1e045566fd0fecf4617978d89ea54c6edd4da51f205e3d93db78683eef4272",
+    "resume-senior-software.pdf": "2a76c2170e922129cc1e8c97fe5900ca7714c567c6c33f64c4f2c41873495695",
+    "resume-systems-engineering.md": "e971f583f429a707ec98737b969a8295845aa5d40ef5c15ee5834a59e9d9bf09",
+    "resume-netflix-agent-platform.pdf": "12a6819460d49c35b250dd15a3fcc5b429cec728233354836eb5505a1239cd93",
+    "resume-ai-systems.md": "f2a3c1666f812327994e7aa971702f987e59351ea080da1878c98153699f3ff2",
+    "resume-openai-codex-agents.pdf": "f16a99ebe25962ed539a10a6bad966c3fa59a3b17f6211f3917d77a390dbb40c"
+  },
+  "versions": {
+    "resume": {
+      "label": "Primary",
+      "senior": [
+        "cmn_gui",
+        "ai_platform",
+        "migration",
+        "mcp",
+        "workbench",
+        "noc_canvas"
+      ],
+      "software": [
+        "pelion_ml",
+        "occupancy"
+      ],
+      "graduate": [
+        "fpga",
+        "analytics"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, TypeScript/JavaScript, Rust, SQL, Verilog"
+        ],
+        [
+          "Applications",
+          "Angular, Electron, React, Tauri 2, Flask, Node.js, SVG/Pixi"
+        ],
+        [
+          "Engineering",
+          "MCP, Jenkins, Playwright, Git, LSF; SoC/interconnects, AMBA, FPGA, Mbed OS"
+        ]
+      ]
+    },
+    "resume-ai-systems": {
+      "label": "AI Systems / Developer Productivity",
+      "senior": [
+        "ai_platform",
+        "mcp_validated",
+        "workspace",
+        "ci_repair",
+        "release",
+        "packaged_agents"
+      ],
+      "software": [
+        "pelion_ml",
+        "occupancy"
+      ],
+      "graduate": [
+        "fpga",
+        "analytics"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, TypeScript/JavaScript, Rust, SQL"
+        ],
+        [
+          "AI / developer systems",
+          "MCP, typed plans, rollback, session isolation, Git, Jenkins, Playwright"
+        ],
+        [
+          "Platforms",
+          "LSF, RHEL 8, macOS, Windows; React, Tauri 2, Flask, PostgreSQL"
+        ]
+      ]
+    },
+    "resume-systems-engineering": {
+      "label": "Systems / Computer Engineering",
+      "senior": [
+        "cmn_gui",
+        "migration",
+        "noc_canvas",
+        "owo",
+        "placement",
+        "noc_infrastructure"
+      ],
+      "software": [
+        "rtl",
+        "pelion_ml"
+      ],
+      "graduate": [
+        "fpga",
+        "analytics"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, TypeScript/JavaScript, Verilog, SQL"
+        ],
+        [
+          "Systems",
+          "Interconnect topology, AMBA, routing, memory maps, design-rule checks, FPGA, Mbed OS"
+        ],
+        [
+          "Tools",
+          "Angular, Electron, SVG/Pixi, Playwright, Jenkins, Git, LSF, RHEL 8; UVM (earlier work)"
+        ]
+      ]
+    },
+    "resume-senior-software": {
+      "label": "Senior Software Engineering",
+      "senior": [
+        "workbench",
+        "workspace",
+        "migration",
+        "noc_canvas",
+        "noc_infrastructure",
+        "async"
+      ],
+      "software": [
+        "pelion_ml",
+        "occupancy"
+      ],
+      "graduate": [
+        "fpga",
+        "analytics"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, TypeScript/JavaScript, Rust, SQL"
+        ],
+        [
+          "Applications",
+          "Angular, RxJS, Electron, React, Tauri 2, Flask, Node.js, PostgreSQL"
+        ],
+        [
+          "Quality / delivery",
+          "Playwright, Karma, Jenkins, Git, LSF; SVG/Pixi visualization"
+        ]
+      ]
+    },
+    "resume-two-page": {
+      "label": "Two-page technical alternative",
+      "pages": [
+        {
+          "title": "Professional Experience",
+          "senior": [
+            "cmn_gui",
+            "noc_canvas",
+            "migration",
+            "async",
+            "ai_platform",
+            "workbench",
+            "workspace",
+            "ci_repair",
+            "release",
+            "mcp_detail",
+            "mcp_validation"
+          ]
+        },
+        {
+          "title": "Professional Experience (continued)",
+          "senior": [
+            "noc_infrastructure",
+            "placement",
+            "owo",
+            "noc_workflows"
+          ],
+          "software": [
+            "pelion_ml",
+            "occupancy",
+            "rtl"
+          ],
+          "graduate": [
+            "fpga_detail",
+            "analytics"
+          ],
+          "internships": true,
+          "education": true,
+          "skills": true
+        }
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, TypeScript/JavaScript, Rust, SQL, Verilog"
+        ],
+        [
+          "Applications",
+          "Angular, RxJS, Electron, React, Tauri 2, Flask, Node.js/Express, SVG/Pixi"
+        ],
+        [
+          "Engineering",
+          "MCP, Playwright, Karma, Jenkins, Git, LSF, RHEL 8; interconnects, FPGA, Mbed OS"
+        ],
+        [
+          "Cloud / data",
+          "Docker, Kubernetes, AWS EKS/EFS, PostgreSQL, InfluxDB, SQLite"
+        ]
+      ]
+    },
+    "resume-netflix-agent-platform": {
+      "application": true,
+      "prepared_date": "2026-10-21",
+      "include_portfolio": false,
+      "include_education_award": false,
+      "recognition_position": "after",
+      "recognition": "Most Innovative Award, Engineering AI Showcase (Dec 2025): multi-agent orchestration and context-gathering system.",
+      "software": [
+        "app_pelion"
+      ],
+      "graduate": [
+        "app_fpga"
+      ],
+      "label": "Netflix - Software Engineer 5, Agent Platform, AI Platform",
+      "target": {
+        "company": "Netflix",
+        "title": "Software Engineer 5 - Agent Platform, AI Platform",
+        "requisition": "JR41100",
+        "url": "https://explore.jobs.netflix.net/careers/job/790316292023"
+      },
+      "scope": "Develop Interconnect Architect, Arm's Python/TypeScript SoC interconnect configuration tool for internal engineers and external customers, alongside AI tools for engineering workflows.",
+      "scope_sources": [
+        "README:17-23",
+        "LI:p1",
+        "AI:22-40",
+        "IA:309-345"
+      ],
+      "senior": [
+        "app_mcp_product",
+        "app_agent_evals",
+        "app_cmn_owner",
+        "app_ci_repair",
+        "app_sidecar",
+        "app_release",
+        "app_workbench",
+        "app_topology_migration"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, Rust, TypeScript/JavaScript, SQL"
+        ],
+        [
+          "Agent / platform",
+          "MCP, typed schemas, checkpointing, rollback, runtime compatibility, Git"
+        ],
+        [
+          "Delivery / applications",
+          "Jenkins, LSF, RHEL 8, macOS, Windows; Tauri 2, React, Flask, PostgreSQL"
+        ]
+      ],
+      "body_size_pt": 11,
+      "leading_pt": 14.2,
+      "edition": "Restored product context and broader accomplishments; allocator omitted"
+    },
+    "resume-openai-codex-agents": {
+      "application": true,
+      "prepared_date": "2026-10-21",
+      "include_portfolio": false,
+      "include_education_award": false,
+      "recognition_position": "after",
+      "recognition": "Most Innovative Award, Engineering AI Showcase (Dec 2025): multi-agent orchestration and context-gathering system.",
+      "software": [
+        "app_pelion"
+      ],
+      "graduate": [
+        "app_fpga"
+      ],
+      "label": "OpenAI - AI Systems Engineer, Codex Agents",
+      "target": {
+        "company": "OpenAI",
+        "title": "AI Systems Engineer, Codex Agents",
+        "url": "https://openai.com/careers/ai-systems-engineer-codex-agents-san-francisco/"
+      },
+      "scope": "Develop Interconnect Architect, Arm's Python/TypeScript SoC interconnect configuration tool for internal engineers and external customers, alongside AI tools for engineering workflows.",
+      "scope_sources": [
+        "README:17-23",
+        "LI:p1",
+        "AI:22-40",
+        "IA:309-345"
+      ],
+      "senior": [
+        "app_mcp_execution",
+        "app_agent_evals",
+        "app_cmn_owner",
+        "app_fresh_codex",
+        "app_ci_repair",
+        "app_workbench",
+        "app_context",
+        "app_guided_state"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, Rust, TypeScript/JavaScript, SQL, Verilog"
+        ],
+        [
+          "Agent / validation",
+          "MCP, typed plans, semantic checks, rollback, Codex, session isolation"
+        ],
+        [
+          "Developer systems",
+          "Git, Jenkins, Playwright, LSF, RHEL 8; React, Tauri 2, Flask, PostgreSQL"
+        ]
+      ],
+      "body_size_pt": 11,
+      "leading_pt": 14.2,
+      "edition": "Restored product context and broader accomplishments; allocator omitted"
+    },
+    "resume-anthropic-claude-code": {
+      "application": true,
+      "prepared_date": "2026-10-21",
+      "include_portfolio": false,
+      "include_education_award": false,
+      "recognition_position": "after",
+      "recognition": "Most Innovative Award, Engineering AI Showcase (Dec 2025): multi-agent orchestration and context-gathering system.",
+      "software": [
+        "app_pelion"
+      ],
+      "graduate": [
+        "app_fpga"
+      ],
+      "label": "Anthropic - Staff Software Engineer, Claude Code",
+      "target": {
+        "company": "Anthropic",
+        "title": "Staff Software Engineer, Claude Code",
+        "requisition": "5383610008",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383610008"
+      },
+      "scope": "Develop Interconnect Architect, Arm's Python/TypeScript SoC interconnect configuration tool for internal engineers and external customers, alongside AI tools for engineering workflows.",
+      "scope_sources": [
+        "README:17-23",
+        "LI:p1",
+        "AI:22-40",
+        "IA:309-345"
+      ],
+      "senior": [
+        "app_workbench",
+        "app_mcp_product",
+        "app_agent_evals",
+        "app_cmn_ui",
+        "app_noc_canvas",
+        "app_ui_quality",
+        "app_editor_tests",
+        "app_ci_repair"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "TypeScript/JavaScript, Python, Rust, SQL"
+        ],
+        [
+          "Applications",
+          "React, Angular, RxJS, Electron, Tauri 2, Flask, Node.js, PostgreSQL"
+        ],
+        [
+          "AI / developer tools",
+          "MCP, agent evaluation, Git, VS Code extensions, Playwright, Karma, Jenkins"
+        ]
+      ],
+      "body_size_pt": 11,
+      "leading_pt": 14.2,
+      "edition": "Restored product context and broader accomplishments; allocator omitted"
+    },
+    "resume-google-agent-architecture": {
+      "application": true,
+      "prepared_date": "2026-10-21",
+      "include_portfolio": false,
+      "include_education_award": false,
+      "recognition_position": "after",
+      "recognition": "Most Innovative Award, Engineering AI Showcase (Dec 2025): multi-agent orchestration and context-gathering system.",
+      "software": [
+        "app_pelion"
+      ],
+      "graduate": [
+        "app_fpga"
+      ],
+      "label": "Google - Software Engineer, Enterprise AI Platforms and Agent Architecture",
+      "target": {
+        "company": "Google",
+        "title": "Software Engineer, Enterprise AI Platforms and Agent Architecture",
+        "requisition": "91999936312156870",
+        "url": "https://www.google.com/about/careers/applications/jobs/results/91999936312156870-software-engineer-enterprise-ai-platforms-and-agent-architecture?q=agent"
+      },
+      "scope": "Develop Interconnect Architect, Arm's Python/TypeScript SoC interconnect configuration tool for internal engineers and external customers, alongside AI tools for engineering workflows.",
+      "scope_sources": [
+        "README:17-23",
+        "LI:p1",
+        "AI:22-40",
+        "IA:309-345"
+      ],
+      "senior": [
+        "app_mcp_execution",
+        "app_platform_arch",
+        "app_agent_evals",
+        "app_cmn_owner",
+        "app_topology_migration",
+        "app_guided_state",
+        "app_sidecar",
+        "app_design_diff"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "Python, TypeScript/JavaScript, SQL, Verilog"
+        ],
+        [
+          "Architecture",
+          "MCP, typed schemas, dependency planning, topology migration, semantic validation"
+        ],
+        [
+          "Applications / delivery",
+          "Angular, Electron, Flask, PostgreSQL, AWS EFS; Git, Jenkins, Playwright"
+        ]
+      ],
+      "body_size_pt": 11,
+      "leading_pt": 14.2,
+      "edition": "Restored product context and broader accomplishments; allocator omitted"
+    }
+  },
+  "source_hashes": {
+    "README.md": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+    "links.md": "a2466ff512929bd981608219f452e638a86be912aa1bdf87774bd859712d5927",
+    "2020-Sep.docx": "6f93ce76078b10e54da1f867ae17fce1075a9a5671c13c0ab1771bf338ecc1ee",
+    "Interconnect-Architect-resume.md": "eba6b043b39fc4f3456c40de266237847adbc5a29a8be593b5278ff9cec243f8",
+    "AI-System-resume.md": "3fbf27818a84d1a33430fe738b953864f79e267284c2049244279749d41e3892",
+    "career-clarifications.md": "afc449155ff3f2f26f160e12b6eeb918005421beeaf6a56714c251a652018d22",
+    "source-archive/README-before-2026-10-20-clarifications.md": "f45c065ea94c7cd941c8d914606a47958e2df81a72000d1ebce20e8e6be52c83",
+    "source-archive/Interconnect-Architect-resume-before-2026-10-20-clarifications.md": "447ff5cded12ad04917850727de035d50adaecf44635ee2de776c9977607c54f",
+    "LinkedIn-Profile-Export/Profile.pdf": "cfcd5a380e353458f360c15d2ed75127822c7796e905683e454690f7a7517d54",
+    "LinkedIn-Profile-Export/Engineering AI Showcase Most Innovative Award.jpeg": "b75bb09984419a6d74b3aab657144e11667441dd586d96a3ba3731627d9169ee",
+    "LinkedIn-Profile-Export/Arm Quality Award 2020 for the Mbed OS FPGA CI Test Shield.png": "f303b842985ed8de0b6b27b2e8562d405d5434ccdf7e38508a12a690e2e93f1f",
+    "LinkedIn-Profile-Export/UT ECE Senior Design First Place.jpeg": "51486660a9bdf0529f24df443f6c23ab401d7a7221dad73cfe2e0da1a6f1c7fb",
+    "LinkedIn-Profile-Export/Coherent interconnect product release.jpeg": "8e331e6db8696e6bcd97bc94576abeaf268d3746ff8b5da5614a8da7936a3729",
+    "LinkedIn-Profile-Export/Non-coherent interconnect product release .jpeg": "8c9dd3da111c965f6b7b0c78adc507a0980a31abe1eca7eb951a5e5a6f2c11ac"
+  }
+}

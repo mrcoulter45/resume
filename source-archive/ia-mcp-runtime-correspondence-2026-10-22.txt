@@ -1,0 +1,27 @@
+Me:
+How exactly would you describe the ia-mcp's ability to handle python 3.7 and 3.13?
+Codex:
+I would describe it as a modern Python 3.13 orchestration platform with isolated, product-aware support for legacy Python 3.7 Configuration Engine workloads.
+Component
+Python version
+How it operates
+IA MCP server and worker control logic
+3.13.9
+Runs planning, policy enforcement, validation, and evidence management.
+Current-product Configuration Engine
+3.13.9
+Executes directly inside the managed worker. Examples include Nitwain and CMNS4.
+Legacy-product Configuration Engine
+3.7.15
+Executes in a separate subprocess, called a sidecar, accessed through an authenticated JSON messaging protocol. Examples include older Tower NCI, CMNS3, and Cyprus products.
+
+The engineering accomplishment is the compatibility boundary:
+Automatic runtime selection: product metadata determines the appropriate interpreter and backend.
+Dependency isolation: the legacy sidecar imports only the standard library and CE; modern IA MCP dependencies and planning logic stay in Python 3.13.
+Consistent controls: legacy execution remains behind IA MCP’s admission, validation, and evidence mechanisms.
+Runtime verification: exact interpreter versions, product/session identities, and CE import origins are checked. Missing or incompatible runtimes block the affected execution.
+Process reliability: bounded messaging, timeouts, parent-lifetime monitoring, and termination/reaping protect the subprocess lifecycle.
+Current-product functionality can remain available when the legacy interpreter is absent. The qualified legacy version is specifically 3.7.15, rather than arbitrary Python 3.7 installations.
+For your accomplishment inventory or resume:
+Engineered a dual-runtime compatibility architecture enabling a Python 3.13 AI engineering platform to operate legacy Python 3.7 and modern Configuration Engine workloads through product-aware routing, authenticated subprocess communication, dependency isolation, and exact-version runtime validation.
+Sources: [runtime policy (line 20)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/ia-mcp-pack/src/ia_mcp_pack/toolchain_policy.py:20), [backend implementation (line 564)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/ia-mcp-pack/src/ia_mcp_pack/ce_backends.py:564), [legacy sidecar (line 1)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/ia-mcp-

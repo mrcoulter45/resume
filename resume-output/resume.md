@@ -1,0 +1,44 @@
+# Michael Remington Coulter
+
+Buda, TX | [mrcoulter45@gmail.com](mailto:mrcoulter45@gmail.com) | (760) 694-6310
+[linkedin.com/in/michael-coulter-164868153](https://www.linkedin.com/in/michael-coulter-164868153/) | [github.com/mrcoulter45](https://github.com/mrcoulter45) | [mrcoulter45.github.io/portfolio](https://mrcoulter45.github.io/portfolio/)
+
+## Professional Experience
+
+**Arm - Austin, TX**
+
+### Senior Software Engineer | Apr 2023 - Present
+
+Interconnect Architect | CMN GUI Lead | Tools for internal engineers and external customers.
+
+**Recognition:** Most Innovative Award, Engineering AI Showcase (Dec 2025), for a project-agnostic multi-agent orchestration and context-gathering system.
+
+- Created all coherent-mesh (CMN) GUI tooling from CMN-800 onward, including Multi-CHI port devices, MCS group configuration, custom routing and mesh deadlock detection interfaces.
+- Designed a modular AI engineering platform with four project packs, separating shared tooling from product-owned runtimes through manifest-driven configuration.
+- Built a Python NIC-400 XML/CCXML migration engine that reconstructs topology and routes while preserving placement; historical validation recorded 4,130/4,130 valid configurations passing design-rule checks and 5/5 curated invalid configurations rejected.
+- Designed and implemented Python tooling using Model Context Protocol (MCP) for two bounded interconnect construction workflows, with typed intent, dependency-ordered plans, checkpointed execution, semantic validation and rollback.
+- Built a Rust/Tauri 2 workbench with React/TypeScript UI, a shared desktop/CLI core, bounded asynchronous Git inspection and verified process controls.
+- Created the NCI/NoC logical canvas and console for configuration logs and design-rule results; built canvas exports and configuration-report scripts.
+
+### Software Engineer | Apr 2020 - Apr 2023
+
+- Implemented Flask services to start and stop Jupyter notebooks and persist files in AWS EFS for Pelion's embedded-ML platform; defined PostgreSQL schemas and built end-to-end tests.
+- Built sensor-ingestion and dashboard APIs with InfluxDB, including a fixed-radius neighbor algorithm for workspace proximity detection.
+
+### Graduate Software Engineer | Jan 2019 - Apr 2020
+
+- Built Verilog FPGA modules and Mbed OS firmware for I2C, GPIO, ADC, DAC and PWM; contributed to shield/form-factor PCBs. 2020 Arm Quality Award (team).
+- Built Node.js/Express REST APIs, PostgreSQL schemas and React dashboards to monitor occupancy from thermal cameras and PIR sensors.
+
+## Technical Skills
+
+**Languages:** Python, TypeScript/JavaScript, Rust, SQL, Verilog  
+**Applications:** Angular, Electron, React, Tauri 2, Flask, Node.js, SVG/Pixi  
+**Engineering:** MCP, Jenkins, Playwright, Git, LSF; SoC/interconnects, AMBA, FPGA, Mbed OS  
+
+## Education
+
+**The University of Texas at Austin**
+Bachelor of Science, Electrical and Computer Engineering | Dec 2018
+Primary focus: Computer Architecture and Embedded Systems | Secondary: Integrated Circuits
+1st Place (Industry), ECE Capstone Design Award - IoT Wireless Home Security System (2018)

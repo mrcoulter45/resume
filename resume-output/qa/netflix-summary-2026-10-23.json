@@ -1,0 +1,13 @@
+{
+  "prepared_date": "2026-10-23",
+  "change": "Exact user-requested summary replacement only",
+  "only_summary_changed": true,
+  "other_eight_resume_pairs_unchanged": true,
+  "pages": 1,
+  "body_font_pt": 11,
+  "words": 392,
+  "pdf_sha256": "7cee17f5e1b2308b0150e48907d29193aae70fc3e4557a1c146967a80a23fa16",
+  "markdown_sha256": "9b0294866ea02673cca6c0a1a44239101edb9245bb7e9a52efaf73f438921d9a",
+  "image_sha256": "325ea66d0dd45e00885aecb7eb24073948796e8ee506aa79eb24f839d725a805",
+  "visual_review": "PASS: final rendered page opened and inspected; summary remains two lines; one-page layout, fonts, spacing and all remaining content preserved."
+}

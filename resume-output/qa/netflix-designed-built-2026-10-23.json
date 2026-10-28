@@ -1,0 +1,13 @@
+{
+  "prepared_date": "2026-10-23",
+  "change": "Exactly two user-requested Designed and built substitutions",
+  "only_requested_text_changed": true,
+  "other_eight_resume_pairs_unchanged": true,
+  "pages": 1,
+  "body_font_pt": 11,
+  "words": 394,
+  "pdf_sha256": "3d7610a7dbb9cfa249541da4a78b3fddbb9d3ccc343b79eacf90a36213ad19f0",
+  "markdown_sha256": "bf9b1e2af13aa0c24a44f8e5740a7df776365230d94d18254274405f7c90cd7f",
+  "image_sha256": "a484840c340e4eb6503e6857ad00a486c1e5bf02ae42170d1082dae6afb19736",
+  "visual_review": "PASS: final page opened and inspected; both edited bullets remain two lines; one-page layout and monospace identifiers intact."
+}

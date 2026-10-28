@@ -1,0 +1,64 @@
+{
+  "prepared_date": "2026-10-22",
+  "edition": "ia-mcp testing accuracy: real-engine contract/integration cases separated from Codex evaluations",
+  "changed_claims": [
+    "netflix_evals"
+  ],
+  "pages": 1,
+  "words": 383,
+  "body_font_pt": 11,
+  "body_leading_pt": 14.2,
+  "layout_bottom_pt": 36.3,
+  "pdf_sha256": "0e78324f8236f4401d38ac1250fc42ccf6bd4fb28dba388557113fb50539308e",
+  "markdown_sha256": "04cd302994bfc8320a2e10ff89bcc5ccfc00fff804a1ed8709cf73b9b79e79db",
+  "byte_identical_repeat_build": true,
+  "grouped_claims_checked": 4,
+  "grouping_unchanged": true,
+  "visual_review": {
+    "renderer": "Poppler scale-to 1800",
+    "image": "qa/resume-netflix-agent-platform.png",
+    "sha256": "77fc569ecffec2416c1da66f32845d162b6f6cafa2d7f3e120d057ca783706cf",
+    "result": "PASS: final rendered page opened and inspected; testing bullet fits three lines, no clipping, overlap, orphaned final word or hierarchy regression. Same one-page layout and 11 pt body. Repeat-build PDF byte-identical to inspected content."
+  },
+  "other_eight_resume_pairs_unchanged": {
+    "resume.pdf": "202dc4ac9ce9383a9bb80dc324f07279f56da7e7b56d0972851c80f31e5fdbe5",
+    "resume.md": "97a06dbc2bc6bbc9c5f65f4556f83629ac51e048ea822b63dfb7f22bf2da5989",
+    "resume-ai-systems.pdf": "0a1e045566fd0fecf4617978d89ea54c6edd4da51f205e3d93db78683eef4272",
+    "resume-ai-systems.md": "f2a3c1666f812327994e7aa971702f987e59351ea080da1878c98153699f3ff2",
+    "resume-systems-engineering.pdf": "6761a96e1536c3a7e3a6fc05d967dfbba90c535a1451baa7ed24b92e2c529b56",
+    "resume-systems-engineering.md": "e971f583f429a707ec98737b969a8295845aa5d40ef5c15ee5834a59e9d9bf09",
+    "resume-senior-software.pdf": "2a76c2170e922129cc1e8c97fe5900ca7714c567c6c33f64c4f2c41873495695",
+    "resume-senior-software.md": "cb54cc21e0e92b1b7a9db1dccc7c0642dbd5eebf5dff8a75a45ada9167c76fbd",
+    "resume-two-page.pdf": "824e4675a4fd7a4fc99a9891486d9cdc847c5f8bea0e7f76592b23694f9b5f52",
+    "resume-two-page.md": "11fbacf28a3b163eddff1d7431ca144a25a54e80bc58b0e3292894fd0bb1ed79",
+    "resume-openai-codex-agents.pdf": "f16a99ebe25962ed539a10a6bad966c3fa59a3b17f6211f3917d77a390dbb40c",
+    "resume-openai-codex-agents.md": "42ccda1798e8b968f31a68880fb67f5d657ef94d261020f519e9125391394331",
+    "resume-anthropic-claude-code.pdf": "f164b0f8614cdac45602f1ab913e87bd008efd185c723bf8ad30b023f64d1966",
+    "resume-anthropic-claude-code.md": "70be9b2a01e6ed6f36d5e1a318ac41c349157825be856da64ea8db65f7605650",
+    "resume-google-agent-architecture.pdf": "fbe67659d26df16a8da291a7bbc3f66423222fdc1d6b7d356743324a363b2d9f",
+    "resume-google-agent-architecture.md": "d8183efb546a4bd8a2bee87efe2b453c185be88a5e0aba64a5414b30e0e6d3e4"
+  },
+  "all_18_previous_career_sources_unchanged": true,
+  "registered_career_sources": 19,
+  "new_evidence": {
+    "id": "TESTING",
+    "path": "source-archive/ia-mcp-testing-correspondence-2026-10-22.txt",
+    "sha256": "bef296728ff56a57ffb158a7d9014da95f3ffe3188ae66b5bb8a3eada9b7f3e4",
+    "verbatim_attachment_copy": true,
+    "authority": "User-supplied correspondence with work-repository Codex agent; that agent describes source inspection and historical results, explicitly without test execution. Employer source paths not independently available in this repository."
+  },
+  "accuracy_checks": [
+    "92 cases classify real Configuration Engine contracts and ia-mcp handler/adapter integration, not 92 Codex-agent tasks.",
+    "28 parameterized test functions across nine files expand to 92 cases, with successful construction, safe rejection and recovery cases.",
+    "92 passing cases are recorded September 4, 2026; current source count does not constitute a new passing execution.",
+    "Separate Codex-driven cluster-module NCI/CMN builds remain supported by direct user evidence.",
+    "Historical two successful evaluations and current three scenario definitions are preserved separately outside the resume; neither is relabeled as a current three-pass result.",
+    "Historical exact restored-iYML hash equality remains specific to a rollback evaluation.",
+    "Overlapping tier counts are not summed; manual, deferred and local/cluster surfaces are not converted to automated passing-agent metrics.",
+    "Prompts/transcripts and artifact/cleanup contracts described in correspondence do not establish broad statistical evaluation or trajectory-based learning.",
+    "No employer tests were executed as part of this resume update; local PDF/content validation is separate."
+  ],
+  "full_validation": "qa/validation.json",
+  "review": "netflix-resume-review.md",
+  "before_revision": "qa/netflix-before-testing-audit-2026-10-22.json"
+}

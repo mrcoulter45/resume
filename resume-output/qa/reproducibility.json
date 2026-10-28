@@ -1,0 +1,20 @@
+{
+  "prepared_date": "2026-10-20",
+  "edition": "Confirmed Electrical and Computer Engineering degree and primary/secondary focus",
+  "identical_content_rebuild_byte_identical": true,
+  "pdf_sha256": {
+    "resume.pdf": "202dc4ac9ce9383a9bb80dc324f07279f56da7e7b56d0972851c80f31e5fdbe5",
+    "resume-ai-systems.pdf": "0a1e045566fd0fecf4617978d89ea54c6edd4da51f205e3d93db78683eef4272",
+    "resume-systems-engineering.pdf": "6761a96e1536c3a7e3a6fc05d967dfbba90c535a1451baa7ed24b92e2c529b56",
+    "resume-senior-software.pdf": "2a76c2170e922129cc1e8c97fe5900ca7714c567c6c33f64c4f2c41873495695",
+    "resume-two-page.pdf": "824e4675a4fd7a4fc99a9891486d9cdc847c5f8bea0e7f76592b23694f9b5f52"
+  },
+  "changed_from_previous_edition": [
+    "resume.pdf",
+    "resume-ai-systems.pdf",
+    "resume-systems-engineering.pdf",
+    "resume-senior-software.pdf",
+    "resume-two-page.pdf"
+  ],
+  "unchanged_from_previous_edition": []
+}

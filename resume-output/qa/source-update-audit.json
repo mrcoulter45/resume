@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-20",
+  "source_of_authorization": "career-clarifications.md",
+  "changes": [
+    {
+      "path": "README.md",
+      "before_sha256": "f45c065ea94c7cd941c8d914606a47958e2df81a72000d1ebce20e8e6be52c83",
+      "original_snapshot": "source-archive/README-before-2026-10-20-clarifications.md",
+      "after_sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+      "authorization": "Michael Coulter, explicit conversation annotations, October 20, 2026",
+      "reason": "Correct application/CMN ownership, waveform-debugging/VIP wording and full ECE degree/focus areas from direct user evidence; preserve existing line numbers.",
+      "revisions": [
+        {
+          "before_sha256": "f45c065ea94c7cd941c8d914606a47958e2df81a72000d1ebce20e8e6be52c83",
+          "after_sha256": "f85005f41e6d17ee216f382cf24f31abe437465cfb2bd8b5bfd1b4785648ec99",
+          "authorization": "Michael Coulter, explicit conversation annotations, October 20, 2026",
+          "reason": "Correct application name and record CMN GUI Lead responsibility; retain existing line numbers."
+        },
+        {
+          "before_sha256": "f85005f41e6d17ee216f382cf24f31abe437465cfb2bd8b5bfd1b4785648ec99",
+          "after_sha256": "127db11062e7ad062277e077014e31b6fe669f1b4c0925aecaf0dbb7e82ca9fe",
+          "authorization": "Michael Coulter, direct waveform-debugging and Chariot/VIP clarification, October 20, 2026",
+          "reason": "Replace viewer-creation claim with waveform-based debugging; clarify RTL safety and VIP simulation context; retain existing line numbers."
+        },
+        {
+          "before_sha256": "127db11062e7ad062277e077014e31b6fe669f1b4c0925aecaf0dbb7e82ca9fe",
+          "after_sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+          "authorization": "Michael Coulter, direct education clarification, October 20, 2026",
+          "reason": "Correct degree to BS Electrical and Computer Engineering and record primary Computer Architecture and Embedded Systems / secondary Integrated Circuits focus; retain evidence line numbers."
+        }
+      ]
+    },
+    {
+      "path": "Interconnect-Architect-resume.md",
+      "before_sha256": "447ff5cded12ad04917850727de035d50adaecf44635ee2de776c9977607c54f",
+      "original_snapshot": "source-archive/Interconnect-Architect-resume-before-2026-10-20-clarifications.md",
+      "after_sha256": "eba6b043b39fc4f3456c40de266237847adbc5a29a8be593b5278ff9cec243f8",
+      "authorization": "Michael Coulter, explicit conversation annotations, October 20, 2026",
+      "reason": "Update ownership interpretation from direct user evidence; append product mapping; retain all pre-existing line numbers."
+    }
+  ],
+  "unchanged_originals": "Word resume, AI System analysis, contact links, original LinkedIn export and all five images",
+  "clarification_updates": [
+    {
+      "path": "career-clarifications.md",
+      "before_sha256": "ecd1c094b6fc7b0f6a476ef481604ed48d3d183e0e3d64a3378afb707a6b061b",
+      "after_sha256": "afc449155ff3f2f26f160e12b6eeb918005421beeaf6a56714c251a652018d22",
+      "authorization": "Michael Coulter, direct waveform-debugging and Chariot/VIP clarification, October 20, 2026",
+      "reason": "Resolve waveform-debugging context and record directly confirmed full ECE degree and academic focus areas.",
+      "revisions": [
+        {
+          "before_sha256": "ecd1c094b6fc7b0f6a476ef481604ed48d3d183e0e3d64a3378afb707a6b061b",
+          "after_sha256": "47a84b4f5be8b7a58b172682c83a0cb718d8486cc56892594f1b95ee9b6dbe78",
+          "authorization": "Michael Coulter, direct waveform-debugging and Chariot/VIP clarification, October 20, 2026",
+          "reason": "Resolve waveform-viewer authorship; record Chariot RTL, VIP simulation and Mbed OS FPGA test shield contexts."
+        },
+        {
+          "before_sha256": "47a84b4f5be8b7a58b172682c83a0cb718d8486cc56892594f1b95ee9b6dbe78",
+          "after_sha256": "afc449155ff3f2f26f160e12b6eeb918005421beeaf6a56714c251a652018d22",
+          "authorization": "Michael Coulter, direct education clarification, October 20, 2026",
+          "reason": "Record full BS Electrical and Computer Engineering degree and primary/secondary focus areas; supersede prior education interpretation."
+        }
+      ]
+    }
+  ]
+}

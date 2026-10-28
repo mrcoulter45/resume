@@ -1,0 +1,97 @@
+{
+  "prepared_date": "2026-10-23",
+  "edition": "Exactly two user-requested Designed and built substitutions",
+  "pdf_sha256": {
+    "resume-netflix-agent-platform.pdf": "3d7610a7dbb9cfa249541da4a78b3fddbb9d3ccc343b79eacf90a36213ad19f0",
+    "resume-openai-codex-agents.pdf": "f16a99ebe25962ed539a10a6bad966c3fa59a3b17f6211f3917d77a390dbb40c",
+    "resume-anthropic-claude-code.pdf": "f164b0f8614cdac45602f1ab913e87bd008efd185c723bf8ad30b023f64d1966",
+    "resume-google-agent-architecture.pdf": "fbe67659d26df16a8da291a7bbc3f66423222fdc1d6b7d356743324a363b2d9f"
+  },
+  "five_previous_pdf_hashes_unchanged": true,
+  "body_font_pt": 11,
+  "body_leading_pt": 14.2,
+  "portfolio_present": false,
+  "workspace_allocator_included": false,
+  "source_fingerprints_match": true,
+  "visual_inspection": "PASS: final Netflix two-substitution revision inspected; other application PDFs unchanged.",
+  "rendered_images": {
+    "resume-netflix-agent-platform.png": {
+      "sha256": "a484840c340e4eb6503e6857ad00a486c1e5bf02ae42170d1082dae6afb19736",
+      "inspection": "PASS: final two-substitution revision opened and inspected"
+    },
+    "resume-openai-codex-agents.png": {
+      "sha256": "33c3fd93fcb76d83053975201b2368a9de6d74611eece4a1a84a10aba614bc23",
+      "inspection": "PASS"
+    },
+    "resume-anthropic-claude-code.png": {
+      "sha256": "6408be6ba715576b2b8aca6447cf5e0fc29139ad19835dda4034ad007ade915b",
+      "inspection": "PASS"
+    },
+    "resume-google-agent-architecture.png": {
+      "sha256": "23d620178a7a2556602ae04672a958b742c522b01b3c8853b2a6a8d25557ced2",
+      "inspection": "PASS"
+    }
+  },
+  "application_checks": {
+    "resume-netflix-agent-platform": {
+      "words": 394,
+      "source_claims": 9,
+      "context_present": true,
+      "allocator_absent": true,
+      "links": 4,
+      "summary_present": true,
+      "current_role_bullets": 7,
+      "internal_adoption_grounded": true,
+      "repair_skill_second": true,
+      "cpp_firmware_grounded": true,
+      "kubernetes_storage_grounded": true,
+      "grouped_supporting_claims": 4,
+      "current_role_main_bullets": 3,
+      "python_313_37_grounded": true,
+      "validation_metrics_restored": true,
+      "architecture_grounded": true,
+      "product_lifetime_explicit": true,
+      "reported_manual_effort_grounded": true,
+      "actual_codex_e2e_flow_grounded": true,
+      "specific_skills_grounded": true,
+      "engine_cases_distinguished_from_agent_evaluations": true,
+      "fixed_current_agent_pass_count_omitted": true,
+      "historical_rollback_evidence_retained": true,
+      "monospace_skill_name_verified": true,
+      "ia_mcp_monospace_occurrences": 2,
+      "modern_control_and_direct_current_backend_explicit": true,
+      "isolated_authenticated_legacy_subprocess_explicit": true,
+      "product_aware_routing_and_exact_version_checks_grounded": true,
+      "production_software_delivery_explicit": true,
+      "codex_harness_operation_explicit": true,
+      "automatic_persistent_memory_grounded": true,
+      "stakeholder_backend_api_and_product_value_grounded": true,
+      "user_scoped_cluster_policies_and_lsf_grounded": true,
+      "python_packaging_grounded": true,
+      "repair_flaky_test_and_source_code_scope_grounded": true
+    },
+    "resume-openai-codex-agents": {
+      "words": 357,
+      "source_claims": 10,
+      "context_present": true,
+      "allocator_absent": true,
+      "links": 4
+    },
+    "resume-anthropic-claude-code": {
+      "words": 353,
+      "source_claims": 10,
+      "context_present": true,
+      "allocator_absent": true,
+      "links": 4
+    },
+    "resume-google-agent-architecture": {
+      "words": 356,
+      "source_claims": 10,
+      "context_present": true,
+      "allocator_absent": true,
+      "links": 4
+    }
+  },
+  "netflix_revision_detail": "qa/netflix-designed-built-2026-10-23.json",
+  "netflix_testing_accuracy_detail": "qa/netflix-testing-accuracy-2026-10-22.json"
+}

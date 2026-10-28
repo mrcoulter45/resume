@@ -1,0 +1,488 @@
+{
+  "pdfs": {
+    "resume": {
+      "pages": 1,
+      "page_size": "612 x 792 pt (US Letter)",
+      "body_font_pt": 10.5,
+      "fonts": [
+        "/AAAAAA+BitstreamVeraSans-Bold",
+        "/AAAAAA+BitstreamVeraSans-Roman"
+      ],
+      "links": [
+        "mailto:mrcoulter45@gmail.com",
+        "tel:+17606946310",
+        "https://www.linkedin.com/in/michael-coulter-164868153/",
+        "https://github.com/mrcoulter45",
+        "https://mrcoulter45.github.io/portfolio/"
+      ],
+      "text_bounds_from_top_pt": [
+        {
+          "left": 36.0,
+          "right": 576.0,
+          "top": 41.53,
+          "bottom": 755.43,
+          "font_sizes": [
+            8.6,
+            10.0,
+            10.1,
+            10.3,
+            10.5,
+            10.7,
+            11.5,
+            23.0
+          ],
+          "line_count": 42
+        }
+      ],
+      "word_count": 376,
+      "sha256": "202dc4ac9ce9383a9bb80dc324f07279f56da7e7b56d0972851c80f31e5fdbe5",
+      "grouped_claims_checked": 0,
+      "all_selected_claims_present_and_ordered": true
+    },
+    "resume-ai-systems": {
+      "pages": 1,
+      "page_size": "612 x 792 pt (US Letter)",
+      "body_font_pt": 10.5,
+      "fonts": [
+        "/AAAAAA+BitstreamVeraSans-Bold",
+        "/AAAAAA+BitstreamVeraSans-Roman"
+      ],
+      "links": [
+        "mailto:mrcoulter45@gmail.com",
+        "tel:+17606946310",
+        "https://www.linkedin.com/in/michael-coulter-164868153/",
+        "https://github.com/mrcoulter45",
+        "https://mrcoulter45.github.io/portfolio/"
+      ],
+      "text_bounds_from_top_pt": [
+        {
+          "left": 36.0,
+          "right": 576.0,
+          "top": 41.53,
+          "bottom": 728.23,
+          "font_sizes": [
+            8.6,
+            10.0,
+            10.1,
+            10.3,
+            10.5,
+            10.7,
+            11.5,
+            23.0
+          ],
+          "line_count": 40
+        }
+      ],
+      "word_count": 370,
+      "sha256": "0a1e045566fd0fecf4617978d89ea54c6edd4da51f205e3d93db78683eef4272",
+      "grouped_claims_checked": 0,
+      "all_selected_claims_present_and_ordered": true
+    },
+    "resume-systems-engineering": {
+      "pages": 1,
+      "page_size": "612 x 792 pt (US Letter)",
+      "body_font_pt": 10.5,
+      "fonts": [
+        "/AAAAAA+BitstreamVeraSans-Bold",
+        "/AAAAAA+BitstreamVeraSans-Roman"
+      ],
+      "links": [
+        "mailto:mrcoulter45@gmail.com",
+        "tel:+17606946310",
+        "https://www.linkedin.com/in/michael-coulter-164868153/",
+        "https://github.com/mrcoulter45",
+        "https://mrcoulter45.github.io/portfolio/"
+      ],
+      "text_bounds_from_top_pt": [
+        {
+          "left": 36.0,
+          "right": 576.0,
+          "top": 41.53,
+          "bottom": 741.83,
+          "font_sizes": [
+            8.6,
+            10.0,
+            10.1,
+            10.3,
+            10.5,
+            10.7,
+            11.5,
+            23.0
+          ],
+          "line_count": 41
+        }
+      ],
+      "word_count": 374,
+      "sha256": "6761a96e1536c3a7e3a6fc05d967dfbba90c535a1451baa7ed24b92e2c529b56",
+      "grouped_claims_checked": 0,
+      "all_selected_claims_present_and_ordered": true
+    },
+    "resume-senior-software": {
+      "pages": 1,
+      "page_size": "612 x 792 pt (US Letter)",
+      "body_font_pt": 10.5,
+      "fonts": [
+        "/AAAAAA+BitstreamVeraSans-Bold",
+        "/AAAAAA+BitstreamVeraSans-Roman"
+      ],
+      "links": [
+        "mailto:mrcoulter45@gmail.com",
+        "tel:+17606946310",
+        "https://www.linkedin.com/in/michael-coulter-164868153/",
+        "https://github.com/mrcoulter45",
+        "https://mrcoulter45.github.io/portfolio/"
+      ],
+      "text_bounds_from_top_pt": [
+        {
+          "left": 36.0,
+          "right": 576.0,
+          "top": 41.53,
+          "bottom": 741.83,
+          "font_sizes": [
+            8.6,
+            10.0,
+            10.1,
+            10.3,
+            10.5,
+            10.7,
+            11.5,
+            23.0
+          ],
+          "line_count": 41
+        }
+      ],
+      "word_count": 367,
+      "sha256": "2a76c2170e922129cc1e8c97fe5900ca7714c567c6c33f64c4f2c41873495695",
+      "grouped_claims_checked": 0,
+      "all_selected_claims_present_and_ordered": true
+    },
+    "resume-two-page": {
+      "pages": 2,
+      "page_size": "612 x 792 pt (US Letter)",
+      "body_font_pt": 11,
+      "fonts": [
+        "/AAAAAA+BitstreamVeraSans-Bold",
+        "/AAAAAA+BitstreamVeraSans-Roman"
+      ],
+      "links": [
+        "mailto:mrcoulter45@gmail.com",
+        "tel:+17606946310",
+        "https://www.linkedin.com/in/michael-coulter-164868153/",
+        "https://github.com/mrcoulter45",
+        "https://mrcoulter45.github.io/portfolio/"
+      ],
+      "text_bounds_from_top_pt": [
+        {
+          "left": 36.0,
+          "right": 576.0,
+          "top": 41.53,
+          "bottom": 774.16,
+          "font_sizes": [
+            8.6,
+            9.0,
+            10.0,
+            10.1,
+            10.5,
+            10.7,
+            11.0,
+            11.5,
+            23.0
+          ],
+          "line_count": 35
+        },
+        {
+          "left": 36.0,
+          "right": 576.0,
+          "top": 39.72,
+          "bottom": 774.16,
+          "font_sizes": [
+            9.0,
+            9.8,
+            10.1,
+            10.3,
+            10.5,
+            10.7,
+            11.0,
+            15.5
+          ],
+          "line_count": 38
+        }
+      ],
+      "word_count": 668,
+      "sha256": "824e4675a4fd7a4fc99a9891486d9cdc847c5f8bea0e7f76592b23694f9b5f52",
+      "grouped_claims_checked": 0,
+      "all_selected_claims_present_and_ordered": true
+    },
+    "resume-netflix-agent-platform": {
+      "pages": 1,
+      "page_size": "612 x 792 pt (US Letter)",
+      "body_font_pt": 11,
+      "fonts": [
+        "/AAAAAA+BitstreamVeraSans-Bold",
+        "/AAAAAA+BitstreamVeraSans-Roman",
+        "/AAAAAA+DejaVuSansMono"
+      ],
+      "links": [
+        "mailto:mrcoulter45@gmail.com",
+        "tel:+17606946310",
+        "https://www.linkedin.com/in/michael-coulter-164868153/",
+        "https://github.com/mrcoulter45"
+      ],
+      "text_bounds_from_top_pt": [
+        {
+          "left": 36.0,
+          "right": 576.0,
+          "top": 41.53,
+          "bottom": 754.83,
+          "font_sizes": [
+            9.4,
+            10.0,
+            10.1,
+            10.3,
+            10.5,
+            10.7,
+            11.0,
+            11.5,
+            23.0
+          ],
+          "line_count": 41
+        }
+      ],
+      "word_count": 394,
+      "sha256": "3d7610a7dbb9cfa249541da4a78b3fddbb9d3ccc343b79eacf90a36213ad19f0",
+      "grouped_claims_checked": 4,
+      "all_selected_claims_present_and_ordered": true
+    },
+    "resume-openai-codex-agents": {
+      "pages": 1,
+      "page_size": "612 x 792 pt (US Letter)",
+      "body_font_pt": 11,
+      "fonts": [
+        "/AAAAAA+BitstreamVeraSans-Bold",
+        "/AAAAAA+BitstreamVeraSans-Roman"
+      ],
+      "links": [
+        "mailto:mrcoulter45@gmail.com",
+        "tel:+17606946310",
+        "https://www.linkedin.com/in/michael-coulter-164868153/",
+        "https://github.com/mrcoulter45"
+      ],
+      "text_bounds_from_top_pt": [
+        {
+          "left": 36.0,
+          "right": 576.0,
+          "top": 41.53,
+          "bottom": 740.03,
+          "font_sizes": [
+            9.4,
+            10.0,
+            10.1,
+            10.3,
+            10.5,
+            10.7,
+            11.0,
+            11.5,
+            23.0
+          ],
+          "line_count": 40
+        }
+      ],
+      "word_count": 357,
+      "sha256": "f16a99ebe25962ed539a10a6bad966c3fa59a3b17f6211f3917d77a390dbb40c",
+      "grouped_claims_checked": 0,
+      "all_selected_claims_present_and_ordered": true
+    },
+    "resume-anthropic-claude-code": {
+      "pages": 1,
+      "page_size": "612 x 792 pt (US Letter)",
+      "body_font_pt": 11,
+      "fonts": [
+        "/AAAAAA+BitstreamVeraSans-Bold",
+        "/AAAAAA+BitstreamVeraSans-Roman"
+      ],
+      "links": [
+        "mailto:mrcoulter45@gmail.com",
+        "tel:+17606946310",
+        "https://www.linkedin.com/in/michael-coulter-164868153/",
+        "https://github.com/mrcoulter45"
+      ],
+      "text_bounds_from_top_pt": [
+        {
+          "left": 36.0,
+          "right": 576.0,
+          "top": 41.53,
+          "bottom": 740.03,
+          "font_sizes": [
+            9.4,
+            10.0,
+            10.1,
+            10.3,
+            10.5,
+            10.7,
+            11.0,
+            11.5,
+            23.0
+          ],
+          "line_count": 40
+        }
+      ],
+      "word_count": 353,
+      "sha256": "f164b0f8614cdac45602f1ab913e87bd008efd185c723bf8ad30b023f64d1966",
+      "grouped_claims_checked": 0,
+      "all_selected_claims_present_and_ordered": true
+    },
+    "resume-google-agent-architecture": {
+      "pages": 1,
+      "page_size": "612 x 792 pt (US Letter)",
+      "body_font_pt": 11,
+      "fonts": [
+        "/AAAAAA+BitstreamVeraSans-Bold",
+        "/AAAAAA+BitstreamVeraSans-Roman"
+      ],
+      "links": [
+        "mailto:mrcoulter45@gmail.com",
+        "tel:+17606946310",
+        "https://www.linkedin.com/in/michael-coulter-164868153/",
+        "https://github.com/mrcoulter45"
+      ],
+      "text_bounds_from_top_pt": [
+        {
+          "left": 36.0,
+          "right": 576.0,
+          "top": 41.53,
+          "bottom": 740.03,
+          "font_sizes": [
+            9.4,
+            10.0,
+            10.1,
+            10.3,
+            10.5,
+            10.7,
+            11.0,
+            11.5,
+            23.0
+          ],
+          "line_count": 40
+        }
+      ],
+      "word_count": 356,
+      "sha256": "fbe67659d26df16a8da291a7bbc3f66423222fdc1d6b7d356743324a363b2d9f",
+      "grouped_claims_checked": 0,
+      "all_selected_claims_present_and_ordered": true
+    }
+  },
+  "source_hashes": {
+    "README.md": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+    "links.md": "a2466ff512929bd981608219f452e638a86be912aa1bdf87774bd859712d5927",
+    "2020-Sep.docx": "6f93ce76078b10e54da1f867ae17fce1075a9a5671c13c0ab1771bf338ecc1ee",
+    "Interconnect-Architect-resume.md": "eba6b043b39fc4f3456c40de266237847adbc5a29a8be593b5278ff9cec243f8",
+    "AI-System-resume.md": "3fbf27818a84d1a33430fe738b953864f79e267284c2049244279749d41e3892",
+    "career-clarifications.md": "afc449155ff3f2f26f160e12b6eeb918005421beeaf6a56714c251a652018d22",
+    "career-clarifications-2026-10-21.md": "62728ee656cb3dac7556c98a7bfdf5589526ade7b21d9370aa1106e8e4b702f7",
+    "career-clarifications-workflows-and-embedded.md": "1935ce52a058acd58a08685290b5d9c01b10132dde1c28bc368652220ec0c8e4",
+    "career-clarifications-grouping-and-runtime-2026-10-22.md": "85dbc8722edf69093a49b131bf66e93941a2fbf08d446fa7f19a40f927b4d32f",
+    "career-clarifications-agent-impact-and-e2e-2026-10-22.md": "f43efce49cc2202ad223c8767d56cce4fd2a4c0cb4cd8cec1e118a87830635a1",
+    "source-archive/ia-mcp-testing-correspondence-2026-10-22.txt": "bef296728ff56a57ffb158a7d9014da95f3ffe3188ae66b5bb8a3eada9b7f3e4",
+    "source-archive/ia-mcp-runtime-correspondence-2026-10-22.txt": "a8e041f1c84fa15864edc88200c023dba06afff52203b488ff3d71f2fbdd5832",
+    "career-clarifications-netflix-fit-2026-10-22.md": "68dbe86988a6e44e1af5cffff63b528a175f1c2ce796c3def9490c46deb31008",
+    "career-clarifications-repair-scope-2026-10-23.md": "4edf76abb99706a91f1ede35cac67b446e16d828094da405df80d21a273b107d",
+    "source-archive/README-before-2026-10-20-clarifications.md": "f45c065ea94c7cd941c8d914606a47958e2df81a72000d1ebce20e8e6be52c83",
+    "source-archive/Interconnect-Architect-resume-before-2026-10-20-clarifications.md": "447ff5cded12ad04917850727de035d50adaecf44635ee2de776c9977607c54f",
+    "LinkedIn-Profile-Export/Profile.pdf": "cfcd5a380e353458f360c15d2ed75127822c7796e905683e454690f7a7517d54",
+    "LinkedIn-Profile-Export/Engineering AI Showcase Most Innovative Award.jpeg": "b75bb09984419a6d74b3aab657144e11667441dd586d96a3ba3731627d9169ee",
+    "LinkedIn-Profile-Export/Arm Quality Award 2020 for the Mbed OS FPGA CI Test Shield.png": "f303b842985ed8de0b6b27b2e8562d405d5434ccdf7e38508a12a690e2e93f1f",
+    "LinkedIn-Profile-Export/UT ECE Senior Design First Place.jpeg": "51486660a9bdf0529f24df443f6c23ab401d7a7221dad73cfe2e0da1a6f1c7fb",
+    "LinkedIn-Profile-Export/Coherent interconnect product release.jpeg": "8e331e6db8696e6bcd97bc94576abeaf268d3746ff8b5da5614a8da7936a3729",
+    "LinkedIn-Profile-Export/Non-coherent interconnect product release .jpeg": "8c9dd3da111c965f6b7b0c78adc507a0980a31abe1eca7eb951a5e5a6f2c11ac"
+  },
+  "registered_source_fingerprints_match": true,
+  "authorized_source_updates": [
+    {
+      "path": "README.md",
+      "before_sha256": "f45c065ea94c7cd941c8d914606a47958e2df81a72000d1ebce20e8e6be52c83",
+      "original_snapshot": "source-archive/README-before-2026-10-20-clarifications.md",
+      "after_sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+      "authorization": "Michael Coulter, explicit conversation annotations, October 20, 2026",
+      "reason": "Correct application/CMN ownership, waveform-debugging/VIP wording and full ECE degree/focus areas from direct user evidence; preserve existing line numbers.",
+      "revisions": [
+        {
+          "before_sha256": "f45c065ea94c7cd941c8d914606a47958e2df81a72000d1ebce20e8e6be52c83",
+          "after_sha256": "f85005f41e6d17ee216f382cf24f31abe437465cfb2bd8b5bfd1b4785648ec99",
+          "authorization": "Michael Coulter, explicit conversation annotations, October 20, 2026",
+          "reason": "Correct application name and record CMN GUI Lead responsibility; retain existing line numbers."
+        },
+        {
+          "before_sha256": "f85005f41e6d17ee216f382cf24f31abe437465cfb2bd8b5bfd1b4785648ec99",
+          "after_sha256": "127db11062e7ad062277e077014e31b6fe669f1b4c0925aecaf0dbb7e82ca9fe",
+          "authorization": "Michael Coulter, direct waveform-debugging and Chariot/VIP clarification, October 20, 2026",
+          "reason": "Replace viewer-creation claim with waveform-based debugging; clarify RTL safety and VIP simulation context; retain existing line numbers."
+        },
+        {
+          "before_sha256": "127db11062e7ad062277e077014e31b6fe669f1b4c0925aecaf0dbb7e82ca9fe",
+          "after_sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+          "authorization": "Michael Coulter, direct education clarification, October 20, 2026",
+          "reason": "Correct degree to BS Electrical and Computer Engineering and record primary Computer Architecture and Embedded Systems / secondary Integrated Circuits focus; retain evidence line numbers."
+        }
+      ]
+    },
+    {
+      "path": "Interconnect-Architect-resume.md",
+      "before_sha256": "447ff5cded12ad04917850727de035d50adaecf44635ee2de776c9977607c54f",
+      "original_snapshot": "source-archive/Interconnect-Architect-resume-before-2026-10-20-clarifications.md",
+      "after_sha256": "eba6b043b39fc4f3456c40de266237847adbc5a29a8be593b5278ff9cec243f8",
+      "authorization": "Michael Coulter, explicit conversation annotations, October 20, 2026",
+      "reason": "Update ownership interpretation from direct user evidence; append product mapping; retain all pre-existing line numbers."
+    }
+  ],
+  "clarification_updates": [
+    {
+      "path": "career-clarifications.md",
+      "before_sha256": "ecd1c094b6fc7b0f6a476ef481604ed48d3d183e0e3d64a3378afb707a6b061b",
+      "after_sha256": "afc449155ff3f2f26f160e12b6eeb918005421beeaf6a56714c251a652018d22",
+      "authorization": "Michael Coulter, direct waveform-debugging and Chariot/VIP clarification, October 20, 2026",
+      "reason": "Resolve waveform-debugging context and record directly confirmed full ECE degree and academic focus areas.",
+      "revisions": [
+        {
+          "before_sha256": "ecd1c094b6fc7b0f6a476ef481604ed48d3d183e0e3d64a3378afb707a6b061b",
+          "after_sha256": "47a84b4f5be8b7a58b172682c83a0cb718d8486cc56892594f1b95ee9b6dbe78",
+          "authorization": "Michael Coulter, direct waveform-debugging and Chariot/VIP clarification, October 20, 2026",
+          "reason": "Resolve waveform-viewer authorship; record Chariot RTL, VIP simulation and Mbed OS FPGA test shield contexts."
+        },
+        {
+          "before_sha256": "47a84b4f5be8b7a58b172682c83a0cb718d8486cc56892594f1b95ee9b6dbe78",
+          "after_sha256": "afc449155ff3f2f26f160e12b6eeb918005421beeaf6a56714c251a652018d22",
+          "authorization": "Michael Coulter, direct education clarification, October 20, 2026",
+          "reason": "Record full BS Electrical and Computer Engineering degree and primary/secondary focus areas; supersede prior education interpretation."
+        }
+      ]
+    }
+  ],
+  "other_original_source_files_unchanged": 9,
+  "checks": [
+    "expected page counts",
+    "US Letter",
+    "text layer and Unicode",
+    "all canonical claims and skills present",
+    "logical claim reading order",
+    "contiguous project grouping, Markdown nesting and PDF bullet indentation",
+    "contact/title/date/degree integrity",
+    "exact per-version clickable link targets",
+    "embedded TrueType fonts",
+    "no page images",
+    "text and link bounds",
+    "line order",
+    "source fingerprints",
+    "evidence reference files, line/page ranges and image locators",
+    "per-version showcase recognition and capstone category when selected",
+    "CMN GUI Lead scope and corrected application name",
+    "no internal codenames in application PDFs",
+    "authorized source corrections match preserved original snapshots",
+    "waveform debugging resolved as tool use in active career documents",
+    "corrected Electrical and Computer Engineering degree and both academic focus areas"
+  ],
+  "limits": [
+    "ATS vendor parsing is not independently tested",
+    "rendered pages require separate visual inspection",
+    "destination availability is separate from PDF annotation validation"
+  ]
+}

@@ -1,0 +1,95 @@
+Me:
+what is exactly is the 92 acceptance tests for ia-mcp?
+Codex:
+The 92 tests are the automated certified-live validation suite for IA MCP. They exercise real Configuration Engine behavior, IA MCP execution contracts, and failure handling.
+I reconstructed the count from the V1 completion commit and checked the current slot_04 source: 28 test functions expand into 92 cases through parameterization, across nine files.
+Test area
+Cases
+What they verify
+[NCI end-to-end construction (line 169)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/ia-mcp-pack/tests/test_live_m5_nci_vertical.py:169)
+1
+Build a nitwain_r1p0 design from a blank session through a seven-phase plan; validate semantics and DRC; export Python/iYML; replay and verify restored requirements.
+[CMN end-to-end construction (line 154)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/ia-mcp-pack/tests/test_live_m6_cmn_vertical.py:154)
+2
+Construct a cmns4_r1p0 mesh through five phases, verify groups and topology, export/replay artifacts, and reject invalid group constraints before mutation.
+[Default CCG construction (line 129)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/ia-mcp-pack/tests/test_live_m7_nci_default_ccg.py:129)
+10
+PCIe Gen6/Gen7 variants, link counts, synchronous/asynchronous clocks, exact created topology, fresh replay, partial-failure recovery, and replay guards.
+[CCG direction behavior (line 302)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/ia-mcp-pack/tests/test_live_m7_nci_default_ccg_directions.py:302)
+11
+Product capability discovery; TX/RX behavior across four products; unsupported variants leave state unchanged; invalid direction and existing-name handling.
+[CCG compiled-plan workflow (line 381)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/ia-mcp-pack/tests/test_live_m7_nci_default_ccg_plan.py:381)
+1
+Integrate CCG construction into a complete managed NCI plan, including connectivity, address mapping, exported Python/iYML, and replay.
+[Default MCN construction (line 303)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/ia-mcp-pack/tests/test_live_m7_nci_default_mcn.py:303)
+59
+Product variants, 27 MCI/NCDI/CDI protocol combinations, interface counts, clocks, fresh replay, repeated calls, invalid arguments, and failures injected at six construction stages.
+[Domain updates (line 14)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/ia-mcp-pack/tests/test_live_m7_nci_domain_updates.py:14)
+1
+Change clock frequency, clock-to-power-domain ownership, and power-to-voltage-domain ownership; verify actual public-API readback.
+[Memory-region parameters (line 71)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/ia-mcp-pack/tests/test_live_m7_nci_memory_region_parameters.py:71)
+2
+Enable/disable nonPosted, validate object-specific schemas, reject unknown parameters, and prevent mutation on an unsupported product.
+[Parameter schemas and setters (line 71)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/ia-mcp-pack/tests/test_live_m7_nci_parameter_sets.py:71)
+5
+Global, synthesis, die, and design-constraint parameters; reserved-bit protection; checkpoint restoration; schema refresh after mode changes; unsupported-product rejection.
+Total
+92
+
+
+
+Several cases perform substantial workflows. For example, the NCI construction case executes 34 operations across seven phases. The CMN construction case executes 23 operations across five phases. Conversely, parameterized cases count individual product or protocol combinations separately.
+A passing case can also prove that an operation was correctly rejected or rolled back. For example, the CCG direction tests verify that unsupported TX/RX construction cannot be mistaken for successful creation.
+The suite’s selection is derived automatically from live-test evidence referenced by certified profiles in the [support matrix (line 214)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/scripts/run-ia-mcp-test-tier.py:214). It contains direct CE contract tests and IA MCP handler/adapter integration tests. Codex-driven acceptance evaluations are a separate test surface with their own prompts, transcripts, artifact checks, and cleanup requirements.
+The [completion record (line 43)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/docs/agentic-v1-completion.md:43) documents 92 passing cases on September 4, 2026, using Python 3.13.9 and Ruby 3.2.2. The current source still expands to 92 cases, although some contents have evolved. I inspected the source and historical baseline; I did not rerun the suite.
+
+Me:
+Give me a concise table describing all of the ia-mcp testing that exists
+
+Codex:
+IA MCP testing spans the following surfaces. Suites overlap; their counts should not be added together. Counts marked † are recorded passes from the September 4, 2026 baseline; other counts describe current source assets.
+Test surface
+Scope/count
+What it validates
+fast
+136†
+Support policy, capability routing, resources, approvals, and public tool contracts.
+contract
+2,013†
+Typed intent, schemas, planning, execution, semantic postconditions, replay, and controlled direct-CE fallback safeguards.
+security
+733†
+Managed paths, process isolation, protocol handling, authority checks, audit trails, locking, and recovery.
+packaging
+279†
+Runtime packaging, launchers, bridges, onboarding, manifests, compatibility, skill installation, and workflow contracts.
+full
+5,063†
+All non-live tests, including unit/integration regressions, golden-runner checks, skills, and workflows. Currently 181 test modules.
+certified-live
+92† cases; 9 modules
+Real-CE qualification for certified NCI/CMN construction, CCG/MCN behavior, parameters, domains, rollback, export, and replay.
+Additional live-CE regressions
+49 additional modules
+Broader clocks, interfaces, topology, routing, address/stream maps, resource planes, OWO, traffic, placement, lifecycle operations, and safe rejection. These extend beyond the certified subset.
+API and source-integrity gates
+Multiple checks
+CE API/signature compatibility, disposition freshness, import provenance, source fingerprints, packaged identity, permissions, and shell syntax.
+RHEL8 release qualification
+6 representative product routes
+Current/legacy Python routing, exact Ruby/toolchain selection, MCP handshake, environment probes, doctor/proof, payload integrity, and runtime cleanup.
+Bounded real-agent evaluations
+3 scenarios
+Codex-driven NCI creation, CMN creation, and NCI import/modify/diagnose/rollback; verifies tool containment, artifacts, DRC, closure, and zero owners.
+Manual feature campaign
+20 scenarios
+Five native NCI, five native CMN, five fallback NCI, and five fallback CMN prompts. Explicitly manual; excluded from automated tiers and CI.
+Broad maintainer acceptance
+6 scenarios
+Conventional AXI, mixed peripherals, stream steering, striped resource planes, CMNS3, and CMNS4. Deterministic direct flows exist; broad blank-context agent execution remains deferred.
+Packaged-module acceptance
+Local and cluster workflows
+Tests installed artifacts: isolated registration, health/proof, handshake, immutability, cleanup, and applicable real-agent scenarios. Local results and cluster qualification are separate evidence.
+
+Sources: [tier definitions](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/scripts/run-ia-mcp-test-tier.py), [recorded baseline results (line 41)](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/docs/agentic-v1-completion.md:41), [evaluation and release contracts](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/docs/validation-and-evaluations.md), [broad acceptance status](/Users/miccou01/GitProjects/sysip_shared_ai/workspaces/ideas/slot_04/checkout/ai/acceptance/README.md).
+This inventories existing coverage; I did not execute tests for this summary.

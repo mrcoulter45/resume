@@ -1,0 +1,41 @@
+# macOS metadata and editor backups
+.DS_Store
+._*
+*~
+*.swp
+*.swo
+
+# Python runtimes and disposable tooling caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environment secrets and credentials
+.env
+.env.*
+!.env.example
+/.aws/
+/.ssh/
+
+# Scratch copies, retrieval indexes and temporary validation outputs
+/build/
+
+# Local-only evidence and applications; keep empty staging folders available
+/sources/inbox/*
+!/sources/inbox/.gitkeep
+/sources/private/*
+!/sources/private/.gitkeep
+/sources/.ingest-lock/
+/applications/private/
+
+# Original evidence, curated resumes, fonts and provenance/QA files are versioned.
+# Do not blanket-ignore PDF, DOCX, images, sources/originals or resume-output.

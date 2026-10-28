@@ -1,0 +1,76 @@
+{
+  "prepared_date": "2026-10-22",
+  "edition": "Grouped harness and ia-mcp accomplishments; backend fallback and Python 3.13/3.7 compatibility; other three applications unchanged",
+  "pdf_sha256": {
+    "resume-netflix-agent-platform.pdf": "24d6bac5b97db44bd8ebe80cac2730a7be917bd9d30fccb92848db02dc0e135e",
+    "resume-openai-codex-agents.pdf": "f16a99ebe25962ed539a10a6bad966c3fa59a3b17f6211f3917d77a390dbb40c",
+    "resume-anthropic-claude-code.pdf": "f164b0f8614cdac45602f1ab913e87bd008efd185c723bf8ad30b023f64d1966",
+    "resume-google-agent-architecture.pdf": "fbe67659d26df16a8da291a7bbc3f66423222fdc1d6b7d356743324a363b2d9f"
+  },
+  "identical_content_rebuild_byte_identical": true,
+  "five_previous_pdf_hashes_unchanged": true,
+  "body_font_pt": 11,
+  "body_leading_pt": 14.2,
+  "portfolio_present": false,
+  "workspace_allocator_included": false,
+  "source_fingerprints_match": true,
+  "visual_inspection": "PASS: final grouped Netflix page opened; other three application PDF/image bytes and their preceding visual records unchanged.",
+  "rendered_images": {
+    "resume-netflix-agent-platform.png": {
+      "sha256": "2389f2c59f6ed5b7ebdb88413e8db55b3a407859c1ec79edf957fc6977eb093e",
+      "inspection": "PASS: October 22 grouped edition opened and inspected"
+    },
+    "resume-openai-codex-agents.png": {
+      "sha256": "33c3fd93fcb76d83053975201b2368a9de6d74611eece4a1a84a10aba614bc23",
+      "inspection": "PASS"
+    },
+    "resume-anthropic-claude-code.png": {
+      "sha256": "6408be6ba715576b2b8aca6447cf5e0fc29139ad19835dda4034ad007ade915b",
+      "inspection": "PASS"
+    },
+    "resume-google-agent-architecture.png": {
+      "sha256": "23d620178a7a2556602ae04672a958b742c522b01b3c8853b2a6a8d25557ced2",
+      "inspection": "PASS"
+    }
+  },
+  "application_checks": {
+    "resume-netflix-agent-platform": {
+      "words": 380,
+      "source_claims": 9,
+      "context_present": true,
+      "allocator_absent": true,
+      "links": 4,
+      "summary_present": true,
+      "current_role_bullets": 7,
+      "internal_adoption_grounded": true,
+      "repair_skill_second": true,
+      "cpp_firmware_grounded": true,
+      "kubernetes_storage_grounded": true,
+      "grouped_supporting_claims": 4,
+      "current_role_main_bullets": 3,
+      "python_313_37_grounded": true
+    },
+    "resume-openai-codex-agents": {
+      "words": 357,
+      "source_claims": 10,
+      "context_present": true,
+      "allocator_absent": true,
+      "links": 4
+    },
+    "resume-anthropic-claude-code": {
+      "words": 353,
+      "source_claims": 10,
+      "context_present": true,
+      "allocator_absent": true,
+      "links": 4
+    },
+    "resume-google-agent-architecture": {
+      "words": 356,
+      "source_claims": 10,
+      "context_present": true,
+      "allocator_absent": true,
+      "links": 4
+    }
+  },
+  "netflix_revision_detail": "qa/netflix-grouping-revision-2026-10-22.json"
+}

@@ -1,0 +1,32 @@
+{
+  "prepared_date": "2026-10-22",
+  "change": "Both ia-mcp occurrences rendered in embedded DejaVu Sans Mono; repair-jenkins styling retained.",
+  "pages": 1,
+  "body_font_pt": 11,
+  "pdf_sha256": "6f95717c3bebb07e85efc2b3c9ac8d713d7b301416d6366ee87557ddc263a655",
+  "markdown_sha256": "2869ed4431db86d4b4981a05036e44992984a9fa068e307b02ae6984d1c801fc",
+  "image_sha256": "317b18af9420799ff4492689c893d5cd85442104252495e6b88c720108bae57e",
+  "ia_mcp_monospace_occurrences": 2,
+  "pdf_font_and_markdown_verified": true,
+  "visual_review": "PASS: final rendered page opened and inspected; both identifiers monospace, no clipping or overlap, one-page layout intact.",
+  "repeat_build_byte_identical": true,
+  "other_eight_resume_pairs_unchanged": {
+    "resume.pdf": "202dc4ac9ce9383a9bb80dc324f07279f56da7e7b56d0972851c80f31e5fdbe5",
+    "resume.md": "97a06dbc2bc6bbc9c5f65f4556f83629ac51e048ea822b63dfb7f22bf2da5989",
+    "resume-ai-systems.pdf": "0a1e045566fd0fecf4617978d89ea54c6edd4da51f205e3d93db78683eef4272",
+    "resume-ai-systems.md": "f2a3c1666f812327994e7aa971702f987e59351ea080da1878c98153699f3ff2",
+    "resume-systems-engineering.pdf": "6761a96e1536c3a7e3a6fc05d967dfbba90c535a1451baa7ed24b92e2c529b56",
+    "resume-systems-engineering.md": "e971f583f429a707ec98737b969a8295845aa5d40ef5c15ee5834a59e9d9bf09",
+    "resume-senior-software.pdf": "2a76c2170e922129cc1e8c97fe5900ca7714c567c6c33f64c4f2c41873495695",
+    "resume-senior-software.md": "cb54cc21e0e92b1b7a9db1dccc7c0642dbd5eebf5dff8a75a45ada9167c76fbd",
+    "resume-two-page.pdf": "824e4675a4fd7a4fc99a9891486d9cdc847c5f8bea0e7f76592b23694f9b5f52",
+    "resume-two-page.md": "11fbacf28a3b163eddff1d7431ca144a25a54e80bc58b0e3292894fd0bb1ed79",
+    "resume-openai-codex-agents.pdf": "f16a99ebe25962ed539a10a6bad966c3fa59a3b17f6211f3917d77a390dbb40c",
+    "resume-openai-codex-agents.md": "42ccda1798e8b968f31a68880fb67f5d657ef94d261020f519e9125391394331",
+    "resume-anthropic-claude-code.pdf": "f164b0f8614cdac45602f1ab913e87bd008efd185c723bf8ad30b023f64d1966",
+    "resume-anthropic-claude-code.md": "70be9b2a01e6ed6f36d5e1a318ac41c349157825be856da64ea8db65f7605650",
+    "resume-google-agent-architecture.pdf": "fbe67659d26df16a8da291a7bbc3f66423222fdc1d6b7d356743324a363b2d9f",
+    "resume-google-agent-architecture.md": "d8183efb546a4bd8a2bee87efe2b453c185be88a5e0aba64a5414b30e0e6d3e4"
+  },
+  "all_19_sources_unchanged": true
+}

@@ -1,0 +1,92 @@
+Source: 2020-Sep.docx; extracted without changing the original.
+
+word/header1.xml
+
+Paragraph 1: 308 Saffron SpringsMichael Remington Coulter(760) 694-6310
+Paragraph 2: Buda, TX 78610 mrcoulter45@gmail.com
+Paragraph 3: LinkedIn: www.linkedin.com/in/michael-coulter-164868153
+
+word/document.xml
+
+Paragraph 2: Objective  
+Paragraph 3: Seeking a full-time position in embedded systems, computer architecture, digital design/verification, or FPGA
+Paragraph 4:         programming
+Paragraph 5: Education  
+Paragraph 6: Bachelor of Science, Computer Engineering at The University of Texas at Austin, December 2018 
+Paragraph 7: Related Courses and Labs
+Paragraph 8: - Embedded Systems Design Lab, Embedded and Real-Time Operating Systems Laboratory, Computer
+Paragraph 9:    Architecture, Digital Systems Design Using HDL, Digital Logic Design, Fundamentals of Electronic Circuits, 
+Paragraph 10:    Algorithms, Software Design and Implementation, Solid-State Electronic Devices, Electromagnetic 
+Paragraph 11:    Engineering, Probability and Random Processes, Linear Systems and Signals, Circuit Theory, Vector 
+Paragraph 12:    Calculus, and Discrete Mathematics
+Paragraph 13: - Arm IoT Senior Design Project 
+Paragraph 14: Experience  
+Paragraph 15: Arm Software Engineer (Austin, Texas) April 2020 - present 
+Paragraph 16: Pelion Platform: Pelion Machine Learning
+Paragraph 17: - A web application and cloud system for data scientists to design machine learning models for 
+Paragraph 18:                            embedded devices in a Jupyter Notebook, and then remotely flash the model as an Mbed OS 
+Paragraph 19:                            application to a device in the field via Pelion Device Management
+Paragraph 20: - Associated technologies: Kubernetes, Docker, Jupyter Notebook, AWS (EKS, ECR, EFS), React 
+Paragraph 21:                            JavaScript, Python Flask, PostgreSQL, Auth0, testing frameworks (Mocha, Chai, Chakram)
+Paragraph 22: - Implemented back-end functionality for users to start and stop Jupyter Notebooks from the front-
+Paragraph 23:                            end dashboard, and store files from notebooks in EFS
+Paragraph 24: - Created framework for end-to-end system testing
+Paragraph 25: - Defined and implemented database schema (PostgreSQL)
+Paragraph 26: - Wrote React JavaScript and CSS to implement various parts of the front-end dashboard
+Paragraph 27: - Configured Auth0 for user authentication
+Paragraph 28: Pelion Platform: Return to Work – Current Project
+Paragraph 29: - A web application to ingest data from desk occupancy sensors and GPS badges to indicate desk 
+Paragraph 30:                            occupancy and physical distancing violations for workspaces
+Paragraph 31: - Implemented back-end ingress API to receive and parse data payloads from Prolojik gateways
+Paragraph 32: - Implemented back-end egress API to send sensor data to the front-end dashboard
+Paragraph 33: - Defined and implemented database schema for timeseries data (InfluxDB)
+Paragraph 34: - Implemented the fixed-radius near neighbor algorithm to detect physical distance violations
+Paragraph 35: Arm Graduate Software Engineer (Austin, Texas) January 2019 - April 2020 
+Paragraph 36: Mbed OS FPGA CI Test Shield (Arm Quality Award 2020)
+Paragraph 37: - An FPGA test shield used to test Mbed OS IO functionality of any Mbed OS enabled board 
+Paragraph 38:            (swappable form-factor shields)
+Paragraph 39: - Wrote Verilog modules for the FPGA to communicate with the Mbed board and to test Mbed I2C, 
+Paragraph 40:            GPIO, ADC, DAC, and PWM 
+Paragraph 41: - Wrote Mbed OS application test code to communicate with the FPGA/FPGA PCB devices and to test 
+Paragraph 42:            Mbed I2C, GPIO, ADC, DAC, and PWM
+Paragraph 43: - Wrote testbenches for Verilog modules/waveform viewer debugging
+Paragraph 44: - PCB testing and debugging
+Paragraph 45: Pelion Platform: Space Analytics
+Paragraph 46: - A web application to ingest data from thermal camera/PIR occupancy sensors to determine 
+Paragraph 47:            occupancy status for physical spaces
+Paragraph 48: - Wrote NodeJS Express to implement the back-end server REST API
+Paragraph 49: - Defined and implemented database schema (PostgreSQL)/performed database performance testing
+Paragraph 50: - Wrote React JavaScript and CSS to implement the front-end dashboard and other various parts of 
+Paragraph 51:            the web app
+Paragraph 52: - Configured Auth0 for user authentication
+Paragraph 56: Internships  
+Paragraph 57: Arm Internet of Things Engineering Intern (Austin, Texas) May 2018 - August 2018 
+Paragraph 58: - Outlined and began initial work on the Mbed FPGA CI test shield project
+Paragraph 59: - Worked with and made improvements to Mbed OS
+Paragraph 60: - Integrated the ATECC608A cryptography chip library with Mbed I2C API to enable future hardware 
+Paragraph 61:    encryption goal
+Paragraph 62: - Developed content for Mbed OS handbook, code examples and tutorials
+Paragraph 63: - Added missing I2C tests to CI test shield library
+Paragraph 64: Arm Systems and Software IP Engineering Intern (Austin, Texas) May 2017 - August 2017 
+Paragraph 65: - Created a script to decompress trace data from an embedded logic analyzer (ELA) that was shipped to 
+Paragraph 66:    customers
+Paragraph 67: - Tested and debugged the ELA using a UVM test bench
+Paragraph 68: Arm ATG Verification Enablement Intern (Austin, Texas) May 2016 - August 2016 
+Paragraph 69: - Helped to implement architectural system coverage 
+Paragraph 70: - Wrote Python scripts to manage TPIs (architectural test suites) and test data from assembly test 
+Paragraph 71:    generation tool
+Paragraph 72: - SQLite3 database for test data management  
+Paragraph 73: Arm IT Intern (Austin, Texas) October 2014 - August 2015 
+Paragraph 74: - Imaged and distributed new machines, made local system admins 
+Paragraph 75: - Worked on service tickets including network patching and machine, phone, monitor, and desk setup
+Paragraph 76: - Developed customer service, delegation, and organizational skills   
+Paragraph 77: Skills 
+Paragraph 78: C/C++, Embedded Systems/Devices, Verilog, FPGA Programming, RTOS, Arm Mbed, Python, JavaScript, Arm ISA., Git, Bash, Keil uVision, Kubernetes, Docker, DS-5 Development Studio, SQL, NoSQL, Arduino, SystemVerilog, UVM, Markdown, Java, Java Greenfoot, HTML, CSS, PHP, Linux, Windows, and macOS 
+Paragraph 79: Accomplishments
+Paragraph 80: - Arm Quality Award 2020 for the Mbed OS FPGA CI Test Shield
+Paragraph 81: - 1st place in senior design competition for the Arm IoT Wireless Home Security System project, UT Austin ECE
+Paragraph 82: - Valedictorian and academically ranked #1 in the class of 2014, The Academy for Academic Excellence 
+Paragraph 83: Extracurriculars
+Paragraph 84: - Hobbyist electronics projects, DIY projects
+Paragraph 85: - Golf, Basketball
+Paragraph 86: - Music (vocals, guitar, piano)

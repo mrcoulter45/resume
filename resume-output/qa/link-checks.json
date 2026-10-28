@@ -1,0 +1,29 @@
+[
+  {
+    "label": "linkedin",
+    "url": "https://www.linkedin.com/in/michael-coulter-164868153/",
+    "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "local_head_status": "unverified",
+    "web_tool_status": "fetch failed: cache miss",
+    "availability_limit": "Live LinkedIn availability remains unverified",
+    "pdf_annotation": "Exact supplied destination verified"
+  },
+  {
+    "label": "github",
+    "url": "https://github.com/mrcoulter45",
+    "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "local_head_status": "unverified",
+    "web_tool_status": "page content retrieved",
+    "availability_limit": "Web retrieval can use cached content; no live HTTP status inferred",
+    "pdf_annotation": "Exact supplied destination verified"
+  },
+  {
+    "label": "portfolio",
+    "url": "https://mrcoulter45.github.io/portfolio/",
+    "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "local_head_status": "unverified",
+    "web_tool_status": "page content retrieved",
+    "availability_limit": "Web retrieval can use cached content; no live HTTP status inferred",
+    "pdf_annotation": "Exact supplied destination verified"
+  }
+]

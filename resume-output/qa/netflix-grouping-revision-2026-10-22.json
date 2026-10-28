@@ -1,0 +1,61 @@
+{
+  "prepared_date": "2026-10-22",
+  "edition": "Grouped harness and ia-mcp accomplishments; backend fallback and Python 3.13/3.7 compatibility",
+  "pages": 1,
+  "words": 380,
+  "pdf_sha256": "24d6bac5b97db44bd8ebe80cac2730a7be917bd9d30fccb92848db02dc0e135e",
+  "markdown_sha256": "8c3a6fde97c418371019822f6fe96342cea3b398535c4ddcc6087c3d2c1c8c4c",
+  "byte_identical_repeat_build": true,
+  "body_font_pt": 11,
+  "leading_pt": 14.2,
+  "layout_bottom_pt": 50.5,
+  "groups": {
+    "netflix_ci_skill": "netflix_harness",
+    "netflix_workbench": "netflix_harness",
+    "netflix_evals": "netflix_mcp",
+    "netflix_backend_bridge": "netflix_mcp"
+  },
+  "senior_main_bullets": 3,
+  "senior_child_bullets": 4,
+  "child_additional_indent_pt": 18,
+  "group_validation": "PASS: selected parents, contiguous one-level children, matching manifest, four-space Markdown indentation and measured PDF marker x positions (37 pt main / 55 pt child).",
+  "visual_review": {
+    "image": "qa/resume-netflix-agent-platform.png",
+    "sha256": "2389f2c59f6ed5b7ebdb88413e8db55b3a407859c1ec79edf957fc6977eb093e",
+    "renderer": "Poppler, scale-to 1800",
+    "result": "PASS: final page opened; harness/tools/workbench and ia-mcp/verification/helper hierarchy visible. No overlaps, clipping or orphaned bullet tails. Identical repeat build preserves inspected PDF bytes."
+  },
+  "other_eight_pdf_markdown_pairs_unchanged": {
+    "resume.pdf": "202dc4ac9ce9383a9bb80dc324f07279f56da7e7b56d0972851c80f31e5fdbe5",
+    "resume.md": "97a06dbc2bc6bbc9c5f65f4556f83629ac51e048ea822b63dfb7f22bf2da5989",
+    "resume-ai-systems.pdf": "0a1e045566fd0fecf4617978d89ea54c6edd4da51f205e3d93db78683eef4272",
+    "resume-ai-systems.md": "f2a3c1666f812327994e7aa971702f987e59351ea080da1878c98153699f3ff2",
+    "resume-systems-engineering.pdf": "6761a96e1536c3a7e3a6fc05d967dfbba90c535a1451baa7ed24b92e2c529b56",
+    "resume-systems-engineering.md": "e971f583f429a707ec98737b969a8295845aa5d40ef5c15ee5834a59e9d9bf09",
+    "resume-senior-software.pdf": "2a76c2170e922129cc1e8c97fe5900ca7714c567c6c33f64c4f2c41873495695",
+    "resume-senior-software.md": "cb54cc21e0e92b1b7a9db1dccc7c0642dbd5eebf5dff8a75a45ada9167c76fbd",
+    "resume-two-page.pdf": "824e4675a4fd7a4fc99a9891486d9cdc847c5f8bea0e7f76592b23694f9b5f52",
+    "resume-two-page.md": "11fbacf28a3b163eddff1d7431ca144a25a54e80bc58b0e3292894fd0bb1ed79",
+    "resume-openai-codex-agents.pdf": "f16a99ebe25962ed539a10a6bad966c3fa59a3b17f6211f3917d77a390dbb40c",
+    "resume-openai-codex-agents.md": "42ccda1798e8b968f31a68880fb67f5d657ef94d261020f519e9125391394331",
+    "resume-anthropic-claude-code.pdf": "f164b0f8614cdac45602f1ab913e87bd008efd185c723bf8ad30b023f64d1966",
+    "resume-anthropic-claude-code.md": "70be9b2a01e6ed6f36d5e1a318ac41c349157825be856da64ea8db65f7605650",
+    "resume-google-agent-architecture.pdf": "fbe67659d26df16a8da291a7bbc3f66423222fdc1d6b7d356743324a363b2d9f",
+    "resume-google-agent-architecture.md": "d8183efb546a4bd8a2bee87efe2b453c185be88a5e0aba64a5414b30e0e6d3e4"
+  },
+  "all_16_previous_evidence_sources_unchanged": true,
+  "new_evidence": {
+    "id": "RUNTIME",
+    "path": "career-clarifications-grouping-and-runtime-2026-10-22.md",
+    "sha256": "85dbc8722edf69093a49b131bf66e93941a2fbf08d446fa7f19a40f927b4d32f",
+    "authority": "Direct user requested grouping and supplied preferred fallback wording plus exact backend Python versions."
+  },
+  "accuracy_notes": [
+    "Legacy backend versions are Python 3.13 and 3.7; no claim that the whole MCP server runs on Python 3.7.",
+    "Backend fallback, runtime compatibility and rollback kept conceptually distinct.",
+    "Two prior evaluations, 92 live checks and exact rollback restoration remain historical inventory evidence; not relabeled as fallback metrics.",
+    "Only Netflix-specific claims and selections changed; shared identity/history and shared app_workbench text unchanged."
+  ],
+  "full_validation": "qa/validation.json",
+  "before_revision": "qa/netflix-before-grouping-2026-10-22.json"
+}
