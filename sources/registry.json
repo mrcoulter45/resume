@@ -323,6 +323,126 @@
       "derived_from": [],
       "supersedes": [],
       "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-ia-git-history-2026-10-27",
+      "path": "sources/originals/src-ia-git-history-2026-10-27/history-inventory.json",
+      "sha256": "c200decce963c1ccbbe002fc7da5960186ce87e64d12b3333a81659871600506",
+      "title": "Local Interconnect Architect authored-history inventory",
+      "kind": "artifact",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Captured from read-only local Git/source inspection at e24d80378096cb8d7a0ad87c20929cb520fa49d7. Metadata and code snapshots are primary local artifacts; interpretations are analyst findings, not owner confirmation or independent employer audit. No product tests/builds/remote acceptance performed. Includes internal context; do not publish source material as application copy."
+    },
+    {
+      "id": "src-ia-implementation-2026-10-27",
+      "path": "sources/originals/src-ia-git-history-2026-10-27/implementation-evidence.md",
+      "sha256": "6825405a787611d17a78ad1d17125bf48ab1b23709bc7f9becbfcfc073ca05ca",
+      "title": "Selected historical diffs and current implementation snapshots",
+      "kind": "extraction",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [
+        "src-ia-git-history-2026-10-27"
+      ],
+      "supersedes": [],
+      "notes": "Captured from read-only local Git/source inspection at e24d80378096cb8d7a0ad87c20929cb520fa49d7. Metadata and code snapshots are primary local artifacts; interpretations are analyst findings, not owner confirmation or independent employer audit. No product tests/builds/remote acceptance performed. Includes internal context; do not publish source material as application copy."
+    },
+    {
+      "id": "src-ia-ownership-2026-10-27",
+      "path": "sources/originals/src-ia-git-history-2026-10-27/ownership-and-review.json",
+      "sha256": "d905ea420986961a88a36fbe2a65c2b2d0cf3fb77b7a3a8bef28b7aa75569d4f",
+      "title": "Source attribution, commit and path review map",
+      "kind": "generated_context",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [
+        "src-ia-git-history-2026-10-27",
+        "src-ia-implementation-2026-10-27"
+      ],
+      "supersedes": [],
+      "notes": "Captured from read-only local Git/source inspection at e24d80378096cb8d7a0ad87c20929cb520fa49d7. Metadata and code snapshots are primary local artifacts; interpretations are analyst findings, not owner confirmation or independent employer audit. No product tests/builds/remote acceptance performed. Includes internal context; do not publish source material as application copy."
+    },
+    {
+      "id": "src-ia-focused-code-2026-10-27",
+      "path": "sources/originals/src-ia-git-history-2026-10-27/focused-implementation-evidence.md",
+      "sha256": "e455a5eb57442c32d96e1849cea233071e018b774f8ec287b92de91a56f24794",
+      "title": "Focused implementation and attribution ranges",
+      "kind": "extraction",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [
+        "src-ia-git-history-2026-10-27"
+      ],
+      "supersedes": [],
+      "notes": "Captured from read-only local Git/source inspection at e24d80378096cb8d7a0ad87c20929cb520fa49d7. Metadata and code snapshots are primary local artifacts; interpretations are analyst findings, not owner confirmation or independent employer audit. No product tests/builds/remote acceptance performed. Includes internal context; do not publish source material as application copy."
+    },
+    {
+      "id": "src-ia-patch-identities-2026-10-27",
+      "path": "sources/originals/src-ia-git-history-2026-10-27/patch-identities.txt",
+      "sha256": "ec409e20e7b69152e3d6bc06b9bb4129e37e6448dd8fbe2bdefb9198da377f80",
+      "title": "Stable patch identities for authored nonmerge changes",
+      "kind": "artifact",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [
+        "src-ia-git-history-2026-10-27"
+      ],
+      "supersedes": [],
+      "notes": "Captured from read-only local Git/source inspection at e24d80378096cb8d7a0ad87c20929cb520fa49d7. Metadata and code snapshots are primary local artifacts; interpretations are analyst findings, not owner confirmation or independent employer audit. No product tests/builds/remote acceptance performed. Includes internal context; do not publish source material as application copy."
+    },
+    {
+      "id": "src-ia-research-findings-2026-10-27",
+      "path": "sources/originals/src-ia-git-history-2026-10-27/research-findings.md",
+      "sha256": "b6287214493e8212388ef511188683a9794793344958ef6da0f19817ae7a2da5",
+      "title": "Reviewed contribution evolution, decisions, attribution and evidence limits",
+      "kind": "generated_context",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [
+        "src-ia-git-history-2026-10-27",
+        "src-ia-implementation-2026-10-27",
+        "src-ia-focused-code-2026-10-27",
+        "src-ia-patch-identities-2026-10-27",
+        "src-clarifications",
+        "src-role-fit",
+        "src-adoption"
+      ],
+      "supersedes": [],
+      "notes": "Captured from read-only local Git/source inspection at e24d80378096cb8d7a0ad87c20929cb520fa49d7. Metadata and code snapshots are primary local artifacts; interpretations are analyst findings, not owner confirmation or independent employer audit. No product tests/builds/remote acceptance performed. Includes internal context; do not publish source material as application copy."
+    },
+    {
+      "id": "src-ia-results-attribution-2026-10-27",
+      "path": "sources/originals/src-ia-git-history-2026-10-27/historical-results-and-attribution.md",
+      "sha256": "bea544d7b70faabb1d15cac9779d210ecf9d54364baeeb570659a8a1d0de1132",
+      "title": "Historical validation reports, predecessor authorship and committer boundary",
+      "kind": "extraction",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [
+        "src-ia-git-history-2026-10-27"
+      ],
+      "supersedes": [],
+      "notes": "Exact locally captured commit messages and completion documentation; reported historical results without new execution. Also preserves other-author commits integrated by Michael, which are excluded from personal implementation attribution."
+    },
+    {
+      "id": "src-ia-semantic-review-2026-10-27",
+      "path": "sources/originals/src-ia-git-history-2026-10-27/semantic-review-2026-10-27.md",
+      "sha256": "73820911597b8f48f72b3c0be6f7bbf5d4f7a3ea082e7787d12488c9eaff6e8e",
+      "title": "Final semantic review and partial terminology correction",
+      "kind": "generated_context",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [
+        "src-ia-research-findings-2026-10-27",
+        "src-ia-implementation-2026-10-27"
+      ],
+      "supersedes": [
+        "src-ia-research-findings-2026-10-27"
+      ],
+      "notes": "Partial correction only: unsupported MCN expansion in the earlier persistence wording. Other original findings are retained. Reviewed source-bound application phrasing is grouped-node connectivity; this is analyst review, not a new owner statement."
     }
   ]
 }

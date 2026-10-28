@@ -1,0 +1,1468 @@
+{
+  "captured": "2026-10-27",
+  "head": "e24d80378096cb8d7a0ad87c20929cb520fa49d7",
+  "sections": {
+    "integration": {
+      "start": 8,
+      "end": 193,
+      "commits": [
+        "bde8578f4858ffe38b25dfc814bd3cb777e4819d",
+        "9a9a6e9964ce5f3abebeee2463d4c290cdf615f0",
+        "81689f1799fc07e1ce845cb7b8c8a211790b7187",
+        "a08ab38bc571d160441c0593f5d68a7c4ca5a411"
+      ],
+      "paths": [
+        "scripts/socrates_integration/CcxmlToIyml.py",
+        "scripts/socrates_integration/JsonToCcxml.py",
+        "scripts/socrates_integration/BrunelLauncherDeprecated.py"
+      ]
+    },
+    "bitfields": {
+      "start": 194,
+      "end": 324,
+      "commits": [
+        "5cebeb111cf2f7fa49bba4c08b354e1c5a882a10",
+        "759c72f0ec74fc97432265d66019ed3662d74fb3",
+        "e2e685fb7e666d29b22982d370751c5cd7d9e8ae"
+      ],
+      "paths": [
+        "GUI/src/app/shared/components/bitfield-input/bitfield-input.component.ts",
+        "GUI/src/app/shared/components/bitfield-input/bitfield-input.component.spec.ts"
+      ]
+    },
+    "cmn-editor": {
+      "start": 325,
+      "end": 554,
+      "commits": [
+        "7996d5bb3a4bd9a7ed5836c8acb4013acc722c2c",
+        "1ff7b26ffd816acc1fbfabe4bb2b7e06d213f7fb",
+        "122a9594cf683d1f0cec7a856e5fe6dbbf0bc796",
+        "d951e149f26fc6349582361130bfa0906669ad77"
+      ],
+      "paths": [
+        "GUI/src/app/node-configuration/node-configuration.component.ts",
+        "GUI/src/app/shared/components/group-attributes-modal/group-attributes-modal.component.ts",
+        "GUI/src/app/canvas/renderers/svg/logical-mesh/svg-logical-mesh-renderer.base.ts"
+      ]
+    },
+    "cmn-tiles": {
+      "start": 555,
+      "end": 652,
+      "commits": [
+        "dbcfdb561663d19eb96c6225ecde625f47da57b6",
+        "ffad4a69dc271816dfeedc2b927d71990cbafee1"
+      ],
+      "paths": [
+        "GUI/src/app/tiling-configuration/tiling-configuration.component.ts",
+        "GUI/src/app/canvas/renderers/svg/tile-definition/svg-tile-definition-renderer.base.ts",
+        "GUI/src/app/mesh/mesh.component.ts"
+      ]
+    },
+    "cmn-multiport": {
+      "start": 653,
+      "end": 793,
+      "commits": [
+        "5236c96147b0e3211477d33c461a4a1420e11d5a",
+        "d98d6c2f9058186885304249cbcffcd51d46de3a",
+        "55885d15452b3f8af975d724a94ad52095dc1784",
+        "ac9d282c943590a48a40a9c791531935f2eb6a44"
+      ],
+      "paths": [
+        "GUI/src/app/shared/components/group-member-port-modal/group-member-port-modal.component.ts",
+        "GUI/src/app/shared/components/add-group-modal/add-group-modal.component.ts",
+        "GUI/tests/ui/user-defined-groups/user-defined-groups.spec.ts"
+      ]
+    },
+    "nci-canvas": {
+      "start": 794,
+      "end": 903,
+      "commits": [
+        "e0a9fdd0159f724fcbf6988cfead60a55a282fed",
+        "82ff7cdeea292d5f48f6b335a937e449a8bc1eeb",
+        "155fd4ed9db7abd727c72c91db65472bc2180d73"
+      ],
+      "paths": [
+        "GUI/src/app/canvas/core/services/canvas-logical-layout.service.ts",
+        "GUI/src/app/canvas/core/utils/canvas-logical-layout-classifier.util.ts"
+      ]
+    },
+    "renderers": {
+      "start": 904,
+      "end": 1053,
+      "commits": [
+        "35d9937af5473b8cdc558edb68611e304ddbbe8d",
+        "b1361c9f775374129b1b98fa709f148bf10a9d83",
+        "b2bdbf984870ee6846f4231644e4ab3e24c81cf4"
+      ],
+      "paths": [
+        "GUI/src/app/canvas/core/services/canvas-input-interpreter.service.ts",
+        "GUI/src/app/canvas/core/utils/canvas-logical-layout-classifier.util.ts"
+      ]
+    },
+    "performance": {
+      "start": 1054,
+      "end": 1343,
+      "commits": [
+        "e93183095a43d3607cbe8bf6e2337edb7fc4c68e",
+        "6946d58aec43e7d2e9d77ca7aaacf830da2dff15",
+        "a6e5a6486e4a6be8c43e12f4245b872557c5c043",
+        "9d505f90c7dc30ccb87e9c0be2784d5522adb26d",
+        "9126ab49b5795b74f8bb61638c303f2d36e332d7",
+        "f922795c315a0ee4816e39bbc0c2efdd6a1b36bc",
+        "63b5c1f13b94724541a9556695fa272a20524313",
+        "cd3602f944118c7c6abb91506a8072cf698e46da"
+      ],
+      "paths": [
+        "GUI/src/app/canvas/core/services/canvas-input-interpreter.service.ts",
+        "GUI/src/app/canvas/core/utils/canvas-transform.util.ts",
+        "GUI/src/app/memory-maps/memory-map-regions/memory-map-regions.component.ts"
+      ]
+    },
+    "placement": {
+      "start": 1344,
+      "end": 1462,
+      "commits": [
+        "8043ff80857818dfd48a591f6f0de794dc906c13"
+      ],
+      "paths": [
+        "GUI/src/app/canvas/core/services/canvas-physical-auto-place.service.ts",
+        "GUI/tests/ui/noc-se/physical-auto-place-layout.spec.ts"
+      ]
+    },
+    "conversion": {
+      "start": 1463,
+      "end": 1623,
+      "commits": [
+        "12c14eb478040a280bb5f8373bc296d748048b7c",
+        "6ba68516e28599638b3447891a50876d6a59602e",
+        "429a76b7e0e98b720b61065b8216e6ab2b96504a",
+        "f0e5bb3195676179948595be567624c872686134",
+        "d8e09fbe489d822f1e7841797f595b83ed7dc8b3",
+        "0ec8ee6bddb3815016daf76faa8d38193d94cbc6"
+      ],
+      "paths": [
+        "CE/ideas/base/nic400_conversion.py",
+        "CE/pytests/nic400/audit_nic400_corpus.py"
+      ]
+    },
+    "guided": {
+      "start": 1624,
+      "end": 1936,
+      "commits": [
+        "0567531987d35ff866e312c510795b5b634707b1",
+        "3287440c76c2ab24aceaee5b73ebcc42cda052dc",
+        "9f385e8b0fc6b8bbb2b9bef9170a43ce33d5146f",
+        "18dc7270ca6f155cd2774eef6a4d222ad2451551",
+        "32939448d1a9a1f084701f320870daa4e0aa408e",
+        "badc593694d2ba52c12722ac5da52a934101dabc"
+      ],
+      "paths": [
+        "CE/ideas/flow_impl/guided_policy.py",
+        "GUI/src/app/shared/services/guided-flow-policy.service.ts",
+        "GUI/src/app/shared/services/guided-flow-metadata.ts",
+        "CE/ideas/guided-flow-features.yaml"
+      ]
+    },
+    "owo": {
+      "start": 1937,
+      "end": 2076,
+      "commits": [
+        "9851f748f2450a96ad59aab5521b3bc157ba79db",
+        "e19a7b5a8db40056f8c3ac002504a39d3fe65383"
+      ],
+      "paths": [
+        "GUI/src/app/interfaces/owo-setup/owo-setup.facade.ts",
+        "GUI/src/app/interfaces/owo-setup/owo-memory-ranges.ts",
+        "GUI/tests/ui/feature-flows/owo-setup-wizard.spec.ts"
+      ]
+    },
+    "deadlock": {
+      "start": 2077,
+      "end": 2191,
+      "commits": [
+        "5d7183cf554c64341e5b7e1c4adfa3857ee4cac8",
+        "a6053261023e4d20f77231c8faac995dd829a5e9",
+        "c46b9c3ca90a63169ce3ae61eaa7a7746e04658c",
+        "28ed79a29c52ff893ee9894357de071123c7e92e"
+      ],
+      "paths": [
+        "GUI/src/app/canvas/ui/sidebar/mesh-deadlock/mesh-deadlock.component.ts",
+        "CE/ideas/flow_impl/deadlock_analysis.py"
+      ]
+    },
+    "latency": {
+      "start": 2192,
+      "end": 2397,
+      "commits": [
+        "519cf31c6c2c4f7cad86550de47b313f29cb7a5e",
+        "4c2bce6ad1f3ce33dd870f14d4e6122d256acf77",
+        "6e276c22916434f742b5c2c8bfe47c862af6d09a",
+        "2f222a1d3099f6fc092656440d256e2e4931e489"
+      ],
+      "paths": [
+        "CE/ideas/api/interconnect_config.py",
+        "CE/ideas/instance/instances.py",
+        "CE/ideas/report_impl/static_latency.py"
+      ]
+    },
+    "diff": {
+      "start": 2398,
+      "end": 2593,
+      "commits": [
+        "30b70cb283e509fed0d584ba8c206a31f46c9b1b",
+        "76bb561f94f32624d9494b4d95c3f040807144bb",
+        "c23851428ffcbc041fee920acca72dc4e7ce24ca"
+      ],
+      "paths": [
+        "resources/scripts/iyml_diff.py",
+        "GUI/src/app/canvas/core/services/canvas-diff-overlay.service.ts",
+        "CE/pytests/report/test_iyml_diff.py"
+      ]
+    },
+    "testing": {
+      "start": 2594,
+      "end": 2840,
+      "commits": [
+        "4985c20cf3c226569c19d4f980bb883864a15512",
+        "ca950bd508ee634fd6270dd96573b88733b7ca84",
+        "499876145fceb3ced61d0c11d179808094dfb9f5",
+        "75eb348e988e2139a8c3057937bf54dfc23cd885",
+        "e53836bfd7e883a4f43df292a25fc69b777b5262",
+        "fff32ba2a4b6f0f5a1018df771e2ba0a6ef19439",
+        "55885d15452b3f8af975d724a94ad52095dc1784",
+        "c8120b3bc450ea5097d736bc4b746aa996826323"
+      ],
+      "paths": [
+        "GUI/tests/fixtures/index.ts",
+        "GUI/tests/config/ip-capabilities.ts",
+        "GUI/tests/ui/project/project.guided-flow-lifecycle.spec.ts"
+      ]
+    },
+    "electron-karma": {
+      "start": 2841,
+      "end": 2951,
+      "commits": [
+        "fa16f0019d05f3e0514f94594db9190f9fc0cbb0",
+        "fff32ba2a4b6f0f5a1018df771e2ba0a6ef19439"
+      ],
+      "paths": [
+        "GUI/tests/scripts/electron-karma-runtime.ts",
+        "GUI/tests/scripts/run-electron-karma-playwright.ts",
+        "scripts/vertical-tests/test-owo-streaming.sh"
+      ]
+    },
+    "lifecycle": {
+      "start": 2952,
+      "end": 3184,
+      "commits": [
+        "c5250faae7ab861de53a6416406ad0708dfcbaee",
+        "7bed6f651e4d8aca0850cac94deafe55e9ee1c33",
+        "f5881ff4e50ebf29740a2227ea34d430ca4ffe16",
+        "1aa44baff56d6b49bc9b39cf2b874ba3d8d22ea1",
+        "12eb8c808c4743cc394118f0e66e8569cf1dfdc7",
+        "c7d43253081940a2d599647f2820bf5837ab882a",
+        "1ad1c93d466261afe48ee9441c42471c3fafde2e"
+      ],
+      "paths": [
+        "GUI/src/app/project/project-launcher.service.ts",
+        "GUI/src/app/status-bar/drc-results/drc-results.component.ts",
+        "GUI/tests/ui/project/project.competing-loads.spec.ts"
+      ]
+    },
+    "console": {
+      "start": 3185,
+      "end": 3403,
+      "commits": [
+        "5b307cd1717f72d851f7807c67782659f53a05f8",
+        "13108e12760abcc1f4d310ac1685901e7ba93c5b",
+        "d99d886cb31239c71ebaa5cba2b9b12155259e8a",
+        "30a56c92475007426f3404182da48c428a745957",
+        "5547a60f51c4fc6b3a6ea04e004f0ffc53c2701d"
+      ],
+      "paths": [
+        "brunel/python-command.js",
+        "GUI/src/app/shared/services/data.service.ts",
+        "brunel/test.py"
+      ]
+    },
+    "exports": {
+      "start": 3404,
+      "end": 3468,
+      "commits": [
+        "23f8742b677fd300b070a0209fc83cf6a7728c8b",
+        "1a1ffed4dafa2ab389ec95a52eea19567ef1f7cd"
+      ],
+      "paths": [
+        "GUI/src/app/status-bar/export-dialog/export-dialog.component.ts"
+      ]
+    },
+    "docs": {
+      "start": 3469,
+      "end": 3601,
+      "commits": [
+        "31a0f63e2ae554ce1afb122a2886d345c1302306",
+        "4244a7676653076be51535e15e0f2e617c38edac",
+        "fd0f07d1913dc6628280755f280a3ab6b62952d9"
+      ],
+      "paths": [
+        "GUI/agent/collect-app-docs-data.js",
+        "GUI/agent/render-app-docs.py",
+        "GUI/agent/runtime/tools/doc_guard.py"
+      ]
+    },
+    "ai-planning": {
+      "start": 3602,
+      "end": 3911,
+      "commits": [
+        "0ab6800995f1cbf36129653ccea400b713c8d8ae",
+        "7319af553f5601a0a4365cd952f08c91fba3dd6f",
+        "7ba22c61f75afb5228694245af4de75f00b5fb78",
+        "67b621ef6f366c852550ef07ee1122d336f2985e",
+        "ad62f9ccb1382a153997636f24a9e6cd35cb096d",
+        "f1867d608f03207757d61e06a5abe6a35b0ac432",
+        "fb6764542de61d70ff7606846e5ad53e77736c31",
+        "e2415aae9c4951362cabb1d0607a2bf74cc9e869"
+      ],
+      "paths": [
+        "ai/ia-mcp-pack/src/ia_mcp_pack/plan_compiler.py",
+        "ai/ia-mcp-pack/src/ia_mcp_pack/plan_execution.py",
+        "ai/ia-mcp-pack/src/ia_mcp_pack/direct_ce_fallback.py",
+        "ai/docs/agentic-v1-completion.md"
+      ]
+    },
+    "ai-runtime": {
+      "start": 3912,
+      "end": 4113,
+      "commits": [
+        "be568b8bdac01df3762f96a5d3e62dc9fa532e7b",
+        "5560c7c340a808c9b9683fe5431a795b4fbc43b4"
+      ],
+      "paths": [
+        "ai/ia-mcp-pack/src/ia_mcp_pack/legacy_ce_sidecar.py",
+        "ai/ia-mcp-pack/src/ia_mcp_pack/ce_backends.py",
+        "ai/ia-mcp-pack/src/ia_mcp_pack/runtime_router.py"
+      ]
+    },
+    "release": {
+      "start": 4114,
+      "end": 4320,
+      "commits": [
+        "65e2d9081e5f6aa94b20bbbbce281999df31b713",
+        "c3335efecbb32729a04404b795725a998c0d42e1",
+        "142665a60206f1034954bc00eb649a52be2de601",
+        "2f0f548b67be00bfaa78d481474666356a1a4131"
+      ],
+      "paths": [
+        "jenkins/BuildReleases/Installer/installer-staging.Jenkinsfile",
+        "ai/ia-mcp-pack/src/ia_mcp_pack/api_disposition_deployment.py",
+        "ai/scripts/stage-ia-mcp-runtime.sh"
+      ]
+    },
+    "ip-policy": {
+      "start": 4321,
+      "end": 4436,
+      "commits": [
+        "4fb049b5c92bedb7192e7db8780eaa5b4218fa15",
+        "fc81777f4faabd7a84b0bbe8ff58785298f0da90",
+        "48b5e3a43642b65ef99c0363937ac17d3d93c20d"
+      ],
+      "paths": [
+        "brunel/ip-version-policy.js",
+        "GUI/src/app/shared/services/data.service.ts"
+      ]
+    },
+    "diagnostics": {
+      "start": 4437,
+      "end": 4553,
+      "commits": [
+        "44d2ae68c761b8be51a3956cab45519545eaca74"
+      ],
+      "paths": [
+        "GUI/src/app/shared/components/info-tree/info-tree.component.ts",
+        "GUI/src/app/status-bar/drc-results/drc-results.component.ts"
+      ]
+    },
+    "routing-editors": {
+      "start": 4554,
+      "end": 4661,
+      "commits": [
+        "4d97de903fd55a58857fb69fefff10cc1909dbd6",
+        "7389f6a0958aecb9e01f7708bd71fa95caa2d584"
+      ],
+      "paths": [
+        "GUI/src/app/canvas/ui/sidebar/mesh-route-editor/mesh-route-editor.component.ts",
+        "GUI/src/app/shared/components/routing-scheme-modal/routing-scheme-modal.component.ts"
+      ]
+    },
+    "desktop-dev": {
+      "start": 4662,
+      "end": 4725,
+      "commits": [
+        "91f84a5f7c53f21ede6eee30274358d3b6c5abbb",
+        "1c5488ad4df90b335e39fe987368c519d5c9cac3",
+        "cbf07500fb644e609f85b386cdba9adfe8d295ae"
+      ],
+      "paths": [
+        "gui_setup_mac.sh"
+      ]
+    }
+  },
+  "selected_commits": [
+    "0567531987d35ff866e312c510795b5b634707b1",
+    "0ab6800995f1cbf36129653ccea400b713c8d8ae",
+    "0ec8ee6bddb3815016daf76faa8d38193d94cbc6",
+    "122a9594cf683d1f0cec7a856e5fe6dbbf0bc796",
+    "12c14eb478040a280bb5f8373bc296d748048b7c",
+    "12eb8c808c4743cc394118f0e66e8569cf1dfdc7",
+    "13108e12760abcc1f4d310ac1685901e7ba93c5b",
+    "142665a60206f1034954bc00eb649a52be2de601",
+    "155fd4ed9db7abd727c72c91db65472bc2180d73",
+    "18dc7270ca6f155cd2774eef6a4d222ad2451551",
+    "1a1ffed4dafa2ab389ec95a52eea19567ef1f7cd",
+    "1aa44baff56d6b49bc9b39cf2b874ba3d8d22ea1",
+    "1ad1c93d466261afe48ee9441c42471c3fafde2e",
+    "1c5488ad4df90b335e39fe987368c519d5c9cac3",
+    "1ff7b26ffd816acc1fbfabe4bb2b7e06d213f7fb",
+    "23f8742b677fd300b070a0209fc83cf6a7728c8b",
+    "28ed79a29c52ff893ee9894357de071123c7e92e",
+    "2f0f548b67be00bfaa78d481474666356a1a4131",
+    "2f222a1d3099f6fc092656440d256e2e4931e489",
+    "30a56c92475007426f3404182da48c428a745957",
+    "30b70cb283e509fed0d584ba8c206a31f46c9b1b",
+    "31a0f63e2ae554ce1afb122a2886d345c1302306",
+    "3287440c76c2ab24aceaee5b73ebcc42cda052dc",
+    "32939448d1a9a1f084701f320870daa4e0aa408e",
+    "35d9937af5473b8cdc558edb68611e304ddbbe8d",
+    "4244a7676653076be51535e15e0f2e617c38edac",
+    "429a76b7e0e98b720b61065b8216e6ab2b96504a",
+    "44d2ae68c761b8be51a3956cab45519545eaca74",
+    "48b5e3a43642b65ef99c0363937ac17d3d93c20d",
+    "4985c20cf3c226569c19d4f980bb883864a15512",
+    "499876145fceb3ced61d0c11d179808094dfb9f5",
+    "4c2bce6ad1f3ce33dd870f14d4e6122d256acf77",
+    "4d97de903fd55a58857fb69fefff10cc1909dbd6",
+    "4fb049b5c92bedb7192e7db8780eaa5b4218fa15",
+    "519cf31c6c2c4f7cad86550de47b313f29cb7a5e",
+    "5236c96147b0e3211477d33c461a4a1420e11d5a",
+    "5547a60f51c4fc6b3a6ea04e004f0ffc53c2701d",
+    "5560c7c340a808c9b9683fe5431a795b4fbc43b4",
+    "55885d15452b3f8af975d724a94ad52095dc1784",
+    "5b307cd1717f72d851f7807c67782659f53a05f8",
+    "5cebeb111cf2f7fa49bba4c08b354e1c5a882a10",
+    "5d7183cf554c64341e5b7e1c4adfa3857ee4cac8",
+    "63b5c1f13b94724541a9556695fa272a20524313",
+    "65e2d9081e5f6aa94b20bbbbce281999df31b713",
+    "67b621ef6f366c852550ef07ee1122d336f2985e",
+    "6946d58aec43e7d2e9d77ca7aaacf830da2dff15",
+    "6ba68516e28599638b3447891a50876d6a59602e",
+    "6e276c22916434f742b5c2c8bfe47c862af6d09a",
+    "7319af553f5601a0a4365cd952f08c91fba3dd6f",
+    "7389f6a0958aecb9e01f7708bd71fa95caa2d584",
+    "759c72f0ec74fc97432265d66019ed3662d74fb3",
+    "75eb348e988e2139a8c3057937bf54dfc23cd885",
+    "76bb561f94f32624d9494b4d95c3f040807144bb",
+    "7996d5bb3a4bd9a7ed5836c8acb4013acc722c2c",
+    "7ba22c61f75afb5228694245af4de75f00b5fb78",
+    "7bed6f651e4d8aca0850cac94deafe55e9ee1c33",
+    "8043ff80857818dfd48a591f6f0de794dc906c13",
+    "81689f1799fc07e1ce845cb7b8c8a211790b7187",
+    "82ff7cdeea292d5f48f6b335a937e449a8bc1eeb",
+    "9126ab49b5795b74f8bb61638c303f2d36e332d7",
+    "91f84a5f7c53f21ede6eee30274358d3b6c5abbb",
+    "9851f748f2450a96ad59aab5521b3bc157ba79db",
+    "9a9a6e9964ce5f3abebeee2463d4c290cdf615f0",
+    "9d505f90c7dc30ccb87e9c0be2784d5522adb26d",
+    "9f385e8b0fc6b8bbb2b9bef9170a43ce33d5146f",
+    "a08ab38bc571d160441c0593f5d68a7c4ca5a411",
+    "a6053261023e4d20f77231c8faac995dd829a5e9",
+    "a6e5a6486e4a6be8c43e12f4245b872557c5c043",
+    "ac9d282c943590a48a40a9c791531935f2eb6a44",
+    "ad62f9ccb1382a153997636f24a9e6cd35cb096d",
+    "b1361c9f775374129b1b98fa709f148bf10a9d83",
+    "b2bdbf984870ee6846f4231644e4ab3e24c81cf4",
+    "badc593694d2ba52c12722ac5da52a934101dabc",
+    "bde8578f4858ffe38b25dfc814bd3cb777e4819d",
+    "be568b8bdac01df3762f96a5d3e62dc9fa532e7b",
+    "c23851428ffcbc041fee920acca72dc4e7ce24ca",
+    "c3335efecbb32729a04404b795725a998c0d42e1",
+    "c46b9c3ca90a63169ce3ae61eaa7a7746e04658c",
+    "c5250faae7ab861de53a6416406ad0708dfcbaee",
+    "c7d43253081940a2d599647f2820bf5837ab882a",
+    "c8120b3bc450ea5097d736bc4b746aa996826323",
+    "ca950bd508ee634fd6270dd96573b88733b7ca84",
+    "cbf07500fb644e609f85b386cdba9adfe8d295ae",
+    "cd3602f944118c7c6abb91506a8072cf698e46da",
+    "d8e09fbe489d822f1e7841797f595b83ed7dc8b3",
+    "d951e149f26fc6349582361130bfa0906669ad77",
+    "d98d6c2f9058186885304249cbcffcd51d46de3a",
+    "d99d886cb31239c71ebaa5cba2b9b12155259e8a",
+    "dbcfdb561663d19eb96c6225ecde625f47da57b6",
+    "e0a9fdd0159f724fcbf6988cfead60a55a282fed",
+    "e19a7b5a8db40056f8c3ac002504a39d3fe65383",
+    "e2415aae9c4951362cabb1d0607a2bf74cc9e869",
+    "e2e685fb7e666d29b22982d370751c5cd7d9e8ae",
+    "e53836bfd7e883a4f43df292a25fc69b777b5262",
+    "e93183095a43d3607cbe8bf6e2337edb7fc4c68e",
+    "f0e5bb3195676179948595be567624c872686134",
+    "f1867d608f03207757d61e06a5abe6a35b0ac432",
+    "f5881ff4e50ebf29740a2227ea34d430ca4ffe16",
+    "f922795c315a0ee4816e39bbc0c2efdd6a1b36bc",
+    "fa16f0019d05f3e0514f94594db9190f9fc0cbb0",
+    "fb6764542de61d70ff7606846e5ad53e77736c31",
+    "fc81777f4faabd7a84b0bbe8ff58785298f0da90",
+    "fd0f07d1913dc6628280755f280a3ab6b62952d9",
+    "ffad4a69dc271816dfeedc2b927d71990cbafee1",
+    "fff32ba2a4b6f0f5a1018df771e2ba0a6ef19439"
+  ],
+  "ownership": [
+    {
+      "topic": "integration",
+      "path": "scripts/socrates_integration/CcxmlToIyml.py",
+      "head_sha256": "356864db21b79d298bef74c2ac4bfe62945e6f64eb6525a6fda37c2a806c3d74",
+      "surviving_line_authors": {
+        "Christopher Alvarez": 16,
+        "lingao01": 1,
+        "Michael Coulter": 243,
+        "Kelly Alvarez": 3
+      },
+      "introduction_candidates": [
+        "bde8578f4858ffe38b25dfc814bd3cb777e4819d 2022-01-24T18:02:59-06:00 Michael Coulter <michael.coulter@arm.com> Adding files for Socrates integration: \t- application.xml \t- BrunelLauncher.py \t- CcxmlToIyml.py \t- JsonToCcxml.py"
+      ]
+    },
+    {
+      "topic": "integration",
+      "path": "scripts/socrates_integration/JsonToCcxml.py",
+      "head_sha256": "300f828852f7ffb0b0ae08a2caa4c7fc29dc1993b75d7623baad1c74a1dee1b9",
+      "surviving_line_authors": {
+        "Christopher Alvarez": 16,
+        "lingao01": 1,
+        "Michael Coulter": 245,
+        "Dustin Divis": 1
+      },
+      "introduction_candidates": [
+        "bde8578f4858ffe38b25dfc814bd3cb777e4819d 2022-01-24T18:02:59-06:00 Michael Coulter <michael.coulter@arm.com> Adding files for Socrates integration: \t- application.xml \t- BrunelLauncher.py \t- CcxmlToIyml.py \t- JsonToCcxml.py"
+      ]
+    },
+    {
+      "topic": "integration",
+      "path": "scripts/socrates_integration/BrunelLauncherDeprecated.py",
+      "head_sha256": "a4a3b1d36b628fc20cc9a576a427cbc10ade2fe16aca5448f26a68cce7c1decf",
+      "surviving_line_authors": {
+        "Michael Coulter": 269,
+        "Christopher Alvarez": 11
+      },
+      "introduction_candidates": [
+        "bde8578f4858ffe38b25dfc814bd3cb777e4819d 2022-01-24T18:02:59-06:00 Michael Coulter <michael.coulter@arm.com> Adding files for Socrates integration: \t- application.xml \t- BrunelLauncher.py \t- CcxmlToIyml.py \t- JsonToCcxml.py"
+      ]
+    },
+    {
+      "topic": "bitfields",
+      "path": "GUI/src/app/shared/components/bitfield-input/bitfield-input.component.ts",
+      "head_sha256": "24823557c5311b0c7e327ffc0d221cdb224038b1b17591bd508bdb005161af2b",
+      "surviving_line_authors": {
+        "Kelly Alvarez": 26,
+        "Michael Coulter": 84,
+        "Pawan Kakarla": 25,
+        "Dustin divis": 21
+      },
+      "introduction_candidates": [
+        "5cebeb111cf2f7fa49bba4c08b354e1c5a882a10 2022-03-29T14:31:25-05:00 Michael Coulter <michael.coulter@arm.com> Add/integrate bitfield-input component for parameters that have a \"bits\" constraint Fixes for faulty validators"
+      ]
+    },
+    {
+      "topic": "bitfields",
+      "path": "GUI/src/app/shared/components/bitfield-input/bitfield-input.component.spec.ts",
+      "head_sha256": "e8b576bc23ceba51f7bc3ac9f3d1c4e10bcdc8bb082d4ad04ecc8476f9adb25a",
+      "surviving_line_authors": {
+        "Michael Coulter": 85,
+        "Dustin divis": 42
+      },
+      "introduction_candidates": [
+        "3287440c76c2ab24aceaee5b73ebcc42cda052dc 2026-07-29T13:20:27-05:00 Michael Coulter <michael.coulter@arm.com> Implement the NoC-Lite guided GUI flow",
+        "5cebeb111cf2f7fa49bba4c08b354e1c5a882a10 2022-03-29T14:31:25-05:00 Michael Coulter <michael.coulter@arm.com> Add/integrate bitfield-input component for parameters that have a \"bits\" constraint Fixes for faulty validators"
+      ]
+    },
+    {
+      "topic": "cmn-editor",
+      "path": "GUI/src/app/node-configuration/node-configuration.component.ts",
+      "head_sha256": "be02e46ba05b6bb9112bb02ecc38e2873b65c18c629a55ef86e8e04ba348d1c2",
+      "surviving_line_authors": {
+        "Michael Coulter": 233,
+        "Pawan Kakarla": 7,
+        "Dustin Divis": 2,
+        "Kelly Alvarez": 24
+      },
+      "introduction_candidates": [
+        "7996d5bb3a4bd9a7ed5836c8acb4013acc722c2c 2022-06-14T13:36:11-05:00 Michael Coulter <michael.coulter@arm.com> Add node-configuration component"
+      ]
+    },
+    {
+      "topic": "cmn-editor",
+      "path": "GUI/src/app/shared/components/group-attributes-modal/group-attributes-modal.component.ts",
+      "head_sha256": "43002e04031e963119cd60eb033f7ecc37094a8ec2430f4f29083a4b92514eb9",
+      "surviving_line_authors": {
+        "Michael Coulter": 950,
+        "Pawan Kakarla": 8,
+        "Kelly Alvarez": 37,
+        "Dustin divis": 16
+      },
+      "introduction_candidates": [
+        "4e82f9b9908b55699fb8fe6326c4a4dbe7db997d 2023-05-10T20:02:58-05:00 Michael Coulter <michael.coulter@arm.com> CMN: node config Add Group modal"
+      ]
+    },
+    {
+      "topic": "cmn-editor",
+      "path": "GUI/src/app/canvas/renderers/svg/logical-mesh/svg-logical-mesh-renderer.base.ts",
+      "head_sha256": "d64ab18b1e8a7005d381a8f4128d1d02d5cc3ac5141892857979cb0f448a3c11",
+      "surviving_line_authors": {
+        "Dustin Divis": 2899,
+        "Pawan Kakarla": 8,
+        "Michael Coulter": 2494,
+        "Dustin divis": 27
+      },
+      "introduction_candidates": [
+        "b286908dff4f44fb05eba07e22dbe31807634144 2020-11-16T12:45:30-06:00 Dustin Divis <dustin.divis@arm.com> [GUI] Canvas: Adding intermediate canvas components"
+      ]
+    },
+    {
+      "topic": "cmn-tiles",
+      "path": "GUI/src/app/tiling-configuration/tiling-configuration.component.ts",
+      "head_sha256": "61e83febc91366e8c051cbd9e2b5352dcf702458f8711a645fd5dba70760ca70",
+      "surviving_line_authors": {
+        "Dustin divis": 47,
+        "Dustin Divis": 42,
+        "Kelly Alvarez": 185,
+        "Pawan Kakarla": 4
+      },
+      "introduction_candidates": [
+        "cf7d962746e4ffd5134075393e487b1b11772efe 2023-08-31T10:09:12-05:00 Kelly Alvarez <kelly.alvarez@arm.com> Adding missing files"
+      ]
+    },
+    {
+      "topic": "cmn-tiles",
+      "path": "GUI/src/app/canvas/renderers/svg/tile-definition/svg-tile-definition-renderer.base.ts",
+      "head_sha256": "0d745513dc50e995efc18a3e2c4704549d4ec0b2566188b31d69b3b3f2128a17",
+      "surviving_line_authors": {
+        "Dustin Divis": 894
+      },
+      "introduction_candidates": [
+        "dbcfdb561663d19eb96c6225ecde625f47da57b6 2025-05-22T14:20:17-05:00 Michael Coulter <michael.coulter@arm.com> BRUNEL-2904 BRUNEL-3247: Tile Definition for CMN"
+      ]
+    },
+    {
+      "topic": "cmn-tiles",
+      "path": "GUI/src/app/mesh/mesh.component.ts",
+      "head_sha256": "57886ebd97963bc7ff07ba2745acc1a525f6626fa867eaccf44200dd0a4d7f31",
+      "surviving_line_authors": {
+        "Michael Coulter": 64,
+        "Dustin Divis": 2,
+        "Pawan Kakarla": 9,
+        "Kelly Alvarez": 1,
+        "Dustin divis": 1
+      },
+      "introduction_candidates": [
+        "0dc0ea0701bdbcff412112d478bba354073817aa 2023-04-24T10:20:43-05:00 Michael Coulter <michael.coulter@arm.com> CMN: begin creation of set components"
+      ]
+    },
+    {
+      "topic": "cmn-multiport",
+      "path": "GUI/src/app/shared/components/group-member-port-modal/group-member-port-modal.component.ts",
+      "head_sha256": "5b0d0f1bdfad2e63efca1d6375e2d60858ef7f5cb95fb326514ba0412f5d2268",
+      "surviving_line_authors": {
+        "Dustin divis": 19,
+        "Pawan Kakarla": 10,
+        "Michael Coulter": 149,
+        "Kelly Alvarez": 12
+      },
+      "introduction_candidates": [
+        "122a9594cf683d1f0cec7a856e5fe6dbbf0bc796 2023-05-22T15:03:24-05:00 Michael Coulter <michael.coulter@arm.com> CMN: bulk GUI set-functionality updates"
+      ]
+    },
+    {
+      "topic": "cmn-multiport",
+      "path": "GUI/src/app/shared/components/add-group-modal/add-group-modal.component.ts",
+      "head_sha256": "c7fb398ea62af805e4ba833347af13d99526cce337d7b4fc9beb6252fb064680",
+      "surviving_line_authors": {
+        "Pawan Kakarla": 10,
+        "Michael Coulter": 385,
+        "Kelly Alvarez": 21
+      },
+      "introduction_candidates": [
+        "4e82f9b9908b55699fb8fe6326c4a4dbe7db997d 2023-05-10T20:02:58-05:00 Michael Coulter <michael.coulter@arm.com> CMN: node config Add Group modal"
+      ]
+    },
+    {
+      "topic": "cmn-multiport",
+      "path": "GUI/tests/ui/user-defined-groups/user-defined-groups.spec.ts",
+      "head_sha256": "6e518f7c381e2d3230bda3ebe6387caf4c2bd533bfc3e73c5891793ad4b59564",
+      "surviving_line_authors": {
+        "Michael Coulter": 320,
+        "Liza Dayoub": 19
+      },
+      "introduction_candidates": [
+        "5f0efa4b9fd94b94c5f24c67994779ab1f3a44e4 2026-02-09T11:50:08-06:00 Liza Dayoub <liza.dayoub@arm.com> BRUNEL-3884 increase code coverage"
+      ]
+    },
+    {
+      "topic": "nci-canvas",
+      "path": "GUI/src/app/canvas/core/services/canvas-logical-layout.service.ts",
+      "head_sha256": "b169d1d583588497aa8760faa9167fb6cc013967be8e084b2fee61358e298f8a",
+      "surviving_line_authors": {
+        "Dustin Divis": 421,
+        "Pawan Kakarla": 664,
+        "Michael Coulter": 1377,
+        "Dustin divis": 51
+      },
+      "introduction_candidates": [
+        "3f5a7b2dec4f48426258dfd1a88080de29f3104e 2026-02-21T12:18:11-06:00 Dustin Divis <dustin.divis@arm.com> Phase A: reword commit later"
+      ]
+    },
+    {
+      "topic": "nci-canvas",
+      "path": "GUI/src/app/canvas/core/utils/canvas-logical-layout-classifier.util.ts",
+      "head_sha256": "e38a648d8b4c34bd4e2a9b8d1b476cc2d9a088f8a84beaa610cac7a93cbedc76",
+      "surviving_line_authors": {
+        "Michael Coulter": 302
+      },
+      "introduction_candidates": [
+        "82ff7cdeea292d5f48f6b335a937e449a8bc1eeb 2026-05-18T14:42:56-05:00 Michael Coulter <michael.coulter@arm.com> Rebuild logical canvas render model"
+      ]
+    },
+    {
+      "topic": "renderers",
+      "path": "GUI/src/app/canvas/core/services/canvas-input-interpreter.service.ts",
+      "head_sha256": "988ff113b48d53bca6bdd1a1c62590bd3aab31b02d808b6dab80809b2b8c7bb9",
+      "surviving_line_authors": {
+        "Dustin Divis": 291,
+        "Michael Coulter": 168,
+        "Dustin divis": 9,
+        "Pawan Kakarla": 32
+      },
+      "introduction_candidates": [
+        "2d40b3c5c155b16ac250ff34e06cdc578ebc6213 2026-02-12T21:34:47-06:00 Dustin Divis <dustin.divis@arm.com> refactor(canvas): add renderer-agnostic scene + input interpreter"
+      ]
+    },
+    {
+      "topic": "renderers",
+      "path": "GUI/src/app/canvas/core/utils/canvas-logical-layout-classifier.util.ts",
+      "head_sha256": "e38a648d8b4c34bd4e2a9b8d1b476cc2d9a088f8a84beaa610cac7a93cbedc76",
+      "surviving_line_authors": {
+        "Michael Coulter": 302
+      },
+      "introduction_candidates": [
+        "82ff7cdeea292d5f48f6b335a937e449a8bc1eeb 2026-05-18T14:42:56-05:00 Michael Coulter <michael.coulter@arm.com> Rebuild logical canvas render model"
+      ]
+    },
+    {
+      "topic": "performance",
+      "path": "GUI/src/app/canvas/core/services/canvas-input-interpreter.service.ts",
+      "head_sha256": "988ff113b48d53bca6bdd1a1c62590bd3aab31b02d808b6dab80809b2b8c7bb9",
+      "surviving_line_authors": {
+        "Dustin Divis": 291,
+        "Michael Coulter": 168,
+        "Dustin divis": 9,
+        "Pawan Kakarla": 32
+      },
+      "introduction_candidates": [
+        "2d40b3c5c155b16ac250ff34e06cdc578ebc6213 2026-02-12T21:34:47-06:00 Dustin Divis <dustin.divis@arm.com> refactor(canvas): add renderer-agnostic scene + input interpreter"
+      ]
+    },
+    {
+      "topic": "performance",
+      "path": "GUI/src/app/canvas/core/utils/canvas-transform.util.ts",
+      "head_sha256": "e599cd4708f0690c432593224ad793c0958ff66de90e3ce4420c5049187f78d3",
+      "surviving_line_authors": {
+        "Dustin Divis": 174,
+        "Michael Coulter": 28
+      },
+      "introduction_candidates": [
+        "f8d0380996fe0945e720e87ab16b4c02a584e2e0 2026-02-18T10:04:28-06:00 Dustin Divis <dustin.divis@arm.com> [GUI] split core/renderers/ui and rebuild interaction layer"
+      ]
+    },
+    {
+      "topic": "performance",
+      "path": "GUI/src/app/memory-maps/memory-map-regions/memory-map-regions.component.ts",
+      "head_sha256": "bcbcbba82355b4cca1590262a4d6ad0c3073975e7ba88cb32a456ff795f215a9",
+      "surviving_line_authors": {
+        "Ana Rescala": 66,
+        "Dustin divis": 132,
+        "Kelly Alvarez": 205,
+        "Dustin Divis": 15,
+        "Pawan Kakarla": 179,
+        "Michael Coulter": 41
+      },
+      "introduction_candidates": [
+        "fa401c2fc1f4865bac26dae6eeb5afc6622b3f7c 2020-06-10T10:21:09-06:00 Dustin Divis <dustin.divis@arm.com> [FE] Initial app file structure"
+      ]
+    },
+    {
+      "topic": "placement",
+      "path": "GUI/src/app/canvas/core/services/canvas-physical-auto-place.service.ts",
+      "head_sha256": "536163888927c31bacc28c1a3ac45ba425b5629588cac55de67e59ce7e8f3537",
+      "surviving_line_authors": {
+        "Michael Coulter": 1343,
+        "Dustin divis": 58,
+        "Pawan Kakarla": 2
+      },
+      "introduction_candidates": [
+        "8043ff80857818dfd48a591f6f0de794dc906c13 2026-07-01T13:24:00-05:00 Michael Coulter <michael.coulter@arm.com> BRUNEL-1475: Physical auto-placement, remove HLS Floorplan"
+      ]
+    },
+    {
+      "topic": "placement",
+      "path": "GUI/tests/ui/noc-se/physical-auto-place-layout.spec.ts",
+      "head_sha256": "df8c1254243d89989c51f0366ceb143fb256128a4650dbe773c5f625a2cf32b5",
+      "surviving_line_authors": {
+        "Michael Coulter": 288,
+        "Liza Dayoub": 56
+      },
+      "introduction_candidates": [
+        "8043ff80857818dfd48a591f6f0de794dc906c13 2026-07-01T13:24:00-05:00 Michael Coulter <michael.coulter@arm.com> BRUNEL-1475: Physical auto-placement, remove HLS Floorplan"
+      ]
+    },
+    {
+      "topic": "conversion",
+      "path": "CE/ideas/base/nic400_conversion.py",
+      "head_sha256": "7b292be91e74f7bd0c5f7dcab2ade72ec05280af1d8455ebc12767e37df69b18",
+      "surviving_line_authors": {
+        "Michael Coulter": 6478,
+        "Lin Gao": 94,
+        "Christopher Alvarez": 156
+      },
+      "introduction_candidates": [
+        "f0e5bb3195676179948595be567624c872686134 2026-05-08T22:51:19-05:00 Michael Coulter <michael.coulter@arm.com> feat(nic400): reconstruct NCI uArch and close DRCs"
+      ]
+    },
+    {
+      "topic": "conversion",
+      "path": "CE/pytests/nic400/audit_nic400_corpus.py",
+      "head_sha256": "a41ce94f4f87053fec0f46fefff4236f3f5de36c14b3140f0bf190cbb22c6a78",
+      "surviving_line_authors": {
+        "Michael Coulter": 815,
+        "Lin Gao": 1
+      },
+      "introduction_candidates": [
+        "f0e5bb3195676179948595be567624c872686134 2026-05-08T22:51:19-05:00 Michael Coulter <michael.coulter@arm.com> feat(nic400): reconstruct NCI uArch and close DRCs"
+      ]
+    },
+    {
+      "topic": "guided",
+      "path": "CE/ideas/flow_impl/guided_policy.py",
+      "head_sha256": "055702068f12af5499d91560771764a94a821f54c77d251283265a5dd9c86b49",
+      "surviving_line_authors": {
+        "Michael Coulter": 1390,
+        "Lin Gao": 3
+      },
+      "introduction_candidates": [
+        "0567531987d35ff866e312c510795b5b634707b1 2026-07-29T13:19:56-05:00 Michael Coulter <michael.coulter@arm.com> Add NoC-Lite guided policy APIs"
+      ]
+    },
+    {
+      "topic": "guided",
+      "path": "GUI/src/app/shared/services/guided-flow-policy.service.ts",
+      "head_sha256": "216712d387303ff4fc473fb1df2f66af035b64e14d6daaf5c8c21fccd2fd71b0",
+      "surviving_line_authors": {
+        "Michael Coulter": 1347,
+        "Dustin divis": 29,
+        "Lin Gao": 13
+      },
+      "introduction_candidates": [
+        "3287440c76c2ab24aceaee5b73ebcc42cda052dc 2026-07-29T13:20:27-05:00 Michael Coulter <michael.coulter@arm.com> Implement the NoC-Lite guided GUI flow"
+      ]
+    },
+    {
+      "topic": "guided",
+      "path": "GUI/src/app/shared/services/guided-flow-metadata.ts",
+      "head_sha256": "71ac6bbd171f60e1f7d757a8889726c3f00514555884d134975e1b85531c5216",
+      "surviving_line_authors": {
+        "Michael Coulter": 318
+      },
+      "introduction_candidates": [
+        "18dc7270ca6f155cd2774eef6a4d222ad2451551 2026-08-04T14:23:59-05:00 Michael Coulter <michael.coulter@arm.com> Harden Guided Flow metadata and project lifecycle"
+      ]
+    },
+    {
+      "topic": "guided",
+      "path": "CE/ideas/guided-flow-features.yaml",
+      "head_sha256": "4c982f76dcb1a962b5078716f1b57a105437fe365324f3ce14323943afd0b713",
+      "surviving_line_authors": {
+        "Michael Coulter": 214,
+        "Liza Dayoub": 6
+      },
+      "introduction_candidates": [
+        "0567531987d35ff866e312c510795b5b634707b1 2026-07-29T13:19:56-05:00 Michael Coulter <michael.coulter@arm.com> Add NoC-Lite guided policy APIs"
+      ]
+    },
+    {
+      "topic": "owo",
+      "path": "GUI/src/app/interfaces/owo-setup/owo-setup.facade.ts",
+      "head_sha256": "9cb3399712a9f7c46d06788872ce0d5ab3d14678a39e986ff4effe41e878e13e",
+      "surviving_line_authors": {
+        "Michael Coulter": 4877,
+        "Dustin divis": 447
+      },
+      "introduction_candidates": [
+        "9851f748f2450a96ad59aab5521b3bc157ba79db 2026-09-29T02:44:43-05:00 Michael Coulter <michael.coulter@arm.com> BRUNEL-4829: OWO Streaming Wizard"
+      ]
+    },
+    {
+      "topic": "owo",
+      "path": "GUI/src/app/interfaces/owo-setup/owo-memory-ranges.ts",
+      "head_sha256": "df84967aa5ae15ca884e552a966fdc4b3984f9fcfbd6aae7e4927fbdbc6c745c",
+      "surviving_line_authors": {
+        "Michael Coulter": 79
+      },
+      "introduction_candidates": [
+        "9851f748f2450a96ad59aab5521b3bc157ba79db 2026-09-29T02:44:43-05:00 Michael Coulter <michael.coulter@arm.com> BRUNEL-4829: OWO Streaming Wizard"
+      ]
+    },
+    {
+      "topic": "owo",
+      "path": "GUI/tests/ui/feature-flows/owo-setup-wizard.spec.ts",
+      "head_sha256": "5cb031abd8797335065ddcba37c1bff85fb1be75bfac40fdb4c1adfc5ca6f545",
+      "surviving_line_authors": {
+        "Michael Coulter": 3391,
+        "Dustin divis": 72,
+        "Liza Dayoub": 24
+      },
+      "introduction_candidates": [
+        "9851f748f2450a96ad59aab5521b3bc157ba79db 2026-09-29T02:44:43-05:00 Michael Coulter <michael.coulter@arm.com> BRUNEL-4829: OWO Streaming Wizard"
+      ]
+    },
+    {
+      "topic": "deadlock",
+      "path": "GUI/src/app/canvas/ui/sidebar/mesh-deadlock/mesh-deadlock.component.ts",
+      "head_sha256": "2ca6b3960859a71c52d036ec5b80363cb7ee42e09d4e2c788835c89740fa136f",
+      "surviving_line_authors": {
+        "Michael Coulter": 1096,
+        "Dustin Divis": 37,
+        "Pawan Kakarla": 8,
+        "Dustin divis": 3
+      },
+      "introduction_candidates": [
+        "5d7183cf554c64341e5b7e1c4adfa3857ee4cac8 2025-10-28T12:22:22-05:00 Michael Coulter <michael.coulter@arm.com> BRUNEL-2900: Deadlock detection (Part 1)"
+      ]
+    },
+    {
+      "topic": "deadlock",
+      "path": "CE/ideas/flow_impl/deadlock_analysis.py",
+      "head_sha256": "26fb0c549f6dc16c010c0638beaaf78ecec34d039611704297aa365a7e69b194",
+      "surviving_line_authors": {
+        "Christopher Alvarez": 2,
+        "lingao01": 71,
+        "Lin Gao": 246
+      },
+      "introduction_candidates": [
+        "4c1307f3aa52cd86cbe46ba7c9b14d866a122f81 2021-02-24T14:16:47-06:00 lingao01 <lingao01@arm.com> Move flow implementations to flow_helper directory."
+      ]
+    },
+    {
+      "topic": "latency",
+      "path": "CE/ideas/api/interconnect_config.py",
+      "head_sha256": "710bbb5891b0eead17f8cbfc02ba7669113a8fc94636fab5d74af50cbedbe5bd",
+      "surviving_line_authors": {
+        "lingao01": 6520,
+        "Lin Gao": 230,
+        "Chris Laycock": 1,
+        "Christopher Alvarez": 2611,
+        "Tanushi Ahuja": 2369,
+        "Pawan Kakarla": 157,
+        "Jackson Petroll": 1925,
+        "Michael Coulter": 57,
+        "Chris Styles": 189,
+        "Dustin Divis": 5,
+        "Kelly Alvarez": 14,
+        "Kyan Kornfeld": 1
+      },
+      "introduction_candidates": [
+        "faefca7bb99f15d5c7ffd21f4544ddbb9b3e4161 2020-06-01T13:41:51-05:00 lingao01 <lingao01@arm.com> add top level api class"
+      ]
+    },
+    {
+      "topic": "latency",
+      "path": "CE/ideas/instance/instances.py",
+      "head_sha256": "cf7a6688aaeb2d7c6948a5f541e5de33e3fae34eefe4a1d1e904837e63e3f415",
+      "surviving_line_authors": {
+        "lingao01": 5227,
+        "Lin Gao": 3066,
+        "Chris Laycock": 1,
+        "Christopher Alvarez": 1715,
+        "Tanushi Ahuja": 2743,
+        "Dustin Divis": 111,
+        "Kyan Kornfeld": 81,
+        "Pawan Kakarla": 38,
+        "Michael Coulter": 71,
+        "Chris Styles": 24,
+        "Jackson Petroll": 331
+      },
+      "introduction_candidates": [
+        "162614d4dac8a9eb06a3391f02ff36e267c80d9d 2020-06-12T15:28:46-05:00 lingao01 <lingao01@arm.com> add some instances code, update interface code to make the search faster."
+      ]
+    },
+    {
+      "topic": "latency",
+      "path": "CE/ideas/report_impl/static_latency.py",
+      "head_sha256": "9e020aa596bd889f5ae34b16b0a27d4ed0caa869af403c63f9c4ae8c7bc5460d",
+      "surviving_line_authors": {
+        "Tanushi Ahuja": 593,
+        "Lin Gao": 14,
+        "Kyan Kornfeld": 14,
+        "Michael Coulter": 12
+      },
+      "introduction_candidates": [
+        "be7ea2b9c53a8969ebbd7aa3b9e9e67c10468b0b 2024-11-04T01:02:20-06:00 Tanushi Ahuja <tanushi.ahuja@arm.com> 1. BRUNEL-2331 - ReportStaticLatency: Converge Report Retimign Params into this report 2. BRUNEL-2616 - ReportofReports: Refactor the current report to flow API 3. added report_static_latency methods to report_impl/static_latency.py 3. Updated images in report_impl/report_html/assets - tower_retiming_diagrams from tech comms 4. Updated ip_to_reports in interconnect_report 5. Pylint fixes"
+      ]
+    },
+    {
+      "topic": "diff",
+      "path": "resources/scripts/iyml_diff.py",
+      "head_sha256": "6f7969bb6e40190e9d66566e43b25c74acc4332afa1cf69b3511a6255b2ca5e7",
+      "surviving_line_authors": {
+        "Michael Coulter": 1210
+      },
+      "introduction_candidates": [
+        "30b70cb283e509fed0d584ba8c206a31f46c9b1b 2025-10-13T10:37:32-05:00 Michael Coulter <michael.coulter@arm.com> BRUNEL-3314: Present diffs on logical canvas"
+      ]
+    },
+    {
+      "topic": "diff",
+      "path": "GUI/src/app/canvas/core/services/canvas-diff-overlay.service.ts",
+      "head_sha256": "3d41809c8479fdd72d9fd1d73440ffdfc40f9bd808973d11ac67391807c00960",
+      "surviving_line_authors": {
+        "Dustin Divis": 497,
+        "Michael Coulter": 170
+      },
+      "introduction_candidates": [
+        "415f01e20091c4e0a4345ce75c317a3880403c4c 2026-02-25T12:41:10-06:00 Dustin Divis <dustin.divis@arm.com> refactor(canvas): centralize logical layout + thin renderers"
+      ]
+    },
+    {
+      "topic": "diff",
+      "path": "CE/pytests/report/test_iyml_diff.py",
+      "head_sha256": "dda2909a7c63e7b3629afb4c969bf8a0c9d46bc84a0d5335626cf689964ddae4",
+      "surviving_line_authors": {
+        "Michael Coulter": 194
+      },
+      "introduction_candidates": [
+        "c23851428ffcbc041fee920acca72dc4e7ce24ca 2026-07-17T11:19:59-05:00 Michael Coulter <michael.coulter@arm.com> Highlight exact YAML diff changes"
+      ]
+    },
+    {
+      "topic": "testing",
+      "path": "GUI/tests/fixtures/index.ts",
+      "head_sha256": "c7737cb88e4ee5c9cb92e2deedc9f2e1f076cb03f377385e803aebb40d4e3a3e",
+      "surviving_line_authors": {
+        "Liza Dayoub": 147,
+        "Michael Coulter": 80,
+        "Dustin divis": 1
+      },
+      "introduction_candidates": [
+        "e677cf6d525c3416b32437a667bdeb0d66956f9a 2025-10-24T11:15:55-06:00 Liza Dayoub <liza.dayoub@arm.com> <BRUNEL-3624> Initial commit for Playwright GUI tests"
+      ]
+    },
+    {
+      "topic": "testing",
+      "path": "GUI/tests/config/ip-capabilities.ts",
+      "head_sha256": "dd166c8fd6b6d084133158bbcb391b3503b6c6ed0c477ea0e1f736ce1c78f3b6",
+      "surviving_line_authors": {
+        "Michael Coulter": 192,
+        "Liza Dayoub": 515,
+        "Dustin divis": 168,
+        "Pawan Kakarla": 21
+      },
+      "introduction_candidates": [
+        "ca60df32a6f896c814db8757fdcfa9b56857d5b7 2025-11-17T12:52:40-07:00 Liza Dayoub <liza.dayoub@arm.com> BRUNEL-3556"
+      ]
+    },
+    {
+      "topic": "testing",
+      "path": "GUI/tests/ui/project/project.guided-flow-lifecycle.spec.ts",
+      "head_sha256": "3c3cc68f7ef19fcd7a5426ace11d294916a2453f23da0aa382158b6df407776c",
+      "surviving_line_authors": {
+        "Michael Coulter": 1022,
+        "Dustin divis": 5
+      },
+      "introduction_candidates": [
+        "32939448d1a9a1f084701f320870daa4e0aa408e 2026-10-01T15:48:19-05:00 Michael Coulter <michael.coulter@arm.com> consolidate Guided Flow coverage across supported IPs"
+      ]
+    },
+    {
+      "topic": "electron-karma",
+      "path": "GUI/tests/scripts/electron-karma-runtime.ts",
+      "head_sha256": "63fc2cba00443fa504d6b28c1408f2dba825e530e0373886260334b95deab216",
+      "surviving_line_authors": {
+        "Michael Coulter": 190
+      },
+      "introduction_candidates": [
+        "fa16f0019d05f3e0514f94594db9190f9fc0cbb0 2026-05-18T14:44:36-05:00 Michael Coulter <michael.coulter@arm.com> Add Electron-bound Karma runtime workflow"
+      ]
+    },
+    {
+      "topic": "electron-karma",
+      "path": "GUI/tests/scripts/run-electron-karma-playwright.ts",
+      "head_sha256": "3bca4508a7d2b68e191cad55fe0ccf28d6cfe60da73a6b6b6467212bf6c944ac",
+      "surviving_line_authors": {
+        "Michael Coulter": 423,
+        "Liza Dayoub": 46
+      },
+      "introduction_candidates": [
+        "fa16f0019d05f3e0514f94594db9190f9fc0cbb0 2026-05-18T14:44:36-05:00 Michael Coulter <michael.coulter@arm.com> Add Electron-bound Karma runtime workflow"
+      ]
+    },
+    {
+      "topic": "electron-karma",
+      "path": "scripts/vertical-tests/test-owo-streaming.sh",
+      "head_sha256": "e73ef9ae998c0670f1b9d2a8c549ca4e2be3cbeed266bce6ea3d5c3fefce3690",
+      "surviving_line_authors": {
+        "Michael Coulter": 369
+      },
+      "introduction_candidates": [
+        "9851f748f2450a96ad59aab5521b3bc157ba79db 2026-09-29T02:44:43-05:00 Michael Coulter <michael.coulter@arm.com> BRUNEL-4829: OWO Streaming Wizard"
+      ]
+    },
+    {
+      "topic": "lifecycle",
+      "path": "GUI/src/app/project/project-launcher.service.ts",
+      "head_sha256": "1e1e94d1e5d525f0d69c420413062cb80a2943a6a9e2336b807acbcd29663203",
+      "surviving_line_authors": {
+        "Michael Coulter": 978,
+        "Pawan Kakarla": 22,
+        "Dustin divis": 18
+      },
+      "introduction_candidates": [
+        "1aa44baff56d6b49bc9b39cf2b874ba3d8d22ea1 2026-04-14T11:17:14-05:00 Michael Coulter <michael.coulter@arm.com> Project tab rework Add user-configurable workspace directory/path handling via GUI and also with env `BRUNEL_HOME` File menu rework for improved project navigation Delete project from project tab Recent projects access Corrupt config indication"
+      ]
+    },
+    {
+      "topic": "lifecycle",
+      "path": "GUI/src/app/status-bar/drc-results/drc-results.component.ts",
+      "head_sha256": "5d04b00df7e9de2935eb855d3edfbdbb5097c4937c42595f355f64a710d5ce8b",
+      "surviving_line_authors": {
+        "Kelly Alvarez": 56,
+        "Michael Coulter": 77,
+        "Dustin divis": 68,
+        "Dustin Divis": 34,
+        "Pawan Kakarla": 17,
+        "dusdiv01": 1
+      },
+      "introduction_candidates": [
+        "db6823b0c4c757b9a21166e5385415aff273a2a0 2020-12-01T15:20:03-06:00 Dustin Divis <dustin.divis@arm.com> [GUI/brunel] Status Bar: Phase 1 complete"
+      ]
+    },
+    {
+      "topic": "lifecycle",
+      "path": "GUI/tests/ui/project/project.competing-loads.spec.ts",
+      "head_sha256": "8969361d0ddf768e9dd9308fed5c1a4293d9ffd6722144c03509af1717bbac47",
+      "surviving_line_authors": {
+        "Michael Coulter": 340,
+        "Liza Dayoub": 41
+      },
+      "introduction_candidates": [
+        "12eb8c808c4743cc394118f0e66e8569cf1dfdc7 2026-07-29T15:08:54-05:00 Michael Coulter <michael.coulter@arm.com> Isolate competing project load pipelines"
+      ]
+    },
+    {
+      "topic": "console",
+      "path": "brunel/python-command.js",
+      "head_sha256": "55a933bf905d45dd2378c95309be8392886c47cbafda85051c895c89e99d9051",
+      "surviving_line_authors": {
+        "Michael Coulter": 84
+      },
+      "introduction_candidates": [
+        "5547a60f51c4fc6b3a6ea04e004f0ffc53c2701d 2026-08-26T03:35:20-05:00 Michael Coulter <michael.coulter@arm.com> BRUNEL-4702: fix cmd stream output to be correct Python and stabilize Pixi blockage resize tool cursors"
+      ]
+    },
+    {
+      "topic": "console",
+      "path": "GUI/src/app/shared/services/data.service.ts",
+      "head_sha256": "f7b60546cb71c06e2734907c437e825f23b4d83ed345934de3c09a4cfa68f8c9",
+      "surviving_line_authors": {
+        "Ana Rescala": 20,
+        "Dustin Divis": 59,
+        "dusdiv01": 5,
+        "Dustin divis": 490,
+        "Pawan Kakarla": 140,
+        "Michael Coulter": 509,
+        "Kelly Alvarez": 165,
+        "Liza Dayoub": 56,
+        "Kyan Kornfeld": 11
+      },
+      "introduction_candidates": [
+        "b0c68199df9f4397c62159caf048c69b6644d570 2020-06-01T14:30:26-07:00 Kelly Alvarez <kelly.alvarez@arm.com> Initial REST api commit"
+      ]
+    },
+    {
+      "topic": "console",
+      "path": "brunel/test.py",
+      "head_sha256": "2f52830cf26bc9d92d12e53553bfac0bc8cd66da7c011e7268a7deed68255e35",
+      "surviving_line_authors": {
+        "Kelly Alvarez": 97,
+        "Michael Coulter": 78,
+        "Christopher Alvarez": 107,
+        "Liza Dayoub": 7,
+        "Kyan Kornfeld": 15,
+        "Dustin divis": 17
+      },
+      "introduction_candidates": [
+        "99aa6d04f46d85237271bd6f87da10defa6fb33b 2020-11-09T14:16:39-06:00 Dustin Divis <dustin.divis@arm.com> Brunel CE API integration:"
+      ]
+    },
+    {
+      "topic": "exports",
+      "path": "GUI/src/app/status-bar/export-dialog/export-dialog.component.ts",
+      "head_sha256": "52dd7c04004cbaf06d34220aad409e33cfc1e8c540c70d1fcc57f027089200ca",
+      "surviving_line_authors": {
+        "Ana Rescala": 17,
+        "Pawan Kakarla": 107,
+        "Michael Coulter": 326,
+        "Dustin Divis": 49,
+        "dusdiv01": 2,
+        "Kelly Alvarez": 42
+      },
+      "introduction_candidates": [
+        "db6823b0c4c757b9a21166e5385415aff273a2a0 2020-12-01T15:20:03-06:00 Dustin Divis <dustin.divis@arm.com> [GUI/brunel] Status Bar: Phase 1 complete"
+      ]
+    },
+    {
+      "topic": "docs",
+      "path": "GUI/agent/collect-app-docs-data.js",
+      "head_sha256": "df86165deedf5fbfd7b710782a59e5d8ee72c7f098df91710af6ab8fc7e9d652",
+      "surviving_line_authors": {
+        "Michael Coulter": 388
+      },
+      "introduction_candidates": [
+        "31a0f63e2ae554ce1afb122a2886d345c1302306 2025-09-26T15:11:52-05:00 Michael Coulter <michael.coulter@arm.com> This change introduces and integrates a comprehensive orchestration framework under `GUI/agent` and expands the automated documentation system for the GUI source tree. Together, these updates provide a structured foundation for planning, analysis, documentation enforcement, and curated narratives."
+      ]
+    },
+    {
+      "topic": "docs",
+      "path": "GUI/agent/render-app-docs.py",
+      "head_sha256": "26dc4535896b0714d857f66db706e9f2b7e77480c4761769bf0e824378603ece",
+      "surviving_line_authors": {
+        "Michael Coulter": 829
+      },
+      "introduction_candidates": [
+        "31a0f63e2ae554ce1afb122a2886d345c1302306 2025-09-26T15:11:52-05:00 Michael Coulter <michael.coulter@arm.com> This change introduces and integrates a comprehensive orchestration framework under `GUI/agent` and expands the automated documentation system for the GUI source tree. Together, these updates provide a structured foundation for planning, analysis, documentation enforcement, and curated narratives."
+      ]
+    },
+    {
+      "topic": "docs",
+      "path": "GUI/agent/runtime/tools/doc_guard.py",
+      "head_sha256": "437ead9147286293d8cb95b5866ba7fb46ea9736c12c2fc2b6a9292ddca93ee8",
+      "surviving_line_authors": {
+        "Michael Coulter": 15
+      },
+      "introduction_candidates": [
+        "31a0f63e2ae554ce1afb122a2886d345c1302306 2025-09-26T15:11:52-05:00 Michael Coulter <michael.coulter@arm.com> This change introduces and integrates a comprehensive orchestration framework under `GUI/agent` and expands the automated documentation system for the GUI source tree. Together, these updates provide a structured foundation for planning, analysis, documentation enforcement, and curated narratives."
+      ]
+    },
+    {
+      "topic": "ai-planning",
+      "path": "ai/ia-mcp-pack/src/ia_mcp_pack/plan_compiler.py",
+      "head_sha256": "d1eaee1c463b3973c8735be90ce397d9708c7a51a06afea598cd79197a4c3940",
+      "surviving_line_authors": {
+        "Michael Coulter": 9029
+      },
+      "introduction_candidates": [
+        "67b621ef6f366c852550ef07ee1122d336f2985e 2026-08-30T00:56:14-05:00 Michael Coulter <michael.coulter@arm.com> Compile typed IA MCP design plans"
+      ]
+    },
+    {
+      "topic": "ai-planning",
+      "path": "ai/ia-mcp-pack/src/ia_mcp_pack/plan_execution.py",
+      "head_sha256": "720631942e251330f43b137980baff12e731ba3c0dcd110b40d728d9eca0b2aa",
+      "surviving_line_authors": {
+        "Michael Coulter": 2486
+      },
+      "introduction_candidates": [
+        "ad62f9ccb1382a153997636f24a9e6cd35cb096d 2026-08-31T21:33:31-05:00 Michael Coulter <michael.coulter@arm.com> Prove IA MCP NCI construction vertical"
+      ]
+    },
+    {
+      "topic": "ai-planning",
+      "path": "ai/ia-mcp-pack/src/ia_mcp_pack/direct_ce_fallback.py",
+      "head_sha256": "5a7741c625680fde5aa6e3ba00e2034c4267c18144d4824279e5e35b18fcfdb9",
+      "surviving_line_authors": {
+        "Michael Coulter": 1616
+      },
+      "introduction_candidates": [
+        "e2415aae9c4951362cabb1d0607a2bf74cc9e869 2026-09-16T17:08:36-05:00 Michael Coulter <michael.coulter@arm.com> Expand IA MCP configuration execution"
+      ]
+    },
+    {
+      "topic": "ai-planning",
+      "path": "ai/docs/agentic-v1-completion.md",
+      "head_sha256": "21b4b437c9cf172d6b7393a25fec11dc3f86adfcf1cedf35aec90998130fe07d",
+      "surviving_line_authors": {
+        "Michael Coulter": 108
+      },
+      "introduction_candidates": [
+        "d1d5ca5a8a57e6b589a8fe7fa60f997665596edb 2026-09-04T16:12:59-05:00 Michael Coulter <michael.coulter@arm.com> Retire stale IA MCP execution guidance"
+      ]
+    },
+    {
+      "topic": "ai-runtime",
+      "path": "ai/ia-mcp-pack/src/ia_mcp_pack/legacy_ce_sidecar.py",
+      "head_sha256": "db0c8f82bab151314e9e027154700c3abb1cda487c201b9314fac7ca92002695",
+      "surviving_line_authors": {
+        "Michael Coulter": 554
+      },
+      "introduction_candidates": [
+        "be568b8bdac01df3762f96a5d3e62dc9fa532e7b 2026-09-19T13:03:54-05:00 Michael Coulter <michael.coulter@arm.com> Route IA MCP CE execution through qualified runtimes"
+      ]
+    },
+    {
+      "topic": "ai-runtime",
+      "path": "ai/ia-mcp-pack/src/ia_mcp_pack/ce_backends.py",
+      "head_sha256": "13020082c9f30b89f76010170eba477f890bc2d21da6eee57b1cd82d13d3c75d",
+      "surviving_line_authors": {
+        "Michael Coulter": 749
+      },
+      "introduction_candidates": [
+        "be568b8bdac01df3762f96a5d3e62dc9fa532e7b 2026-09-19T13:03:54-05:00 Michael Coulter <michael.coulter@arm.com> Route IA MCP CE execution through qualified runtimes"
+      ]
+    },
+    {
+      "topic": "ai-runtime",
+      "path": "ai/ia-mcp-pack/src/ia_mcp_pack/runtime_router.py",
+      "head_sha256": "17cdcb8230d8f48e4f7ed35a10ca1eef4c37a78a8af8db7717f2017b9a8f4e00",
+      "surviving_line_authors": {
+        "Michael Coulter": 812
+      },
+      "introduction_candidates": [
+        "0ab6800995f1cbf36129653ccea400b713c8d8ae 2026-04-21T00:28:21-05:00 Michael Coulter <michael.coulter@arm.com> IA MCP capability pack initial implementation"
+      ]
+    },
+    {
+      "topic": "release",
+      "path": "jenkins/BuildReleases/Installer/installer-staging.Jenkinsfile",
+      "head_sha256": "936f3fa93aee563f536a1f47f367319d336706cdd92249dc74b1359881404eee",
+      "surviving_line_authors": {
+        "Michael Coulter": 475
+      },
+      "introduction_candidates": []
+    },
+    {
+      "topic": "release",
+      "path": "ai/ia-mcp-pack/src/ia_mcp_pack/api_disposition_deployment.py",
+      "head_sha256": "0e11d0318653d9190681b8e901e75397e0418b6755e776d8d5f86aeaf957d6cb",
+      "surviving_line_authors": {
+        "Michael Coulter": 157
+      },
+      "introduction_candidates": [
+        "2f0f548b67be00bfaa78d481474666356a1a4131 2026-09-21T11:45:58-05:00 Michael Coulter <michael.coulter@arm.com> Make CE API disposition staging contract-aware Simplify installer-staging jenkinsfile"
+      ]
+    },
+    {
+      "topic": "release",
+      "path": "ai/scripts/stage-ia-mcp-runtime.sh",
+      "head_sha256": "e824b54596b3cf9f0c00f81fdb0ce71a26d2d195b603cc9360f8c1253878a7d3",
+      "surviving_line_authors": {
+        "Michael Coulter": 828
+      },
+      "introduction_candidates": [
+        "eeef814840d71b16e53f87ba3c831a876527454b 2026-06-16T11:22:04-05:00 Michael Coulter <michael.coulter@arm.com> Reapply \"ia-mcp is now self-contained within brunel module\" with fixes",
+        "cdee3f4239a11568e885ae5bc674042e8ec2e8e2 2026-06-15T23:46:05-05:00 Michael Coulter <michael.coulter@arm.com> ia-mcp is now self-contained within brunel module"
+      ]
+    },
+    {
+      "topic": "ip-policy",
+      "path": "brunel/ip-version-policy.js",
+      "head_sha256": "5e14164d8a50cc4e216e3dbe634cddaab1c26839cd00df615bdc33ddb4b3088a",
+      "surviving_line_authors": {
+        "Michael Coulter": 260
+      },
+      "introduction_candidates": [
+        "4fb049b5c92bedb7192e7db8780eaa5b4218fa15 2026-07-17T12:49:02-05:00 Michael Coulter <michael.coulter@arm.com> Add configurable IP version policy"
+      ]
+    },
+    {
+      "topic": "ip-policy",
+      "path": "GUI/src/app/shared/services/data.service.ts",
+      "head_sha256": "f7b60546cb71c06e2734907c437e825f23b4d83ed345934de3c09a4cfa68f8c9",
+      "surviving_line_authors": {
+        "Ana Rescala": 20,
+        "Dustin Divis": 59,
+        "dusdiv01": 5,
+        "Dustin divis": 490,
+        "Pawan Kakarla": 140,
+        "Michael Coulter": 509,
+        "Kelly Alvarez": 165,
+        "Liza Dayoub": 56,
+        "Kyan Kornfeld": 11
+      },
+      "introduction_candidates": [
+        "b0c68199df9f4397c62159caf048c69b6644d570 2020-06-01T14:30:26-07:00 Kelly Alvarez <kelly.alvarez@arm.com> Initial REST api commit"
+      ]
+    },
+    {
+      "topic": "diagnostics",
+      "path": "GUI/src/app/shared/components/info-tree/info-tree.component.ts",
+      "head_sha256": "7c8babd5ee623ec0b23fa33131b0ecbaffa1c183c259649b83954e3744ead593",
+      "surviving_line_authors": {
+        "Michael Coulter": 61,
+        "Pawan Kakarla": 6
+      },
+      "introduction_candidates": [
+        "44d2ae68c761b8be51a3956cab45519545eaca74 2024-05-20T18:16:26-05:00 Michael Coulter <michael.coulter@arm.com> BRUNEL-1999: Add DRC violation tree viewer"
+      ]
+    },
+    {
+      "topic": "diagnostics",
+      "path": "GUI/src/app/status-bar/drc-results/drc-results.component.ts",
+      "head_sha256": "5d04b00df7e9de2935eb855d3edfbdbb5097c4937c42595f355f64a710d5ce8b",
+      "surviving_line_authors": {
+        "Kelly Alvarez": 56,
+        "Michael Coulter": 77,
+        "Dustin divis": 68,
+        "Dustin Divis": 34,
+        "Pawan Kakarla": 17,
+        "dusdiv01": 1
+      },
+      "introduction_candidates": [
+        "db6823b0c4c757b9a21166e5385415aff273a2a0 2020-12-01T15:20:03-06:00 Dustin Divis <dustin.divis@arm.com> [GUI/brunel] Status Bar: Phase 1 complete"
+      ]
+    },
+    {
+      "topic": "routing-editors",
+      "path": "GUI/src/app/canvas/ui/sidebar/mesh-route-editor/mesh-route-editor.component.ts",
+      "head_sha256": "9ab1968c3b0810e010d35cd27efbb2906211f4d75cd34c63eb95d39a52a1383a",
+      "surviving_line_authors": {
+        "Michael Coulter": 294,
+        "Dustin Divis": 6,
+        "Pawan Kakarla": 6,
+        "Dustin divis": 22
+      },
+      "introduction_candidates": [
+        "7389f6a0958aecb9e01f7708bd71fa95caa2d584 2025-08-28T04:20:06-05:00 Michael Coulter <michael.coulter@arm.com> delphi routing"
+      ]
+    },
+    {
+      "topic": "routing-editors",
+      "path": "GUI/src/app/shared/components/routing-scheme-modal/routing-scheme-modal.component.ts",
+      "head_sha256": "ac16d037fdb99b63d73244f4673cbe79a7c3ce39671c595ba4a5740a0f79d449",
+      "surviving_line_authors": {
+        "Michael Coulter": 125,
+        "Dustin Divis": 4,
+        "Pawan Kakarla": 8
+      },
+      "introduction_candidates": [
+        "69c2f5290a8353a3cea9433fa77185a3f6e2ec27 2025-08-12T13:37:07-05:00 Michael Coulter <michael.coulter@arm.com> BRUNEL-3435: Create routes"
+      ]
+    },
+    {
+      "topic": "desktop-dev",
+      "path": "gui_setup_mac.sh",
+      "head_sha256": "6c5cae51c0a0a0cc55473c3794dc503c8809d9bae38e9468eabf8745a0c49d78",
+      "surviving_line_authors": {
+        "Michael Coulter": 20,
+        "Liza Dayoub": 3
+      },
+      "introduction_candidates": [
+        "91f84a5f7c53f21ede6eee30274358d3b6c5abbb 2022-09-06T15:33:26-05:00 Michael Coulter <michael.coulter@arm.com> Add gui_setup_mac.sh script"
+      ]
+    }
+  ],
+  "missing_current_paths": [],
+  "scope": "Metadata and changed-path triage for all authored local-ref commits; selected implementation diffs, source excerpts, regression definitions and surviving-line blame. Not every changed line manually audited. No employer tests executed."
+}
