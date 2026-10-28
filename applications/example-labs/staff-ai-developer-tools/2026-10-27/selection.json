@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "company": "Example Labs (fictional)",
+  "role": "Staff Software Engineer, AI Developer Tools",
+  "example": true,
+  "prepared_date": "2026-10-27",
+  "positioning": "AI developer tooling and engineering architecture, grounded in internal adoption, typed MCP integration, CI repair and customer-shipped interconnect tools. Formal Staff title, people management and hosted fleet operations are not claimed.",
+  "identity": [
+    {
+      "text": "Michael Remington Coulter",
+      "refs": [
+        "profile-michael#name"
+      ],
+      "verbatim": true
+    },
+    {
+      "text": "Buda, TX | mrcoulter45@gmail.com | (760) 694-6310",
+      "refs": [
+        "profile-michael#location",
+        "profile-michael#email",
+        "profile-michael#phone"
+      ],
+      "verbatim": false
+    },
+    {
+      "text": "https://www.linkedin.com/in/michael-coulter-164868153/ | https://github.com/mrcoulter45",
+      "refs": [
+        "profile-michael#linkedin",
+        "profile-michael#github"
+      ],
+      "verbatim": false
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Professional Summary",
+      "entries": [
+        {
+          "text": "Software engineer building customer-shipped engineering tools and shared Codex workflows, with Python MCP integrations, Rust/TypeScript desktop architecture and persistent engineering memory.",
+          "refs": [
+            "project-ai-harness#design-adoption",
+            "project-ai-workbench#architecture",
+            "project-ia-mcp#purpose",
+            "lead-ai-engineering-memory#dynamic-memory",
+            "project-interconnect-architect#production"
+          ],
+          "verbatim": false,
+          "kind": "paragraph"
+        }
+      ]
+    },
+    {
+      "heading": "Professional Experience",
+      "entries": [
+        {
+          "text": "Arm — Senior Software Engineer | Austin, TX | Apr 2023–Present",
+          "refs": [
+            "exp-arm-senior#employment"
+          ],
+          "verbatim": false,
+          "kind": "subheading"
+        },
+        {
+          "text": "Designed and developed a shared coding-agent harness at Arm, used by several other engineers for agentic software development.",
+          "refs": [
+            "project-ai-harness#design-adoption"
+          ],
+          "verbatim": true,
+          "kind": "bullet"
+        },
+        {
+          "text": "Built repair-jenkins, a team-used Codex skill that investigates failed Interconnect Architect GUI Playwright tests in the actual Jenkins cluster checkout, implements fixes and reruns the failing tests.",
+          "refs": [
+            "accomp-ai-jenkins-repair#workflow"
+          ],
+          "verbatim": true,
+          "kind": "bullet"
+        },
+        {
+          "text": "Automated the diagnosis/fix/retest loop, requiring three consecutive clean passes before returning patches for human review and commit/push.",
+          "refs": [
+            "accomp-ai-jenkins-repair#review-gate"
+          ],
+          "verbatim": false,
+          "kind": "bullet"
+        },
+        {
+          "text": "Built a Tauri 2 workbench with React/TypeScript UI and a shared Rust desktop/CLI core; revalidated process IDs, start times and executable identity before process-control actions.",
+          "refs": [
+            "project-ai-workbench#architecture",
+            "accomp-ai-process-controls#identity"
+          ],
+          "verbatim": false,
+          "kind": "bullet"
+        },
+        {
+          "text": "Built ia-mcp, an internal Python MCP interface used by several engineers to translate interconnect intent into backend API calls with typed plans, checkpoints, semantic validation and backend fallback.",
+          "refs": [
+            "project-ia-mcp#purpose"
+          ],
+          "verbatim": true,
+          "kind": "bullet"
+        },
+        {
+          "text": "Built ia-mcp on Python 3.13 with product-aware routing to current backends and an isolated authenticated Python 3.7 subprocess for legacy Configuration Engine workloads.",
+          "refs": [
+            "accomplishment-ia-mcp-dual-runtime#architecture"
+          ],
+          "verbatim": true,
+          "kind": "bullet"
+        },
+        {
+          "text": "Implemented dynamic autonomous creation and retrieval of important engineering memory during running tasks in the coding-agent harness.",
+          "refs": [
+            "lead-ai-engineering-memory#dynamic-memory"
+          ],
+          "verbatim": true,
+          "kind": "bullet"
+        },
+        {
+          "text": "CMN GUI Lead, solely responsible for creating and maintaining all CMN GUI tooling in Interconnect Architect from CMN-800 onward.",
+          "refs": [
+            "leadership-cmn-gui#ownership"
+          ],
+          "verbatim": true,
+          "kind": "bullet"
+        },
+        {
+          "text": "Arm — Software Engineer | Austin, TX | Apr 2020–Apr 2023",
+          "refs": [
+            "exp-arm-software#employment"
+          ],
+          "verbatim": false,
+          "kind": "subheading"
+        },
+        {
+          "text": "Implemented backend functionality for users to start and stop Jupyter notebooks from a frontend dashboard.",
+          "refs": [
+            "project-pelion-ml#notebook-lifecycle"
+          ],
+          "verbatim": true,
+          "kind": "bullet"
+        },
+        {
+          "text": "Used Kubernetes persistent-storage features backed by AWS EFS for Jupyter notebook storage.",
+          "refs": [
+            "accomplishment-pelion-notebook-persistence#persistence"
+          ],
+          "verbatim": true,
+          "kind": "bullet"
+        },
+        {
+          "text": "Arm — Graduate Software Engineer | Austin, TX | Jan 2019–Apr 2020",
+          "refs": [
+            "exp-arm-graduate#employment"
+          ],
+          "verbatim": false,
+          "kind": "subheading"
+        },
+        {
+          "text": "Implemented Verilog FPGA master/slave test modules and C++ Mbed OS firmware for board I/O testing.",
+          "refs": [
+            "project-mbed-fpga-test-shield#modules"
+          ],
+          "verbatim": true,
+          "kind": "bullet"
+        }
+      ]
+    },
+    {
+      "heading": "Technical Skills",
+      "entries": [
+        {
+          "text": "Python, MCP, Rust, TypeScript, React, Angular, Playwright, Jenkins, Git, Kubernetes, AWS EFS, C++, Verilog.",
+          "refs": [
+            "project-ia-mcp#purpose",
+            "project-ai-workbench#architecture",
+            "accomp-ai-jenkins-repair#workflow",
+            "accomplishment-pelion-notebook-persistence#persistence",
+            "project-mbed-fpga-test-shield#modules",
+            "accomplishment-cmn-configuration-editor#integration",
+            "accomp-ai-git-inspection#state-model"
+          ],
+          "verbatim": false,
+          "kind": "paragraph"
+        }
+      ]
+    },
+    {
+      "heading": "Education",
+      "entries": [
+        {
+          "text": "Bachelor of Science, Electrical and Computer Engineering, The University of Texas at Austin, December 2018.",
+          "refs": [
+            "education-ut-austin-bs#degree"
+          ],
+          "verbatim": true,
+          "kind": "paragraph"
+        },
+        {
+          "text": "Primary focus: Computer Architecture and Embedded Systems. Secondary focus: Integrated Circuits.",
+          "refs": [
+            "education-ut-austin-bs#focus"
+          ],
+          "verbatim": true,
+          "kind": "paragraph"
+        }
+      ]
+    },
+    {
+      "heading": "Awards",
+      "entries": [
+        {
+          "text": "Received the Engineering AI Showcase Most Innovative Award on December 17, 2025 for a project-agnostic, multi-agent orchestration and context-gathering system presentation.",
+          "refs": [
+            "award-engineering-ai-showcase#award"
+          ],
+          "verbatim": true,
+          "kind": "bullet"
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "requirement_id": "python-mcp",
+      "coverage": "strong",
+      "refs": [
+        "project-ia-mcp#purpose",
+        "accomplishment-ia-mcp-dual-runtime#architecture"
+      ],
+      "reason": "Direct Python MCP and backend integration evidence; shared API contribution is corroborated in owner clarification."
+    },
+    {
+      "requirement_id": "adoption",
+      "coverage": "strong",
+      "refs": [
+        "project-ai-harness#design-adoption",
+        "accomp-ai-jenkins-repair#workflow"
+      ],
+      "reason": "Owner confirms several engineers use the harness and teammates use the repair skill. Exact usage counts and quantified gains remain undocumented."
+    },
+    {
+      "requirement_id": "desktop",
+      "coverage": "strong",
+      "refs": [
+        "project-ai-workbench#architecture",
+        "accomp-ai-process-controls#identity"
+      ],
+      "reason": "Rust/Tauri, React/TypeScript, shared CLI core and process identity controls directly demonstrate this work."
+    },
+    {
+      "requirement_id": "validation",
+      "coverage": "strong",
+      "refs": [
+        "accomp-ai-jenkins-repair#review-gate",
+        "accomplishment-ia-mcp-checkpoint-replay#execution",
+        "accomplishment-ia-mcp-real-engine-qualification#historical-result"
+      ],
+      "reason": "Repair gates and checkpoint/rollback mechanisms are documented. The 92 historical cases are real-engine contract/integration checks, separate from Codex tasks; no tests were rerun here."
+    },
+    {
+      "requirement_id": "architecture",
+      "coverage": "strong",
+      "refs": [
+        "project-ai-harness#modular-boundaries",
+        "leadership-cmn-gui#ownership",
+        "project-interconnect-architect#production",
+        "project-interconnect-architect#shared-apis"
+      ],
+      "reason": "Modular platform architecture, functional GUI lead responsibility, stakeholder-driven production features and shared backend API contributions address this criterion. These do not imply a formal Staff title or organization-wide strategy ownership."
+    },
+    {
+      "requirement_id": "hosted-scale",
+      "coverage": "gap",
+      "refs": [],
+      "reason": "Customer-shipped desktop tools and internal agent workflows do not establish large-scale hosted distributed agent services or availability objectives."
+    },
+    {
+      "requirement_id": "kubernetes",
+      "coverage": "strong",
+      "refs": [
+        "accomplishment-pelion-notebook-persistence#persistence"
+      ],
+      "reason": "Earlier Pelion work directly used Kubernetes persistent storage backed by AWS EFS; this does not imply recent platform operations tenure."
+    },
+    {
+      "requirement_id": "mentorship",
+      "coverage": "gap",
+      "refs": [],
+      "reason": "No specific mentoring evidence or cross-organization influence scope is documented. Do not infer people leadership from CMN GUI Lead."
+    },
+    {
+      "requirement_id": "memory",
+      "coverage": "strong",
+      "refs": [
+        "lead-ai-engineering-memory#dynamic-memory",
+        "lead-ai-engineering-memory#source-verification"
+      ],
+      "reason": "Owner confirms automatic memory capture/retrieval during tasks; supplied analysis documents source checking and durable guidance. No vector database or scale claim is needed."
+    },
+    {
+      "requirement_id": "measurement",
+      "coverage": "partial",
+      "refs": [
+        "accomplishment-ia-mcp-real-engine-qualification#historical-result",
+        "accomp-ai-jenkins-repair#impact",
+        "accomplishment-ia-mcp-agent-evaluations#historical-evaluations",
+        "accomplishment-ia-mcp-agent-evaluations#installed-flow"
+      ],
+      "reason": "Two historical bounded agent evaluations, owner-confirmed installed Codex configuration builds, separate real-engine qualification results and a qualitative manual-effort baseline provide limited evidence. Repeated agent-quality statistics, operational SLOs and measured productivity deltas remain undocumented."
+    }
+  ],
+  "decisions": [
+    "Lead with shared harness, repair workflow, desktop architecture and MCP integration because those directly address this developer-tools opening.",
+    "Retain CMN GUI Lead as concrete technical ownership, without changing the formal Senior Software Engineer title.",
+    "Use the team-used repair loop and its pass gate rather than inventing time savings; leave the reported hours-to-days baseline in the analysis.",
+    "Keep earlier Kubernetes and C++/Verilog work to demonstrate relevant breadth; omit internships and unrelated detailed GUI algorithms for focus.",
+    "Keep bounded qualification results in the match analysis to preserve testing context without crowding the résumé.",
+    "Use standard headings, ordinary bullets and city-level contact information. Markdown is editable; no PDF page count or ATS-vendor parsing claim is asserted."
+  ],
+  "follow_up": [
+    "Document representative mentees, mentoring actions and cross-organization decisions if such work exists.",
+    "Collect dated active users/teams, repair elapsed time, success/intervention rates and attributable before/after effort.",
+    "Document any actual hosted agent-service operations, reliability responsibilities or SLOs; do not infer them from desktop delivery.",
+    "Confirm present employment/contact details when using this example after the evidence snapshot."
+  ],
+  "review_notes": "Agent reviewed selected fact wording and primary owner clarification boundaries; exact bullets use verbatim checks, while summary, dates, skills and repair condensation were checked against cited facts. The opening is fictional. Source identity and locator validation do not independently verify employer claims."
+}

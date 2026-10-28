@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "project-synthetic-widget",
+  "type": "project",
+  "title": "SYNTHETIC widget fixture",
+  "summary": "Synthetic fixture only; excluded from authoritative knowledge.",
+  "organization": "Fictional Test Org",
+  "role": "Synthetic builder",
+  "dates": {
+    "start": "2025-01",
+    "end": null,
+    "ongoing": true,
+    "as_of": "2026-10-27",
+    "note": "Synthetic dates for tests only."
+  },
+  "technologies": [
+    "Python",
+    "MetadataOnlyTool"
+  ],
+  "competencies": [
+    "Testing"
+  ],
+  "tags": [
+    "synthetic"
+  ],
+  "related": [],
+  "facts": [
+    {
+      "id": "widget",
+      "text": "Test Person built a Python widget and verified its rollback behavior.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-synthetic",
+          "locator": "L2-L2"
+        }
+      ]
+    },
+    {
+      "id": "private",
+      "text": "Private prototype uses SecretTool.",
+      "status": "confirmed",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-synthetic",
+          "locator": "L3-L3"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "SYNTHETIC TEST FIXTURE."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-process-controls",
+  "type": "accomplishment",
+  "title": "Packaged build orchestration and process identity controls",
+  "summary": "Concurrent builds and event-driven runtime status are backed by persistent registries and process-identity revalidation.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Rust",
+    "Tauri 2",
+    "React",
+    "TypeScript",
+    "IPC"
+  ],
+  "competencies": [
+    "Process lifecycle",
+    "Application reliability",
+    "Native integration"
+  ],
+  "tags": [
+    "packaging",
+    "process controls",
+    "desktop",
+    "developer tools"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-workbench"
+  ],
+  "facts": [
+    {
+      "id": "controls",
+      "text": "Implemented concurrent packaged-module builds, persistent process registries, event-driven UI updates and production process controls in the engineering workbench.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L135-L144"
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "text": "Revalidated process IDs, start times and recorded executables before process-control actions; renderer readiness checks actual bundle assets rather than assuming a watcher means a completed build.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L135-L138"
+        }
+      ]
+    },
+    {
+      "id": "validation-assets",
+      "text": "Added mocked IPC regressions and an opt-in live packaged test lane; the supplied analysis does not establish execution of that lane.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L138-L138"
+        },
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L16-L16"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

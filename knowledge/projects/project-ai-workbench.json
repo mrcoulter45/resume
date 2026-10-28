@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "project-ai-workbench",
+  "type": "project",
+  "title": "Native engineering workbench with shared Rust core",
+  "summary": "Tauri desktop and JSON CLI share repository inspection and engineering action logic, with a React/TypeScript interface.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Rust",
+    "Tauri 2",
+    "React",
+    "TypeScript",
+    "Tokio",
+    "Git",
+    "TanStack Query"
+  ],
+  "competencies": [
+    "Desktop applications",
+    "Asynchronous systems",
+    "API boundaries",
+    "Developer experience"
+  ],
+  "tags": [
+    "developer tools",
+    "Rust",
+    "desktop",
+    "CLI",
+    "software architecture"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness",
+    "accomp-ai-workspace-isolation"
+  ],
+  "facts": [
+    {
+      "id": "architecture",
+      "text": "Built a Tauri 2 engineering workbench with a React/TypeScript UI and shared Rust application core consumed by both the desktop interface and a JSON CLI.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L110-L144"
+        }
+      ]
+    },
+    {
+      "id": "bounded-inspection",
+      "text": "Implemented bounded asynchronous repository inspection, separating expensive Git refreshes from independent process-state updates.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L122-L135"
+        }
+      ]
+    },
+    {
+      "id": "action-validation",
+      "text": "Hardened registered engineering actions through identifier/slot/argument validation, environment controls and timeouts; direct actions launch argument arrays without a shell.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L130-L132"
+        }
+      ]
+    },
+    {
+      "id": "runtime-delegation",
+      "text": "Delegated renderer operations to the existing workspace implementation rather than duplicating project runtime behavior.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L116-L119"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

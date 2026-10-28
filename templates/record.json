@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "project-replace-me",
+  "type": "project",
+  "title": "REPLACE_ME: descriptive project title",
+  "summary": "REPLACE_ME: context, challenge and contribution",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "REPLACE_ME: evidence date precision and any unknowns"
+  },
+  "technologies": [],
+  "competencies": [],
+  "tags": [],
+  "related": [],
+  "facts": [
+    {
+      "id": "contribution",
+      "text": "REPLACE_ME: specific personal action and outcome; only documented metrics",
+      "status": "needs_clarification",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-replace-me",
+          "locator": "L1-L1"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Replace all placeholders before adding to knowledge. Templates intentionally fail until completed."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "additional-electronics-interests",
+  "type": "additional",
+  "title": "Electronics and DIY interests",
+  "summary": "Source-listed hobby interests without a documented individual project.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Date precision is limited to the supplied source; no exact event date is inferred."
+  },
+  "technologies": [],
+  "competencies": [],
+  "tags": [
+    "electronics",
+    "DIY",
+    "hobby"
+  ],
+  "related": [],
+  "facts": [
+    {
+      "id": "interests",
+      "text": "Source-listed interests include hobbyist electronics and DIY projects.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L105-L109"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No project name, implementation breakdown, repository, users or measured outcome is documented. Do not turn this into professional project experience. Other preserved interests include golf, basketball, vocals, guitar and piano."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-isolated-agent-verification",
+  "type": "accomplishment",
+  "title": "Isolated agent verification of packaged tooling",
+  "summary": "Fresh agent sessions exercise packaged MCP registration and integrity without inheriting ordinary development-session context.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Codex",
+    "MCP",
+    "Python",
+    "JSON-RPC"
+  ],
+  "competencies": [
+    "Agent integration testing",
+    "Environment isolation",
+    "Package verification"
+  ],
+  "tags": [
+    "agent evaluation",
+    "packaged acceptance",
+    "MCP",
+    "provenance"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness",
+    "accomp-ai-immutable-local-modules"
+  ],
+  "facts": [
+    {
+      "id": "sessions",
+      "text": "Built isolated agent-verification sessions with blank workspaces and session-local Codex state, excluding normal MCP registrations, skills, hooks, history and guidance.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L314-L317"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "text": "Implemented verification checks for exact packaged registration, provider configuration, module integrity, health/proof output, an MCP handshake and absence of remaining runtime-owner records.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L314-L320"
+        }
+      ]
+    },
+    {
+      "id": "boundary",
+      "text": "The subsystem provides host-native development and packaged-agent rehearsal; cluster publication and acceptance belong to a separate workflow.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L320-L326"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The supplied analysis inspected verification implementation without executing it. Do not convert implementation checks into an unrecorded live run, repeated benchmark or pass percentage."
+  ]
+}

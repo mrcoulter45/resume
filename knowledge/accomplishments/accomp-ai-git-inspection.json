@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-git-inspection",
+  "type": "accomplishment",
+  "title": "Robust Git state inspection and guarded repository actions",
+  "summary": "Repository-state parsing and freshness-aware comparisons provide reliable engineering context before destructive state changes.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Rust",
+    "Git",
+    "Tokio"
+  ],
+  "competencies": [
+    "State modeling",
+    "Concurrency",
+    "Defensive programming"
+  ],
+  "tags": [
+    "Git tooling",
+    "repository inspection",
+    "developer tools"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-workbench"
+  ],
+  "facts": [
+    {
+      "id": "state-model",
+      "text": "Implemented Git porcelain-v2 parsing for staged/unstaged/untracked files, renames, conflicts, Unicode paths and detached HEADs.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L122-L129"
+        }
+      ]
+    },
+    {
+      "id": "remote-evidence",
+      "text": "Followed configured upstreams and distinguished fresh, cached and missing remote-comparison evidence in repository inspection.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L125-L129"
+        }
+      ]
+    },
+    {
+      "id": "reset-guards",
+      "text": "Rechecked branch identity, cleanliness, remote availability and ahead counts after fetching before reset-to-origin actions.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L130-L132"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

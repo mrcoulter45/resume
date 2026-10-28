@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "exp-arm-verification-intern",
+  "type": "experience",
+  "title": "ATG Verification Enablement Intern",
+  "summary": "Internship building Python architectural test-data tooling and SQLite test databases.",
+  "organization": "Arm",
+  "role": "ATG Verification Enablement Intern",
+  "dates": {
+    "start": "2016-05",
+    "end": "2016-08",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Employment dates are supplied at month precision. Ongoing status is a source-era snapshot, not a claim about future employment."
+  },
+  "technologies": [],
+  "competencies": [],
+  "tags": [
+    "employment",
+    "Arm",
+    "Austin"
+  ],
+  "related": [
+    "project-architectural-test-data"
+  ],
+  "facts": [
+    {
+      "id": "employment",
+      "text": "ATG Verification Enablement Intern at Arm in Austin, Texas, 2016-05 to 2016-08.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L65-L68"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

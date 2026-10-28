@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "company": "REPLACE_ME",
+  "role": "REPLACE_ME",
+  "example": false,
+  "prepared_date": "2026-10-27",
+  "positioning": "REPLACE_ME: target positioning and evidence boundaries",
+  "identity": [
+    {
+      "text": "REPLACE_ME",
+      "refs": [
+        "profile-michael#name"
+      ],
+      "verbatim": false
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Professional Experience",
+      "entries": [
+        {
+          "text": "REPLACE_ME",
+          "refs": [
+            "profile-michael#name"
+          ],
+          "verbatim": false,
+          "kind": "bullet"
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "requirement_id": "required-qualification",
+      "coverage": "gap",
+      "refs": [],
+      "reason": "REPLACE_ME: reason for coverage assessment"
+    }
+  ],
+  "decisions": [
+    "REPLACE_ME: why content was selected/omitted"
+  ],
+  "follow_up": [
+    "REPLACE_ME: missing documentation worth collecting"
+  ],
+  "review_notes": "REPLACE_ME: review factual entailment, ownership, dates, metrics, privacy and job completeness"
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "project-pelion-space-analytics",
+  "type": "project",
+  "title": "Pelion Space Analytics",
+  "summary": "Web services and dashboard for thermal-camera and PIR occupancy sensing.",
+  "organization": "Arm",
+  "role": "Graduate Software Engineer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Within January 2019–April 2020 graduate role; exact project dates are unspecified."
+  },
+  "technologies": [
+    "Node.js",
+    "Express",
+    "React",
+    "JavaScript",
+    "CSS",
+    "PostgreSQL",
+    "Auth0"
+  ],
+  "competencies": [
+    "REST API design",
+    "database schema design",
+    "database performance testing",
+    "frontend engineering"
+  ],
+  "tags": [
+    "occupancy",
+    "full stack",
+    "sensor data"
+  ],
+  "related": [
+    "exp-arm-graduate"
+  ],
+  "facts": [
+    {
+      "id": "backend",
+      "text": "Built a Node.js/Express REST backend for occupancy data from thermal-camera and PIR sensors.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L54-L58"
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "text": "Defined and implemented PostgreSQL schemas and performed database performance testing.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L58-L58"
+        }
+      ]
+    },
+    {
+      "id": "frontend-auth",
+      "text": "Implemented React JavaScript and CSS dashboard components and configured Auth0 authentication.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L59-L61"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Performance testing is documented; no measured database performance improvement is supplied."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "leadership-cmn-gui",
+  "type": "leadership",
+  "title": "CMN GUI Lead and sole GUI-tooling responsibility",
+  "summary": "Functional technical leadership and sustained ownership of coherent-mesh GUI tooling from CMN-800 onward.",
+  "organization": "Arm",
+  "role": "CMN GUI Lead (functional responsibility; formal title Senior Software Engineer)",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": true,
+    "as_of": "2026-10-27",
+    "note": "The supplied analysis places CMN GUI work beginning in 2022; exact lead-role start is not independently established."
+  },
+  "technologies": [
+    "Angular",
+    "TypeScript",
+    "Python",
+    "CMN-800"
+  ],
+  "competencies": [
+    "Technical leadership",
+    "End-to-end ownership",
+    "Hardware-aware UX",
+    "Domain modeling"
+  ],
+  "tags": [
+    "coherent-mesh",
+    "technical-lead",
+    "ownership",
+    "architecture"
+  ],
+  "related": [
+    "project-interconnect-architect",
+    "exp-arm-senior"
+  ],
+  "facts": [
+    {
+      "id": "ownership",
+      "text": "CMN GUI Lead, solely responsible for creating and maintaining all CMN GUI tooling in Interconnect Architect from CMN-800 onward.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L19-L30"
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "text": "Created GUI tooling for Multi-CHI port devices, MCS group configuration, custom routing and mesh deadlock investigation.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L24-L30"
+        }
+      ]
+    },
+    {
+      "id": "lineage",
+      "text": "Cyprus is the internal name for CMN-800; Delphi was the most recent CMN release at the October 2026 clarification, with no public equivalent or exact date supplied.",
+      "status": "confirmed",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L23-L30"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "CMN GUI Lead is a functional responsibility within the formal Senior Software Engineer title, not a separate promotion or people-management claim.",
+    "Sole responsibility is bounded to CMN GUI tooling; shared renderer/test components, hardware IP and Configuration Engine algorithms retain separate authorship."
+  ]
+}

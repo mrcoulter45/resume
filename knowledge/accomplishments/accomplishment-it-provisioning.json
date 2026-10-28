@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-it-provisioning",
+  "type": "accomplishment",
+  "title": "IT systems provisioning and support",
+  "summary": "Early systems provisioning and IT service experience.",
+  "organization": "Arm",
+  "role": "IT Intern",
+  "dates": {
+    "start": "2014-10",
+    "end": "2015-08",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Date precision is limited to the supplied source; no exact event date is inferred."
+  },
+  "technologies": [],
+  "competencies": [
+    "systems provisioning",
+    "IT operations",
+    "customer service"
+  ],
+  "tags": [
+    "service tickets",
+    "network patching"
+  ],
+  "related": [
+    "exp-arm-it-intern"
+  ],
+  "facts": [
+    {
+      "id": "provisioning",
+      "text": "Imaged and distributed new machines, provisioned local administrator access, and resolved IT service tickets involving network patching and workstation equipment setup.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L79-L82"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "exp-arm-senior",
+  "type": "experience",
+  "title": "Senior Software Engineer",
+  "summary": "Current senior engineering role in interconnect tooling; CMN GUI Lead is a functional responsibility.",
+  "organization": "Arm",
+  "role": "Senior Software Engineer",
+  "dates": {
+    "start": "2023-04",
+    "end": null,
+    "ongoing": true,
+    "as_of": "2026-10-27",
+    "note": "Employment dates are supplied at month precision. Ongoing status is a source-era snapshot, not a claim about future employment."
+  },
+  "technologies": [],
+  "competencies": [],
+  "tags": [
+    "employment",
+    "Arm",
+    "Austin"
+  ],
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "employment",
+      "text": "Senior Software Engineer at Arm in Austin, Texas, 2023-04 to present as of October 2026.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L17-L23"
+        }
+      ]
+    },
+    {
+      "id": "cmn-lead",
+      "text": "Serves as CMN GUI Lead with sole responsibility for all CMN GUI tooling within the Senior Software Engineer role.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L19-L30"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Retain formal employment title; do not infer people management from functional technical leadership."
+  ]
+}

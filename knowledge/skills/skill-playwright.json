@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "skill-playwright",
+  "type": "skill",
+  "title": "Playwright",
+  "summary": "GUI end-to-end testing infrastructure.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "Playwright"
+  ],
+  "competencies": [
+    "test infrastructure",
+    "end-to-end testing"
+  ],
+  "tags": [
+    "skill",
+    "Playwright"
+  ],
+  "related": [
+    "project-interconnect-architect",
+    "exp-arm-senior"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Created Playwright infrastructure associated with newer NoC tooling.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L34-L43"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

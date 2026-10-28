@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "skill-kubernetes",
+  "type": "skill",
+  "title": "Kubernetes",
+  "summary": "Earlier project experience using Kubernetes storage for Jupyter notebooks.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "Kubernetes",
+    "AWS EFS"
+  ],
+  "competencies": [
+    "persistent storage",
+    "cloud integration"
+  ],
+  "tags": [
+    "skill",
+    "Kubernetes"
+  ],
+  "related": [
+    "project-pelion-ml",
+    "accomplishment-pelion-notebook-persistence"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Used Kubernetes persistent-storage features backed by AWS EFS for Jupyter notebooks.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-workflows",
+          "locator": "L19-L21"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

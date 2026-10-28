@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-cmn-configuration-editor",
+  "type": "accomplishment",
+  "title": "Hierarchical CMN configuration and mesh editing",
+  "summary": "Translated complex coherent-mesh hardware hierarchy into interactive configuration and visualization workflows.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": "2022",
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "The supplied engineering analysis places the beginning of CMN GUI contributions in 2022; individual feature dates are not all established."
+  },
+  "technologies": [
+    "Angular",
+    "TypeScript",
+    "Python",
+    "SVG"
+  ],
+  "competencies": [
+    "Domain modeling",
+    "Interactive visualization",
+    "Hardware configuration",
+    "Cross-layer validation"
+  ],
+  "tags": [
+    "coherent-mesh",
+    "frontend",
+    "EDA",
+    "systems"
+  ],
+  "related": [
+    "project-interconnect-architect",
+    "leadership-cmn-gui"
+  ],
+  "facts": [
+    {
+      "id": "editor",
+      "text": "Built CMN mesh configuration and visualization workflows for crosspoints, devices, CAL representations, domains, instance inspection and device groups.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L23-L40"
+        }
+      ]
+    },
+    {
+      "id": "editing",
+      "text": "Implemented group creation, deletion, renaming and parameterization, group-member port assignments, internal interfaces, MCS editing, tile-definition and combined-mesh views.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L29-L40"
+        }
+      ]
+    },
+    {
+      "id": "integration",
+      "text": "Coordinated Angular components, TypeScript services, Configuration Engine metadata, validation and tests to keep hierarchical hardware editing consistent.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L37-L43"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "project-embedded-logic-analyzer",
+  "type": "project",
+  "title": "Embedded logic analyzer verification and trace decompression",
+  "summary": "Trace-data decompression tooling and UVM debugging for a customer-shipped embedded logic analyzer.",
+  "organization": "Arm",
+  "role": "Systems & Software IP Intern",
+  "dates": {
+    "start": "2017-05",
+    "end": "2017-08",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Internship period; task dates unspecified."
+  },
+  "technologies": [
+    "UVM",
+    "embedded logic analyzer"
+  ],
+  "competencies": [
+    "hardware verification",
+    "testbench debugging",
+    "trace-data processing"
+  ],
+  "tags": [
+    "Cortex-A",
+    "ELA",
+    "customer tooling"
+  ],
+  "related": [
+    "exp-arm-ip-intern"
+  ],
+  "facts": [
+    {
+      "id": "trace-decompression",
+      "text": "Created a script to decompress embedded logic analyzer trace data that was shipped to customers.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L70-L72"
+        }
+      ]
+    },
+    {
+      "id": "uvm-debugging",
+      "text": "Tested and debugged an Arm Cortex-A CPU embedded logic analyzer using a UVM testbench.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-linkedin-text",
+          "locator": "L83-L89"
+        }
+      ]
+    },
+    {
+      "id": "coverage-authorship",
+      "text": "The newer career outline reports developing and validating UVM testbench coverage models; the older source establishes testbench debugging but does not establish coverage-model authorship.",
+      "status": "needs_clarification",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L60-L63"
+        },
+        {
+          "source_id": "src-docx-text",
+          "locator": "L70-L73"
+        },
+        {
+          "source_id": "src-master-profile",
+          "locator": "L544-L547"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Use UVM testbench debugging in application copy until coverage-model authorship is clarified. No programming language is inferred for the decompression script."
+  ]
+}

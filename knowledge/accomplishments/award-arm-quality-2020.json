@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "award-arm-quality-2020",
+  "type": "accomplishment",
+  "title": "Arm Quality Award 2020 — team recognition",
+  "summary": "Named participant in the FPGA CI Test Shield team receiving the Arm Quality Award.",
+  "organization": "Arm",
+  "role": null,
+  "dates": {
+    "start": "2020",
+    "end": "2020",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Year supplied; no award day is inferred."
+  },
+  "technologies": [],
+  "competencies": [],
+  "tags": [
+    "award",
+    "team recognition",
+    "Mbed OS",
+    "FPGA"
+  ],
+  "related": [
+    "project-mbed-fpga-test-shield",
+    "exp-arm-graduate"
+  ],
+  "facts": [
+    {
+      "id": "award",
+      "text": "Named participant in the Arm Quality Award 2020 team for the Mbed OS FPGA CI Test Shield.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-master-profile",
+          "locator": "L412-L416"
+        },
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L41-L44"
+        },
+        {
+          "source_id": "src-docx-text",
+          "locator": "L85-L86"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Team award; the certificate names another person as lead. This normalized record uses the existing documented certificate review as secondary evidence, not a new independent image verification."
+  ]
+}

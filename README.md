@@ -1,115 +1,54 @@
-# **Michael Remington Coulter**
-**Computer Engineer**  
-[mrcoulter45@gmail.com](mailto:mrcoulter45@gmail.com) | (760) 694-6310  
-[linkedin.com/in/michael-coulter-164868153](https://www.linkedin.com/in/michael-coulter-164868153) | [mrcoulter45.github.io/portfolio](https://mrcoulter45.github.io/portfolio)  
-308 Saffron Springs, Buda, TX 78610  
+# Michael Coulter — Career Knowledge Base
 
----
+This repository separates original evidence, granular career knowledge, and tailored
+applications. Codex or another agent can analyze a job, retrieve evidence, choose a
+positioning, and write a résumé with a claim-by-claim audit trail. The core workflow
+requires only Python 3.9+: no API, database, subscription, or Python packages.
 
-## **Objective**
-<objective will change per job application>
+Start with [AGENTS.md](AGENTS.md) and [the workflows](docs/workflows.md).
 
+| Location | Purpose |
+| --- | --- |
+| `sources/registry.json` | Evidence paths, SHA-256 fingerprints, authority, revisions and extraction relationships |
+| `sources/originals/` | Immutable imports, including the previous root README résumé |
+| `sources/inbox/`, `sources/private/` | Ignored staging and optional private evidence; back up private files separately |
+| `knowledge/` | Independent JSON records for experience, projects, accomplishments, skills, credentials, leadership and additional experience |
+| `applications/<company>/<role>/<date>/` | Job description, requirements, selection, résumé, match analysis and trace manifests |
+| `schemas/`, `templates/`, `prompts/` | Data contracts and reusable authoring workflows |
+| `scripts/career.py`, `tests/` | Validation, ingestion, retrieval, assembly and regression checks |
+| `docs/` | Architecture, evidence rules, workflows, migration and open questions |
+| `resume-output/` | Preserved earlier résumé builder and PDF/Markdown outputs |
+| Root career documents, `source-archive/`, `LinkedIn-Profile-Export/` | Registered legacy evidence retained in place |
 
----
+```sh
+python3 scripts/career.py validate
+python3 scripts/career.py search "Python MCP checkpoint rollback" --limit 5
+python3 -m unittest discover -s tests -v
+```
 
-## **Professional Experience**
+The complete example uses a **fictional opening and documented real career facts**:
 
-### **Senior Software Engineer**  
-**Arm** — Austin, TX | *Apr 2023 – Present*  
-- Lead developer on the Arm Interconnect Architect, a scalable desktop application for configuring coherent and non-coherent interconnect microarchitectures. The tool features an Angular/TypeScript frontend and a custom Python backend with an extensive set of interconnect configuration APIs.
+```sh
+python3 scripts/career.py match applications/example-labs/staff-ai-developer-tools/2026-10-27
+python3 scripts/career.py audit applications/example-labs/staff-ai-developer-tools/2026-10-27
+```
 
-- Developed core features including the interactive canvas for system visualization and editing, a configuration-driven build tab for RTL generation, and a real-time console for user feedback.
+Read its [résumé](applications/example-labs/staff-ai-developer-tools/2026-10-27/resume.md),
+[match analysis](applications/example-labs/staff-ai-developer-tools/2026-10-27/match-analysis.md)
+and [claim trace](applications/example-labs/staff-ai-developer-tools/2026-10-27/claims.json).
 
-- The tool supports both internal engineers and external partners, enabling a structured and consistent interconnect design workflow.
+To add information, say: “Ingest this project description into my career knowledge
+base. Preserve the source, reconcile existing records, and flag unknowns.”
 
-### **Software Engineer**  
-**Arm** — Austin, TX | *Apr 2020 – Apr 2023*  
-- **Graduate Rotation Program**:
-  - Wrote RTL for safety mechanisms on non-coherent interconnect lines.
-  - Worked on the **Virtual IP (VIP)** team running simulations and improving verification tools.
-  - Initiated development on **Arm Interconnect Assistant** desktop tool.
+For a job, say: “Use my complete career knowledge base to create a tailored résumé
+for this job description. Include a job-match analysis and trace every claim.”
 
-- **Pelion Platform – Machine Learning**:
-  - Built back-end services to support cloud-based model deployment to embedded devices.
-  - Used: Kubernetes, Docker, Flask, React, PostgreSQL, Auth0, EKS, Jupyter.
+The agent does the semantic analysis and writing. The CLI retrieves candidates and
+assembles reviewed text; its ranking is not an ATS score or hiring probability.
+Markdown is canonical. [Export instructions](docs/workflows.md#exports) cover optional
+DOCX/PDF tools and the existing professional PDF pipeline.
 
-- **Pelion Platform – Return to Work**:
-  - Implemented APIs and timeseries database systems (InfluxDB) to track workspace occupancy and enforce physical distancing rules.
-
-### **Graduate Software Engineer**  
-**Arm** — Austin, TX | *Jan 2019 – Apr 2020*  
-- **Mbed OS FPGA CI Test Shield** *(Arm Quality Award 2020)*:
-  - Designed FPGA test systems (Verilog) to test embedded board I/O capabilities.
-  - Developed both hardware test modules and corresponding Mbed OS test firmware.
-  - Created waveform viewer tools, Verilog testbenches, and debug protocols.
-
-- **Pelion Platform – Space Analytics**:
-  - Designed back-end (Node.js + PostgreSQL) and front-end (React) for real-time spatial occupancy monitoring.
-  - Built REST APIs, integrated Auth0, and performed database performance testing.
-
----
-
-## **Internships**
-
-**IoT Engineering Intern**  
-*Arm* — Austin, TX | *May 2018 – Aug 2018*  
-- Initiated Mbed FPGA CI Test Shield development.  
-- Added I2C support to CI test libraries.  
-- Integrated ATECC608A crypto chip with Mbed OS.
-
-**Systems & Software IP Intern**  
-*Arm* — Austin, TX | *May 2017 – Aug 2017*  
-- Scripted decompression of embedded logic analyzer trace data.  
-- Developed and validated UVM testbench coverage models.
-
-**ATG Verification Enablement Intern**  
-*Arm* — Austin, TX | *May 2016 – Aug 2016*  
-- Wrote Python scripts to manage architectural test suites (TPIs).  
-- Built SQLite3 test databases and tooling.
-
-**IT Intern**  
-*Arm* — Austin, TX | *Oct 2014 – Aug 2015*  
-- Provisioned systems and resolved IT support tickets.  
-- Developed soft skills in customer service and operations.
-
----
-
-## **Skills**
-
-- **Programming:** C/C++, Python, JavaScript, Verilog, SystemVerilog, Bash, Java, HTML/CSS, PHP, SQL, NoSQL, Markdown  
-- **Technologies:** Embedded Systems, FPGA Programming, RTOS, Mbed OS, UVM, Arm ISA, Arduino, React, Flask, Express  
-- **Tools:** Git, DS-5 Studio, Keil uVision, Docker, Kubernetes, EKS, Jupyter, Auth0  
-- **Platforms:** Linux, Windows, macOS  
-
----
-
-## **Education**
-
-**Bachelor of Science, Computer Engineering**  
-*The University of Texas at Austin* — December 2018  
-
-**Relevant Courses and Labs:**
-- Embedded Systems Design Lab, Embedded and Real-Time Operating Systems Laboratory, Computer Architecture, Digital Systems Design Using HDL, Digital Logic Design, Fundamentals of Electronic Circuits  
-- Algorithms, Software Design and Implementation, Solid-State Electronic Devices, Electromagnetic Engineering, Probability and Random Processes, Linear Systems and Signals, Circuit Theory, Vector Calculus, Discrete Mathematics  
-- **Arm IoT Senior Design Project** – 1st Place, UT Austin ECE
----
-
-## **Accomplishments**
-
-- **Arm Quality Award** – Mbed OS FPGA CI Test Shield  
-- **1st Place – Senior Design Competition** – UT Austin Arm IoT Wireless Home Security System  
-- **Valedictorian** – Class of 2014, Academy for Academic Excellence  
-
----
-
-## **Extracurricular Activities**
-
-- **Electronics/DIY Projects:** Hobbyist in embedded hardware, sensors, and automation  
-- **Sports:** Golf, Basketball  
-- **Music:** Vocals, Guitar, Piano  
-
----
-
-## **References**
-
-Available upon request.
+These files include personal data and private employer context. Nothing uploads or
+publishes them. Review access and diffs before committing. Source hashes establish
+identity, not independent career verification. See [evidence rules](docs/evidence.md)
+and [migration notes](docs/migration.md).

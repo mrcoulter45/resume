@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "project-pelion-ml",
+  "type": "project",
+  "title": "Pelion Machine Learning platform",
+  "summary": "Cloud and web application services supporting embedded-device machine-learning workflows.",
+  "organization": "Arm",
+  "role": "Software Engineer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Within the April 2020–April 2023 role; exact project dates are unspecified. A September 2020 document records implementation."
+  },
+  "technologies": [
+    "Python",
+    "Flask",
+    "React",
+    "JavaScript",
+    "CSS",
+    "PostgreSQL",
+    "Kubernetes",
+    "Docker",
+    "Jupyter",
+    "AWS EKS",
+    "AWS ECR",
+    "AWS EFS",
+    "Auth0",
+    "Mocha",
+    "Chai",
+    "Chakram"
+  ],
+  "competencies": [
+    "backend engineering",
+    "cloud services",
+    "database schema design",
+    "end-to-end testing"
+  ],
+  "tags": [
+    "embedded ML",
+    "notebooks",
+    "cloud",
+    "full stack"
+  ],
+  "related": [
+    "exp-arm-software",
+    "accomplishment-pelion-notebook-persistence"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "The platform enabled data scientists to design embedded-device models in Jupyter and remotely flash models as Mbed OS applications through Pelion Device Management.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L25-L30"
+        }
+      ]
+    },
+    {
+      "id": "notebook-lifecycle",
+      "text": "Implemented backend functionality for users to start and stop Jupyter notebooks from a frontend dashboard.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L31-L32"
+        }
+      ]
+    },
+    {
+      "id": "system-testing",
+      "text": "Created an end-to-end system-testing framework for the Pelion Machine Learning platform.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L33-L34"
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "text": "Defined and implemented the PostgreSQL database schema.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L34-L34"
+        }
+      ]
+    },
+    {
+      "id": "dashboard-auth",
+      "text": "Implemented React JavaScript and CSS dashboard components and configured Auth0 user authentication.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L35-L36"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Platform context does not establish authorship of model research, training algorithms, or the entire model-deployment pipeline. No adoption or scale metric is supplied."
+  ]
+}

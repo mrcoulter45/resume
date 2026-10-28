@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-ia-mcp-dual-runtime",
+  "type": "accomplishment",
+  "title": "Product-aware Python 3.13 and 3.7 compatibility",
+  "summary": "Built a modern control layer with an authenticated isolated legacy Configuration Engine subprocess.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+  },
+  "technologies": [
+    "Python 3.13",
+    "Python 3.7",
+    "JSON",
+    "Model Context Protocol"
+  ],
+  "competencies": [
+    "Runtime compatibility",
+    "Process isolation",
+    "Protocol design",
+    "Lifecycle management"
+  ],
+  "tags": [
+    "AI-engineering",
+    "architecture",
+    "legacy-integration",
+    "runtime"
+  ],
+  "related": [
+    "project-ia-mcp"
+  ],
+  "facts": [
+    {
+      "id": "architecture",
+      "text": "Built ia-mcp on Python 3.13 with product-aware routing to current backends and an isolated authenticated Python 3.7 subprocess for legacy Configuration Engine workloads.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-runtime-correspondence",
+          "locator": "L4-L26"
+        },
+        {
+          "source_id": "src-runtime",
+          "locator": "L12-L18"
+        },
+        {
+          "source_id": "src-repair-scope",
+          "locator": "L7-L9"
+        }
+      ]
+    },
+    {
+      "id": "isolation",
+      "text": "Kept modern dependencies and planning in the Python 3.13 layer; the legacy sidecar imports only the standard library and Configuration Engine, behind admission, validation and evidence controls.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-runtime-correspondence",
+          "locator": "L18-L24"
+        }
+      ]
+    },
+    {
+      "id": "runtime-checks",
+      "text": "Verified exact runtime versions, product/session identity and backend import origins; used bounded messaging, timeouts, parent-lifetime monitoring and subprocess cleanup.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-runtime-correspondence",
+          "locator": "L18-L24"
+        }
+      ]
+    },
+    {
+      "id": "qualified-versions",
+      "text": "The supplied correspondence specifically qualifies Python 3.13.9 and legacy Python 3.7.15; arbitrary Python 3.7 installations are not claimed compatible.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-runtime-correspondence",
+          "locator": "L8-L24"
+        }
+      ]
+    },
+    {
+      "id": "restrictions",
+      "text": "Restricted legacy helper APIs and file paths and checked backend-code origin.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-runtime",
+          "locator": "L16-L17"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The underlying employer source files were referenced by supplied correspondence and were not independently inspected in this repository.",
+    "The final source URL in the correspondence is truncated and is intentionally not reconstructed.",
+    "Current products can remain available when the legacy interpreter is absent; incompatible legacy runtimes block their affected route."
+  ]
+}

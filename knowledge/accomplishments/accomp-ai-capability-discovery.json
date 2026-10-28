@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-capability-discovery",
+  "type": "accomplishment",
+  "title": "Deterministic capability discovery and transactional skill registration",
+  "summary": "Coordinated human/machine catalogs, freshness validation and rollback-safe registration make available engineering capabilities inspectable.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Python",
+    "SHA-256",
+    "JSON",
+    "Markdown",
+    "YAML",
+    "Ruby"
+  ],
+  "competencies": [
+    "Metadata contracts",
+    "Configuration management",
+    "Transactional operations",
+    "Developer onboarding"
+  ],
+  "tags": [
+    "capability discovery",
+    "agent skills",
+    "provenance",
+    "bootstrap"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness"
+  ],
+  "facts": [
+    {
+      "id": "catalogs",
+      "text": "Implemented deterministic capability discovery with coordinated Markdown/JSON catalogs describing scope, authority, status, triggers, prerequisites and invocation rules.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L43-L56"
+        }
+      ]
+    },
+    {
+      "id": "freshness",
+      "text": "Built SHA-256 freshness checks over source paths, permission bits and contents, with checks that generated human-readable and machine-readable catalogs agree.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L52-L56"
+        }
+      ]
+    },
+    {
+      "id": "registration",
+      "text": "Implemented skill registration with preflight checks, dry runs, refusal to replace unrelated paths, and rollback of newly created links after partial failures.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L59-L65"
+        }
+      ]
+    },
+    {
+      "id": "test-definitions",
+      "text": "The supplied snapshot records 18 bootstrap test definitions, including stale-catalog rejection, rollback and secret-free status reporting; these were not executed by that analysis.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L68-L71"
+        },
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L10-L16"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

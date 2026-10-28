@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "skill-uvm",
+  "type": "skill",
+  "title": "UVM",
+  "summary": "UVM testbench testing and debugging experience.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "UVM"
+  ],
+  "competencies": [
+    "hardware verification"
+  ],
+  "tags": [
+    "skill",
+    "UVM"
+  ],
+  "related": [
+    "project-embedded-logic-analyzer"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Tested and debugged an embedded logic analyzer using a UVM testbench.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L70-L73"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

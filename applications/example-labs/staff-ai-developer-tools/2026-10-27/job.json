@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "company": "Example Labs (fictional)",
+  "role": "Staff Software Engineer, AI Developer Tools",
+  "example": true,
+  "source": "job.md",
+  "source_sha256": "38f0ab2218dfb6661847f3df18586f816e97cdeb178c5aaeef279371402edfb1",
+  "captured": "2026-10-27",
+  "requirements": [
+    {
+      "id": "python-mcp",
+      "text": "Implement Python backend integrations and MCP tools.",
+      "importance": "required",
+      "terms": [
+        "Python",
+        "MCP",
+        "backend"
+      ],
+      "locator": "L8-L8"
+    },
+    {
+      "id": "adoption",
+      "text": "Deliver developer tooling used by other engineers with personal ownership.",
+      "importance": "required",
+      "terms": [
+        "harness",
+        "engineers",
+        "development"
+      ],
+      "locator": "L9-L9"
+    },
+    {
+      "id": "desktop",
+      "text": "Build Rust and TypeScript desktop integrations and reliable process controls.",
+      "importance": "required",
+      "terms": [
+        "Rust",
+        "TypeScript",
+        "desktop",
+        "process"
+      ],
+      "locator": "L10-L10"
+    },
+    {
+      "id": "validation",
+      "text": "Design repeatable CI diagnosis, automated repair, validation and rollback.",
+      "importance": "required",
+      "terms": [
+        "Jenkins",
+        "repair",
+        "rollback",
+        "validation"
+      ],
+      "locator": "L11-L11"
+    },
+    {
+      "id": "architecture",
+      "text": "Lead architectural decisions and translate stakeholder needs into shared APIs.",
+      "importance": "required",
+      "terms": [
+        "architecture",
+        "stakeholders",
+        "APIs"
+      ],
+      "locator": "L12-L12"
+    },
+    {
+      "id": "hosted-scale",
+      "text": "Operate large-scale distributed hosted agent services with availability objectives.",
+      "importance": "required",
+      "terms": [
+        "hosted",
+        "distributed",
+        "availability"
+      ],
+      "locator": "L13-L13"
+    },
+    {
+      "id": "kubernetes",
+      "text": "Kubernetes and persistent storage experience.",
+      "importance": "preferred",
+      "terms": [
+        "Kubernetes",
+        "persistent",
+        "EFS"
+      ],
+      "locator": "L16-L16"
+    },
+    {
+      "id": "mentorship",
+      "text": "Mentorship of engineers and influence across multiple organizations.",
+      "importance": "preferred",
+      "terms": [
+        "mentorship",
+        "cross-organizational"
+      ],
+      "locator": "L17-L17"
+    },
+    {
+      "id": "memory",
+      "text": "Capture and retrieve persistent engineering context during agent tasks.",
+      "importance": "responsibility",
+      "terms": [
+        "memory",
+        "capture",
+        "retrieval"
+      ],
+      "locator": "L20-L20"
+    },
+    {
+      "id": "measurement",
+      "text": "Measure agent quality, reliability and attributable productivity impact.",
+      "importance": "responsibility",
+      "terms": [
+        "evaluation",
+        "quality",
+        "productivity",
+        "metrics"
+      ],
+      "locator": "L21-L21"
+    }
+  ]
+}

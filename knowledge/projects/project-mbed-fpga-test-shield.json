@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "id": "project-mbed-fpga-test-shield",
+  "type": "project",
+  "title": "Arm Mbed OS FPGA Test Shield",
+  "summary": "FPGA-based I/O test hardware, firmware and swappable board interfaces for Mbed OS boards.",
+  "organization": "Arm",
+  "role": "IoT Engineering Intern; Graduate Software Engineer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Initiated during the May–August 2018 internship and continued in the January 2019–April 2020 graduate role. No uninterrupted project start/end dates are inferred."
+  },
+  "technologies": [
+    "Verilog",
+    "C++",
+    "Mbed OS",
+    "FPGA",
+    "I2C",
+    "GPIO",
+    "ADC",
+    "DAC",
+    "PWM",
+    "PCB"
+  ],
+  "competencies": [
+    "embedded systems",
+    "FPGA development",
+    "firmware",
+    "hardware verification",
+    "PCB debugging"
+  ],
+  "tags": [
+    "test infrastructure",
+    "CI",
+    "hardware software integration"
+  ],
+  "related": [
+    "exp-arm-iot-intern",
+    "exp-arm-graduate",
+    "award-arm-quality-2020"
+  ],
+  "facts": [
+    {
+      "id": "initiation",
+      "text": "Initiated work on the Mbed FPGA CI Test Shield during the 2018 IoT engineering internship.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L54-L56"
+        }
+      ]
+    },
+    {
+      "id": "modules",
+      "text": "Implemented Verilog FPGA master/slave test modules and C++ Mbed OS firmware for board I/O testing.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-workflows",
+          "locator": "L23-L29"
+        },
+        {
+          "source_id": "src-docx-text",
+          "locator": "L45-L51"
+        }
+      ]
+    },
+    {
+      "id": "io-coverage",
+      "text": "Wrote FPGA communication/test modules and corresponding Mbed OS application tests for I2C, GPIO, ADC, DAC and PWM.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L48-L51"
+        }
+      ]
+    },
+    {
+      "id": "waveform-debugging",
+      "text": "Wrote Verilog testbenches and used waveform viewers to debug testbenches, RTL designs and IP source code.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L52-L52"
+        },
+        {
+          "source_id": "src-clarifications",
+          "locator": "L5-L11"
+        }
+      ]
+    },
+    {
+      "id": "pcb-contribution",
+      "text": "Contributed to test-shield and form-factor PCBs, performed PCB testing/debugging, and debugged and fixed Mbed OS issues.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-linkedin-text",
+          "locator": "L65-L70"
+        },
+        {
+          "source_id": "src-docx-text",
+          "locator": "L53-L53"
+        }
+      ]
+    },
+    {
+      "id": "board-scope",
+      "text": "The FPGA was integrated into a physical PCB compatible with any Mbed OS board, according to the owner-provided project description.",
+      "status": "confirmed",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-workflows",
+          "locator": "L25-L28"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "One project across internship and graduate employment, not two projects. Board-compatibility scope is owner reported, not a universal compatibility test rerun here. PCB contribution is not sole board ownership. Waveform viewers were used, not authored."
+  ]
+}

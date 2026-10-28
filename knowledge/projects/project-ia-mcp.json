@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "project-ia-mcp",
+  "type": "project",
+  "title": "Interconnect Architect MCP capability pack",
+  "summary": "Internal Model Context Protocol tooling that translates engineering intent into controlled interconnect backend operations.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": true,
+    "as_of": "2026-10-27",
+    "note": "Current internal use is confirmed in October 2026; the source documents a September 4, 2026 completion baseline without establishing the initial project date."
+  },
+  "technologies": [
+    "Python",
+    "Model Context Protocol",
+    "Codex",
+    "YAML"
+  ],
+  "competencies": [
+    "Agent-tool integration",
+    "Backend architecture",
+    "Engineering automation"
+  ],
+  "tags": [
+    "AI-engineering",
+    "MCP",
+    "interconnect",
+    "developer-tools"
+  ],
+  "related": [
+    "project-interconnect-architect",
+    "exp-arm-senior"
+  ],
+  "facts": [
+    {
+      "id": "purpose",
+      "text": "Built ia-mcp, an internal Python MCP interface used by several engineers to translate interconnect intent into backend API calls with typed plans, checkpoints, semantic validation and backend fallback.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-runtime",
+          "locator": "L12-L18"
+        }
+      ]
+    },
+    {
+      "id": "ownership",
+      "text": "Introduced the ia-mcp capability pack and developed its planning, execution, compatibility, packaging and acceptance infrastructure.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L309-L327"
+        }
+      ]
+    },
+    {
+      "id": "goals",
+      "text": "Future goals include configuration-generation coverage/feature testing and potentially replacing configuration-generation tools.",
+      "status": "confirmed",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-adoption",
+          "locator": "L14-L20"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Internal engineering use is established qualitatively; exact adoption counts, release dates, productivity savings and external deployment are not established.",
+    "Does not establish unrestricted autonomous generation, general autonomous DRC repair, a hosted LLM service or authorship of Codex."
+  ]
+}

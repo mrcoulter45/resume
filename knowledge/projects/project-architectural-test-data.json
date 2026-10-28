@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "project-architectural-test-data",
+  "type": "project",
+  "title": "Architectural test-suite data tooling",
+  "summary": "Python scripts and SQLite databases for architectural test suites and assembly-generation test data.",
+  "organization": "Arm",
+  "role": "ATG Verification Enablement Intern",
+  "dates": {
+    "start": "2016-05",
+    "end": "2016-08",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Internship period; individual task delivery dates unspecified."
+  },
+  "technologies": [
+    "Python",
+    "SQLite"
+  ],
+  "competencies": [
+    "verification enablement",
+    "test-data management",
+    "automation"
+  ],
+  "tags": [
+    "architectural coverage",
+    "TPIs",
+    "assembly test data"
+  ],
+  "related": [
+    "exp-arm-verification-intern"
+  ],
+  "facts": [
+    {
+      "id": "python-tooling",
+      "text": "Wrote Python scripts to manage architectural test suites and test data from an assembly test-generation tool.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L74-L77"
+        }
+      ]
+    },
+    {
+      "id": "sqlite",
+      "text": "Built SQLite test-data databases and tooling.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L65-L68"
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "text": "Helped implement architectural system coverage.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L75-L75"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No test count, coverage percentage, or complete verification-system ownership is supplied."
+  ]
+}

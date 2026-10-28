@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "project-arm-rtl-vip-rotations",
+  "type": "project",
+  "title": "Safety-mechanism RTL and VIP rotations",
+  "summary": "Safety RTL implementation and waveform-based verification using virtual Arm IP and bus functional models.",
+  "organization": "Arm",
+  "role": "Software Engineer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Assigned under the April 2020–April 2023 role in the supplied career outline. Exact individual rotation dates are unspecified."
+  },
+  "technologies": [
+    "Verilog",
+    "RTL",
+    "VIP",
+    "waveform viewers"
+  ],
+  "competencies": [
+    "RTL design",
+    "simulation",
+    "hardware verification",
+    "debugging"
+  ],
+  "tags": [
+    "interconnect",
+    "non-coherent",
+    "bus functional models"
+  ],
+  "related": [
+    "exp-arm-software",
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "safety-rtl",
+      "text": "Designed safety-mechanism RTL for a lightweight non-coherent interconnect.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L53-L61"
+        }
+      ]
+    },
+    {
+      "id": "simulation-debugging",
+      "text": "Worked with virtual Arm IP and bus functional models in large testbench simulations, using waveform viewers to debug Verilog testbenches, RTL designs and IP source code.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L55-L59"
+        }
+      ]
+    },
+    {
+      "id": "early-ia",
+      "text": "Initiated development on the Interconnect Architect desktop tool during the software engineering rotation period.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L25-L30"
+        }
+      ]
+    },
+    {
+      "id": "internal-lineage",
+      "text": "The safety-mechanism RTL rotation concerned the older internal interconnect Chariot.",
+      "status": "confirmed",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L55-L61"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Do not infer exact rotation months, a public product mapping for Chariot, a numerical simulation size, waveform-viewer authorship, or authorship of later NoC GUI tooling from this rotation."
+  ]
+}

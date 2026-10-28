@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-module-publication",
+  "type": "accomplishment",
+  "title": "Resumable module publication with artifact identity checks",
+  "summary": "Phase-based cluster publication validates release inputs, persists recovery state and requires propagation and packaged acceptance evidence.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Python",
+    "LSF",
+    "RHEL 8",
+    "Depot",
+    "Lmod",
+    "SHA-256",
+    "Git"
+  ],
+  "competencies": [
+    "Release engineering",
+    "State machines",
+    "Artifact provenance",
+    "Recovery"
+  ],
+  "tags": [
+    "publication",
+    "packaging",
+    "HPC",
+    "release automation"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness"
+  ],
+  "facts": [
+    {
+      "id": "workflow",
+      "text": "Developed resumable module-publication automation spanning archive inspection, cross-site transfer, LSF execution, package construction, publication, propagation and packaged acceptance.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L257-L278"
+        }
+      ]
+    },
+    {
+      "id": "state-machine",
+      "text": "Persisted phase state, attempts, results and failures, reusing completed phases on resume while rejecting changes that violate release identity.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L260-L263"
+        }
+      ]
+    },
+    {
+      "id": "validation",
+      "text": "Built release validators checking safe archive members/link targets, required payloads, Python requirements, offline dependency provenance, clean source identity and capability-manifest hashes.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L266-L275"
+        }
+      ]
+    },
+    {
+      "id": "payload-integrity",
+      "text": "Preserved payload bytes and modes after validation and extraction under restrictive batch umasks, and isolated acceptance from pre-existing MCP registrations.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L278-L281"
+        }
+      ]
+    },
+    {
+      "id": "test-definitions",
+      "text": "The snapshot records 57 publication test definitions, compared with 46 at the inspected HEAD; the analysis did not execute these tests or publish modules.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L284-L290"
+        },
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L16-L16"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Do not claim every proposed publication/acceptance lane ran. Mechanism implementation and live publication outcomes are separate evidence categories."
+  ]
+}

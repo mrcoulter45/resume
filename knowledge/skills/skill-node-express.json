@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "skill-node-express",
+  "type": "skill",
+  "title": "Node.js and Express",
+  "summary": "REST backend implementation for occupancy analytics.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "Node.js",
+    "Express",
+    "JavaScript"
+  ],
+  "competencies": [
+    "REST API engineering"
+  ],
+  "tags": [
+    "skill",
+    "Node.js and Express"
+  ],
+  "related": [
+    "project-pelion-space-analytics"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Implemented the Space Analytics backend server REST API using Node.js and Express.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L54-L58"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

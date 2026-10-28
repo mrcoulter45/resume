@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "skill-sqlite",
+  "type": "skill",
+  "title": "SQLite",
+  "summary": "Architectural test-data storage and management.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "SQLite",
+    "Python"
+  ],
+  "competencies": [
+    "test-data management"
+  ],
+  "tags": [
+    "skill",
+    "SQLite"
+  ],
+  "related": [
+    "project-architectural-test-data"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Used SQLite for architectural test-data management during verification enablement internship work.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L74-L78"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

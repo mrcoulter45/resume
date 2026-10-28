@@ -1,0 +1,990 @@
+{
+  "date": "2026-10-27",
+  "notes": "Baseline includes 122 preexisting non-Git/non-DS_Store files plus the newly preserved README copy. Only README navigation and the explicit legacy-validator path adapter changed existing files. Original career evidence and application outputs retain identical bytes.",
+  "files": [
+    {
+      "original_path": "Interconnect-Architect-resume.md",
+      "current_path": "Interconnect-Architect-resume.md",
+      "before_sha256": "eba6b043b39fc4f3456c40de266237847adbc5a29a8be593b5278ff9cec243f8",
+      "current_sha256": "eba6b043b39fc4f3456c40de266237847adbc5a29a8be593b5278ff9cec243f8",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "career-clarifications-grouping-and-runtime-2026-10-22.md",
+      "current_path": "career-clarifications-grouping-and-runtime-2026-10-22.md",
+      "before_sha256": "85dbc8722edf69093a49b131bf66e93941a2fbf08d446fa7f19a40f927b4d32f",
+      "current_sha256": "85dbc8722edf69093a49b131bf66e93941a2fbf08d446fa7f19a40f927b4d32f",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "AI-System-resume.md",
+      "current_path": "AI-System-resume.md",
+      "before_sha256": "3fbf27818a84d1a33430fe738b953864f79e267284c2049244279749d41e3892",
+      "current_sha256": "3fbf27818a84d1a33430fe738b953864f79e267284c2049244279749d41e3892",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "career-clarifications-repair-scope-2026-10-23.md",
+      "current_path": "career-clarifications-repair-scope-2026-10-23.md",
+      "before_sha256": "4edf76abb99706a91f1ede35cac67b446e16d828094da405df80d21a273b107d",
+      "current_sha256": "4edf76abb99706a91f1ede35cac67b446e16d828094da405df80d21a273b107d",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "career-clarifications-workflows-and-embedded.md",
+      "current_path": "career-clarifications-workflows-and-embedded.md",
+      "before_sha256": "1935ce52a058acd58a08685290b5d9c01b10132dde1c28bc368652220ec0c8e4",
+      "current_sha256": "1935ce52a058acd58a08685290b5d9c01b10132dde1c28bc368652220ec0c8e4",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "README.md",
+      "current_path": "sources/originals/README-before-knowledge-base.md",
+      "before_sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+      "current_sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+      "disposition": "preserved-profile-copy",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "career-clarifications-agent-impact-and-e2e-2026-10-22.md",
+      "current_path": "career-clarifications-agent-impact-and-e2e-2026-10-22.md",
+      "before_sha256": "f43efce49cc2202ad223c8767d56cce4fd2a4c0cb4cd8cec1e118a87830635a1",
+      "current_sha256": "f43efce49cc2202ad223c8767d56cce4fd2a4c0cb4cd8cec1e118a87830635a1",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "2020-Sep.docx",
+      "current_path": "2020-Sep.docx",
+      "before_sha256": "6f93ce76078b10e54da1f867ae17fce1075a9a5671c13c0ab1771bf338ecc1ee",
+      "current_sha256": "6f93ce76078b10e54da1f867ae17fce1075a9a5671c13c0ab1771bf338ecc1ee",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "career-clarifications-netflix-fit-2026-10-22.md",
+      "current_path": "career-clarifications-netflix-fit-2026-10-22.md",
+      "before_sha256": "68dbe86988a6e44e1af5cffff63b528a175f1c2ce796c3def9490c46deb31008",
+      "current_sha256": "68dbe86988a6e44e1af5cffff63b528a175f1c2ce796c3def9490c46deb31008",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "links.md",
+      "current_path": "links.md",
+      "before_sha256": "a2466ff512929bd981608219f452e638a86be912aa1bdf87774bd859712d5927",
+      "current_sha256": "a2466ff512929bd981608219f452e638a86be912aa1bdf87774bd859712d5927",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "career-clarifications.md",
+      "current_path": "career-clarifications.md",
+      "before_sha256": "afc449155ff3f2f26f160e12b6eeb918005421beeaf6a56714c251a652018d22",
+      "current_sha256": "afc449155ff3f2f26f160e12b6eeb918005421beeaf6a56714c251a652018d22",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "career-clarifications-2026-10-21.md",
+      "current_path": "career-clarifications-2026-10-21.md",
+      "before_sha256": "62728ee656cb3dac7556c98a7bfdf5589526ade7b21d9370aa1106e8e4b702f7",
+      "current_sha256": "62728ee656cb3dac7556c98a7bfdf5589526ade7b21d9370aa1106e8e4b702f7",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "LinkedIn-Profile-Export/Coherent interconnect product release.jpeg",
+      "current_path": "LinkedIn-Profile-Export/Coherent interconnect product release.jpeg",
+      "before_sha256": "8e331e6db8696e6bcd97bc94576abeaf268d3746ff8b5da5614a8da7936a3729",
+      "current_sha256": "8e331e6db8696e6bcd97bc94576abeaf268d3746ff8b5da5614a8da7936a3729",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "LinkedIn-Profile-Export/Non-coherent interconnect product release .jpeg",
+      "current_path": "LinkedIn-Profile-Export/Non-coherent interconnect product release .jpeg",
+      "before_sha256": "8c9dd3da111c965f6b7b0c78adc507a0980a31abe1eca7eb951a5e5a6f2c11ac",
+      "current_sha256": "8c9dd3da111c965f6b7b0c78adc507a0980a31abe1eca7eb951a5e5a6f2c11ac",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "LinkedIn-Profile-Export/Engineering AI Showcase Most Innovative Award.jpeg",
+      "current_path": "LinkedIn-Profile-Export/Engineering AI Showcase Most Innovative Award.jpeg",
+      "before_sha256": "b75bb09984419a6d74b3aab657144e11667441dd586d96a3ba3731627d9169ee",
+      "current_sha256": "b75bb09984419a6d74b3aab657144e11667441dd586d96a3ba3731627d9169ee",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "LinkedIn-Profile-Export/Profile.pdf",
+      "current_path": "LinkedIn-Profile-Export/Profile.pdf",
+      "before_sha256": "cfcd5a380e353458f360c15d2ed75127822c7796e905683e454690f7a7517d54",
+      "current_sha256": "cfcd5a380e353458f360c15d2ed75127822c7796e905683e454690f7a7517d54",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "LinkedIn-Profile-Export/UT ECE Senior Design First Place.jpeg",
+      "current_path": "LinkedIn-Profile-Export/UT ECE Senior Design First Place.jpeg",
+      "before_sha256": "51486660a9bdf0529f24df443f6c23ab401d7a7221dad73cfe2e0da1a6f1c7fb",
+      "current_sha256": "51486660a9bdf0529f24df443f6c23ab401d7a7221dad73cfe2e0da1a6f1c7fb",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "LinkedIn-Profile-Export/Arm Quality Award 2020 for the Mbed OS FPGA CI Test Shield.png",
+      "current_path": "LinkedIn-Profile-Export/Arm Quality Award 2020 for the Mbed OS FPGA CI Test Shield.png",
+      "before_sha256": "f303b842985ed8de0b6b27b2e8562d405d5434ccdf7e38508a12a690e2e93f1f",
+      "current_sha256": "f303b842985ed8de0b6b27b2e8562d405d5434ccdf7e38508a12a690e2e93f1f",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-systems-engineering.pdf",
+      "current_path": "resume-output/resume-systems-engineering.pdf",
+      "before_sha256": "6761a96e1536c3a7e3a6fc05d967dfbba90c535a1451baa7ed24b92e2c529b56",
+      "current_sha256": "6761a96e1536c3a7e3a6fc05d967dfbba90c535a1451baa7ed24b92e2c529b56",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/Michael-Coulter-Resume.pdf",
+      "current_path": "resume-output/Michael-Coulter-Resume.pdf",
+      "before_sha256": "3d7610a7dbb9cfa249541da4a78b3fddbb9d3ccc343b79eacf90a36213ad19f0",
+      "current_sha256": "3d7610a7dbb9cfa249541da4a78b3fddbb9d3ccc343b79eacf90a36213ad19f0",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/netflix-resume-review.md",
+      "current_path": "resume-output/netflix-resume-review.md",
+      "before_sha256": "7dd624d3ad96fe20a0d5132c9062fad351742c4bad081c9f7ac16549805227ab",
+      "current_sha256": "7dd624d3ad96fe20a0d5132c9062fad351742c4bad081c9f7ac16549805227ab",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-google-agent-architecture.pdf",
+      "current_path": "resume-output/resume-google-agent-architecture.pdf",
+      "before_sha256": "fbe67659d26df16a8da291a7bbc3f66423222fdc1d6b7d356743324a363b2d9f",
+      "current_sha256": "fbe67659d26df16a8da291a7bbc3f66423222fdc1d6b7d356743324a363b2d9f",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/agentic-career-audit-2026-10-21.md",
+      "current_path": "resume-output/agentic-career-audit-2026-10-21.md",
+      "before_sha256": "b4aa035ac527f9f3ebe4c9d0cfcdeebdb24655a8d66470d123a5bd66c0ac4f08",
+      "current_sha256": "b4aa035ac527f9f3ebe4c9d0cfcdeebdb24655a8d66470d123a5bd66c0ac4f08",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-google-agent-architecture.md",
+      "current_path": "resume-output/resume-google-agent-architecture.md",
+      "before_sha256": "d8183efb546a4bd8a2bee87efe2b453c185be88a5e0aba64a5414b30e0e6d3e4",
+      "current_sha256": "d8183efb546a4bd8a2bee87efe2b453c185be88a5e0aba64a5414b30e0e6d3e4",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/requirements.txt",
+      "current_path": "resume-output/requirements.txt",
+      "before_sha256": "d64d4a4a5ad4bdfe0b344e0f2322194230cf848ed4af07cb3d404532325c2c37",
+      "current_sha256": "d64d4a4a5ad4bdfe0b344e0f2322194230cf848ed4af07cb3d404532325c2c37",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/master-career-profile.md",
+      "current_path": "resume-output/master-career-profile.md",
+      "before_sha256": "be44dbbd992fafd099ecf1cb9bb45c2ad56c997202a31d2a5a62786139ed8a1b",
+      "current_sha256": "be44dbbd992fafd099ecf1cb9bb45c2ad56c997202a31d2a5a62786139ed8a1b",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-netflix-agent-platform.md",
+      "current_path": "resume-output/resume-netflix-agent-platform.md",
+      "before_sha256": "bf9b1e2af13aa0c24a44f8e5740a7df776365230d94d18254274405f7c90cd7f",
+      "current_sha256": "bf9b1e2af13aa0c24a44f8e5740a7df776365230d94d18254274405f7c90cd7f",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-anthropic-claude-code.md",
+      "current_path": "resume-output/resume-anthropic-claude-code.md",
+      "before_sha256": "70be9b2a01e6ed6f36d5e1a318ac41c349157825be856da64ea8db65f7605650",
+      "current_sha256": "70be9b2a01e6ed6f36d5e1a318ac41c349157825be856da64ea8db65f7605650",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume.pdf",
+      "current_path": "resume-output/resume.pdf",
+      "before_sha256": "202dc4ac9ce9383a9bb80dc324f07279f56da7e7b56d0972851c80f31e5fdbe5",
+      "current_sha256": "202dc4ac9ce9383a9bb80dc324f07279f56da7e7b56d0972851c80f31e5fdbe5",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-review.md",
+      "current_path": "resume-output/resume-review.md",
+      "before_sha256": "2b4d24e8b761471449a4f0fdc99aa8c13a9ef5ae1fd3992e8661076cbb0433ae",
+      "current_sha256": "2b4d24e8b761471449a4f0fdc99aa8c13a9ef5ae1fd3992e8661076cbb0433ae",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-content.json",
+      "current_path": "resume-output/resume-content.json",
+      "before_sha256": "6be708184fe21d44c74745ede525d61ef53023abc01de001114b46a89875b9a7",
+      "current_sha256": "6be708184fe21d44c74745ede525d61ef53023abc01de001114b46a89875b9a7",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/application-resumes-review.md",
+      "current_path": "resume-output/application-resumes-review.md",
+      "before_sha256": "2376b740c7d15e7eccb9e6b20acaeff0b99e05afa2a1dbe1961106d6992022d1",
+      "current_sha256": "2376b740c7d15e7eccb9e6b20acaeff0b99e05afa2a1dbe1961106d6992022d1",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume.md",
+      "current_path": "resume-output/resume.md",
+      "before_sha256": "97a06dbc2bc6bbc9c5f65f4556f83629ac51e048ea822b63dfb7f22bf2da5989",
+      "current_sha256": "97a06dbc2bc6bbc9c5f65f4556f83629ac51e048ea822b63dfb7f22bf2da5989",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/README.md",
+      "current_path": "resume-output/README.md",
+      "before_sha256": "3070a767290349bfb7de3fadb910b94c2c8c3d0441fba51ebaac3e1ddc6b9e2d",
+      "current_sha256": "3070a767290349bfb7de3fadb910b94c2c8c3d0441fba51ebaac3e1ddc6b9e2d",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-two-page.pdf",
+      "current_path": "resume-output/resume-two-page.pdf",
+      "before_sha256": "824e4675a4fd7a4fc99a9891486d9cdc847c5f8bea0e7f76592b23694f9b5f52",
+      "current_sha256": "824e4675a4fd7a4fc99a9891486d9cdc847c5f8bea0e7f76592b23694f9b5f52",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-two-page.md",
+      "current_path": "resume-output/resume-two-page.md",
+      "before_sha256": "11fbacf28a3b163eddff1d7431ca144a25a54e80bc58b0e3292894fd0bb1ed79",
+      "current_sha256": "11fbacf28a3b163eddff1d7431ca144a25a54e80bc58b0e3292894fd0bb1ed79",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-netflix-agent-platform-v1.pdf",
+      "current_path": "resume-output/resume-netflix-agent-platform-v1.pdf",
+      "before_sha256": "8c413f41478fe5b72b12cc6813d934c5cb1ca88512c2b40b658bb1ef20fe5ccb",
+      "current_sha256": "8c413f41478fe5b72b12cc6813d934c5cb1ca88512c2b40b658bb1ef20fe5ccb",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-openai-codex-agents.md",
+      "current_path": "resume-output/resume-openai-codex-agents.md",
+      "before_sha256": "42ccda1798e8b968f31a68880fb67f5d657ef94d261020f519e9125391394331",
+      "current_sha256": "42ccda1798e8b968f31a68880fb67f5d657ef94d261020f519e9125391394331",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-senior-software.md",
+      "current_path": "resume-output/resume-senior-software.md",
+      "before_sha256": "cb54cc21e0e92b1b7a9db1dccc7c0642dbd5eebf5dff8a75a45ada9167c76fbd",
+      "current_sha256": "cb54cc21e0e92b1b7a9db1dccc7c0642dbd5eebf5dff8a75a45ada9167c76fbd",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/build_resume.py",
+      "current_path": "resume-output/build_resume.py",
+      "before_sha256": "efc8bce8c9ae5e22e579a45f600332a337c0bf45ea46be5e676d752350247ad6",
+      "current_sha256": "efc8bce8c9ae5e22e579a45f600332a337c0bf45ea46be5e676d752350247ad6",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-anthropic-claude-code.pdf",
+      "current_path": "resume-output/resume-anthropic-claude-code.pdf",
+      "before_sha256": "f164b0f8614cdac45602f1ab913e87bd008efd185c723bf8ad30b023f64d1966",
+      "current_sha256": "f164b0f8614cdac45602f1ab913e87bd008efd185c723bf8ad30b023f64d1966",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-ai-systems.pdf",
+      "current_path": "resume-output/resume-ai-systems.pdf",
+      "before_sha256": "0a1e045566fd0fecf4617978d89ea54c6edd4da51f205e3d93db78683eef4272",
+      "current_sha256": "0a1e045566fd0fecf4617978d89ea54c6edd4da51f205e3d93db78683eef4272",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/validate_resume.py",
+      "current_path": "resume-output/validate_resume.py",
+      "before_sha256": "ea565ad50c2a48ee8b78ee4aba8b5fccf837446e8c979d9b2fb7c9e3f457fd68",
+      "current_sha256": "3271c435f1f73afb0c0e4774f059009cb5f6c75d0dc4b6d493e61e9622140d49",
+      "disposition": "legacy-validator-provenance-adapter",
+      "identical_bytes": false
+    },
+    {
+      "original_path": "resume-output/resume-senior-software.pdf",
+      "current_path": "resume-output/resume-senior-software.pdf",
+      "before_sha256": "2a76c2170e922129cc1e8c97fe5900ca7714c567c6c33f64c4f2c41873495695",
+      "current_sha256": "2a76c2170e922129cc1e8c97fe5900ca7714c567c6c33f64c4f2c41873495695",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-systems-engineering.md",
+      "current_path": "resume-output/resume-systems-engineering.md",
+      "before_sha256": "e971f583f429a707ec98737b969a8295845aa5d40ef5c15ee5834a59e9d9bf09",
+      "current_sha256": "e971f583f429a707ec98737b969a8295845aa5d40ef5c15ee5834a59e9d9bf09",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-netflix-agent-platform.pdf",
+      "current_path": "resume-output/resume-netflix-agent-platform.pdf",
+      "before_sha256": "3d7610a7dbb9cfa249541da4a78b3fddbb9d3ccc343b79eacf90a36213ad19f0",
+      "current_sha256": "3d7610a7dbb9cfa249541da4a78b3fddbb9d3ccc343b79eacf90a36213ad19f0",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-ai-systems.md",
+      "current_path": "resume-output/resume-ai-systems.md",
+      "before_sha256": "f2a3c1666f812327994e7aa971702f987e59351ea080da1878c98153699f3ff2",
+      "current_sha256": "f2a3c1666f812327994e7aa971702f987e59351ea080da1878c98153699f3ff2",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/resume-openai-codex-agents.pdf",
+      "current_path": "resume-output/resume-openai-codex-agents.pdf",
+      "before_sha256": "f16a99ebe25962ed539a10a6bad966c3fa59a3b17f6211f3917d77a390dbb40c",
+      "current_sha256": "f16a99ebe25962ed539a10a6bad966c3fa59a3b17f6211f3917d77a390dbb40c",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/claim-manifest.json",
+      "current_path": "resume-output/claim-manifest.json",
+      "before_sha256": "1fe61b299776105f1bd2e71150730efef002691b6dda25892cac56f614e83f1d",
+      "current_sha256": "1fe61b299776105f1bd2e71150730efef002691b6dda25892cac56f614e83f1d",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-language-stack-check.md",
+      "current_path": "resume-output/qa/netflix-language-stack-check.md",
+      "before_sha256": "d550e6bbf4cf1c9ee4b1f6cf0bdccbfefb4feddafe1eab474a842aeb59c17e05",
+      "current_sha256": "d550e6bbf4cf1c9ee4b1f6cf0bdccbfefb4feddafe1eab474a842aeb59c17e05",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-adoption-revision.json",
+      "current_path": "resume-output/qa/netflix-adoption-revision.json",
+      "before_sha256": "40250f0eefc391e63222be36634d7e865e33e2727bb9810bb5530a51089e598b",
+      "current_sha256": "40250f0eefc391e63222be36634d7e865e33e2727bb9810bb5530a51089e598b",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-netflix-agent-platform-extracted.txt",
+      "current_path": "resume-output/qa/resume-netflix-agent-platform-extracted.txt",
+      "before_sha256": "40df2c3365f1ed2179ba41b0aed615e881f07ceb690468dd8943a6b668650720",
+      "current_sha256": "40df2c3365f1ed2179ba41b0aed615e881f07ceb690468dd8943a6b668650720",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-role-fit-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-role-fit-2026-10-22.json",
+      "before_sha256": "75811ee38a17036af4fe347400033a38358aaad1fe3116d687c30ce2e80a8ad1",
+      "current_sha256": "75811ee38a17036af4fe347400033a38358aaad1fe3116d687c30ce2e80a8ad1",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-impact-e2e-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-before-impact-e2e-2026-10-22.json",
+      "before_sha256": "18bf317bb1863536826d510b40cb935b495e8bba09851e387d172208589b75c6",
+      "current_sha256": "18bf317bb1863536826d510b40cb935b495e8bba09851e387d172208589b75c6",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-adoption-revision.json",
+      "current_path": "resume-output/qa/netflix-before-adoption-revision.json",
+      "before_sha256": "8c67905220699590749e8aa8b0f23977d4f9749cc82fc43b2b6e63772d1ce1b1",
+      "current_sha256": "8c67905220699590749e8aa8b0f23977d4f9749cc82fc43b2b6e63772d1ce1b1",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-google-agent-architecture.png",
+      "current_path": "resume-output/qa/resume-google-agent-architecture.png",
+      "before_sha256": "23d620178a7a2556602ae04672a958b742c522b01b3c8853b2a6a8d25557ced2",
+      "current_sha256": "23d620178a7a2556602ae04672a958b742c522b01b3c8853b2a6a8d25557ced2",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-extracted.txt",
+      "current_path": "resume-output/qa/resume-extracted.txt",
+      "before_sha256": "dd9bc88ad867633849195da0bb6a3df2faa2f0ce3598dcd06f355d22e9c2ec64",
+      "current_sha256": "dd9bc88ad867633849195da0bb6a3df2faa2f0ce3598dcd06f355d22e9c2ec64",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/application-resumes-before-grouping-2026-10-22.json",
+      "current_path": "resume-output/qa/application-resumes-before-grouping-2026-10-22.json",
+      "before_sha256": "a63c56ee14b1286cd7b6c2204e370dfc4fba062a1991030562855debf7abc1b3",
+      "current_sha256": "a63c56ee14b1286cd7b6c2204e370dfc4fba062a1991030562855debf7abc1b3",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-systems-engineering.png",
+      "current_path": "resume-output/qa/resume-systems-engineering.png",
+      "before_sha256": "bc4508dc3258e394c2c575573b03466faedb284baa355cfb67e0b08e18714c6c",
+      "current_sha256": "bc4508dc3258e394c2c575573b03466faedb284baa355cfb67e0b08e18714c6c",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-repair-scope-2026-10-23.json",
+      "current_path": "resume-output/qa/netflix-before-repair-scope-2026-10-23.json",
+      "before_sha256": "ac45e12da04ec16bf808f01237c6370f80d4af00c41a3aac5804b4983e64b6f6",
+      "current_sha256": "ac45e12da04ec16bf808f01237c6370f80d4af00c41a3aac5804b4983e64b6f6",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/application-resumes-before-context-revision.json",
+      "current_path": "resume-output/qa/application-resumes-before-context-revision.json",
+      "before_sha256": "d250da20c65e7d34fd88ec00a74641e5481d676ad1b0f8f5883b286f08622a3c",
+      "current_sha256": "d250da20c65e7d34fd88ec00a74641e5481d676ad1b0f8f5883b286f08622a3c",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-summary-2026-10-23.json",
+      "current_path": "resume-output/qa/netflix-summary-2026-10-23.json",
+      "before_sha256": "d5dbc1359caa84cebd71ae4232fce6dbdc856ed4be2e7ea0fef627dcfd1b8eca",
+      "current_sha256": "d5dbc1359caa84cebd71ae4232fce6dbdc856ed4be2e7ea0fef627dcfd1b8eca",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-ia-mcp-monospace-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-before-ia-mcp-monospace-2026-10-22.json",
+      "before_sha256": "8cff9b704cfdde630e069b1d997528b58ab84f9f09d462c758f4bb7b2583ec5c",
+      "current_sha256": "8cff9b704cfdde630e069b1d997528b58ab84f9f09d462c758f4bb7b2583ec5c",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/application-resumes-before-surgical-revision-2026-10-22.json",
+      "current_path": "resume-output/qa/application-resumes-before-surgical-revision-2026-10-22.json",
+      "before_sha256": "db64b5d602bcdf65111f7fe4c54f23feb16e7225eb2671e5ae8f8451891446b9",
+      "current_sha256": "db64b5d602bcdf65111f7fe4c54f23feb16e7225eb2671e5ae8f8451891446b9",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/linkedin-profile-extracted.txt",
+      "current_path": "resume-output/qa/linkedin-profile-extracted.txt",
+      "before_sha256": "2acd800bcad0079ad843a8e972c16c6a16d8e39ab8f9615a2135f9b0159c4291",
+      "current_sha256": "2acd800bcad0079ad843a8e972c16c6a16d8e39ab8f9615a2135f9b0159c4291",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-designed-built-2026-10-23.json",
+      "current_path": "resume-output/qa/netflix-designed-built-2026-10-23.json",
+      "before_sha256": "a61f661a15a9cc44e5ed68b675d6718db1e930052fdd9538c85dd5a375b6a828",
+      "current_sha256": "a61f661a15a9cc44e5ed68b675d6718db1e930052fdd9538c85dd5a375b6a828",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-testing-audit-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-before-testing-audit-2026-10-22.json",
+      "before_sha256": "688607f7bf76ab1a10ccd2b91ec7a3cb2832327d2885cb3bf8efcd2731781397",
+      "current_sha256": "688607f7bf76ab1a10ccd2b91ec7a3cb2832327d2885cb3bf8efcd2731781397",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/application-resumes-before-impact-e2e-2026-10-22.json",
+      "current_path": "resume-output/qa/application-resumes-before-impact-e2e-2026-10-22.json",
+      "before_sha256": "92acf2c09cfb688634215bd66beefed4b44673610c8a6aa394413c1ae9365df1",
+      "current_sha256": "92acf2c09cfb688634215bd66beefed4b44673610c8a6aa394413c1ae9365df1",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-repair-scope-2026-10-23.json",
+      "current_path": "resume-output/qa/netflix-repair-scope-2026-10-23.json",
+      "before_sha256": "0cdaaad7f5a415b2bbb786671a60409ae0703c4ed657795cbe91b893e38e6472",
+      "current_sha256": "0cdaaad7f5a415b2bbb786671a60409ae0703c4ed657795cbe91b893e38e6472",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/application-resumes-before-netflix-adoption-revision.json",
+      "current_path": "resume-output/qa/application-resumes-before-netflix-adoption-revision.json",
+      "before_sha256": "06b2bc4fed5d1a3a53e6bf03ba44181719154e0ada78711e509de69aad0af448",
+      "current_sha256": "06b2bc4fed5d1a3a53e6bf03ba44181719154e0ada78711e509de69aad0af448",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-ai-systems-extracted.txt",
+      "current_path": "resume-output/qa/resume-ai-systems-extracted.txt",
+      "before_sha256": "d822c510dab26aefa7e5f4f78b14c1719cabc34a25d9705516c0b4607f53ec07",
+      "current_sha256": "d822c510dab26aefa7e5f4f78b14c1719cabc34a25d9705516c0b4607f53ec07",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-impact-e2e-revision-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-impact-e2e-revision-2026-10-22.json",
+      "before_sha256": "88bd2c9b6c069bbf98926663e6558913e5a97e55ae9a893acdf0be2e8a4738ca",
+      "current_sha256": "88bd2c9b6c069bbf98926663e6558913e5a97e55ae9a893acdf0be2e8a4738ca",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-surgical-revision-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-before-surgical-revision-2026-10-22.json",
+      "before_sha256": "01975ce9f572aec0022188080b2b1541e6c3791909ded066f6aad7cd483e3912",
+      "current_sha256": "01975ce9f572aec0022188080b2b1541e6c3791909ded066f6aad7cd483e3912",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-systems-engineering-extracted.txt",
+      "current_path": "resume-output/qa/resume-systems-engineering-extracted.txt",
+      "before_sha256": "9fec2ab72879a9f6b2ec37e8aa56dfc43713b6eeec979209ea0f427dca6f0c89",
+      "current_sha256": "9fec2ab72879a9f6b2ec37e8aa56dfc43713b6eeec979209ea0f427dca6f0c89",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-grouping-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-before-grouping-2026-10-22.json",
+      "before_sha256": "8433b6452eda5c99d0ec8a15e8869e2b71bb42474beef56410aca33d0971a0a6",
+      "current_sha256": "8433b6452eda5c99d0ec8a15e8869e2b71bb42474beef56410aca33d0971a0a6",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-monospace-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-monospace-2026-10-22.json",
+      "before_sha256": "2a1b99251b49fdbbd594c39b6753ee8429d9b628f2183ee35d664475f5798995",
+      "current_sha256": "2a1b99251b49fdbbd594c39b6753ee8429d9b628f2183ee35d664475f5798995",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-designed-built-2026-10-23.json",
+      "current_path": "resume-output/qa/netflix-before-designed-built-2026-10-23.json",
+      "before_sha256": "313fd75cd6938cfaad20c6ef22ba1b294451c0bfd42c2cef164cd5770f603bda",
+      "current_sha256": "313fd75cd6938cfaad20c6ef22ba1b294451c0bfd42c2cef164cd5770f603bda",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume.png",
+      "current_path": "resume-output/qa/resume.png",
+      "before_sha256": "b6fa0b2de05e05ec0edc41af27d6d37ecb7ee16cb18e3a03fa3721b5b044b115",
+      "current_sha256": "b6fa0b2de05e05ec0edc41af27d6d37ecb7ee16cb18e3a03fa3721b5b044b115",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-rebuild-input-hash.json",
+      "current_path": "resume-output/qa/netflix-rebuild-input-hash.json",
+      "before_sha256": "e2787a0c3ad9283e2ac97b5488e550419244192d544ed7e8adbcf2fe27520d7b",
+      "current_sha256": "e2787a0c3ad9283e2ac97b5488e550419244192d544ed7e8adbcf2fe27520d7b",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-two-page-1.png",
+      "current_path": "resume-output/qa/resume-two-page-1.png",
+      "before_sha256": "cb2a87b662bbd7ff9077d276b76decff84e9893858db17f6be9186135aa43097",
+      "current_sha256": "cb2a87b662bbd7ff9077d276b76decff84e9893858db17f6be9186135aa43097",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-two-page-extracted.txt",
+      "current_path": "resume-output/qa/resume-two-page-extracted.txt",
+      "before_sha256": "347656ca34bf57e71e9ec01d624d6dde3763074419d4a47081581aa08fc9bf0c",
+      "current_sha256": "347656ca34bf57e71e9ec01d624d6dde3763074419d4a47081581aa08fc9bf0c",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-summary-2026-10-23.json",
+      "current_path": "resume-output/qa/netflix-before-summary-2026-10-23.json",
+      "before_sha256": "09d27ecbb5e11733f6d627a7e40e2c0f267c9a9195238a98f4f88ff9f7903922",
+      "current_sha256": "09d27ecbb5e11733f6d627a7e40e2c0f267c9a9195238a98f4f88ff9f7903922",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-senior-software-extracted.txt",
+      "current_path": "resume-output/qa/resume-senior-software-extracted.txt",
+      "before_sha256": "d1d7604b50b56d44449ea19756c3dbea86dff8fa042e38443d691fe394893500",
+      "current_sha256": "d1d7604b50b56d44449ea19756c3dbea86dff8fa042e38443d691fe394893500",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/before-workflow-netflix-adoption-revision.json",
+      "current_path": "resume-output/qa/before-workflow-netflix-adoption-revision.json",
+      "before_sha256": "40250f0eefc391e63222be36634d7e865e33e2727bb9810bb5530a51089e598b",
+      "current_sha256": "40250f0eefc391e63222be36634d7e865e33e2727bb9810bb5530a51089e598b",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/visual-review.md",
+      "current_path": "resume-output/qa/visual-review.md",
+      "before_sha256": "de6ffcbb3754a1e98362acb813576e42170ff81bc1d63a5c0c852c47a98ffaec",
+      "current_sha256": "de6ffcbb3754a1e98362acb813576e42170ff81bc1d63a5c0c852c47a98ffaec",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-two-page-2.png",
+      "current_path": "resume-output/qa/resume-two-page-2.png",
+      "before_sha256": "b979c63889f2ece32eab5a03ed8ba1efaf0f89f022dcd766ff57486179e1d8d1",
+      "current_sha256": "b979c63889f2ece32eab5a03ed8ba1efaf0f89f022dcd766ff57486179e1d8d1",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-anthropic-claude-code-extracted.txt",
+      "current_path": "resume-output/qa/resume-anthropic-claude-code-extracted.txt",
+      "before_sha256": "c657f622c08f80d9c2d162bf83d3afcaaecbb921e8a2db19a66223c3e0d31219",
+      "current_sha256": "c657f622c08f80d9c2d162bf83d3afcaaecbb921e8a2db19a66223c3e0d31219",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-anthropic-claude-code.png",
+      "current_path": "resume-output/qa/resume-anthropic-claude-code.png",
+      "before_sha256": "6408be6ba715576b2b8aca6447cf5e0fc29139ad19835dda4034ad007ade915b",
+      "current_sha256": "6408be6ba715576b2b8aca6447cf5e0fc29139ad19835dda4034ad007ade915b",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-ai-systems.png",
+      "current_path": "resume-output/qa/resume-ai-systems.png",
+      "before_sha256": "c8efe360f96216e6a5cd63c2abf16f3d3c083a2d778d73fc2482ff8cf374bfa2",
+      "current_sha256": "c8efe360f96216e6a5cd63c2abf16f3d3c083a2d778d73fc2482ff8cf374bfa2",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/linkedin-source-hashes.json",
+      "current_path": "resume-output/qa/linkedin-source-hashes.json",
+      "before_sha256": "1601aab36dc545530ea8de21be1ec5ffc05bfffc274fadb5f0c8e7dfd014a2f7",
+      "current_sha256": "1601aab36dc545530ea8de21be1ec5ffc05bfffc274fadb5f0c8e7dfd014a2f7",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-workflow-revision.json",
+      "current_path": "resume-output/qa/netflix-workflow-revision.json",
+      "before_sha256": "bd2ba73dfba08d676d4441f46a2022995846ff9f2a4776538e071f9c9f5de293",
+      "current_sha256": "bd2ba73dfba08d676d4441f46a2022995846ff9f2a4776538e071f9c9f5de293",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-role-fit-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-before-role-fit-2026-10-22.json",
+      "before_sha256": "cf529499998315fdd1937f70f5d6c53657894a11bcf605e4aa19225acee0841f",
+      "current_sha256": "cf529499998315fdd1937f70f5d6c53657894a11bcf605e4aa19225acee0841f",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/validation.json",
+      "current_path": "resume-output/qa/validation.json",
+      "before_sha256": "1076157c4b7dc752e76993aa7aff519f181581d1402e676dccdccc2b89bbfc42",
+      "current_sha256": "1076157c4b7dc752e76993aa7aff519f181581d1402e676dccdccc2b89bbfc42",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-grouping-revision-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-grouping-revision-2026-10-22.json",
+      "before_sha256": "cddf360f9240e04e47c1c2ace52ffed0b9fd5da68cacc28cd3c70af9cbbcb662",
+      "current_sha256": "cddf360f9240e04e47c1c2ace52ffed0b9fd5da68cacc28cd3c70af9cbbcb662",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-surgical-revision-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-surgical-revision-2026-10-22.json",
+      "before_sha256": "3d1746b086b75d4f9cd576521a870fce5b84786588acaf075db83ffbe157c81f",
+      "current_sha256": "3d1746b086b75d4f9cd576521a870fce5b84786588acaf075db83ffbe157c81f",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-monospace-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-before-monospace-2026-10-22.json",
+      "before_sha256": "de3494bd92ac354fd9d771e039f9b2ca698a0fd0e901bff24ae37a2b8a82280f",
+      "current_sha256": "de3494bd92ac354fd9d771e039f9b2ca698a0fd0e901bff24ae37a2b8a82280f",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-workflow-revision.json",
+      "current_path": "resume-output/qa/netflix-before-workflow-revision.json",
+      "before_sha256": "6cea40d265e8a5b50811dbd888a163da83cebe3a4c7a501903abdb910f14504f",
+      "current_sha256": "6cea40d265e8a5b50811dbd888a163da83cebe3a4c7a501903abdb910f14504f",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-runtime-architecture-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-runtime-architecture-2026-10-22.json",
+      "before_sha256": "598136115ff6cb7d58659561e235f1f3404acfd35dde684b38293314274cfcc1",
+      "current_sha256": "598136115ff6cb7d58659561e235f1f3404acfd35dde684b38293314274cfcc1",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/before-workflow-application-resumes-reproducibility.json",
+      "current_path": "resume-output/qa/before-workflow-application-resumes-reproducibility.json",
+      "before_sha256": "f743348c3ba7a54a7a1553241e49c07bbdb6a036651b60bbbd35943d1ca12f1f",
+      "current_sha256": "f743348c3ba7a54a7a1553241e49c07bbdb6a036651b60bbbd35943d1ca12f1f",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/linkedin-profile-normalized.txt",
+      "current_path": "resume-output/qa/linkedin-profile-normalized.txt",
+      "before_sha256": "5d3a5bf3e1f1c581dca04bf52e6a4565c401ac321dc3bd90fe227d84e369c28e",
+      "current_sha256": "5d3a5bf3e1f1c581dca04bf52e6a4565c401ac321dc3bd90fe227d84e369c28e",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-before-runtime-architecture-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-before-runtime-architecture-2026-10-22.json",
+      "before_sha256": "d698350c66f843dcff158e8f6669ebdc40261642db35d07f5e5e2c772bfedb6f",
+      "current_sha256": "d698350c66f843dcff158e8f6669ebdc40261642db35d07f5e5e2c772bfedb6f",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-openai-codex-agents-extracted.txt",
+      "current_path": "resume-output/qa/resume-openai-codex-agents-extracted.txt",
+      "before_sha256": "e7e36a46d2804381cd2ffdbe2589f43b5179eec1bd8575587c9a1b21f9f9f6ac",
+      "current_sha256": "e7e36a46d2804381cd2ffdbe2589f43b5179eec1bd8575587c9a1b21f9f9f6ac",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-netflix-agent-platform.png",
+      "current_path": "resume-output/qa/resume-netflix-agent-platform.png",
+      "before_sha256": "a484840c340e4eb6503e6857ad00a486c1e5bf02ae42170d1082dae6afb19736",
+      "current_sha256": "a484840c340e4eb6503e6857ad00a486c1e5bf02ae42170d1082dae6afb19736",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/application-resumes-reproducibility.json",
+      "current_path": "resume-output/qa/application-resumes-reproducibility.json",
+      "before_sha256": "042a324557c3f8a8e70e69be4d3eb656f55c9f90c9aff154ff0d958cbb2ad825",
+      "current_sha256": "042a324557c3f8a8e70e69be4d3eb656f55c9f90c9aff154ff0d958cbb2ad825",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/linkedin-source-review.md",
+      "current_path": "resume-output/qa/linkedin-source-review.md",
+      "before_sha256": "0180323c51d178b75cc38f95b32c16928c4cb965cbac2f31cac6112096463b6c",
+      "current_sha256": "0180323c51d178b75cc38f95b32c16928c4cb965cbac2f31cac6112096463b6c",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/link-checks.json",
+      "current_path": "resume-output/qa/link-checks.json",
+      "before_sha256": "70cb3a81157bb3cdeaca0b5afbca43415d18c1f199a26bb6f1529218aed5a02e",
+      "current_sha256": "70cb3a81157bb3cdeaca0b5afbca43415d18c1f199a26bb6f1529218aed5a02e",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/reproducibility.json",
+      "current_path": "resume-output/qa/reproducibility.json",
+      "before_sha256": "304877c722f8b6b4388d55fc7e2fd6fa94ceb396d486599426819c41051aea3b",
+      "current_sha256": "304877c722f8b6b4388d55fc7e2fd6fa94ceb396d486599426819c41051aea3b",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-testing-accuracy-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-testing-accuracy-2026-10-22.json",
+      "before_sha256": "f8acf7d9830fea50fbf6319d402a54f83d9a1a988d85bd64c294e1ece46f7451",
+      "current_sha256": "f8acf7d9830fea50fbf6319d402a54f83d9a1a988d85bd64c294e1ece46f7451",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-senior-software.png",
+      "current_path": "resume-output/qa/resume-senior-software.png",
+      "before_sha256": "a79367171a753e36da873054b586d6ab2ab238bdbf37fdcb25456cf374d8231f",
+      "current_sha256": "a79367171a753e36da873054b586d6ab2ab238bdbf37fdcb25456cf374d8231f",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/source-2020-extracted.txt",
+      "current_path": "resume-output/qa/source-2020-extracted.txt",
+      "before_sha256": "87be36ba83be4dec9d710bc48756d35194d0033258e0baeb37c15db7c26ccb09",
+      "current_sha256": "87be36ba83be4dec9d710bc48756d35194d0033258e0baeb37c15db7c26ccb09",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-openai-codex-agents.png",
+      "current_path": "resume-output/qa/resume-openai-codex-agents.png",
+      "before_sha256": "33c3fd93fcb76d83053975201b2368a9de6d74611eece4a1a84a10aba614bc23",
+      "current_sha256": "33c3fd93fcb76d83053975201b2368a9de6d74611eece4a1a84a10aba614bc23",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/netflix-ia-mcp-monospace-2026-10-22.json",
+      "current_path": "resume-output/qa/netflix-ia-mcp-monospace-2026-10-22.json",
+      "before_sha256": "7d22e8e6d5f0543af261f0d94ca4f952b2a88a0bd9dd0880f49219319290cf75",
+      "current_sha256": "7d22e8e6d5f0543af261f0d94ca4f952b2a88a0bd9dd0880f49219319290cf75",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/resume-google-agent-architecture-extracted.txt",
+      "current_path": "resume-output/qa/resume-google-agent-architecture-extracted.txt",
+      "before_sha256": "ff3976134249952360f08377ea7baa6b8a6affb27be466574e58376e52c4e4cd",
+      "current_sha256": "ff3976134249952360f08377ea7baa6b8a6affb27be466574e58376e52c4e4cd",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/qa/source-update-audit.json",
+      "current_path": "resume-output/qa/source-update-audit.json",
+      "before_sha256": "e12a0babc2c487e45727bbfdf2c6a30a60546c214b2f9ca561ad0630a5dee2a1",
+      "current_sha256": "e12a0babc2c487e45727bbfdf2c6a30a60546c214b2f9ca561ad0630a5dee2a1",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/__pycache__/build_resume.cpython-312.pyc",
+      "current_path": "resume-output/__pycache__/build_resume.cpython-312.pyc",
+      "before_sha256": "0982aa04242872aea0e32248cf81037921edb30033536a4c5a90cc286d328c95",
+      "current_sha256": "0982aa04242872aea0e32248cf81037921edb30033536a4c5a90cc286d328c95",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/fonts/LICENSE-DejaVu.txt",
+      "current_path": "resume-output/fonts/LICENSE-DejaVu.txt",
+      "before_sha256": "4388a5e2a70b40ceeff0d18855eef6c3278b2d541dde2d7e0fc8a54c090bf3cf",
+      "current_sha256": "4388a5e2a70b40ceeff0d18855eef6c3278b2d541dde2d7e0fc8a54c090bf3cf",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "resume-output/fonts/DejaVuSansMono.ttf",
+      "current_path": "resume-output/fonts/DejaVuSansMono.ttf",
+      "before_sha256": "b4a6c3e4faab8773f4ff761d56451646409f29abedd68f05d38c2df667d3c582",
+      "current_sha256": "b4a6c3e4faab8773f4ff761d56451646409f29abedd68f05d38c2df667d3c582",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "source-archive/Interconnect-Architect-resume-before-2026-10-20-clarifications.md",
+      "current_path": "source-archive/Interconnect-Architect-resume-before-2026-10-20-clarifications.md",
+      "before_sha256": "447ff5cded12ad04917850727de035d50adaecf44635ee2de776c9977607c54f",
+      "current_sha256": "447ff5cded12ad04917850727de035d50adaecf44635ee2de776c9977607c54f",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "source-archive/README-before-2026-10-20-clarifications.md",
+      "current_path": "source-archive/README-before-2026-10-20-clarifications.md",
+      "before_sha256": "f45c065ea94c7cd941c8d914606a47958e2df81a72000d1ebce20e8e6be52c83",
+      "current_sha256": "f45c065ea94c7cd941c8d914606a47958e2df81a72000d1ebce20e8e6be52c83",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "source-archive/README.md",
+      "current_path": "source-archive/README.md",
+      "before_sha256": "fa57d6829ace599ebd4d116b37700447aad85faab0cb87492a30ce9b6a76bd3a",
+      "current_sha256": "fa57d6829ace599ebd4d116b37700447aad85faab0cb87492a30ce9b6a76bd3a",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "source-archive/ia-mcp-runtime-correspondence-2026-10-22.txt",
+      "current_path": "source-archive/ia-mcp-runtime-correspondence-2026-10-22.txt",
+      "before_sha256": "a8e041f1c84fa15864edc88200c023dba06afff52203b488ff3d71f2fbdd5832",
+      "current_sha256": "a8e041f1c84fa15864edc88200c023dba06afff52203b488ff3d71f2fbdd5832",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "source-archive/ia-mcp-testing-correspondence-2026-10-22.txt",
+      "current_path": "source-archive/ia-mcp-testing-correspondence-2026-10-22.txt",
+      "before_sha256": "bef296728ff56a57ffb158a7d9014da95f3ffe3188ae66b5bb8a3eada9b7f3e4",
+      "current_sha256": "bef296728ff56a57ffb158a7d9014da95f3ffe3188ae66b5bb8a3eada9b7f3e4",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    },
+    {
+      "original_path": "sources/originals/README-before-knowledge-base.md",
+      "current_path": "sources/originals/README-before-knowledge-base.md",
+      "before_sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+      "current_sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+      "disposition": "unchanged",
+      "identical_bytes": true
+    }
+  ]
+}

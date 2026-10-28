@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "skill-react",
+  "type": "skill",
+  "title": "React",
+  "summary": "React dashboard and desktop frontend work.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "React",
+    "JavaScript",
+    "CSS"
+  ],
+  "competencies": [
+    "frontend engineering"
+  ],
+  "tags": [
+    "skill",
+    "React"
+  ],
+  "related": [
+    "project-pelion-ml",
+    "project-pelion-space-analytics"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Implemented React JavaScript and CSS components for Pelion Machine Learning and Space Analytics web dashboards.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L35-L36"
+        },
+        {
+          "source_id": "src-docx-text",
+          "locator": "L59-L61"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

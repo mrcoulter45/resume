@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-gui-qualification",
+  "type": "accomplishment",
+  "title": "Matrix-driven GUI qualification and coverage evidence",
+  "summary": "Local runner orchestrates multi-renderer test/coverage phases, preserves artifacts and distinguishes qualification from incomplete evidence collection.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Python",
+    "Playwright",
+    "Angular",
+    "Karma",
+    "SVG",
+    "Pixi.js"
+  ],
+  "competencies": [
+    "Test orchestration",
+    "Coverage infrastructure",
+    "Evidence integrity",
+    "Recovery"
+  ],
+  "tags": [
+    "quality engineering",
+    "GUI testing",
+    "coverage",
+    "matrix orchestration"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness"
+  ],
+  "facts": [
+    {
+      "id": "runner",
+      "text": "Built a local GUI qualification runner combining prerequisites, static validation, wrapper tests, renderer builds, Angular/Karma coverage, Playwright execution, artifact preservation and reporting.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L370-L388"
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "text": "The regression fixture orchestrates 28 IP projects across two renderers, producing 56 cells; this is fixture scope rather than evidence of 56 passing live executions.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L376-L376"
+        }
+      ]
+    },
+    {
+      "id": "resumption",
+      "text": "Tied resumable coverage to source, working-tree, matrix, tool and dependency fingerprints and preserved raw coverage/diagnostics before later invocations clear outputs.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L382-L388"
+        }
+      ]
+    },
+    {
+      "id": "nonqualifying",
+      "text": "Designed coverage-only operation to label synthetic inputs, retain failures and remain explicitly non-qualifying when evidence is incomplete.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L391-L397"
+        }
+      ]
+    },
+    {
+      "id": "test-definitions",
+      "text": "The suite records 21 test definitions, including interruption, evidence preservation, fingerprint invalidation and prohibited-command checks; the analysis did not execute them.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L394-L400"
+        },
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L16-L16"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Local-only workflow explicitly rejects cluster execution surfaces. No measured coverage percentage is established."
+  ]
+}

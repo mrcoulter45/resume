@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "award-ut-capstone-industry",
+  "type": "accomplishment",
+  "title": "First Place, Industry — UT Austin ECE Capstone Design Award",
+  "summary": "Spring 2018 team project recognition for IoT Wireless Home Security System.",
+  "organization": "The University of Texas at Austin",
+  "role": null,
+  "dates": {
+    "start": "2018",
+    "end": "2018",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Spring 2018; no exact day is inferred."
+  },
+  "technologies": [],
+  "competencies": [],
+  "tags": [
+    "award",
+    "capstone",
+    "Industry category"
+  ],
+  "related": [
+    "additional-ut-capstone",
+    "education-ut-austin-bs"
+  ],
+  "facts": [
+    {
+      "id": "award",
+      "text": "The IoT Wireless Home Security System team received First Place in the Industry category of the UT Austin ECE Capstone Design Award, Spring 2018.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-master-profile",
+          "locator": "L418-L420"
+        },
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L94-L100"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Do not imply first place across every competition category or sole individual ownership. The precise category comes from the prior certificate review."
+  ]
+}

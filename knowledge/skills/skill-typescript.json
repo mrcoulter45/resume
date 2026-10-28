@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "skill-typescript",
+  "type": "skill",
+  "title": "TypeScript",
+  "summary": "TypeScript frontend engineering for interconnect tooling.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "TypeScript"
+  ],
+  "competencies": [
+    "frontend engineering"
+  ],
+  "tags": [
+    "skill",
+    "TypeScript"
+  ],
+  "related": [
+    "project-interconnect-architect",
+    "exp-arm-senior"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Developed interconnect desktop application GUI tooling in an Angular/TypeScript frontend.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L17-L23"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

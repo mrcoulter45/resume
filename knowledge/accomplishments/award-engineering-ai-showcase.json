@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "award-engineering-ai-showcase",
+  "type": "accomplishment",
+  "title": "Engineering AI Showcase Most Innovative Award",
+  "summary": "Recognition for a project-agnostic multi-agent orchestration and context-gathering system presentation.",
+  "organization": "Arm",
+  "role": "Senior Software Engineer",
+  "dates": {
+    "start": "2025-12-17",
+    "end": "2025-12-17",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact date comes from the prior certificate review in the master career profile."
+  },
+  "technologies": [],
+  "competencies": [
+    "technical presentation",
+    "AI developer tooling"
+  ],
+  "tags": [
+    "award",
+    "multi-agent",
+    "context gathering"
+  ],
+  "related": [
+    "exp-arm-senior"
+  ],
+  "facts": [
+    {
+      "id": "award",
+      "text": "Received the Engineering AI Showcase Most Innovative Award on December 17, 2025 for a project-agnostic, multi-agent orchestration and context-gathering system presentation.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-master-profile",
+          "locator": "L406-L410"
+        },
+        {
+          "source_id": "src-linkedin-text",
+          "locator": "L18-L23"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Recognition is an earlier presentation milestone, not proof that every 2026 harness capability was implemented or adopted by the award date. Certificate review is secondary evidence in this record."
+  ]
+}

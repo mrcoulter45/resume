@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "additional-valedictorian",
+  "type": "additional",
+  "title": "Valedictorian, Class of 2014",
+  "summary": "Historical academic recognition preserved for completeness.",
+  "organization": "Academy for Academic Excellence",
+  "role": null,
+  "dates": {
+    "start": "2014",
+    "end": "2014",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Date precision is limited to the supplied source; no exact event date is inferred."
+  },
+  "technologies": [],
+  "competencies": [],
+  "tags": [
+    "academic recognition",
+    "valedictorian"
+  ],
+  "related": [],
+  "facts": [
+    {
+      "id": "recognition",
+      "text": "Valedictorian and academically ranked first in the Class of 2014 at the Academy for Academic Excellence.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L85-L88"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Usually low priority in senior engineering applications."
+  ]
+}

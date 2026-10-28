@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "exp-arm-ip-intern",
+  "type": "experience",
+  "title": "Systems & Software IP Intern",
+  "summary": "Internship involving embedded logic analyzer trace decompression and UVM testbench debugging.",
+  "organization": "Arm",
+  "role": "Systems & Software IP Intern",
+  "dates": {
+    "start": "2017-05",
+    "end": "2017-08",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Employment dates are supplied at month precision. Ongoing status is a source-era snapshot, not a claim about future employment."
+  },
+  "technologies": [],
+  "competencies": [],
+  "tags": [
+    "employment",
+    "Arm",
+    "Austin"
+  ],
+  "related": [
+    "project-embedded-logic-analyzer"
+  ],
+  "facts": [
+    {
+      "id": "employment",
+      "text": "Systems & Software IP Intern at Arm in Austin, Texas, 2017-05 to 2017-08.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L60-L63"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

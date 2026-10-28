@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "exp-arm-software",
+  "type": "experience",
+  "title": "Software Engineer",
+  "summary": "Software engineering across Pelion cloud services, hardware verification rotations and early Interconnect Architect development.",
+  "organization": "Arm",
+  "role": "Software Engineer",
+  "dates": {
+    "start": "2020-04",
+    "end": "2023-04",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Employment dates are supplied at month precision. Ongoing status is a source-era snapshot, not a claim about future employment."
+  },
+  "technologies": [],
+  "competencies": [],
+  "tags": [
+    "employment",
+    "Arm",
+    "Austin"
+  ],
+  "related": [
+    "project-pelion-ml",
+    "project-pelion-return-to-work",
+    "project-arm-rtl-vip-rotations",
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "employment",
+      "text": "Software Engineer at Arm in Austin, Texas, 2020-04 to 2023-04.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L25-L37"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-playwright-infrastructure",
+  "type": "accomplishment",
+  "title": "Interconnect GUI test infrastructure and product regressions",
+  "summary": "Created Playwright infrastructure and evolved realistic GUI regression coverage across product generations.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": "2022",
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Historical analysis identifies GUI CI expansion in 2022, initial Playwright check-in work in 2025 and further coverage in 2026."
+  },
+  "technologies": [
+    "Playwright",
+    "Angular",
+    "TypeScript",
+    "Jenkins",
+    "Xvfb",
+    "Electron"
+  ],
+  "competencies": [
+    "Test infrastructure",
+    "CI engineering",
+    "Regression testing",
+    "Product-aware verification"
+  ],
+  "tags": [
+    "testing",
+    "frontend",
+    "CI",
+    "NoC",
+    "CMN"
+  ],
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "creation",
+      "text": "Created Playwright infrastructure for newer NoC tooling.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L36-L43"
+        }
+      ]
+    },
+    {
+      "id": "ci",
+      "text": "Expanded GUI end-to-end coverage and headless Jenkins execution with Xvfb in 2022, introduced initial Playwright check-in tests and reporting helpers in 2025, and expanded product-aware regressions in 2026.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L245-L274"
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "text": "Migrated CMN group coverage, used live Configuration Engine metadata to drive tests, and added renderer/persistence regressions and feature/build-output assertions.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L251-L274"
+        }
+      ]
+    },
+    {
+      "id": "angular-expansion",
+      "text": "Expanded Angular coverage across 51 spec files in one focused change.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L257-L268"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Direct creation evidence supersedes older interpretations limiting Michael to infrastructure extensions. Shared fixtures and later implementations still have contributions by others.",
+    "File counts are change scope, not coverage percentages or independent business accomplishments."
+  ]
+}

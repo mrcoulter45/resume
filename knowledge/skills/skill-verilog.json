@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "skill-verilog",
+  "type": "skill",
+  "title": "Verilog",
+  "summary": "FPGA test modules and RTL verification work.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "Verilog",
+    "FPGA"
+  ],
+  "competencies": [
+    "hardware verification",
+    "RTL design"
+  ],
+  "tags": [
+    "skill",
+    "Verilog"
+  ],
+  "related": [
+    "project-mbed-fpga-test-shield",
+    "project-arm-rtl-vip-rotations"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Implemented Verilog FPGA master/slave test modules and wrote Verilog testbenches; used waveform viewers for debugging.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-workflows",
+          "locator": "L23-L29"
+        },
+        {
+          "source_id": "src-clarifications",
+          "locator": "L5-L11"
+        },
+        {
+          "source_id": "src-docx-text",
+          "locator": "L48-L52"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

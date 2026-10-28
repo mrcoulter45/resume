@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-historical-mcp-host",
+  "type": "accomplishment",
+  "title": "Historical typed MCP host and capability integration",
+  "summary": "Implemented a Python MCP runtime with typed registration, dispatch, compatibility, approval and provenance before moving ownership to the product repository.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Python",
+    "MCP",
+    "Pydantic",
+    "UUID"
+  ],
+  "competencies": [
+    "Protocol integration",
+    "Typed APIs",
+    "Compatibility",
+    "Auditability"
+  ],
+  "tags": [
+    "MCP",
+    "AI tools",
+    "runtime architecture",
+    "historical implementation"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness"
+  ],
+  "facts": [
+    {
+      "id": "typed-host",
+      "text": "Implemented a typed Python MCP host with dynamic tool/resource/prompt registration, model-derived signatures, synchronous/asynchronous dispatch and explicit capability-pack entry points.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L147-L168"
+        }
+      ]
+    },
+    {
+      "id": "controls",
+      "text": "Added runtime compatibility checks, descriptor-controlled approval gates, UUID request traces and structured repository/commit/source provenance.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L156-L168"
+        }
+      ]
+    },
+    {
+      "id": "historical-scope",
+      "text": "The shared host was later removed during product-ownership consolidation; the Configuration Engine pack was separately owned and its workflow bridge was a placeholder.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L150-L177"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Historical implemented capability, not evidence that this shared host is the current deployment architecture.",
+    "Do not infer authorship of the separately owned Configuration Engine pack or completion of the placeholder workflow bridge."
+  ]
+}

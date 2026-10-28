@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "profile-michael",
+  "type": "profile",
+  "title": "Michael Remington Coulter \u2014 application identity",
+  "summary": "Professional identity and city-level contact details from supplied career documents; street address stays in original private evidence.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Contact details observed in supplied sources; recheck before submitting an application."
+  },
+  "technologies": [],
+  "competencies": [],
+  "tags": [
+    "identity",
+    "contact"
+  ],
+  "related": [
+    "exp-arm-senior"
+  ],
+  "facts": [
+    {
+      "id": "name",
+      "text": "Michael Remington Coulter",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L1-L2"
+        }
+      ]
+    },
+    {
+      "id": "location",
+      "text": "Buda, TX",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L5-L5"
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "text": "mrcoulter45@gmail.com",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L3-L3"
+        }
+      ]
+    },
+    {
+      "id": "phone",
+      "text": "(760) 694-6310",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L3-L3"
+        }
+      ]
+    },
+    {
+      "id": "linkedin",
+      "text": "https://www.linkedin.com/in/michael-coulter-164868153/",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-links",
+          "locator": "L1-L1"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "text": "https://github.com/mrcoulter45",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-links",
+          "locator": "L2-L2"
+        }
+      ]
+    },
+    {
+      "id": "portfolio",
+      "text": "https://mrcoulter45.github.io/portfolio/",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-links",
+          "locator": "L3-L3"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No street address is needed in application output. Original raw sources contain personal information."
+  ]
+}

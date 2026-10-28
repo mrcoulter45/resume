@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-jenkins-repair",
+  "type": "accomplishment",
+  "title": "Agent-driven Jenkins diagnosis, repair and targeted replay",
+  "summary": "Shared repair-jenkins skill reconstructs actual failed cluster environments, iterates on targeted fixes and returns reviewable patches.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Codex",
+    "Python",
+    "Jenkins",
+    "LSF",
+    "Playwright",
+    "Git",
+    "JUnit XML"
+  ],
+  "competencies": [
+    "CI reliability",
+    "Agent workflow design",
+    "Failure diagnosis",
+    "Patch integrity"
+  ],
+  "tags": [
+    "AI engineering",
+    "test automation",
+    "autonomous repair",
+    "developer productivity"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness"
+  ],
+  "facts": [
+    {
+      "id": "workflow",
+      "text": "Built repair-jenkins, a team-used Codex skill that investigates failed Interconnect Architect GUI Playwright tests in the actual Jenkins cluster checkout, implements fixes and reruns the failing tests.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-workflows",
+          "locator": "L9-L17"
+        }
+      ]
+    },
+    {
+      "id": "repair-scope",
+      "text": "The repair workflow handles flaky tests, legitimate defects in test code and application/source defects requiring targeted fixes.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-repair-scope",
+          "locator": "L3-L7"
+        }
+      ]
+    },
+    {
+      "id": "review-gate",
+      "text": "The diagnosis/fix/retest loop runs autonomously after invocation, requires three consecutive clean passes and returns changes for human patch review and Git commit/push.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-impact",
+          "locator": "L7-L12"
+        },
+        {
+          "source_id": "src-workflows",
+          "locator": "L13-L16"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "text": "Reconstructed matrix-specific failures from Jenkins metadata, JUnit and cell logs, preserving recorded revisions and LSF execution constraints.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L219-L225"
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "text": "Michael reports substantially reduced debugging effort against a manual alternative taking hours to days; no automated elapsed time or percentage saving was measured.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-impact",
+          "locator": "L7-L12"
+        }
+      ]
+    },
+    {
+      "id": "patch-identity",
+      "text": "Used isolated repair worktrees, an alternate Git index for cumulative binary patches, and content/mode/symlink inventories to bind validation to synchronized changes while preserving unrelated work.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L228-L242"
+        }
+      ]
+    },
+    {
+      "id": "test-definitions",
+      "text": "The snapshot reports 52 repair test definitions with fixtures from two Jenkins builds; those definitions are not a live pass count.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L245-L254"
+        },
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L16-L16"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Frequent personal use and other team users are confirmed; exact team count, patch volume and overall repair success rate are not.",
+    "Do not describe automatic commit/push/publication. The hours-to-days manual baseline is a direct owner report, not a timed comparative study."
+  ]
+}

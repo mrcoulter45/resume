@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "skill-angular",
+  "type": "skill",
+  "title": "Angular",
+  "summary": "Angular application engineering for coherent and non-coherent interconnect tooling.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "Angular"
+  ],
+  "competencies": [
+    "frontend architecture"
+  ],
+  "tags": [
+    "skill",
+    "Angular"
+  ],
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Worked on the Angular frontend of Interconnect Architect, including interactive canvas and configuration workflows.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L17-L23"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

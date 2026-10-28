@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "selection",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "company",
+    "role",
+    "example",
+    "prepared_date",
+    "positioning",
+    "identity",
+    "sections",
+    "matches",
+    "decisions",
+    "follow_up",
+    "review_notes"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "type": "integer"
+    },
+    "company": {
+      "type": "string",
+      "minLength": 1
+    },
+    "role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "example": {
+      "type": "boolean"
+    },
+    "prepared_date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "positioning": {
+      "type": "string",
+      "minLength": 1
+    },
+    "identity": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "text",
+          "refs",
+          "verbatim"
+        ],
+        "properties": {
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*#[a-z][a-z0-9-]*$"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "verbatim": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "heading",
+          "entries"
+        ],
+        "properties": {
+          "heading": {
+            "enum": [
+              "Professional Summary",
+              "Professional Experience",
+              "Technical Skills",
+              "Education",
+              "Selected Projects",
+              "Leadership",
+              "Awards",
+              "Additional Experience",
+              "Certifications",
+              "Research",
+              "Open Source"
+            ]
+          },
+          "entries": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "text",
+                "refs",
+                "verbatim",
+                "kind"
+              ],
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9-]*#[a-z][a-z0-9-]*$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "verbatim": {
+                  "type": "boolean"
+                },
+                "kind": {
+                  "enum": [
+                    "bullet",
+                    "paragraph",
+                    "subheading"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            },
+            "minItems": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "matches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "requirement_id",
+          "coverage",
+          "refs",
+          "reason"
+        ],
+        "properties": {
+          "requirement_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          },
+          "coverage": {
+            "enum": [
+              "strong",
+              "partial",
+              "gap"
+            ]
+          },
+          "refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*#[a-z][a-z0-9-]*$"
+            },
+            "minItems": 0,
+            "uniqueItems": true
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "follow_up": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "review_notes": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

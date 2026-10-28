@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-checkout-allocation",
+  "type": "accomplishment",
+  "title": "Concurrency-safe checkout allocation",
+  "summary": "Atomic locking, tokenized leases and ownership-aware recovery protect concurrent engineering sessions and existing work.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Git",
+    "Python",
+    "Bash"
+  ],
+  "competencies": [
+    "Concurrency",
+    "Resource ownership",
+    "Recovery design",
+    "Integration testing"
+  ],
+  "tags": [
+    "atomic locks",
+    "leases",
+    "worktree management",
+    "parallel agents"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness",
+    "accomp-ai-workspace-isolation"
+  ],
+  "facts": [
+    {
+      "id": "allocator",
+      "text": "Implemented concurrency-safe checkout allocation using project-wide atomic directory locks, tokenized refreshable leases and strict branch/cleanliness/remote checks before reuse.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L86-L95"
+        }
+      ]
+    },
+    {
+      "id": "reservations",
+      "text": "Made reservations visible through untracked Git lease markers so normal cleanliness checks reject occupied checkouts; reclaimed only markers with proven allocator ownership.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L89-L104"
+        }
+      ]
+    },
+    {
+      "id": "recovery",
+      "text": "Restricted failed-creation cleanup to allocator-owned partial state, preserving ambiguous markers and unexpected files.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L91-L95"
+        }
+      ]
+    },
+    {
+      "id": "test-definitions",
+      "text": "The snapshot records 15 allocator test definitions using temporary repositories and simultaneous acquisitions in separate subprocesses; the analysis did not execute them.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L101-L107"
+        },
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L16-L16"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

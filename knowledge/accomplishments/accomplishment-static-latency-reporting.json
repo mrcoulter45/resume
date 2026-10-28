@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-static-latency-reporting",
+  "type": "accomplishment",
+  "title": "Metadata-driven static-latency reporting",
+  "summary": "Improved existing design reports by replacing hardcoded cases with Configuration Engine metadata.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+  },
+  "technologies": [
+    "Python"
+  ],
+  "competencies": [
+    "Technical reporting",
+    "Refactoring",
+    "Domain modeling"
+  ],
+  "tags": [
+    "latency",
+    "interconnect",
+    "reporting",
+    "EDA"
+  ],
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "correctness",
+      "text": "Corrected static-latency reporting across instance types, wire modes, retiming settings and SERDES.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L223-L242"
+        }
+      ]
+    },
+    {
+      "id": "metadata",
+      "text": "Refactored an existing static-latency report from extensive hardcoded logic toward Configuration Engine metadata and API information.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L223-L242"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The historical standalone script was later removed by another contributor. Describe this as improving an existing capability, not current sole ownership of an active reporting system."
+  ]
+}

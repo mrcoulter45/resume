@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-cluster-access",
+  "type": "accomplishment",
+  "title": "Reusable cluster access and compatibility-aware host selection",
+  "summary": "Noninteractive access and load-aware host advice support engineering automation across cluster environments.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "OpenSSH",
+    "Python",
+    "Bash",
+    "macOS",
+    "SMB"
+  ],
+  "competencies": [
+    "Infrastructure tooling",
+    "Authentication handling",
+    "Resource-aware execution"
+  ],
+  "tags": [
+    "HPC",
+    "cluster tools",
+    "SSH",
+    "host selection"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness"
+  ],
+  "facts": [
+    {
+      "id": "access",
+      "text": "Developed reusable cluster-access tools spanning noninteractive SSH, optional TTYs, configurable transport settings and temporary authentication helpers with credentials kept out of command arguments.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L180-L186"
+        }
+      ]
+    },
+    {
+      "id": "host-advice",
+      "text": "Built a compatibility-aware host advisor using bounded noninteractive OS/load probes and ranking across a default pool of 35 login hosts in two cluster environments.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L189-L189"
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "text": "Developed macOS cluster-storage helpers that validate working-directory containment and support host resolution, status and unmount operations.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L207-L210"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The 35-host pool is configured orchestration scope, not a measured scale or throughput outcome.",
+    "No numerical transfer-throughput improvement or enterprise-wide identity service is established."
+  ]
+}

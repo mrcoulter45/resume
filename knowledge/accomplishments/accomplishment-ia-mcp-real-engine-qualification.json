@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-ia-mcp-real-engine-qualification",
+  "type": "accomplishment",
+  "title": "Real-Configuration Engine contract and integration qualification",
+  "summary": "Qualified bounded interconnect behaviors with parameterized real-engine cases and explicit negative/failure-path checks.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": "2026-09-04",
+    "end": "2026-09-04",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Date identifies the recorded passing baseline, not the start or duration of qualification-infrastructure implementation."
+  },
+  "technologies": [
+    "Python",
+    "Model Context Protocol",
+    "Jenkins"
+  ],
+  "competencies": [
+    "Integration testing",
+    "Contract testing",
+    "Failure injection",
+    "Release qualification"
+  ],
+  "tags": [
+    "AI-engineering",
+    "evaluation",
+    "real-backend",
+    "testing"
+  ],
+  "related": [
+    "project-ia-mcp"
+  ],
+  "facts": [
+    {
+      "id": "historical-result",
+      "text": "The September 4, 2026 ia-mcp baseline records 92 passing certified-live contract/integration cases against the real Configuration Engine.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-testing-correspondence",
+          "locator": "L4-L44"
+        }
+      ]
+    },
+    {
+      "id": "suite-shape",
+      "text": "The 92 cases expand from 28 test functions across nine files, covering NCI/CMN construction, CCG/MCN behavior, domains, memory-region parameters and parameter schemas.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-testing-correspondence",
+          "locator": "L4-L44"
+        }
+      ]
+    },
+    {
+      "id": "negative-cases",
+      "text": "Qualification includes invalid-input rejection, unsupported-product handling, failure recovery, checkpoint restoration, export and replay; a passing case may prove safe rejection rather than successful construction.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-testing-correspondence",
+          "locator": "L9-L44"
+        }
+      ]
+    },
+    {
+      "id": "nonlive-baseline",
+      "text": "The separate historical full suite records 5,063 passing non-live tests, with overlapping fast, contract, security and packaging tiers.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-testing-correspondence",
+          "locator": "L49-L71"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No employer tests were executed by this repository migration. The reporting source inspected current code and the historical baseline without rerunning the suite.",
+    "92 cases are not 92 Codex prompts or independent agent tasks. Overlapping tier counts must not be added together.",
+    "Current source assets and September 2026 recorded passes are distinct evidence."
+  ]
+}

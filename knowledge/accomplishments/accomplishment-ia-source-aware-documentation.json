@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-ia-source-aware-documentation",
+  "type": "accomplishment",
+  "title": "Source-aware application documentation and code navigation",
+  "summary": "Created maintainable context-generation tooling for a large Angular engineering application.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+  },
+  "technologies": [
+    "JavaScript",
+    "Python",
+    "Angular"
+  ],
+  "competencies": [
+    "Developer tooling",
+    "Documentation systems",
+    "Source indexing",
+    "Knowledge provenance"
+  ],
+  "tags": [
+    "developer-tools",
+    "documentation",
+    "AI-context",
+    "navigation"
+  ],
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "tooling",
+      "text": "Introduced reproducible GUI documentation collection and rendering, curated narrative overrides, source indexing, task-to-code navigation and reusable engineering guidance.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L348-L363"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The inspected documentation collector and renderer were attributed to Michael in the supplied analysis.",
+    "Surrounding orchestration included scaffolding; an inspected documentation-parity helper returned an empty result. Do not present the whole framework as fully enforced autonomous orchestration."
+  ]
+}

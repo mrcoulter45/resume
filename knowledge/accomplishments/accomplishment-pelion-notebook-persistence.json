@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-pelion-notebook-persistence",
+  "type": "accomplishment",
+  "title": "Persistent Jupyter notebook storage",
+  "summary": "Implemented notebook persistence using Kubernetes storage backed by AWS EFS.",
+  "organization": "Arm",
+  "role": "Software Engineer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Pelion Machine Learning project; exact delivery dates are unspecified."
+  },
+  "technologies": [
+    "Kubernetes",
+    "AWS EFS",
+    "Jupyter",
+    "Python",
+    "Flask"
+  ],
+  "competencies": [
+    "persistent storage",
+    "cloud integration",
+    "backend engineering"
+  ],
+  "tags": [
+    "notebooks",
+    "storage",
+    "cloud infrastructure"
+  ],
+  "related": [
+    "project-pelion-ml",
+    "exp-arm-software"
+  ],
+  "facts": [
+    {
+      "id": "persistence",
+      "text": "Used Kubernetes persistent-storage features backed by AWS EFS for Jupyter notebook storage.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-workflows",
+          "locator": "L19-L21"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Concrete implementation experience; do not infer a large-scale Kubernetes operations role."
+  ]
+}

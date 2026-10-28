@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-owo-wizard",
+  "type": "accomplishment",
+  "title": "Ordered Write Observation configuration wizard",
+  "summary": "Designed a structured workflow for configuring an interconnect hardware feature with many interacting constraints.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": "2026-09",
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "The supplied engineering analysis dates wizard introduction to September 2026."
+  },
+  "technologies": [
+    "Angular",
+    "TypeScript",
+    "Python",
+    "Playwright"
+  ],
+  "competencies": [
+    "Constraint modeling",
+    "Workflow orchestration",
+    "API integration",
+    "End-to-end testing"
+  ],
+  "tags": [
+    "OWO",
+    "NoC",
+    "hardware-aware-software",
+    "wizard"
+  ],
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "ownership",
+      "text": "Created the Ordered Write Observation configuration wizard for newer NoC tooling.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L36-L43"
+        }
+      ]
+    },
+    {
+      "id": "constraints",
+      "text": "Built an OWO wizard coordinating topology, interface prerequisites, protocols, resource planes, reserved credits, buffer capacities, stripe groups, memory maps and address alignment.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L181-L199"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "text": "Separated component, orchestration facade, typed models, validation utilities and topology matrix, with plan/review/apply/restoration behavior and DRC explanations.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L187-L211"
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "text": "The introduction change included 12 Angular unit-spec files and five Playwright spec files, followed by recovery and feedback improvements.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L202-L211"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Ownership covers the wizard and orchestration, not authorship of the OWO hardware feature or every underlying Configuration Engine rule.",
+    "Spec-file counts describe a historical change, not coverage percentage or total current suite size."
+  ]
+}

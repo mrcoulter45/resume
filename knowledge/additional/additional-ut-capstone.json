@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "additional-ut-capstone",
+  "type": "additional",
+  "title": "IoT Wireless Home Security System capstone",
+  "summary": "Academic sponsored team project recognized in the Industry category of the UT Austin ECE capstone competition.",
+  "organization": "The University of Texas at Austin",
+  "role": null,
+  "dates": {
+    "start": "2018",
+    "end": "2018",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Spring 2018 competition recognition. Exact project dates and individual implementation breakdown are unspecified."
+  },
+  "technologies": [],
+  "competencies": [
+    "academic engineering project",
+    "team collaboration"
+  ],
+  "tags": [
+    "IoT",
+    "security",
+    "capstone",
+    "academic project"
+  ],
+  "related": [
+    "education-ut-austin-bs",
+    "award-ut-capstone-industry"
+  ],
+  "facts": [
+    {
+      "id": "participation",
+      "text": "Named member of the six-person IoT Wireless Home Security System academic capstone project team.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-master-profile",
+          "locator": "L418-L420"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No specific personal implementation contribution, technology stack, team-lead role, repository, deployment or performance metric is documented. Do not infer these from the project title."
+  ]
+}

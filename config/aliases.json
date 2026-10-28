@@ -1,0 +1,18 @@
+{
+  "c++": "cpp",
+  "c/c++": "cpp",
+  "c plus plus": "cpp",
+  "c#": "csharp",
+  "node.js": "nodejs",
+  "node js": "nodejs",
+  "pixi.js": "pixijs",
+  "tauri 2": "tauri",
+  "model context protocol": "mcp",
+  "amazon web services": "aws",
+  "amazon elastic file system": "efs",
+  "aws efs": "efs",
+  "postgres": "postgresql",
+  "ts": "typescript",
+  "js": "javascript",
+  "k8s": "kubernetes"
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-electron-karma",
+  "type": "accomplishment",
+  "title": "Electron-hosted Karma and cross-layer qualification",
+  "summary": "Aligned unit and browser-driven checks with the desktop application renderer and headless execution environment.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+  },
+  "technologies": [
+    "Electron",
+    "Karma",
+    "Playwright",
+    "Angular",
+    "TypeScript"
+  ],
+  "competencies": [
+    "Test orchestration",
+    "Runtime integration",
+    "CI reliability"
+  ],
+  "tags": [
+    "desktop",
+    "testing",
+    "headless",
+    "qualification"
+  ],
+  "related": [
+    "project-interconnect-architect",
+    "accomplishment-playwright-infrastructure"
+  ],
+  "facts": [
+    {
+      "id": "workflow",
+      "text": "Built an Electron-bound Karma workflow using dynamic loopback ports, isolated run state/logs and Playwright proofs in the same renderer/headless environment.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L251-L271"
+        }
+      ]
+    },
+    {
+      "id": "vertical",
+      "text": "Added focused cross-layer vertical runners and stabilized CPU/RHEL8 execution, fixture readiness, mocking and renderer expectations.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L257-L271"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

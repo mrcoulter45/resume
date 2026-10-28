@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "skill-source-listed-inventory",
+  "type": "skill",
+  "title": "Additional source-listed skills",
+  "summary": "Preserved skill inventory with limited independent accomplishment context.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "C",
+    "SystemVerilog",
+    "Bash",
+    "Java",
+    "HTML",
+    "CSS",
+    "PHP",
+    "NoSQL",
+    "RTOS",
+    "Arm ISA",
+    "Arduino",
+    "Keil uVision",
+    "DS-5 Studio",
+    "Docker",
+    "AWS EKS",
+    "Jupyter",
+    "Git",
+    "Linux",
+    "Windows",
+    "macOS"
+  ],
+  "competencies": [],
+  "tags": [
+    "source-listed skills",
+    "requires context"
+  ],
+  "related": [],
+  "facts": [
+    {
+      "id": "inventory",
+      "text": "The supplied career outline lists C/C++, Python, JavaScript, Verilog, SystemVerilog, Bash, Java, HTML/CSS, PHP, SQL, NoSQL, Markdown, embedded systems, FPGA programming, RTOS, Mbed OS, UVM, Arm ISA, Arduino, React, Flask, Express, Git, DS-5 Studio, Keil uVision, Docker, Kubernetes, EKS, Jupyter, Auth0, Linux, Windows and macOS.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L77-L82"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "This preserves keywords, not proof of equivalent proficiency or recent professional use for every item. Prefer contextual skill records when selecting résumé skills; investigate list-only items before emphasizing them."
+  ]
+}

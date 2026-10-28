@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-nic400-migration",
+  "type": "accomplishment",
+  "title": "Topology-preserving NIC-400 migration engine",
+  "summary": "Evolved migration scripts into a Python engine that reconstructs interconnect topology and preserves source design relationships.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": "2023",
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Source analysis identifies initial scripts in 2023, expansion in 2024 and integrated engine introduction in 2026; exact months are not established."
+  },
+  "technologies": [
+    "Python",
+    "XML",
+    "CCXML",
+    "YAML",
+    "NIC-400"
+  ],
+  "competencies": [
+    "Backend engineering",
+    "Graph transformation",
+    "Data migration",
+    "Validation"
+  ],
+  "tags": [
+    "migration",
+    "interconnect",
+    "DRC",
+    "systems-engineering"
+  ],
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "implementation",
+      "text": "Developed an integrated NIC-400 XML/CCXML-to-NCI conversion engine reconstructing source microarchitecture, preserving topology and placement, and applying logged DRC-driven repairs.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L115-L145"
+        }
+      ]
+    },
+    {
+      "id": "fidelity",
+      "text": "Mapped source bus matrices, clock-domain crossings and width conversions into target blocks, rejecting unresolved topology assumptions rather than inventing connectivity.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L124-L136"
+        }
+      ]
+    },
+    {
+      "id": "corpus",
+      "text": "Added corpus collection, audit tooling, valid/invalid fixtures and source-fidelity assertions; a historical commit reports 4,130 of 4,130 valid configurations DRC-clean and 5 of 5 curated invalid configurations rejected.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L127-L145"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Scripts began in 2023 and expanded in 2024; the integrated engine was introduced in 2026.",
+    "The corpus result is a historical commit report; raw execution logs were not independently recovered and tests were not rerun here.",
+    "Primary implementation responsibility is documented alongside subsequent fixes by colleagues."
+  ]
+}

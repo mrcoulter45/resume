@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "lead-ai-cluster-execution-policies",
+  "type": "leadership",
+  "title": "User-scoped and resource-aware agent cluster workflows",
+  "summary": "Agent skills apply account-owned write rules and appropriate LSF scheduling when interacting with shared cluster environments.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Codex",
+    "LSF",
+    "OpenSSH",
+    "Python"
+  ],
+  "competencies": [
+    "Responsible automation",
+    "Resource scheduling",
+    "Operational controls"
+  ],
+  "tags": [
+    "HPC",
+    "agent workflows",
+    "cluster policies",
+    "engineering standards"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness",
+    "accomp-ai-cluster-access",
+    "accomp-ai-jenkins-repair"
+  ],
+  "facts": [
+    {
+      "id": "policies",
+      "text": "Established cluster-skill operating rules to write within Michael’s user-owned areas, account for other cluster users and use LSF where appropriate rather than overloading shared login hosts.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-role-fit",
+          "locator": "L39-L43"
+        }
+      ]
+    },
+    {
+      "id": "implementation-controls",
+      "text": "Implemented run-owned temporary paths, credentials kept out of command arguments, ownership checks and preservation of LSF replay constraints in supporting cluster tools.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L183-L210"
+        },
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L222-L239"
+        }
+      ]
+    },
+    {
+      "id": "policy-boundary",
+      "text": "These are user-scoped workflow policies and controls, not proof of an OS-enforced sandbox, company-wide identity platform, universal write prevention or LLM token/cost governance.",
+      "status": "confirmed",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-role-fit",
+          "locator": "L41-L45"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

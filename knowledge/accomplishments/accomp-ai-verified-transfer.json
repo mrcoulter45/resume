@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-verified-transfer",
+  "type": "accomplishment",
+  "title": "Integrity-checked cross-site file transfer",
+  "summary": "Idempotent remote transfer uses content verification and atomic finalization while preserving conflicting destinations.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Python",
+    "SCP",
+    "OpenSSH",
+    "SHA-256"
+  ],
+  "competencies": [
+    "Data integrity",
+    "Idempotency",
+    "Recovery design"
+  ],
+  "tags": [
+    "cross-site transfer",
+    "release integrity",
+    "HPC",
+    "automation"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness",
+    "accomp-ai-cluster-access"
+  ],
+  "facts": [
+    {
+      "id": "transfer",
+      "text": "Implemented cross-site file transfer with run-owned partial destinations, SHA-256 verification, idempotent reuse of matching files and atomic finalization.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L192-L201"
+        }
+      ]
+    },
+    {
+      "id": "conflicts",
+      "text": "Refused replacement of conflicting destinations and restricted retry cleanup to the current run-owned partial path.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L197-L201"
+        }
+      ]
+    },
+    {
+      "id": "retry-scope",
+      "text": "Retries restart the transfer; the supplied source does not establish byte-level checkpoint resumption.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L204-L210"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

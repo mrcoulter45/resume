@@ -1,0 +1,705 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "line": 3,
+      "text": "Michael Remington Coulter",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "profile-michael#name",
+          "text": "Michael Remington Coulter",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-legacy-profile",
+              "locator": "L1-L2",
+              "path": "sources/originals/README-before-knowledge-base.md",
+              "sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+              "kind": "owner_document"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 5,
+      "text": "Buda, TX | mrcoulter45@gmail.com | (760) 694-6310",
+      "verbatim": false,
+      "facts": [
+        {
+          "ref": "profile-michael#location",
+          "text": "Buda, TX",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-legacy-profile",
+              "locator": "L5-L5",
+              "path": "sources/originals/README-before-knowledge-base.md",
+              "sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+              "kind": "owner_document"
+            }
+          ]
+        },
+        {
+          "ref": "profile-michael#email",
+          "text": "mrcoulter45@gmail.com",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-legacy-profile",
+              "locator": "L3-L3",
+              "path": "sources/originals/README-before-knowledge-base.md",
+              "sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+              "kind": "owner_document"
+            }
+          ]
+        },
+        {
+          "ref": "profile-michael#phone",
+          "text": "(760) 694-6310",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-legacy-profile",
+              "locator": "L3-L3",
+              "path": "sources/originals/README-before-knowledge-base.md",
+              "sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+              "kind": "owner_document"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 7,
+      "text": "https://www.linkedin.com/in/michael-coulter-164868153/ | https://github.com/mrcoulter45",
+      "verbatim": false,
+      "facts": [
+        {
+          "ref": "profile-michael#linkedin",
+          "text": "https://www.linkedin.com/in/michael-coulter-164868153/",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-links",
+              "locator": "L1-L1",
+              "path": "links.md",
+              "sha256": "a2466ff512929bd981608219f452e638a86be912aa1bdf87774bd859712d5927",
+              "kind": "owner_document"
+            }
+          ]
+        },
+        {
+          "ref": "profile-michael#github",
+          "text": "https://github.com/mrcoulter45",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-links",
+              "locator": "L2-L2",
+              "path": "links.md",
+              "sha256": "a2466ff512929bd981608219f452e638a86be912aa1bdf87774bd859712d5927",
+              "kind": "owner_document"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 11,
+      "text": "Software engineer building customer-shipped engineering tools and shared Codex workflows, with Python MCP integrations, Rust/TypeScript desktop architecture and persistent engineering memory.",
+      "verbatim": false,
+      "facts": [
+        {
+          "ref": "project-ai-harness#design-adoption",
+          "text": "Designed and developed a shared coding-agent harness at Arm, used by several other engineers for agentic software development.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-adoption",
+              "locator": "L5-L12",
+              "path": "career-clarifications-2026-10-21.md",
+              "sha256": "62728ee656cb3dac7556c98a7bfdf5589526ade7b21d9370aa1106e8e4b702f7",
+              "kind": "owner_statement"
+            }
+          ]
+        },
+        {
+          "ref": "project-ai-workbench#architecture",
+          "text": "Built a Tauri 2 engineering workbench with a React/TypeScript UI and shared Rust application core consumed by both the desktop interface and a JSON CLI.",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-ai-analysis",
+              "locator": "L110-L144",
+              "path": "AI-System-resume.md",
+              "sha256": "3fbf27818a84d1a33430fe738b953864f79e267284c2049244279749d41e3892",
+              "kind": "supplied_analysis"
+            }
+          ]
+        },
+        {
+          "ref": "project-ia-mcp#purpose",
+          "text": "Built ia-mcp, an internal Python MCP interface used by several engineers to translate interconnect intent into backend API calls with typed plans, checkpoints, semantic validation and backend fallback.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-runtime",
+              "locator": "L12-L18",
+              "path": "career-clarifications-grouping-and-runtime-2026-10-22.md",
+              "sha256": "85dbc8722edf69093a49b131bf66e93941a2fbf08d446fa7f19a40f927b4d32f",
+              "kind": "owner_statement"
+            }
+          ]
+        },
+        {
+          "ref": "lead-ai-engineering-memory#dynamic-memory",
+          "text": "Implemented dynamic autonomous creation and retrieval of important engineering memory during running tasks in the coding-agent harness.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-role-fit",
+              "locator": "L33-L37",
+              "path": "career-clarifications-netflix-fit-2026-10-22.md",
+              "sha256": "68dbe86988a6e44e1af5cffff63b528a175f1c2ce796c3def9490c46deb31008",
+              "kind": "owner_statement"
+            }
+          ]
+        },
+        {
+          "ref": "project-interconnect-architect#production",
+          "text": "Shipped and maintained production Interconnect Architect software, implementing requirements from external Arm interconnect licensees and senior technical stakeholders.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-role-fit",
+              "locator": "L5-L11",
+              "path": "career-clarifications-netflix-fit-2026-10-22.md",
+              "sha256": "68dbe86988a6e44e1af5cffff63b528a175f1c2ce796c3def9490c46deb31008",
+              "kind": "owner_statement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 15,
+      "text": "Arm — Senior Software Engineer | Austin, TX | Apr 2023–Present",
+      "verbatim": false,
+      "facts": [
+        {
+          "ref": "exp-arm-senior#employment",
+          "text": "Senior Software Engineer at Arm in Austin, Texas, 2023-04 to present as of October 2026.",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-legacy-profile",
+              "locator": "L17-L23",
+              "path": "sources/originals/README-before-knowledge-base.md",
+              "sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+              "kind": "owner_document"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 17,
+      "text": "Designed and developed a shared coding-agent harness at Arm, used by several other engineers for agentic software development.",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "project-ai-harness#design-adoption",
+          "text": "Designed and developed a shared coding-agent harness at Arm, used by several other engineers for agentic software development.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-adoption",
+              "locator": "L5-L12",
+              "path": "career-clarifications-2026-10-21.md",
+              "sha256": "62728ee656cb3dac7556c98a7bfdf5589526ade7b21d9370aa1106e8e4b702f7",
+              "kind": "owner_statement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 18,
+      "text": "Built repair-jenkins, a team-used Codex skill that investigates failed Interconnect Architect GUI Playwright tests in the actual Jenkins cluster checkout, implements fixes and reruns the failing tests.",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "accomp-ai-jenkins-repair#workflow",
+          "text": "Built repair-jenkins, a team-used Codex skill that investigates failed Interconnect Architect GUI Playwright tests in the actual Jenkins cluster checkout, implements fixes and reruns the failing tests.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-workflows",
+              "locator": "L9-L17",
+              "path": "career-clarifications-workflows-and-embedded.md",
+              "sha256": "1935ce52a058acd58a08685290b5d9c01b10132dde1c28bc368652220ec0c8e4",
+              "kind": "owner_statement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 19,
+      "text": "Automated the diagnosis/fix/retest loop, requiring three consecutive clean passes before returning patches for human review and commit/push.",
+      "verbatim": false,
+      "facts": [
+        {
+          "ref": "accomp-ai-jenkins-repair#review-gate",
+          "text": "The diagnosis/fix/retest loop runs autonomously after invocation, requires three consecutive clean passes and returns changes for human patch review and Git commit/push.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-impact",
+              "locator": "L7-L12",
+              "path": "career-clarifications-agent-impact-and-e2e-2026-10-22.md",
+              "sha256": "f43efce49cc2202ad223c8767d56cce4fd2a4c0cb4cd8cec1e118a87830635a1",
+              "kind": "owner_statement"
+            },
+            {
+              "source_id": "src-workflows",
+              "locator": "L13-L16",
+              "path": "career-clarifications-workflows-and-embedded.md",
+              "sha256": "1935ce52a058acd58a08685290b5d9c01b10132dde1c28bc368652220ec0c8e4",
+              "kind": "owner_statement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 20,
+      "text": "Built a Tauri 2 workbench with React/TypeScript UI and a shared Rust desktop/CLI core; revalidated process IDs, start times and executable identity before process-control actions.",
+      "verbatim": false,
+      "facts": [
+        {
+          "ref": "project-ai-workbench#architecture",
+          "text": "Built a Tauri 2 engineering workbench with a React/TypeScript UI and shared Rust application core consumed by both the desktop interface and a JSON CLI.",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-ai-analysis",
+              "locator": "L110-L144",
+              "path": "AI-System-resume.md",
+              "sha256": "3fbf27818a84d1a33430fe738b953864f79e267284c2049244279749d41e3892",
+              "kind": "supplied_analysis"
+            }
+          ]
+        },
+        {
+          "ref": "accomp-ai-process-controls#identity",
+          "text": "Revalidated process IDs, start times and recorded executables before process-control actions; renderer readiness checks actual bundle assets rather than assuming a watcher means a completed build.",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-ai-analysis",
+              "locator": "L135-L138",
+              "path": "AI-System-resume.md",
+              "sha256": "3fbf27818a84d1a33430fe738b953864f79e267284c2049244279749d41e3892",
+              "kind": "supplied_analysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 21,
+      "text": "Built ia-mcp, an internal Python MCP interface used by several engineers to translate interconnect intent into backend API calls with typed plans, checkpoints, semantic validation and backend fallback.",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "project-ia-mcp#purpose",
+          "text": "Built ia-mcp, an internal Python MCP interface used by several engineers to translate interconnect intent into backend API calls with typed plans, checkpoints, semantic validation and backend fallback.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-runtime",
+              "locator": "L12-L18",
+              "path": "career-clarifications-grouping-and-runtime-2026-10-22.md",
+              "sha256": "85dbc8722edf69093a49b131bf66e93941a2fbf08d446fa7f19a40f927b4d32f",
+              "kind": "owner_statement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 22,
+      "text": "Built ia-mcp on Python 3.13 with product-aware routing to current backends and an isolated authenticated Python 3.7 subprocess for legacy Configuration Engine workloads.",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "accomplishment-ia-mcp-dual-runtime#architecture",
+          "text": "Built ia-mcp on Python 3.13 with product-aware routing to current backends and an isolated authenticated Python 3.7 subprocess for legacy Configuration Engine workloads.",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-runtime-correspondence",
+              "locator": "L4-L26",
+              "path": "source-archive/ia-mcp-runtime-correspondence-2026-10-22.txt",
+              "sha256": "a8e041f1c84fa15864edc88200c023dba06afff52203b488ff3d71f2fbdd5832",
+              "kind": "correspondence"
+            },
+            {
+              "source_id": "src-runtime",
+              "locator": "L12-L18",
+              "path": "career-clarifications-grouping-and-runtime-2026-10-22.md",
+              "sha256": "85dbc8722edf69093a49b131bf66e93941a2fbf08d446fa7f19a40f927b4d32f",
+              "kind": "owner_statement"
+            },
+            {
+              "source_id": "src-repair-scope",
+              "locator": "L7-L9",
+              "path": "career-clarifications-repair-scope-2026-10-23.md",
+              "sha256": "4edf76abb99706a91f1ede35cac67b446e16d828094da405df80d21a273b107d",
+              "kind": "owner_statement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 23,
+      "text": "Implemented dynamic autonomous creation and retrieval of important engineering memory during running tasks in the coding-agent harness.",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "lead-ai-engineering-memory#dynamic-memory",
+          "text": "Implemented dynamic autonomous creation and retrieval of important engineering memory during running tasks in the coding-agent harness.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-role-fit",
+              "locator": "L33-L37",
+              "path": "career-clarifications-netflix-fit-2026-10-22.md",
+              "sha256": "68dbe86988a6e44e1af5cffff63b528a175f1c2ce796c3def9490c46deb31008",
+              "kind": "owner_statement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 24,
+      "text": "CMN GUI Lead, solely responsible for creating and maintaining all CMN GUI tooling in Interconnect Architect from CMN-800 onward.",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "leadership-cmn-gui#ownership",
+          "text": "CMN GUI Lead, solely responsible for creating and maintaining all CMN GUI tooling in Interconnect Architect from CMN-800 onward.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-clarifications",
+              "locator": "L19-L30",
+              "path": "career-clarifications.md",
+              "sha256": "afc449155ff3f2f26f160e12b6eeb918005421beeaf6a56714c251a652018d22",
+              "kind": "owner_statement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 26,
+      "text": "Arm — Software Engineer | Austin, TX | Apr 2020–Apr 2023",
+      "verbatim": false,
+      "facts": [
+        {
+          "ref": "exp-arm-software#employment",
+          "text": "Software Engineer at Arm in Austin, Texas, 2020-04 to 2023-04.",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-legacy-profile",
+              "locator": "L25-L37",
+              "path": "sources/originals/README-before-knowledge-base.md",
+              "sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+              "kind": "owner_document"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 28,
+      "text": "Implemented backend functionality for users to start and stop Jupyter notebooks from a frontend dashboard.",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "project-pelion-ml#notebook-lifecycle",
+          "text": "Implemented backend functionality for users to start and stop Jupyter notebooks from a frontend dashboard.",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-docx-text",
+              "locator": "L31-L32",
+              "path": "resume-output/qa/source-2020-extracted.txt",
+              "sha256": "87be36ba83be4dec9d710bc48756d35194d0033258e0baeb37c15db7c26ccb09",
+              "kind": "extraction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 29,
+      "text": "Used Kubernetes persistent-storage features backed by AWS EFS for Jupyter notebook storage.",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "accomplishment-pelion-notebook-persistence#persistence",
+          "text": "Used Kubernetes persistent-storage features backed by AWS EFS for Jupyter notebook storage.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-workflows",
+              "locator": "L19-L21",
+              "path": "career-clarifications-workflows-and-embedded.md",
+              "sha256": "1935ce52a058acd58a08685290b5d9c01b10132dde1c28bc368652220ec0c8e4",
+              "kind": "owner_statement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 31,
+      "text": "Arm — Graduate Software Engineer | Austin, TX | Jan 2019–Apr 2020",
+      "verbatim": false,
+      "facts": [
+        {
+          "ref": "exp-arm-graduate#employment",
+          "text": "Graduate Software Engineer at Arm in Austin, Texas, 2019-01 to 2020-04.",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-legacy-profile",
+              "locator": "L39-L48",
+              "path": "sources/originals/README-before-knowledge-base.md",
+              "sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+              "kind": "owner_document"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 33,
+      "text": "Implemented Verilog FPGA master/slave test modules and C++ Mbed OS firmware for board I/O testing.",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "project-mbed-fpga-test-shield#modules",
+          "text": "Implemented Verilog FPGA master/slave test modules and C++ Mbed OS firmware for board I/O testing.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-workflows",
+              "locator": "L23-L29",
+              "path": "career-clarifications-workflows-and-embedded.md",
+              "sha256": "1935ce52a058acd58a08685290b5d9c01b10132dde1c28bc368652220ec0c8e4",
+              "kind": "owner_statement"
+            },
+            {
+              "source_id": "src-docx-text",
+              "locator": "L45-L51",
+              "path": "resume-output/qa/source-2020-extracted.txt",
+              "sha256": "87be36ba83be4dec9d710bc48756d35194d0033258e0baeb37c15db7c26ccb09",
+              "kind": "extraction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 37,
+      "text": "Python, MCP, Rust, TypeScript, React, Angular, Playwright, Jenkins, Git, Kubernetes, AWS EFS, C++, Verilog.",
+      "verbatim": false,
+      "facts": [
+        {
+          "ref": "project-ia-mcp#purpose",
+          "text": "Built ia-mcp, an internal Python MCP interface used by several engineers to translate interconnect intent into backend API calls with typed plans, checkpoints, semantic validation and backend fallback.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-runtime",
+              "locator": "L12-L18",
+              "path": "career-clarifications-grouping-and-runtime-2026-10-22.md",
+              "sha256": "85dbc8722edf69093a49b131bf66e93941a2fbf08d446fa7f19a40f927b4d32f",
+              "kind": "owner_statement"
+            }
+          ]
+        },
+        {
+          "ref": "project-ai-workbench#architecture",
+          "text": "Built a Tauri 2 engineering workbench with a React/TypeScript UI and shared Rust application core consumed by both the desktop interface and a JSON CLI.",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-ai-analysis",
+              "locator": "L110-L144",
+              "path": "AI-System-resume.md",
+              "sha256": "3fbf27818a84d1a33430fe738b953864f79e267284c2049244279749d41e3892",
+              "kind": "supplied_analysis"
+            }
+          ]
+        },
+        {
+          "ref": "accomp-ai-jenkins-repair#workflow",
+          "text": "Built repair-jenkins, a team-used Codex skill that investigates failed Interconnect Architect GUI Playwright tests in the actual Jenkins cluster checkout, implements fixes and reruns the failing tests.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-workflows",
+              "locator": "L9-L17",
+              "path": "career-clarifications-workflows-and-embedded.md",
+              "sha256": "1935ce52a058acd58a08685290b5d9c01b10132dde1c28bc368652220ec0c8e4",
+              "kind": "owner_statement"
+            }
+          ]
+        },
+        {
+          "ref": "accomplishment-pelion-notebook-persistence#persistence",
+          "text": "Used Kubernetes persistent-storage features backed by AWS EFS for Jupyter notebook storage.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-workflows",
+              "locator": "L19-L21",
+              "path": "career-clarifications-workflows-and-embedded.md",
+              "sha256": "1935ce52a058acd58a08685290b5d9c01b10132dde1c28bc368652220ec0c8e4",
+              "kind": "owner_statement"
+            }
+          ]
+        },
+        {
+          "ref": "project-mbed-fpga-test-shield#modules",
+          "text": "Implemented Verilog FPGA master/slave test modules and C++ Mbed OS firmware for board I/O testing.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-workflows",
+              "locator": "L23-L29",
+              "path": "career-clarifications-workflows-and-embedded.md",
+              "sha256": "1935ce52a058acd58a08685290b5d9c01b10132dde1c28bc368652220ec0c8e4",
+              "kind": "owner_statement"
+            },
+            {
+              "source_id": "src-docx-text",
+              "locator": "L45-L51",
+              "path": "resume-output/qa/source-2020-extracted.txt",
+              "sha256": "87be36ba83be4dec9d710bc48756d35194d0033258e0baeb37c15db7c26ccb09",
+              "kind": "extraction"
+            }
+          ]
+        },
+        {
+          "ref": "accomplishment-cmn-configuration-editor#integration",
+          "text": "Coordinated Angular components, TypeScript services, Configuration Engine metadata, validation and tests to keep hierarchical hardware editing consistent.",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-ia-analysis",
+              "locator": "L37-L43",
+              "path": "Interconnect-Architect-resume.md",
+              "sha256": "eba6b043b39fc4f3456c40de266237847adbc5a29a8be593b5278ff9cec243f8",
+              "kind": "supplied_analysis"
+            }
+          ]
+        },
+        {
+          "ref": "accomp-ai-git-inspection#state-model",
+          "text": "Implemented Git porcelain-v2 parsing for staged/unstaged/untracked files, renames, conflicts, Unicode paths and detached HEADs.",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-ai-analysis",
+              "locator": "L122-L129",
+              "path": "AI-System-resume.md",
+              "sha256": "3fbf27818a84d1a33430fe738b953864f79e267284c2049244279749d41e3892",
+              "kind": "supplied_analysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 41,
+      "text": "Bachelor of Science, Electrical and Computer Engineering, The University of Texas at Austin, December 2018.",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "education-ut-austin-bs#degree",
+          "text": "Bachelor of Science, Electrical and Computer Engineering, The University of Texas at Austin, December 2018.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-clarifications",
+              "locator": "L63-L73",
+              "path": "career-clarifications.md",
+              "sha256": "afc449155ff3f2f26f160e12b6eeb918005421beeaf6a56714c251a652018d22",
+              "kind": "owner_statement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 43,
+      "text": "Primary focus: Computer Architecture and Embedded Systems. Secondary focus: Integrated Circuits.",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "education-ut-austin-bs#focus",
+          "text": "Primary focus: Computer Architecture and Embedded Systems. Secondary focus: Integrated Circuits.",
+          "status": "confirmed",
+          "evidence": [
+            {
+              "source_id": "src-clarifications",
+              "locator": "L65-L73",
+              "path": "career-clarifications.md",
+              "sha256": "afc449155ff3f2f26f160e12b6eeb918005421beeaf6a56714c251a652018d22",
+              "kind": "owner_statement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "line": 47,
+      "text": "Received the Engineering AI Showcase Most Innovative Award on December 17, 2025 for a project-agnostic, multi-agent orchestration and context-gathering system presentation.",
+      "verbatim": true,
+      "facts": [
+        {
+          "ref": "award-engineering-ai-showcase#award",
+          "text": "Received the Engineering AI Showcase Most Innovative Award on December 17, 2025 for a project-agnostic, multi-agent orchestration and context-gathering system presentation.",
+          "status": "reported",
+          "evidence": [
+            {
+              "source_id": "src-master-profile",
+              "locator": "L406-L410",
+              "path": "resume-output/master-career-profile.md",
+              "sha256": "be44dbbd992fafd099ecf1cb9bb45c2ad56c997202a31d2a5a62786139ed8a1b",
+              "kind": "generated_context"
+            },
+            {
+              "source_id": "src-linkedin-text",
+              "locator": "L18-L23",
+              "path": "resume-output/qa/linkedin-profile-extracted.txt",
+              "sha256": "2acd800bcad0079ad843a8e972c16c6a16d8e39ab8f9615a2135f9b0159c4291",
+              "kind": "extraction"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-mesh-deadlock-investigation",
+  "type": "accomplishment",
+  "title": "Interactive mesh deadlock investigation",
+  "summary": "Connected backend deadlock information to channel, route and canvas views for engineering diagnosis.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+  },
+  "technologies": [
+    "Angular",
+    "TypeScript",
+    "Python"
+  ],
+  "competencies": [
+    "Diagnostics",
+    "Visualization",
+    "Hardware-software integration"
+  ],
+  "tags": [
+    "deadlock",
+    "routing",
+    "CMN",
+    "debugging"
+  ],
+  "related": [
+    "project-interconnect-architect",
+    "leadership-cmn-gui"
+  ],
+  "facts": [
+    {
+      "id": "ownership",
+      "text": "Created CMN GUI tooling for custom routing and mesh deadlock investigation.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L24-L30"
+        }
+      ]
+    },
+    {
+      "id": "investigation",
+      "text": "Built global/scoped deadlock checks, channel and subchannel selection, loop inspection, crosspoint/turn summaries, route inspection and mesh-canvas integration.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L214-L242"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The original Configuration Engine deadlock-analysis algorithm belongs to other engineers; this record covers investigation and visualization workflows."
+  ]
+}

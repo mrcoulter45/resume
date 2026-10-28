@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "project-interconnect-architect",
+  "type": "project",
+  "title": "Arm Interconnect Architect",
+  "summary": "Customer-shipped desktop EDA software for configuring, visualizing, validating and building coherent and non-coherent interconnect designs.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": true,
+    "as_of": "2026-10-27",
+    "note": "Current product involvement is directly confirmed in October 2026; exact project start and individual rotation dates remain unspecified."
+  },
+  "technologies": [
+    "Angular",
+    "TypeScript",
+    "Python",
+    "Electron",
+    "RxJS",
+    "YAML",
+    "XML"
+  ],
+  "competencies": [
+    "Full-stack engineering",
+    "EDA tooling",
+    "Stakeholder collaboration",
+    "Product delivery"
+  ],
+  "tags": [
+    "software-architecture",
+    "systems-engineering",
+    "technical-leadership",
+    "interconnect"
+  ],
+  "related": [
+    "exp-arm-senior"
+  ],
+  "facts": [
+    {
+      "id": "application",
+      "text": "Developed Interconnect Architect, a desktop engineering application with an Angular/TypeScript frontend and Python backend for SoC interconnect configuration.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-workflows",
+          "locator": "L5-L7"
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "text": "Shipped and maintained production Interconnect Architect software, implementing requirements from external Arm interconnect licensees and senior technical stakeholders.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-role-fit",
+          "locator": "L5-L11"
+        }
+      ]
+    },
+    {
+      "id": "delivery-cadence",
+      "text": "Interconnect Architect has shipped externally for about six years and is released internally twice a month for interconnect, systems, RTL and test engineers.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-adoption",
+          "locator": "L22-L29"
+        }
+      ]
+    },
+    {
+      "id": "commercial-context",
+      "text": "Interconnect Architect has helped win Arm interconnect licensing business; Michael delivered extensive NoC/NCI tooling and owns its CMN GUI tooling.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-adoption",
+          "locator": "L24-L29"
+        }
+      ]
+    },
+    {
+      "id": "shared-apis",
+      "text": "Contributed to the Interconnect Architect Python backend API set.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-role-fit",
+          "locator": "L27-L31"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Product shipping history is not CMN-tooling tenure, Senior Software Engineer tenure, or sole authorship of the entire application.",
+    "No customer names, revenue, personal deal attribution, numerical commercial lift, or ownership of every release operation is established.",
+    "The supplied engineering analysis records identifiable contributions from November 2021 to October 2026, not the start of employment or necessarily first application work."
+  ]
+}

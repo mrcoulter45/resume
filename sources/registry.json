@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "src-legacy-profile",
+      "path": "sources/originals/README-before-knowledge-base.md",
+      "sha256": "5571780b90c180616fd432990fb1b39f82443c4089c944dd3818e548e2d09280",
+      "title": "Supplied career r\u00e9sum\u00e9 preserved before KB migration",
+      "kind": "owner_document",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-ai-analysis",
+      "path": "AI-System-resume.md",
+      "sha256": "3fbf27818a84d1a33430fe738b953864f79e267284c2049244279749d41e3892",
+      "title": "AI System supplied repository contribution analysis",
+      "kind": "supplied_analysis",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-ia-analysis",
+      "path": "Interconnect-Architect-resume.md",
+      "sha256": "eba6b043b39fc4f3456c40de266237847adbc5a29a8be593b5278ff9cec243f8",
+      "title": "Interconnect Architect supplied contribution analysis",
+      "kind": "supplied_analysis",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [
+        "src-ia-before"
+      ],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-clarifications",
+      "path": "career-clarifications.md",
+      "sha256": "afc449155ff3f2f26f160e12b6eeb918005421beeaf6a56714c251a652018d22",
+      "title": "October 20 ownership, product, waveform and education corrections",
+      "kind": "owner_statement",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [
+        "src-profile-before",
+        "src-ia-before"
+      ],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-adoption",
+      "path": "career-clarifications-2026-10-21.md",
+      "sha256": "62728ee656cb3dac7556c98a7bfdf5589526ade7b21d9370aa1106e8e4b702f7",
+      "title": "Harness adoption and product impact",
+      "kind": "owner_statement",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-workflows",
+      "path": "career-clarifications-workflows-and-embedded.md",
+      "sha256": "1935ce52a058acd58a08685290b5d9c01b10132dde1c28bc368652220ec0c8e4",
+      "title": "Repair workflow, storage and FPGA shield",
+      "kind": "owner_statement",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-runtime",
+      "path": "career-clarifications-grouping-and-runtime-2026-10-22.md",
+      "sha256": "85dbc8722edf69093a49b131bf66e93941a2fbf08d446fa7f19a40f927b4d32f",
+      "title": "Harness grouping and runtime compatibility",
+      "kind": "owner_statement",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-impact",
+      "path": "career-clarifications-agent-impact-and-e2e-2026-10-22.md",
+      "sha256": "f43efce49cc2202ad223c8767d56cce4fd2a4c0cb4cd8cec1e118a87830635a1",
+      "title": "Agent impact and installed-module evaluations",
+      "kind": "owner_statement",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-role-fit",
+      "path": "career-clarifications-netflix-fit-2026-10-22.md",
+      "sha256": "68dbe86988a6e44e1af5cffff63b528a175f1c2ce796c3def9490c46deb31008",
+      "title": "Production delivery, APIs, memory and cluster policies",
+      "kind": "owner_statement",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-repair-scope",
+      "path": "career-clarifications-repair-scope-2026-10-23.md",
+      "sha256": "4edf76abb99706a91f1ede35cac67b446e16d828094da405df80d21a273b107d",
+      "title": "Repair handles defects in tests and application source",
+      "kind": "owner_statement",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-testing-correspondence",
+      "path": "source-archive/ia-mcp-testing-correspondence-2026-10-22.txt",
+      "sha256": "bef296728ff56a57ffb158a7d9014da95f3ffe3188ae66b5bb8a3eada9b7f3e4",
+      "title": "Supplied work-repository testing correspondence",
+      "kind": "correspondence",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-runtime-correspondence",
+      "path": "source-archive/ia-mcp-runtime-correspondence-2026-10-22.txt",
+      "sha256": "a8e041f1c84fa15864edc88200c023dba06afff52203b488ff3d71f2fbdd5832",
+      "title": "Supplied dual-runtime correspondence",
+      "kind": "correspondence",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-master-profile",
+      "path": "resume-output/master-career-profile.md",
+      "sha256": "be44dbbd992fafd099ecf1cb9bb45c2ad56c997202a31d2a5a62786139ed8a1b",
+      "title": "Previous consolidated career inventory (secondary source)",
+      "kind": "generated_context",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-docx",
+      "path": "2020-Sep.docx",
+      "sha256": "6f93ce76078b10e54da1f867ae17fce1075a9a5671c13c0ab1771bf338ecc1ee",
+      "title": "Original 2020 Word r\u00e9sum\u00e9",
+      "kind": "owner_document",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-docx-text",
+      "path": "resume-output/qa/source-2020-extracted.txt",
+      "sha256": "87be36ba83be4dec9d710bc48756d35194d0033258e0baeb37c15db7c26ccb09",
+      "title": "Existing Word r\u00e9sum\u00e9 extraction",
+      "kind": "extraction",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [
+        "src-docx"
+      ],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-linkedin",
+      "path": "LinkedIn-Profile-Export/Profile.pdf",
+      "sha256": "cfcd5a380e353458f360c15d2ed75127822c7796e905683e454690f7a7517d54",
+      "title": "Original LinkedIn export",
+      "kind": "owner_document",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-linkedin-text",
+      "path": "resume-output/qa/linkedin-profile-extracted.txt",
+      "sha256": "2acd800bcad0079ad843a8e972c16c6a16d8e39ab8f9615a2135f9b0159c4291",
+      "title": "Existing raw LinkedIn extraction; old terminology may be superseded",
+      "kind": "extraction",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [
+        "src-linkedin"
+      ],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-linkedin-normalized",
+      "path": "resume-output/qa/linkedin-profile-normalized.txt",
+      "sha256": "5d3a5bf3e1f1c581dca04bf52e6a4565c401ac321dc3bd90fe227d84e369c28e",
+      "title": "Previously labeled corrected LinkedIn extraction",
+      "kind": "extraction",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [
+        "src-linkedin-text"
+      ],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-links",
+      "path": "links.md",
+      "sha256": "a2466ff512929bd981608219f452e638a86be912aa1bdf87774bd859712d5927",
+      "title": "Original contact and profile links",
+      "kind": "owner_document",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-profile-before",
+      "path": "source-archive/README-before-2026-10-20-clarifications.md",
+      "sha256": "f45c065ea94c7cd941c8d914606a47958e2df81a72000d1ebce20e8e6be52c83",
+      "title": "Before-correction profile snapshot; rejected claims retained",
+      "kind": "historical",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-ia-before",
+      "path": "source-archive/Interconnect-Architect-resume-before-2026-10-20-clarifications.md",
+      "sha256": "447ff5cded12ad04917850727de035d50adaecf44635ee2de776c9977607c54f",
+      "title": "Before-correction interconnect analysis snapshot",
+      "kind": "historical",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-image-quality-award",
+      "path": "LinkedIn-Profile-Export/Arm Quality Award 2020 for the Mbed OS FPGA CI Test Shield.png",
+      "sha256": "f303b842985ed8de0b6b27b2e8562d405d5434ccdf7e38508a12a690e2e93f1f",
+      "title": "Arm Quality Award 2020 for the Mbed OS FPGA CI Test Shield",
+      "kind": "artifact",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-image-cmn-release",
+      "path": "LinkedIn-Profile-Export/Coherent interconnect product release.jpeg",
+      "sha256": "8e331e6db8696e6bcd97bc94576abeaf268d3746ff8b5da5614a8da7936a3729",
+      "title": "Coherent interconnect product release",
+      "kind": "artifact",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-image-ai-award",
+      "path": "LinkedIn-Profile-Export/Engineering AI Showcase Most Innovative Award.jpeg",
+      "sha256": "b75bb09984419a6d74b3aab657144e11667441dd586d96a3ba3731627d9169ee",
+      "title": "Engineering AI Showcase Most Innovative Award",
+      "kind": "artifact",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-image-nci-release",
+      "path": "LinkedIn-Profile-Export/Non-coherent interconnect product release .jpeg",
+      "sha256": "8c9dd3da111c965f6b7b0c78adc507a0980a31abe1eca7eb951a5e5a6f2c11ac",
+      "title": "Non-coherent interconnect product release ",
+      "kind": "artifact",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    },
+    {
+      "id": "src-image-capstone-award",
+      "path": "LinkedIn-Profile-Export/UT ECE Senior Design First Place.jpeg",
+      "sha256": "51486660a9bdf0529f24df443f6c23ab401d7a7221dad73cfe2e0da1a6f1c7fb",
+      "title": "UT ECE Senior Design First Place",
+      "kind": "artifact",
+      "visibility": "private",
+      "added": "2026-10-27",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Registered from existing local evidence without changing its bytes. Source classification describes provenance, not independent verification. Later explicit owner corrections take precedence over older interpretations; inspect specific fact citations."
+    }
+  ]
+}

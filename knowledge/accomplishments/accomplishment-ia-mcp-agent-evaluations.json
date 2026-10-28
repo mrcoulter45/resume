@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-ia-mcp-agent-evaluations",
+  "type": "accomplishment",
+  "title": "Bounded agent evaluations and installed-module configuration builds",
+  "summary": "Exercised real Codex/tool integration independently of direct-backend qualification cases.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+  },
+  "technologies": [
+    "Codex",
+    "Model Context Protocol",
+    "Python"
+  ],
+  "competencies": [
+    "Agent evaluation",
+    "End-to-end testing",
+    "Artifact validation",
+    "Acceptance testing"
+  ],
+  "tags": [
+    "AI-engineering",
+    "evaluation",
+    "cluster",
+    "configuration-build"
+  ],
+  "related": [
+    "project-ia-mcp"
+  ],
+  "facts": [
+    {
+      "id": "installed-flow",
+      "text": "Tested installed ia-mcp tooling on the Arm cluster by invoking Codex with the MCP interface registered to create valid NCI and CMN configurations and verify successful configuration builds.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-impact",
+          "locator": "L14-L26"
+        }
+      ]
+    },
+    {
+      "id": "historical-evaluations",
+      "text": "The September 2026 completion record reports two successful bounded agent evaluations covering creation and import/modify/diagnose/rollback.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L336-L345"
+        }
+      ]
+    },
+    {
+      "id": "current-assets",
+      "text": "The later testing inventory describes three bounded agent scenario definitions, a separate manual 20-scenario campaign and six broad maintainer scenarios whose blank-context agent execution remains deferred.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-testing-correspondence",
+          "locator": "L81-L95"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Current scenario definitions are not newly executed passes and are not interchangeable with the two historical evaluations.",
+    "Configuration builds are not silicon tapeout, synthesis results or full hardware verification.",
+    "No repeated-run success distribution, broad autonomous-agent benchmark, model/version comparison, latency/cost study or fleet reliability metric is established.",
+    "Installed-module use is currently confirmed, but does not retroactively prove publication at the earlier September completion milestone."
+  ]
+}

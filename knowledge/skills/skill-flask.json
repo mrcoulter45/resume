@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "skill-flask",
+  "type": "skill",
+  "title": "Flask",
+  "summary": "Python web-backend work in Pelion Machine Learning.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "Python",
+    "Flask"
+  ],
+  "competencies": [
+    "backend engineering"
+  ],
+  "tags": [
+    "skill",
+    "Flask"
+  ],
+  "related": [
+    "project-pelion-ml"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Used Python Flask in the Pelion Machine Learning application with backend notebook-lifecycle functionality.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L25-L34"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

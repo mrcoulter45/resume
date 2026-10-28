@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-immutable-local-modules",
+  "type": "accomplishment",
+  "title": "Immutable host-native local modules",
+  "summary": "Relocatable macOS/Windows modules preserve source and dependency identity through verified inventories and atomic installation.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Python",
+    "macOS",
+    "Windows",
+    "SHA-256",
+    "Git"
+  ],
+  "competencies": [
+    "Reproducible packaging",
+    "Cross-platform integration",
+    "Provenance"
+  ],
+  "tags": [
+    "immutable artifacts",
+    "packaging",
+    "local modules",
+    "developer tools"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness"
+  ],
+  "facts": [
+    {
+      "id": "builders",
+      "text": "Built host-native macOS and Windows module builders using disposable source copies, recording source provenance and including applicable dirty/untracked content.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L293-L299"
+        }
+      ]
+    },
+    {
+      "id": "immutability",
+      "text": "Implemented canonical payload inventories, lock/wheelhouse fingerprints, read-only permissions, archive round-trip verification and atomic installation under unique labels.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L302-L311"
+        }
+      ]
+    },
+    {
+      "id": "relocation",
+      "text": "Detected runtime references back into source checkouts and refused overwriting existing module identities.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L309-L311"
+        }
+      ]
+    },
+    {
+      "id": "test-definitions",
+      "text": "The local-module suites contain 78 Python test definitions in the supplied snapshot; this is not a count of executed or passing tests.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L323-L329"
+        },
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L16-L16"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Host-native local rehearsal is distinct from RHEL compatibility, Depot/Lmod publication, LSF execution and cluster-provider acceptance."
+  ]
+}

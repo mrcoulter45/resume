@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "skill-python",
+  "type": "skill",
+  "title": "Python",
+  "summary": "Python backend and engineering automation experience.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "Python"
+  ],
+  "competencies": [
+    "backend engineering",
+    "automation"
+  ],
+  "tags": [
+    "skill",
+    "Python"
+  ],
+  "related": [
+    "project-architectural-test-data",
+    "project-pelion-ml",
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Used Python for architectural test-data scripts, Flask backend services, and interconnect application backend engineering.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L25-L34"
+        },
+        {
+          "source_id": "src-docx-text",
+          "locator": "L74-L78"
+        },
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L17-L23"
+        },
+        {
+          "source_id": "src-role-fit",
+          "locator": "L27-L31"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

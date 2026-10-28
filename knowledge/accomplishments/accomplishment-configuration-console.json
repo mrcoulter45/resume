@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-configuration-console",
+  "type": "accomplishment",
+  "title": "Configuration and design-rule-check console",
+  "summary": "Created application tooling that exposes configuration logs and design-rule-check results to engineers.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+  },
+  "technologies": [
+    "Angular",
+    "TypeScript",
+    "Python",
+    "Electron"
+  ],
+  "competencies": [
+    "Developer experience",
+    "Diagnostics",
+    "Backend integration"
+  ],
+  "tags": [
+    "console",
+    "logging",
+    "DRC",
+    "EDA"
+  ],
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "creation",
+      "text": "Created Interconnect Architect's application console/logger for displaying configuration logs and design-rule-check results.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L36-L43"
+        }
+      ]
+    },
+    {
+      "id": "integration",
+      "text": "Integrated report-script execution, stdout/stderr capture and live build output across the Angular, Electron and Python application boundary.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L277-L306"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Console creation is associated with the original NCI tooling; exact creation date is unspecified."
+  ]
+}

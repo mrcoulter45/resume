@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "id": "project-ai-harness",
+  "type": "project",
+  "title": "Shared coding-agent engineering harness",
+  "summary": "Modular Codex-based platform combining shared engineering tools, project packs, skills and persistent knowledge; used internally by several engineers.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Python",
+    "Codex",
+    "MCP",
+    "Git",
+    "JSON",
+    "YAML",
+    "Bash"
+  ],
+  "competencies": [
+    "Platform architecture",
+    "Agent tooling",
+    "Developer experience",
+    "Technical ownership"
+  ],
+  "tags": [
+    "AI engineering",
+    "developer tooling",
+    "software architecture",
+    "internal adoption"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-workbench"
+  ],
+  "facts": [
+    {
+      "id": "design-adoption",
+      "text": "Designed and developed a shared coding-agent harness at Arm, used by several other engineers for agentic software development.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-adoption",
+          "locator": "L5-L12"
+        }
+      ]
+    },
+    {
+      "id": "capabilities",
+      "text": "The harness combines agents, tools, skills, memory, project-specific engineering knowledge and shared project-agnostic guidance.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-adoption",
+          "locator": "L7-L11"
+        }
+      ]
+    },
+    {
+      "id": "modular-boundaries",
+      "text": "Designed a modular AI engineering platform with four declared project packs, separating reusable infrastructure and shared operating rules from product-owned runtimes and domain knowledge.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L22-L40"
+        }
+      ]
+    },
+    {
+      "id": "ownership-consolidation",
+      "text": "Consolidated a duplicated shared MCP runtime into its owning product repository while retaining cross-project bootstrap, workspace and release integrations.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L28-L37"
+        }
+      ]
+    },
+    {
+      "id": "codex-scope",
+      "text": "Built and operated professional engineering workflows around Codex; authored the harness, tools, skills, memory mechanisms and controls rather than Codex itself or its model/tool execution loop.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-role-fit",
+          "locator": "L13-L19"
+        }
+      ]
+    },
+    {
+      "id": "placeholder-boundary",
+      "text": "The October 5 analysis identifies the general root orchestrator, executable agent registry and shared evaluation suite as placeholders; later adoption confirmation does not establish completion of every planned subsystem.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L31-L34"
+        },
+        {
+          "source_id": "src-adoption",
+          "locator": "L10-L12"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Several is qualitative adoption, not a precise active-user count. No productivity percentage, model-training claim, hosted inference service or fleet-scale operation is established.",
+    "The employer repositories referenced by the supplied analysis were not independently inspected in this repository."
+  ]
+}

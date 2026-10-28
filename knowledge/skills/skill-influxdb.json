@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "skill-influxdb",
+  "type": "skill",
+  "title": "InfluxDB",
+  "summary": "Time-series sensor-data schema implementation.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "InfluxDB"
+  ],
+  "competencies": [
+    "time-series data"
+  ],
+  "tags": [
+    "skill",
+    "InfluxDB"
+  ],
+  "related": [
+    "project-pelion-return-to-work"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Defined and implemented an InfluxDB schema for workspace sensor time-series data.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L37-L43"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

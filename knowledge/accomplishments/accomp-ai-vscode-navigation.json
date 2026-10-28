@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-vscode-navigation",
+  "type": "accomplishment",
+  "title": "VS Code navigation and path-copy extension",
+  "summary": "Multi-root discovery, remote URI support and safe asynchronous results improve workspace navigation.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "JavaScript",
+    "VS Code",
+    "Node.js"
+  ],
+  "competencies": [
+    "Editor extensions",
+    "Developer experience",
+    "Asynchronous correctness"
+  ],
+  "tags": [
+    "IDE tooling",
+    "navigation",
+    "VS Code"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness"
+  ],
+  "facts": [
+    {
+      "id": "extension",
+      "text": "Developed a VS Code Quick Open/path-copy extension with multi-root handling, remote URI support, frecency ranking, symbol navigation and stale asynchronous-result protection.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L357-L367"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

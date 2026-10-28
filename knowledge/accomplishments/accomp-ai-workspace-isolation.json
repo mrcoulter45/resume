@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-workspace-isolation",
+  "type": "accomplishment",
+  "title": "Manifest-driven isolated development workspaces",
+  "summary": "Checkout-bound session environments isolate editor state, ports, caches, logs and runtime data for parallel engineering sessions.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Git",
+    "Bash",
+    "zsh",
+    "VS Code",
+    "npm",
+    "pip"
+  ],
+  "competencies": [
+    "Developer infrastructure",
+    "Environment isolation",
+    "Lifecycle management"
+  ],
+  "tags": [
+    "workspaces",
+    "parallel development",
+    "developer tools"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness"
+  ],
+  "facts": [
+    {
+      "id": "manager",
+      "text": "Built a manifest-driven workspace manager supporting checkout creation, task binding, branch preparation, session environments, editor launch, archival and recovery.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L74-L83"
+        }
+      ]
+    },
+    {
+      "id": "isolation",
+      "text": "Isolated logs, temporary files, runtime data, npm/pip caches, browser and VS Code state per workspace slot, with slot-derived GUI/debugging ports and checkout-specific settings.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L77-L83"
+        }
+      ]
+    },
+    {
+      "id": "git-guards",
+      "text": "Added clean-tree, branch/upstream and fast-forward checks that refuse silent reconciliation of ahead or diverged branches.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L80-L83"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

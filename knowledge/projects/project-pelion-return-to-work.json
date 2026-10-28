@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "project-pelion-return-to-work",
+  "type": "project",
+  "title": "Pelion Return to Work",
+  "summary": "Sensor-data APIs and time-series storage for workplace occupancy and physical-distance detection.",
+  "organization": "Arm",
+  "role": "Software Engineer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Recorded as a current project in September 2020. Exact project start/end dates are unspecified."
+  },
+  "technologies": [
+    "InfluxDB",
+    "REST APIs"
+  ],
+  "competencies": [
+    "API engineering",
+    "time-series data",
+    "spatial algorithms"
+  ],
+  "tags": [
+    "occupancy",
+    "sensor ingestion",
+    "backend",
+    "fixed-radius near-neighbor"
+  ],
+  "related": [
+    "exp-arm-software"
+  ],
+  "facts": [
+    {
+      "id": "ingress",
+      "text": "Implemented a backend ingress API to receive and parse gateway sensor payloads.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L37-L41"
+        }
+      ]
+    },
+    {
+      "id": "egress",
+      "text": "Implemented a backend egress API to send sensor data to a frontend dashboard.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L41-L41"
+        }
+      ]
+    },
+    {
+      "id": "timeseries",
+      "text": "Defined and implemented the InfluxDB schema for time-series sensor data.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L42-L42"
+        }
+      ]
+    },
+    {
+      "id": "distance-algorithm",
+      "text": "Implemented a fixed-radius near-neighbor algorithm to detect physical-distance violations using workspace sensor data.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L38-L43"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No public-health effectiveness, adoption, latency or scale measurement is supplied. Do not treat the source-era current-project label as current employment status."
+  ]
+}

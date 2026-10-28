@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "education-ut-austin-bs",
+  "type": "education",
+  "title": "Bachelor of Science, Electrical and Computer Engineering",
+  "summary": "Electrical and Computer Engineering degree with computer architecture, embedded systems and integrated circuits focus.",
+  "organization": "The University of Texas at Austin",
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": "2018-12",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Graduation December 2018; LinkedIn lists study years 2014–2018 without start-month precision."
+  },
+  "technologies": [],
+  "competencies": [
+    "computer architecture",
+    "embedded systems",
+    "integrated circuits"
+  ],
+  "tags": [
+    "bachelors degree",
+    "education",
+    "ECE"
+  ],
+  "related": [
+    "additional-ut-capstone",
+    "award-ut-capstone-industry"
+  ],
+  "facts": [
+    {
+      "id": "degree",
+      "text": "Bachelor of Science, Electrical and Computer Engineering, The University of Texas at Austin, December 2018.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L63-L73"
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "text": "Primary focus: Computer Architecture and Embedded Systems. Secondary focus: Integrated Circuits.",
+      "status": "confirmed",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-clarifications",
+          "locator": "L65-L73"
+        }
+      ]
+    },
+    {
+      "id": "coursework",
+      "text": "Relevant coursework and laboratories included Embedded Systems Design, Embedded and Real-Time Operating Systems, Computer Architecture, Digital Systems Design Using HDL, Algorithms, Software Design and Implementation, and Digital Logic Design.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-legacy-profile",
+          "locator": "L91-L93"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The full degree wording supersedes the historical shorter Computer Engineering wording. Focus areas are not additional degrees or formal minors. No GPA, graduate degree or professional certification is documented."
+  ]
+}

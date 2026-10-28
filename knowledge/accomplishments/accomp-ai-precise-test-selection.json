@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-precise-test-selection",
+  "type": "accomplishment",
+  "title": "Precise Playwright selection and editor debugging integration",
+  "summary": "Runtime discovery identifies exact tests and verifies unambiguous selection before launch from checkout-specific editor settings.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Playwright",
+    "Node.js",
+    "JavaScript",
+    "VS Code",
+    "TypeScript"
+  ],
+  "competencies": [
+    "Test infrastructure",
+    "Developer experience",
+    "Safe automation"
+  ],
+  "tags": [
+    "test discovery",
+    "debugging",
+    "IDE integration",
+    "developer tooling"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness"
+  ],
+  "facts": [
+    {
+      "id": "editor",
+      "text": "Integrated VS Code debugging with checkout-specific workspace slots, Playwright projects and test files while preserving surrounding launch configuration.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L332-L338"
+        }
+      ]
+    },
+    {
+      "id": "selection",
+      "text": "Built a precise Playwright test picker using public reporter discovery, escaped anchored title filters and a second discovery pass requiring exactly the selected test ID.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L341-L351"
+        }
+      ]
+    },
+    {
+      "id": "ambiguity",
+      "text": "Canceled safely on ambiguity, collection failure or interruption; handled parameterized/nested tests, tags and punctuation without parsing test declarations or silently broadening selection.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L344-L351"
+        }
+      ]
+    },
+    {
+      "id": "proof",
+      "text": "Implemented MCP/Electron proof tooling for JSON-RPC initialization, required-tool discovery, renderer identity, evidence capture and owned-process cleanup.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L354-L367"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

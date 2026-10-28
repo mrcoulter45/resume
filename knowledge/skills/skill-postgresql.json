@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "skill-postgresql",
+  "type": "skill",
+  "title": "PostgreSQL",
+  "summary": "Database schema design and performance testing in Pelion applications.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "PostgreSQL",
+    "SQL"
+  ],
+  "competencies": [
+    "database engineering"
+  ],
+  "tags": [
+    "skill",
+    "PostgreSQL"
+  ],
+  "related": [
+    "project-pelion-ml",
+    "project-pelion-space-analytics"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Defined and implemented PostgreSQL schemas for Pelion Machine Learning and Space Analytics, including database performance testing for Space Analytics.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L34-L34"
+        },
+        {
+          "source_id": "src-docx-text",
+          "locator": "L58-L58"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

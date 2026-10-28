@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-swift-workspace-manager",
+  "type": "accomplishment",
+  "title": "Native SwiftUI workspace manager",
+  "summary": "Mac desktop surface for workspace status, task binding, editors and independent CPU/GPU renderer actions.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+  },
+  "technologies": [
+    "Swift",
+    "SwiftUI",
+    "AppKit",
+    "macOS"
+  ],
+  "competencies": [
+    "Native application development",
+    "Developer experience",
+    "Process management"
+  ],
+  "tags": [
+    "Swift",
+    "desktop",
+    "workspace management"
+  ],
+  "related": [
+    "exp-arm-senior",
+    "project-ai-harness",
+    "accomp-ai-workspace-isolation"
+  ],
+  "facts": [
+    {
+      "id": "native-ui",
+      "text": "Developed a Swift/SwiftUI workspace manager exposing workspace status, task binding, editor launch, warnings and process controls.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L110-L119"
+        }
+      ]
+    },
+    {
+      "id": "renderer-actions",
+      "text": "Extended the native manager with independent CPU and GPU build, run, focus and termination actions, covering eight renderer-specific operations.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ai-analysis",
+          "locator": "L116-L116"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

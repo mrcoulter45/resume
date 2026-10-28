@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-mbed-i2c-crypto",
+  "type": "accomplishment",
+  "title": "Mbed OS I2C tests and cryptography-chip integration",
+  "summary": "Internship contributions to Mbed OS tests, ATECC608A integration and developer documentation.",
+  "organization": "Arm",
+  "role": "IoT Engineering Intern",
+  "dates": {
+    "start": "2018-05",
+    "end": "2018-08",
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Internship period, not individual task delivery dates."
+  },
+  "technologies": [
+    "Mbed OS",
+    "I2C",
+    "ATECC608A"
+  ],
+  "competencies": [
+    "embedded integration",
+    "test engineering",
+    "technical documentation"
+  ],
+  "tags": [
+    "crypto chip",
+    "handbook",
+    "tutorials"
+  ],
+  "related": [
+    "exp-arm-iot-intern",
+    "project-mbed-fpga-test-shield"
+  ],
+  "facts": [
+    {
+      "id": "crypto-integration",
+      "text": "Integrated the ATECC608A cryptography-chip library with the Mbed I2C API.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L66-L67"
+        }
+      ]
+    },
+    {
+      "id": "tests",
+      "text": "Added missing I2C tests to the CI test-shield library.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L69-L69"
+        }
+      ]
+    },
+    {
+      "id": "documentation",
+      "text": "Developed Mbed OS handbook content, code examples and tutorials.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L68-L68"
+        }
+      ]
+    },
+    {
+      "id": "mbed-fixes",
+      "text": "Worked with and improved Mbed OS.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L65-L65"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The integration supported a future hardware-encryption goal; it does not prove delivery of that future goal."
+  ]
+}

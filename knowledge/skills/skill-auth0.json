@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "skill-auth0",
+  "type": "skill",
+  "title": "Auth0",
+  "summary": "Authentication configuration for Pelion web applications.",
+  "organization": null,
+  "role": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
+  },
+  "technologies": [
+    "Auth0"
+  ],
+  "competencies": [
+    "application authentication"
+  ],
+  "tags": [
+    "skill",
+    "Auth0"
+  ],
+  "related": [
+    "project-pelion-ml",
+    "project-pelion-space-analytics"
+  ],
+  "facts": [
+    {
+      "id": "context",
+      "text": "Configured Auth0 for user authentication in Pelion Machine Learning and Space Analytics.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-docx-text",
+          "locator": "L36-L36"
+        },
+        {
+          "source_id": "src-docx-text",
+          "locator": "L61-L61"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+  ]
+}

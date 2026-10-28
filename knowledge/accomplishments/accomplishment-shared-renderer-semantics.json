@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-shared-renderer-semantics",
+  "type": "accomplishment",
+  "title": "Shared logical-layout semantics across SVG and Pixi",
+  "summary": "Centralized hardware semantics so CPU and GPU rendering modes present consistent topology and interactions.",
+  "organization": "Arm",
+  "role": "Software engineer and individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-27",
+    "note": "Individual implementation dates are not established; the supplied engineering analysis is an October 5, 2026 snapshot."
+  },
+  "technologies": [
+    "TypeScript",
+    "Angular",
+    "SVG",
+    "Pixi.js"
+  ],
+  "competencies": [
+    "Software architecture",
+    "Rendering systems",
+    "Domain modeling",
+    "Regression testing"
+  ],
+  "tags": [
+    "canvas",
+    "architecture",
+    "GPU",
+    "CPU",
+    "route-visualization"
+  ],
+  "related": [
+    "project-interconnect-architect"
+  ],
+  "facts": [
+    {
+      "id": "semantics",
+      "text": "Rebuilt logical layout around shared hardware classification and metadata, with route-aware grouping for complex interconnect structures.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L52-L68"
+        }
+      ]
+    },
+    {
+      "id": "contracts",
+      "text": "Centralized labels, colors, visibility, cursors and interaction behavior across SVG and Pixi rendering backends, with focused layout and renderer coverage.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L61-L68"
+        }
+      ]
+    },
+    {
+      "id": "debugging",
+      "text": "Resolved logical-canvas connectivity and export/re-import defects involving ingress resolution, route highlights and persisted backing connections.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-ia-analysis",
+          "locator": "L71-L77"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Other engineers contributed shared scene and renderer architecture; this record describes Michael's documented changes."
+  ]
+}
