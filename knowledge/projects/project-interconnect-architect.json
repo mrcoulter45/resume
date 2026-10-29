@@ -10,7 +10,7 @@
     "start": null,
     "end": null,
     "ongoing": true,
-    "as_of": "2026-10-27",
+    "as_of": "2026-10-29",
     "note": "Current product involvement is directly confirmed in October 2026; exact project start and individual rotation dates remain unspecified."
   },
   "technologies": [
@@ -47,7 +47,8 @@
     "accomplishment-canvas-vector-export",
     "accomplishment-isolated-installer-staging",
     "accomplishment-product-version-policy",
-    "skill-electron-desktop"
+    "skill-electron-desktop",
+    "project-arachne-noc"
   ],
   "facts": [
     {
@@ -173,12 +174,33 @@
           "locator": "L4114-L4320"
         }
       ]
+    },
+    {
+      "id": "noc-release-integration",
+      "text": "Supported NoC release-validation setup by selecting an Interconnect Architect RTL-tool release across release histories and correcting its module-version value.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L99-L102"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L6539-L6567"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L6425-L6451"
+        }
+      ]
     }
   ],
   "notes": [
     "Product shipping history is not CMN-tooling tenure, Senior Software Engineer tenure, or sole authorship of the entire application.",
     "No customer names, revenue, personal deal attribution, numerical commercial lift, or ownership of every release operation is established.",
     "The supplied engineering analysis records identifiable contributions from November 2021 to October 2026, not the start of employment or necessarily first application work.",
-    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun."
+    "2026-10-27 local Git/source research supplements prior evidence. Authorship supports attributable implementation; shared components and later colleague changes retain separate ownership. No employer tests were rerun.",
+    "The NoC repository’s December 2024 loader changes support release-environment maintenance only; their Testing subjects do not establish passing end-to-end regressions or ownership of the surrounding flow."
   ]
 }

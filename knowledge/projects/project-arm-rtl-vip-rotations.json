@@ -10,14 +10,20 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
+    "as_of": "2026-10-29",
     "note": "Assigned under the April 2020–April 2023 role in the supplied career outline. Exact individual rotation dates are unspecified."
   },
   "technologies": [
     "Verilog",
     "RTL",
     "VIP",
-    "waveform viewers"
+    "waveform viewers",
+    "SystemVerilog",
+    "UVM",
+    "Python",
+    "Tcl",
+    "AMBA AXI",
+    "AHB"
   ],
   "competencies": [
     "RTL design",
@@ -32,7 +38,15 @@
   ],
   "related": [
     "exp-arm-software",
-    "project-interconnect-architect"
+    "project-interconnect-architect",
+    "project-arachne-noc",
+    "accomplishment-interconnect-safety-parity",
+    "accomplishment-interconnect-write-ecc",
+    "accomplishment-interconnect-hang-detection",
+    "accomplishment-interconnect-fault-injection-integration",
+    "accomplishment-interconnect-register-enumeration",
+    "skill-systemverilog",
+    "skill-tcl"
   ],
   "facts": [
     {
@@ -82,9 +96,30 @@
           "locator": "L55-L61"
         }
       ]
+    },
+    {
+      "id": "repository-evidence-boundary",
+      "text": "Local 2020–2021 Git changes supply concrete safety-model and integration mechanisms in the validation testbench. They supplement the retained owner-confirmed safety-RTL and waveform-debugging experience without independently establishing shipped DUT RTL, exact rotation boundaries or fresh simulation results.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L19-L22"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L13-L18"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L71-L74"
+        }
+      ]
     }
   ],
   "notes": [
-    "Do not infer exact rotation months, a public product mapping for Chariot, a numerical simulation size, waveform-viewer authorship, or authorship of later NoC GUI tooling from this rotation."
+    "Do not infer exact rotation months, a public product mapping for Chariot, a numerical simulation size, waveform-viewer authorship, or authorship of later NoC GUI tooling from this rotation.",
+    "Inspected author milestones run from November 2020 through April 2021; author dates are not exact rotation start/end dates. Existing owner-confirmed design and waveform-debugging statements remain intact."
   ]
 }

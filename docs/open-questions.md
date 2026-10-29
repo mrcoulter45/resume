@@ -45,3 +45,23 @@ strengthen outcome or attribution claims without reopening resolved owner statem
 Local history coverage includes every reachable ref available at the captured HEAD,
 with representative deep implementation review. Additional remote/unreachable history
 would require a separately authorized source collection; it is not silently assumed.
+
+## Gaps after direct NoC history review
+
+The 2026-10-29 [NoC research](arachne-noc-research.md) establishes historical model
+implementation and integration. It preserves earlier owner confirmations and keeps
+these narrower outcome questions separate:
+
+| Area | Useful follow-up evidence | Record/source reference |
+| --- | --- | --- |
+| Safety-model outcomes | Original fault-campaign/simulator logs, criteria, detected/missed fault categories and measured coverage; configured repetitions are not completed runs | `accomplishment-interconnect-safety-parity`; `accomplishment-interconnect-write-ecc`; `accomplishment-interconnect-fault-injection-integration` |
+| Production RTL acceptance | Source and acceptance evidence for any separately claimed DUT implementation, synthesis/lint/formal results or certification; do not erase existing owner-confirmed RTL experience | `project-arm-rtl-vip-rotations#safety-rtl`; `project-arachne-noc#ownership-boundary` |
+| Monitor correctness | Historical tests for IDs, ordering, tracker capacity, timestamp rollover and reset/backpressure; no clean-tool or all-corner-case guarantee from a source fix | `accomplishment-interconnect-hang-detection` |
+| Enumeration impact | Original extraction/site inventories and measured omitted-site or time improvement; recursion limits are not benchmarks | `accomplishment-interconnect-register-enumeration` |
+| Rotation dates and outcomes | Exact individual rotation boundaries, later deployment/use and disclosable product/customer impact; current source retention does not establish active use | `project-arm-rtl-vip-rotations`; `project-arachne-noc#current-use-boundary` |
+| Release validation | Actual end-to-end result logs for December 2024 module selections, distinct from commits titled Testing | `project-arachne-noc#release-setup`; `project-interconnect-architect#noc-release-integration` |
+| Stashed debugging | Separately preserved landed change, ownership and actual validation before treating the August 2026 candidate patch as delivered | `project-arachne-noc#stashed-work-boundary`; `src-arachne-history-2026-10-29` |
+
+The older internship question about authored UVM coverage models remains distinct
+from this verified NoC safety-integration work. Formal titles, waveform-viewer use
+and the internal/public product-naming boundary remain as previously confirmed.

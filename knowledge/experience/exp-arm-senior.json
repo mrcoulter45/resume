@@ -10,7 +10,7 @@
     "start": "2023-04",
     "end": null,
     "ongoing": true,
-    "as_of": "2026-10-27",
+    "as_of": "2026-10-29",
     "note": "Employment dates are supplied at month precision. Ongoing status is a source-era snapshot, not a claim about future employment."
   },
   "technologies": [],
@@ -21,7 +21,8 @@
     "Austin"
   ],
   "related": [
-    "project-interconnect-architect"
+    "project-interconnect-architect",
+    "project-arachne-noc"
   ],
   "facts": [
     {

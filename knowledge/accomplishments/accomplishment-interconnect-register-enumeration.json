@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-interconnect-register-enumeration",
+  "type": "accomplishment",
+  "title": "Multidimensional register enumeration for fault-site tooling",
+  "summary": "Generalized a Tcl netlist walker beyond one-/two-dimensional register arrays.",
+  "organization": "Arm",
+  "role": "Individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-29",
+    "note": "Null boundaries preserve unknown project/rotation dates. Inspected author/committer milestones are identified in evidence; they are not employment, project-start, shipment or acceptance dates."
+  },
+  "technologies": [
+    "Tcl",
+    "Netlist introspection",
+    "SystemVerilog register arrays"
+  ],
+  "competencies": [
+    "Recursive algorithms",
+    "Verification automation",
+    "Fault-site enumeration",
+    "Refactoring"
+  ],
+  "tags": [
+    "register-enumeration",
+    "netlist",
+    "multidimensional-arrays",
+    "fault-injection",
+    "tcl"
+  ],
+  "related": [
+    "project-arachne-noc",
+    "accomplishment-interconnect-fault-injection-integration",
+    "skill-tcl"
+  ],
+  "facts": [
+    {
+      "id": "generalization",
+      "text": "Refactored Tcl register extraction from separate one-/two-dimensional cases into dimension-driven recursive enumeration, enabling three-dimensional register arrays to be listed for fault-site tooling.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L91-L94"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L37-L280"
+        }
+      ]
+    },
+    {
+      "id": "bound-handling",
+      "text": "Parsed per-dimension bounds with min/max normalization and recursive index traversal while retaining hierarchical module descent in the register-inventory flow.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L91-L94"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L37-L280"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L959-L1146"
+        }
+      ]
+    },
+    {
+      "id": "collaboration",
+      "text": "The netlist walker originated with a colleague, and later per-bit checks for tied-off array elements plus targeting/list improvements were colleague contributions. Michael owns the generalized enumeration refactor, not every current filter or fault-site mechanism.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L95-L98"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L2412-L2553"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L3232-L3284"
+        }
+      ]
+    },
+    {
+      "id": "measurement-limit",
+      "text": "The configured recursion limit of 64,000 supports the recursive design but is not a runtime improvement, benchmark, coverage percentage or guarantee for unbounded arrays. No netlist tool was executed in this investigation.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L91-L94"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L111-L114"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-29 read-only local Git/source research establishes attributable historical implementation, not new owner confirmation, fresh employer test execution, sole IP ownership or functional-safety certification. Read private scope and collaboration facts before selecting application wording."
+  ]
+}

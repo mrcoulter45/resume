@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "id": "project-arachne-noc",
+  "type": "project",
+  "title": "Configurable NoC IP: safety verification and tool integration",
+  "summary": "Historical safety verification models, generated bindings, register enumeration and later configuration-tool release setup.",
+  "organization": "Arm",
+  "role": "Individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-29",
+    "note": "Null boundaries preserve unknown project/rotation dates. Inspected author/committer milestones are identified in evidence; they are not employment, project-start, shipment or acceptance dates."
+  },
+  "technologies": [
+    "SystemVerilog",
+    "UVM",
+    "AMBA AXI",
+    "ACE-Lite",
+    "AHB",
+    "Python",
+    "Tcl",
+    "YAML",
+    "tcsh"
+  ],
+  "competencies": [
+    "Hardware verification",
+    "Protocol modeling",
+    "Fault-injection integration",
+    "Engineering automation"
+  ],
+  "tags": [
+    "noc",
+    "interconnect",
+    "functional-safety",
+    "verification",
+    "configuration-generation"
+  ],
+  "related": [
+    "project-arm-rtl-vip-rotations",
+    "project-interconnect-architect",
+    "exp-arm-software",
+    "exp-arm-senior",
+    "accomplishment-interconnect-safety-parity",
+    "accomplishment-interconnect-write-ecc",
+    "accomplishment-interconnect-hang-detection",
+    "accomplishment-interconnect-fault-injection-integration",
+    "accomplishment-interconnect-register-enumeration",
+    "skill-systemverilog",
+    "skill-tcl"
+  ],
+  "facts": [
+    {
+      "id": "environment",
+      "text": "Worked in a configurable SystemVerilog interconnect environment combining Python parameter generation, generated testbench bindings, UVM/VIP simulation and fault-site tooling.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L13-L18"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L7-L36"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L3427-L3457"
+        }
+      ]
+    },
+    {
+      "id": "history-scope",
+      "text": "The local NoC repository review covers 22 Michael-authored objects across all 2,316 local refs: 20 ordinary commits (13 in selected HEAD, seven on other histories), plus a stash and empty index snapshot; ordinary commits have 17 distinct stable patch identities.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L5-L12"
+        }
+      ]
+    },
+    {
+      "id": "implementation-periods",
+      "text": "Inspected ordinary author dates cluster in November 2020\u2013April 2021 and December 2024. The August 2026 objects are stashed debugging state, not evidence of a later landed feature or continuous NoC project tenure.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L5-L12"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L107-L110"
+        }
+      ]
+    },
+    {
+      "id": "release-setup",
+      "text": "Supported configuration-tool integration with NoC end-to-end validation by updating tool-module selections on multiple release histories and correcting a malformed version value.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L99-L102"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L6398-L6424"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L6425-L6451"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L6539-L6567"
+        }
+      ]
+    },
+    {
+      "id": "stashed-work-boundary",
+      "text": "A five-file 2026 stash contains absent-route guards, credit-aware OWO target derivation and numeric clock-frequency comparisons; it is retained only as private debugging context, with no landed-change or passing-test claim.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L107-L110"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L6597-L6870"
+        }
+      ]
+    },
+    {
+      "id": "ownership-boundary",
+      "text": "Michael authored selected validation models, generated-binding changes and register-enumeration refactoring. The NoC IP, initial fault-injection framework, later ECC correction, read beat-counter monitor and FMU integration remain collaborative or other-author work.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L13-L18"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L49-L52"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L83-L86"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L67-L70"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L71-L74"
+        }
+      ]
+    },
+    {
+      "id": "current-use-boundary",
+      "text": "Legacy model files survive at the captured HEAD, but their top-level instances and legacy interrupt aggregation were removed in a colleague\u2019s 2022 change; retained source and blame do not prove current execution or active top-level use.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L71-L74"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L3769-L4455"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-29 read-only local Git/source research establishes attributable historical implementation, not new owner confirmation, fresh employer test execution, sole IP ownership or functional-safety certification. Read private scope and collaboration facts before selecting application wording."
+  ]
+}

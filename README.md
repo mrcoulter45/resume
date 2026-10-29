@@ -12,6 +12,11 @@ expanded contribution records and [27 achievement/narrative options](docs/interc
 Read [the research scope and reconciliation](docs/interconnect-architect-research.md)
 for attribution, historical metrics and validation limits.
 
+The October 29 NoC history review adds [safety-verification and tooling achievements](docs/arachne-noc-contributions.md)
+covering parity/ECC models, protocol-progress monitors, generated fault-injection
+integration and register enumeration. Read [its research scope and attribution](docs/arachne-noc-research.md)
+for complete local-history coverage, collaborative evolution and evidence gaps.
+
 | Location | Purpose |
 | --- | --- |
 | `sources/registry.json` | Evidence paths, SHA-256 fingerprints, authority, revisions and extraction relationships |

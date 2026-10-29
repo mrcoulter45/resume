@@ -10,14 +10,17 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
+    "as_of": "2026-10-29",
     "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
   },
   "technologies": [
     "AMBA",
     "SoC",
     "CMN",
-    "NCI"
+    "NCI",
+    "AMBA AXI",
+    "ACE-Lite",
+    "AHB"
   ],
   "competencies": [
     "interconnect architecture",
@@ -31,7 +34,10 @@
     "owo"
   ],
   "related": [
-    "project-interconnect-architect"
+    "project-interconnect-architect",
+    "project-arachne-noc",
+    "accomplishment-interconnect-safety-parity",
+    "accomplishment-interconnect-hang-detection"
   ],
   "facts": [
     {
@@ -75,6 +81,30 @@
         {
           "source_id": "src-ia-implementation-2026-10-27",
           "locator": "L1937-L2076"
+        }
+      ]
+    },
+    {
+      "id": "protocol-safety-models",
+      "text": "Applied AXI/ACE-Lite and AHB handshake, request/response, byte-validity and user-sideband semantics to safety verification models and generated testbench integration.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L33-L36"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L59-L62"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L75-L78"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L6250-L6366"
         }
       ]
     }

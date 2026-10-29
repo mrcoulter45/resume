@@ -10,7 +10,7 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
+    "as_of": "2026-10-29",
     "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
   },
   "technologies": [
@@ -40,7 +40,9 @@
     "source-listed skills",
     "requires context"
   ],
-  "related": [],
+  "related": [
+    "skill-systemverilog"
+  ],
   "facts": [
     {
       "id": "inventory",
@@ -56,6 +58,7 @@
     }
   ],
   "notes": [
-    "This preserves keywords, not proof of equivalent proficiency or recent professional use for every item. Prefer contextual skill records when selecting résumé skills; investigate list-only items before emphasizing them."
+    "This preserves keywords, not proof of equivalent proficiency or recent professional use for every item. Prefer contextual skill records when selecting résumé skills; investigate list-only items before emphasizing them.",
+    "SystemVerilog now has direct code-backed project context in skill-systemverilog; the older source-listed inventory is preserved as historical evidence."
   ]
 }

@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-interconnect-hang-detection",
+  "type": "accomplishment",
+  "title": "AHB and AXI progress-monitoring models",
+  "summary": "Implemented timeout and outstanding-transaction models, generalized read/write monitoring and corrected an incomplete state assignment.",
+  "organization": "Arm",
+  "role": "Individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-29",
+    "note": "Null boundaries preserve unknown project/rotation dates. Inspected author/committer milestones are identified in evidence; they are not employment, project-start, shipment or acceptance dates."
+  },
+  "technologies": [
+    "SystemVerilog",
+    "AMBA AXI",
+    "ACE-Lite",
+    "AHB"
+  ],
+  "competencies": [
+    "Protocol handshakes",
+    "Transaction tracking",
+    "State-machine debugging",
+    "Reusable verification models"
+  ],
+  "tags": [
+    "hang-detection",
+    "timeout",
+    "outstanding-transactions",
+    "state-machine",
+    "latch"
+  ],
+  "related": [
+    "project-arachne-noc",
+    "accomplishment-interconnect-fault-injection-integration",
+    "skill-systemverilog",
+    "skill-interconnect"
+  ],
+  "facts": [
+    {
+      "id": "ahb-monitor",
+      "text": "Implemented a parameterized AHB hang monitor that counts consecutive low-ready cycles, clears on progress/reset and reports stalled-bus errors through the testbench safety path.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L53-L58"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L4936-L4996"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5137-L5175"
+        }
+      ]
+    },
+    {
+      "id": "axi-reuse",
+      "text": "Developed ID-aware outstanding-transaction tracking with coarse timestamp aging for AXI read hangs, then generalized the monitor for both read and write request/completion handshakes.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L59-L62"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5580-L5768"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5872-L6047"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L6250-L6366"
+        }
+      ]
+    },
+    {
+      "id": "latch-correction",
+      "text": "Corrected an incomplete combinational idle-state assignment in the AXI hang detector to address unintended latch behavior.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L63-L66"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L6369-L6397"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L339-L517"
+        }
+      ]
+    },
+    {
+      "id": "timeout-context",
+      "text": "The AHB introduction\u2019s subject says 1,000 cycles, while its source selects 100,000 and a later Michael patch selects 400,000. The separate scoreboard delay changes from 1,000 to 5,000; none is a measured latency or performance gain.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L53-L58"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5049-L5136"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5781-L5854"
+        }
+      ]
+    },
+    {
+      "id": "lineage-and-limits",
+      "text": "A colleague later split the monitor into read/write variants and added read beat counting; Michael\u2019s generic code survives in the renamed write-model source. Legacy top-level instances were removed in 2022. No all-corner-case, clean-lint, current-use or timing guarantee is inferred.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L67-L70"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L71-L74"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L3285-L3531"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L3769-L4455"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-29 read-only local Git/source research establishes attributable historical implementation, not new owner confirmation, fresh employer test execution, sole IP ownership or functional-safety certification. Read private scope and collaboration facts before selecting application wording."
+  ]
+}

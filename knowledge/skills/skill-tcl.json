@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "skill-tcl",
+  "type": "skill",
+  "title": "Tcl",
+  "summary": "Netlist introspection and multidimensional register enumeration for verification automation.",
+  "organization": "Arm",
+  "role": "Individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-29",
+    "note": "Null boundaries preserve unknown project/rotation dates. Inspected author/committer milestones are identified in evidence; they are not employment, project-start, shipment or acceptance dates."
+  },
+  "technologies": [
+    "Tcl"
+  ],
+  "competencies": [
+    "Recursive algorithms",
+    "Netlist introspection",
+    "Verification automation"
+  ],
+  "tags": [
+    "skill",
+    "tcl",
+    "netlist",
+    "fault-sites"
+  ],
+  "related": [
+    "project-arachne-noc",
+    "accomplishment-interconnect-register-enumeration"
+  ],
+  "facts": [
+    {
+      "id": "netlist-automation",
+      "text": "Applied Tcl netlist APIs and recursive traversal to enumerate hierarchical registers and multidimensional array elements for fault-site inventory tooling.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L91-L94"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L37-L280"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-29 read-only local Git/source research establishes attributable historical implementation, not new owner confirmation, fresh employer test execution, sole IP ownership or functional-safety certification. Read private scope and collaboration facts before selecting application wording."
+  ]
+}

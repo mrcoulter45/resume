@@ -10,7 +10,7 @@
     "start": "2020-04",
     "end": "2023-04",
     "ongoing": false,
-    "as_of": "2026-10-27",
+    "as_of": "2026-10-29",
     "note": "Employment dates are supplied at month precision. Ongoing status is a source-era snapshot, not a claim about future employment."
   },
   "technologies": [],
@@ -24,7 +24,8 @@
     "project-pelion-ml",
     "project-pelion-return-to-work",
     "project-arm-rtl-vip-rotations",
-    "project-interconnect-architect"
+    "project-interconnect-architect",
+    "project-arachne-noc"
   ],
   "facts": [
     {

@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-interconnect-fault-injection-integration",
+  "type": "accomplishment",
+  "title": "Configuration-driven safety fault-injection integration",
+  "summary": "Connected Python build configuration, generated sidebands, protocol-aware checking and UVM safety observations.",
+  "organization": "Arm",
+  "role": "Individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-29",
+    "note": "Null boundaries preserve unknown project/rotation dates. Inspected author/committer milestones are identified in evidence; they are not employment, project-start, shipment or acceptance dates."
+  },
+  "technologies": [
+    "Python",
+    "SystemVerilog",
+    "UVM",
+    "YAML",
+    "AMBA AXI",
+    "ACE-Lite",
+    "AHB"
+  ],
+  "competencies": [
+    "Cross-language architecture",
+    "Generated testbench integration",
+    "Fault-injection verification",
+    "Configuration propagation"
+  ],
+  "tags": [
+    "fault-injection",
+    "parameter-engine",
+    "generated-bindings",
+    "sideband",
+    "verification-infrastructure"
+  ],
+  "related": [
+    "project-arachne-noc",
+    "project-arm-rtl-vip-rotations",
+    "accomplishment-interconnect-safety-parity",
+    "accomplishment-interconnect-write-ecc",
+    "accomplishment-interconnect-hang-detection",
+    "accomplishment-interconnect-register-enumeration",
+    "skill-python",
+    "skill-uvm"
+  ],
+  "facts": [
+    {
+      "id": "mode-propagation",
+      "text": "Propagated safety-mode configuration through a Python service, build objects and wrapper generation to connect generated error-code signals to AXI/ACE-Lite and AHB testbench sidebands.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L75-L78"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L3248-L3291"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L3427-L3457"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L4845-L4869"
+        }
+      ]
+    },
+    {
+      "id": "error-observation",
+      "text": "Integrated parity, hang and ECC model outputs with an existing UVM fault-injection interrupt interface, extending what the testbench could observe beyond ordinary traffic checking.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L23-L26"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L45-L48"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L83-L86"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5513-L5562"
+        }
+      ]
+    },
+    {
+      "id": "payload-semantics",
+      "text": "Adapted safety-mode payload checking to distinguish generated protection sidebands from ordinary user payload while retaining data comparisons.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L79-L82"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L2092-L3049"
+        }
+      ]
+    },
+    {
+      "id": "campaign-scope",
+      "text": "Updated source/generated configuration collateral and simulator full-access selection for a fault-injection control flow. Repetition, transaction-count and phase settings define intended runs, not completed or passing campaigns; historical top-level bindings later changed.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L87-L90"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L1942-L1974"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L71-L74"
+        }
+      ]
+    },
+    {
+      "id": "framework-attribution",
+      "text": "The fault-injection scripts and UVM scoreboard predate Michael\u2019s integration. His changes connect mechanism outputs and adjust the observation/report window; they do not establish authorship of the complete framework, report catcher or current FMU implementation.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L83-L86"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L2412-L2553"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L2554-L2769"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L71-L74"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-29 read-only local Git/source research establishes attributable historical implementation, not new owner confirmation, fresh employer test execution, sole IP ownership or functional-safety certification. Read private scope and collaboration facts before selecting application wording."
+  ]
+}

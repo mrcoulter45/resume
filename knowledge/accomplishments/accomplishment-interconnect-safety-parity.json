@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-interconnect-safety-parity",
+  "type": "accomplishment",
+  "title": "Protocol-aware safety parity models",
+  "summary": "Parity stimulus/checking and read-channel sideband integration for a lightweight non-coherent interconnect testbench.",
+  "organization": "Arm",
+  "role": "Individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-29",
+    "note": "Null boundaries preserve unknown project/rotation dates. Inspected author/committer milestones are identified in evidence; they are not employment, project-start, shipment or acceptance dates."
+  },
+  "technologies": [
+    "SystemVerilog",
+    "AMBA AXI",
+    "ACE-Lite",
+    "AHB",
+    "Python",
+    "UVM/VIP"
+  ],
+  "competencies": [
+    "Protocol modeling",
+    "Safety verification",
+    "Parameterized hardware models",
+    "Cross-language integration"
+  ],
+  "tags": [
+    "parity",
+    "sideband",
+    "read-data",
+    "byte-validity",
+    "fault-injection"
+  ],
+  "related": [
+    "project-arachne-noc",
+    "project-arm-rtl-vip-rotations",
+    "accomplishment-interconnect-fault-injection-integration",
+    "accomplishment-interconnect-write-ecc",
+    "skill-systemverilog",
+    "skill-interconnect"
+  ],
+  "facts": [
+    {
+      "id": "initial-models",
+      "text": "Created strobe-aware odd-parity generation and validity-gated checking models, connecting write-data safety codes and error observation into an interconnect testbench.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L23-L26"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L2008-L2055"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L1975-L2007"
+        }
+      ]
+    },
+    {
+      "id": "read-channel",
+      "text": "Extended safety testbench protection to read request/response paths and authored parameterized AXI/AHB read-data parity generators and checkers with response-sideband offsets.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L27-L32"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L33-L36"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L3521-L3738"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L4260-L4304"
+        }
+      ]
+    },
+    {
+      "id": "validity-and-stimulus",
+      "text": "Modeled byte-level read parity with a parity bit and marker per eight data bits at the inspected setting, and configured VIP invalid read lanes to drive random binary values rather than Xs.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L33-L36"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L37-L40"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L4305-L4345"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L4346-L4614"
+        }
+      ]
+    },
+    {
+      "id": "collaborative-evolution",
+      "text": "Existing write request/response support was colleague-authored. Michael\u2019s read extension was reverted and reapplied as the same patch, then protected-address slicing and later protocol coverage evolved; these are not separate feature deliveries or proof of universal address protection.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L27-L32"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L2770-L2865"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L2866-L3092"
+        }
+      ]
+    },
+    {
+      "id": "historical-scope",
+      "text": "These are historical testbench-side safety models. They do not establish delivered DUT datapath parity logic, current top-level use, functional-safety certification or measured detection coverage.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L13-L18"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L71-L74"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L111-L114"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-29 read-only local Git/source research establishes attributable historical implementation, not new owner confirmation, fresh employer test execution, sole IP ownership or functional-safety certification. Read private scope and collaboration facts before selecting application wording."
+  ]
+}

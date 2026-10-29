@@ -10,7 +10,7 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
+    "as_of": "2026-10-29",
     "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
   },
   "technologies": [
@@ -24,7 +24,9 @@
     "UVM"
   ],
   "related": [
-    "project-embedded-logic-analyzer"
+    "project-embedded-logic-analyzer",
+    "project-arachne-noc",
+    "accomplishment-interconnect-fault-injection-integration"
   ],
   "facts": [
     {
@@ -38,9 +40,34 @@
           "locator": "L70-L73"
         }
       ]
+    },
+    {
+      "id": "safety-integration",
+      "text": "Integrated interconnect safety-model observations into an existing UVM fault-injection interrupt/scoreboard path and adapted VIP stimulus and payload-checking behavior.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L83-L86"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L37-L40"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L79-L82"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5513-L5562"
+        }
+      ]
     }
   ],
   "notes": [
-    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency."
+    "No proficiency score, years-of-experience count, current specialization or vendor certification is inferred. Use the linked project context to judge depth and recency.",
+    "The newly verified NoC integration does not resolve the separate earlier internship question about authored UVM coverage models; it is not authorship of the complete fault-injection scoreboard."
   ]
 }

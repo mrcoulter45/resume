@@ -10,7 +10,7 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
+    "as_of": "2026-10-29",
     "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
   },
   "technologies": [
@@ -28,7 +28,9 @@
   "related": [
     "project-architectural-test-data",
     "project-pelion-ml",
-    "project-interconnect-architect"
+    "project-interconnect-architect",
+    "project-arachne-noc",
+    "accomplishment-interconnect-fault-injection-integration"
   ],
   "facts": [
     {
@@ -72,6 +74,26 @@
         {
           "source_id": "src-ia-implementation-2026-10-27",
           "locator": "L1463-L1623"
+        }
+      ]
+    },
+    {
+      "id": "safety-binding-generation",
+      "text": "Extended Python build configuration and generated interconnect testbench bindings to select safety-model signals across protocol sidebands.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L75-L78"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L3427-L3457"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L4845-L4869"
         }
       ]
     }

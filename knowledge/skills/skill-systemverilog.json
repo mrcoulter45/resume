@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "skill-systemverilog",
+  "type": "skill",
+  "title": "SystemVerilog",
+  "summary": "Direct implementation context in safety generators, checkers, protocol monitors and testbench integration.",
+  "organization": "Arm",
+  "role": "Individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-29",
+    "note": "Null boundaries preserve unknown project/rotation dates. Inspected author/committer milestones are identified in evidence; they are not employment, project-start, shipment or acceptance dates."
+  },
+  "technologies": [
+    "SystemVerilog"
+  ],
+  "competencies": [
+    "Hardware verification",
+    "Parameterized models",
+    "State-machine debugging"
+  ],
+  "tags": [
+    "skill",
+    "systemverilog",
+    "ecc",
+    "parity",
+    "protocol-monitoring"
+  ],
+  "related": [
+    "project-arachne-noc",
+    "project-arm-rtl-vip-rotations",
+    "accomplishment-interconnect-safety-parity",
+    "accomplishment-interconnect-write-ecc",
+    "accomplishment-interconnect-hang-detection",
+    "accomplishment-interconnect-fault-injection-integration",
+    "skill-verilog",
+    "skill-uvm"
+  ],
+  "facts": [
+    {
+      "id": "safety-models",
+      "text": "Used SystemVerilog to implement parameterized parity/ECC generators and checkers, AHB/AXI progress monitors and safety-error aggregation in an interconnect validation testbench.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L23-L26"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L41-L44"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L59-L62"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5296-L5382"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5872-L6047"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-29 read-only local Git/source research establishes attributable historical implementation, not new owner confirmation, fresh employer test execution, sole IP ownership or functional-safety certification. Read private scope and collaboration facts before selecting application wording."
+  ]
+}

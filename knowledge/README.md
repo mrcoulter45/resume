@@ -25,3 +25,9 @@ and one Electron desktop skill record, reaching 95 records and 304 facts. Existi
 summary/detail facts can overlap; they are not additive accomplishments. See the
 [contribution map and reconciliation](../docs/interconnect-architect-research.md)
 and [achievement library](../docs/interconnect-architect-contributions.md).
+
+The 2026-10-29 NoC expansion adds five accomplishments, one project context and
+SystemVerilog/Tcl skill records, reaching 103 records and 342 facts. It integrates
+with the existing RTL/VIP rotations and IA evidence, preserving prior facts and
+source registrations. See the [history/attribution report](../docs/arachne-noc-research.md)
+and [safety-verification achievement library](../docs/arachne-noc-contributions.md).

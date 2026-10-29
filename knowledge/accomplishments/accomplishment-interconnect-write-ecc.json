@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "id": "accomplishment-interconnect-write-ecc",
+  "type": "accomplishment",
+  "title": "Write-data ECC generation and syndrome checking",
+  "summary": "Introduced ECC models and error observation across multiple protocol branches in a configurable interconnect testbench.",
+  "organization": "Arm",
+  "role": "Individual contributor",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-29",
+    "note": "Null boundaries preserve unknown project/rotation dates. Inspected author/committer milestones are identified in evidence; they are not employment, project-start, shipment or acceptance dates."
+  },
+  "technologies": [
+    "SystemVerilog",
+    "ECC",
+    "AMBA AXI",
+    "ACE-Lite",
+    "AHB"
+  ],
+  "competencies": [
+    "Error-detection algorithms",
+    "Bit-level encoding",
+    "Protocol integration",
+    "Hardware verification"
+  ],
+  "tags": [
+    "ecc",
+    "syndrome",
+    "write-data",
+    "byte-strobes",
+    "functional-safety"
+  ],
+  "related": [
+    "project-arachne-noc",
+    "accomplishment-interconnect-safety-parity",
+    "accomplishment-interconnect-fault-injection-integration",
+    "skill-systemverilog"
+  ],
+  "facts": [
+    {
+      "id": "encoding",
+      "text": "Implemented write-data ECC generation over 32-bit chunks using strobe-masked bytes, positional check bits and overall odd parity in a configurable SystemVerilog testbench model.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L41-L44"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5296-L5382"
+        }
+      ]
+    },
+    {
+      "id": "syndrome-checking",
+      "text": "Built an ECC checker that reconstructs the encoded message, computes a syndrome and exposes aggregate error, single-bit-location and double-bit error indicators.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L41-L44"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5206-L5295"
+        }
+      ]
+    },
+    {
+      "id": "observation-integration",
+      "text": "Replaced write-data parity model instances with ECC models across AXI/ACE-Lite and AHB testbench interfaces and routed aggregate ECC errors into the existing safety-interrupt observation path.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L45-L48"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5383-L5512"
+        },
+        {
+          "source_id": "src-arachne-authored-diffs-2026-10-29",
+          "locator": "L5513-L5562"
+        }
+      ]
+    },
+    {
+      "id": "correction-boundary",
+      "text": "Michael\u2019s initial integration consumed the aggregate error signal and left detailed diagnostic outputs unconnected. Later strobe fixes, correction-bit vectors and actual correction integration were colleague contributions; full current ECC correction is not solely his.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L45-L48"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L49-L52"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L3093-L3122"
+        },
+        {
+          "source_id": "src-arachne-implementation-2026-10-29",
+          "locator": "L3123-L3231"
+        }
+      ]
+    },
+    {
+      "id": "validation-limit",
+      "text": "Source establishes the ECC implementation and intended error classifications, not exhaustive fault correctness, a measured coverage result, current active top-level use or simulator/formal/synthesis acceptance.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L49-L52"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L71-L74"
+        },
+        {
+          "source_id": "src-arachne-findings-2026-10-29",
+          "locator": "L111-L114"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2026-10-29 read-only local Git/source research establishes attributable historical implementation, not new owner confirmation, fresh employer test execution, sole IP ownership or functional-safety certification. Read private scope and collaboration facts before selecting application wording."
+  ]
+}
