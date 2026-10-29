@@ -1,0 +1,835 @@
+{
+  "head": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+  "snapshot_count": 28,
+  "snapshots": [
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "AGENTS.md",
+      "sha256": "decc14c7a744de84f6341f75e3c3ccac230b88abab65f1569b3130d1f3502a1d",
+      "ranges": [
+        [
+          1,
+          22
+        ]
+      ],
+      "locator": "L7-L36",
+      "total_source_lines": 22
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/.control_files/chariot_fault_injection.ctrl",
+      "sha256": "4266fb2cf4de4a9b5b20ee625a9716ef6cf290e7a3907590d22dad87651a4d6b",
+      "ranges": [
+        [
+          1,
+          15
+        ]
+      ],
+      "locator": "L37-L59",
+      "total_source_lines": 15
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_ahb_hang_detector.sv",
+      "sha256": "ff87cb87b0ef2b424d38407a7960d569d91cb3e03112c7869176ef9eb59f1354",
+      "ranges": [
+        [
+          1,
+          55
+        ]
+      ],
+      "locator": "L60-L122",
+      "total_source_lines": 55
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_axi_hang_detector_read.sv",
+      "sha256": "67080da6b0e315b5b3a649e49b27a9929bb2a78399059af002b4b90138cfe3b5",
+      "ranges": [
+        [
+          1,
+          208
+        ]
+      ],
+      "locator": "L123-L338",
+      "total_source_lines": 208
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_axi_hang_detector_write.sv",
+      "sha256": "348f0d6339a956a6fa90812e813e160d0a5bd438528cee5f54d41df8848799c7",
+      "ranges": [
+        [
+          1,
+          171
+        ]
+      ],
+      "locator": "L339-L517",
+      "total_source_lines": 171
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_pkg.svh",
+      "sha256": "823d82c0e53edc76b1453dfc1059e1ed50e718d31efc36da588aafd306aaa997",
+      "ranges": [
+        [
+          1,
+          45
+        ]
+      ],
+      "locator": "L518-L570",
+      "total_source_lines": 45
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_rdat_parity_checker.sv",
+      "sha256": "3e704891598e4799c6c727b253e1fab493d1702a0a9dcfa523c9379f8d3c675c",
+      "ranges": [
+        [
+          1,
+          39
+        ]
+      ],
+      "locator": "L571-L617",
+      "total_source_lines": 39
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_rdat_parity_generator.sv",
+      "sha256": "63ddb92f4c5ef63ac96b72456b4620ed1d0a3998b3c94a57cfa8bdfdafd4e550",
+      "ranges": [
+        [
+          1,
+          35
+        ]
+      ],
+      "locator": "L618-L660",
+      "total_source_lines": 35
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wdat_ecc_checker.sv",
+      "sha256": "d1fe0497996139bd76d8036d16d36b40e1b46549fdcd3534d90ff1de69df8d68",
+      "ranges": [
+        [
+          1,
+          86
+        ]
+      ],
+      "locator": "L661-L754",
+      "total_source_lines": 86
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wdat_ecc_generator.sv",
+      "sha256": "96c62a5511e7f72af4cfbdd91706948da38ae13031a37822a850d3029eefdda4",
+      "ranges": [
+        [
+          1,
+          81
+        ]
+      ],
+      "locator": "L755-L843",
+      "total_source_lines": 81
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_checker.sv",
+      "sha256": "5fe7bcf0686a76711f0aff78a6cc343aca6653993e2cc11977e60ab0d498a32d",
+      "ranges": [
+        [
+          1,
+          47
+        ]
+      ],
+      "locator": "L844-L898",
+      "total_source_lines": 47
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_generator.sv",
+      "sha256": "4c80de73106f025fec0f671ecbb319489b8d26119ec559fec23ae389c89d90aa",
+      "ranges": [
+        [
+          1,
+          38
+        ]
+      ],
+      "locator": "L899-L944",
+      "total_source_lines": 38
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/shared/scripts/end_to_end/load_brunel.sh",
+      "sha256": "619806951104271a65fad85cea20505a348b83329a31d22ff970293affec7327",
+      "ranges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "locator": "L945-L958",
+      "total_source_lines": 6
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/shared/scripts/fusa/qverify_get_flops.tcl",
+      "sha256": "a0b5da04e218b6a3c6d0058cb1077ae6dad548cd4008c0a932f3749a0fa31946",
+      "ranges": [
+        [
+          1,
+          180
+        ]
+      ],
+      "locator": "L959-L1146",
+      "total_source_lines": 180
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/interface_block.sv",
+      "sha256": "0f69351edb4101c023d9b95d614d8e97f7bb326bd8e3c4661c486c76ad539985",
+      "ranges": [
+        [
+          21,
+          34
+        ]
+      ],
+      "locator": "L1147-L1168",
+      "total_source_lines": 7529
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/testbench.sv",
+      "sha256": "602fc3ed157fc871c24ee3dce27e72af134b1f6cc920e562fa1ca52ad5d05e4b",
+      "ranges": [
+        [
+          2476,
+          2492
+        ]
+      ],
+      "locator": "L1169-L1193",
+      "total_source_lines": 3623
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/components/scoreboards/chariot_fault_injection_scoreboard.svh",
+      "sha256": "357f9a120aceef2f849d6b613a0d763eaf5170ba4d9a26ec1310b9e42c20ff2b",
+      "ranges": [
+        [
+          1,
+          610
+        ]
+      ],
+      "locator": "L1194-L1811",
+      "total_source_lines": 610
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/noc_arachne/validation/dynamic/top/components/slaves/amba5_slave_controller_component.svh",
+      "sha256": "ecae1fad1a04e60c83d2a2de9bb55caeed0ae02432fd38d037be9876883ba3fc",
+      "ranges": [
+        [
+          1205,
+          1215
+        ]
+      ],
+      "locator": "L1812-L1830",
+      "total_source_lines": 2312
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/shared/scripts/arm_engine/services/param_engine/param_engine.sm",
+      "sha256": "73424cc6179207b8ce61eb44244ebfb11d19cdf918009afb0ba8f14c7799b643",
+      "ranges": [
+        [
+          121,
+          129
+        ],
+        [
+          309,
+          317
+        ]
+      ],
+      "locator": "L1831-L1857",
+      "total_source_lines": 524
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/shared/scripts/noc_param_engine/noc_core_build.py",
+      "sha256": "501b8929a3cab39783d054ab032830dc4811f9b33d6c150fa549636af8af5783",
+      "ranges": [
+        [
+          90,
+          99
+        ]
+      ],
+      "locator": "L1858-L1875",
+      "total_source_lines": 794
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/shared/scripts/noc_param_engine/noc_internal_build.py",
+      "sha256": "ba4ed8668f85daf0006f497e251e1023e7b6c25bddc6ba7ef3f685f30c18f4db",
+      "ranges": [
+        [
+          104,
+          112
+        ],
+        [
+          157,
+          165
+        ],
+        [
+          198,
+          207
+        ]
+      ],
+      "locator": "L1876-L1913",
+      "total_source_lines": 287
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/shared/scripts/noc_param_engine/noc_external_bindings/noc_testbench_wrapper.py",
+      "sha256": "793b3890bda8aea06f44a83140cc2b9e8340cb5d095dbdcada22e021238fd295",
+      "ranges": [
+        [
+          1139,
+          1147
+        ],
+        [
+          2284,
+          2300
+        ],
+        [
+          2653,
+          2666
+        ],
+        [
+          2789,
+          2797
+        ],
+        [
+          2953,
+          2969
+        ],
+        [
+          3319,
+          3327
+        ],
+        [
+          3347,
+          3356
+        ]
+      ],
+      "locator": "L1914-L2012",
+      "total_source_lines": 7113
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "configs_iyml/brunel_1x1_ACE5Lite_AXI5_chariot.yaml",
+      "sha256": "95acf14c9dff94855def104c8822119201c9fa200904710e73553d5a1396a702",
+      "ranges": [
+        [
+          1,
+          27
+        ],
+        [
+          37,
+          55
+        ],
+        [
+          68,
+          77
+        ],
+        [
+          99,
+          107
+        ],
+        [
+          143,
+          151
+        ]
+      ],
+      "locator": "L2013-L2098",
+      "total_source_lines": 418
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/shared/scripts/noc_param_engine/noc_configuration/decoders/asni_decoder.py",
+      "sha256": "0e1e48f5e00d26dde97309b66443297f24b49a57cf4928ac823b5a6806fb705d",
+      "ranges": [
+        [
+          155,
+          168
+        ],
+        [
+          170,
+          183
+        ],
+        [
+          420,
+          449
+        ]
+      ],
+      "locator": "L2099-L2166",
+      "total_source_lines": 517
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/shared/scripts/noc_param_engine/noc_configuration/decoders/dsni_decoder.py",
+      "sha256": "e74fb0a159b02e2338b3d1a84ae7fd3e82132e55c61e3ebf9380cefb64342108",
+      "ranges": [
+        [
+          151,
+          164
+        ],
+        [
+          166,
+          179
+        ],
+        [
+          411,
+          440
+        ]
+      ],
+      "locator": "L2167-L2234",
+      "total_source_lines": 486
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/shared/scripts/noc_param_engine/noc_param_derivation/r0p0/component_modules/arachne_asni_axi_core.py",
+      "sha256": "e82c7c0ca501909c3ac6f60989d1fb7ea7adbba707b35811799fdc322a1a6353",
+      "ranges": [
+        [
+          163,
+          175
+        ],
+        [
+          192,
+          215
+        ],
+        [
+          218,
+          247
+        ]
+      ],
+      "locator": "L2235-L2311",
+      "total_source_lines": 1266
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/shared/scripts/noc_param_engine/noc_param_derivation/r0p0/component_modules/noc_dsni_core.py",
+      "sha256": "ec03a04d3923f232dbee94f2ca63a630e3f2196f2a786205854618aab8a549a1",
+      "ranges": [
+        [
+          210,
+          222
+        ],
+        [
+          234,
+          246
+        ],
+        [
+          260,
+          300
+        ]
+      ],
+      "locator": "L2312-L2388",
+      "total_source_lines": 1721
+    },
+    {
+      "ref": "c13c1beb89b07b46afd963706bb5d941ea4d36d0",
+      "path": "logical/shared/scripts/sticho/sticho/StichoRender.py",
+      "sha256": "39ed1cdfd4e138a700197de0ad62700189d7fb975df75a9a03b3781774e81900",
+      "ranges": [
+        [
+          2729,
+          2743
+        ]
+      ],
+      "locator": "L2389-L2411",
+      "total_source_lines": 4685
+    }
+  ],
+  "authored_diff_map": {
+    "16654dee97f714a69586f4b1aac4fb7630cc7fb8": {
+      "locator": "L7-L36",
+      "paths": [
+        "logical/shared/scripts/tooling_scripts/generate_top_summary.pl"
+      ]
+    },
+    "4df3354cc2c16df21f6cfeddf2cb3bcef3efac32": {
+      "locator": "L37-L280",
+      "paths": [
+        "logical/shared/scripts/fusa/qverify_get_flops.tcl"
+      ]
+    },
+    "492593a8f1b7a15c8f12174cda9bcf7cfd7f6c8b": {
+      "locator": "L281-L3473",
+      "paths": [
+        "configs/brunel_1x1_ACE5Lite_AXI5_chariot/brunel_1x1_ACE5Lite_AXI5_chariot.yaml",
+        "configs_iyml/brunel_1x1_ACE5Lite_AXI5_chariot.yaml",
+        "logical/noc_arachne/.control_files/chariot_fault_injection.ctrl",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_parity_checker.sv",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_parity_generation.sv",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_pkg.svh",
+        "logical/noc_arachne/validation/dynamic/top/components/checkers/amba5_payload_checker_component.svh",
+        "logical/noc_arachne/validation/dynamic/top/testbench.sv",
+        "logical/shared/scripts/arm_engine/services/param_engine/param_engine.sm",
+        "logical/shared/scripts/noc_param_engine/noc_core_build.py",
+        "logical/shared/scripts/noc_param_engine/noc_external_bindings/noc_testbench_wrapper.py",
+        "logical/shared/scripts/noc_param_engine/noc_internal_build.py",
+        "logical/shared/scripts/tooling_scripts/generate_top_summary.pl"
+      ]
+    },
+    "8452bb85684afd82d80cdc2e90a7d3296dacaf4c": {
+      "locator": "L3474-L3824",
+      "paths": [
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_checker.sv",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_generator.sv",
+        "logical/noc_arachne/validation/dynamic/top/interface_block.sv",
+        "logical/shared/scripts/noc_param_engine/noc_external_bindings/noc_testbench_wrapper.py"
+      ]
+    },
+    "41d2221e7973c21437e040d51dbe75cbf73ed3c0": {
+      "locator": "L3825-L4176",
+      "paths": [
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_checker.sv",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_generator.sv",
+        "logical/noc_arachne/validation/dynamic/top/interface_block.sv",
+        "logical/shared/scripts/noc_param_engine/noc_external_bindings/noc_testbench_wrapper.py"
+      ]
+    },
+    "0061d5b19fa53c919287bfa6ccc9150edba032df": {
+      "locator": "L4177-L4223",
+      "paths": [
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_checker.sv",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_generator.sv"
+      ]
+    },
+    "ff3fcf4dd41f5f0b212b2d6b3ef653b7b5b69012": {
+      "locator": "L4224-L4871",
+      "paths": [
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_pkg.svh",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_rdat_parity_checker.sv",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_rdat_parity_generator.sv",
+        "logical/noc_arachne/validation/dynamic/top/components/slaves/amba5_slave_controller_component.svh",
+        "logical/noc_arachne/validation/dynamic/top/interface_block.sv",
+        "logical/noc_arachne/validation/dynamic/top/testbench.sv",
+        "logical/shared/scripts/noc_param_engine/noc_external_bindings/noc_testbench_wrapper.py"
+      ]
+    },
+    "d8e7d9edefe1c18d2cb15669cc682d7375d6c900": {
+      "locator": "L4872-L4918",
+      "paths": [
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_checker.sv",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_generator.sv"
+      ]
+    },
+    "3ba56bea53a1b7e239c7f609ef88bf8b60e83829": {
+      "locator": "L4919-L5177",
+      "paths": [
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_ahb_hang_detector.sv",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_pkg.svh",
+        "logical/noc_arachne/validation/dynamic/top/components/scoreboards/chariot_fault_injection_scoreboard.svh",
+        "logical/noc_arachne/validation/dynamic/top/interface_block.sv",
+        "logical/noc_arachne/validation/dynamic/top/testbench.sv"
+      ]
+    },
+    "2cb79d4081f5d79cd0aba93217e2c121b4e6348f": {
+      "locator": "L5178-L5564",
+      "paths": [
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_pkg.svh",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wdat_ecc_checker.sv",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wdat_ecc_generator.sv",
+        "logical/noc_arachne/validation/dynamic/top/interface_block.sv",
+        "logical/noc_arachne/validation/dynamic/top/testbench.sv"
+      ]
+    },
+    "5d88abb380368baa73f3e9e2b8b6f4d2033aa398": {
+      "locator": "L5565-L5856",
+      "paths": [
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_axi_read_hang_detector.sv",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_pkg.svh",
+        "logical/noc_arachne/validation/dynamic/top/interface_block.sv"
+      ]
+    },
+    "c22154dd2c2f91d60d1f15c6b83053be63a708eb": {
+      "locator": "L5857-L6368",
+      "paths": [
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_axi_hang_detector.sv",
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_pkg.svh",
+        "logical/noc_arachne/validation/dynamic/top/interface_block.sv"
+      ]
+    },
+    "996cb7d4e7b7ab29b5478dd39bffaf0fe802495a": {
+      "locator": "L6369-L6397",
+      "paths": [
+        "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_axi_hang_detector.sv"
+      ]
+    },
+    "81dabe34f1c49adf6fd00e1ad5456c801f8f50b9": {
+      "locator": "L6398-L6424",
+      "paths": [
+        "logical/shared/scripts/end_to_end/load_brunel.sh"
+      ]
+    },
+    "ce7563ed91e6b163872d4b642b9d5a85298456cf": {
+      "locator": "L6425-L6451",
+      "paths": [
+        "logical/shared/scripts/end_to_end/load_brunel.sh"
+      ]
+    },
+    "5047992d67b81c6d7098cac6e32ab96373847985": {
+      "locator": "L6452-L6480",
+      "paths": [
+        "logical/shared/scripts/end_to_end/load_brunel.sh"
+      ]
+    },
+    "4ecbc240850052ce6105a7bcde2745438539c0d1": {
+      "locator": "L6481-L6509",
+      "paths": [
+        "logical/shared/scripts/end_to_end/load_brunel.sh"
+      ]
+    },
+    "2971e359debd42c9831b7bc1b9aff08b650a36ee": {
+      "locator": "L6510-L6538",
+      "paths": [
+        "logical/shared/scripts/end_to_end/load_brunel.sh"
+      ]
+    },
+    "c4454008e9b44b2045a71003484cc9d61d18c51a": {
+      "locator": "L6539-L6567",
+      "paths": [
+        "logical/shared/scripts/end_to_end/load_brunel.sh"
+      ]
+    },
+    "25e56dce89fd5bc49da9dc16a2ebad22b3c56246": {
+      "locator": "L6568-L6596",
+      "paths": [
+        "logical/shared/scripts/end_to_end/load_brunel.sh"
+      ]
+    },
+    "2ffec6bd4c8180b5089cc542fe4a195bcabbbb87": {
+      "locator": "L6597-L6870",
+      "paths": [
+        "logical/shared/scripts/noc_param_engine/noc_configuration/decoders/asni_decoder.py",
+        "logical/shared/scripts/noc_param_engine/noc_configuration/decoders/dsni_decoder.py",
+        "logical/shared/scripts/noc_param_engine/noc_param_derivation/r0p0/component_modules/arachne_asni_axi_core.py",
+        "logical/shared/scripts/noc_param_engine/noc_param_derivation/r0p0/component_modules/noc_dsni_core.py",
+        "logical/shared/scripts/sticho/sticho/StichoRender.py"
+      ]
+    },
+    "d9cbdcbc1751740ece9dd329bd5487f5423d4e75": {
+      "locator": "L6871-L6884",
+      "paths": []
+    }
+  },
+  "other_author_context": {
+    "bce47a50cf9fee013517d4bb33f71c70d4f730f1": "L2412-L2553",
+    "c53d65457f8e62c88e46411fd533cf491782caeb": "L2554-L2769",
+    "2d1718066b9a38b5f333bf08106716ff9aa10b94": "L2770-L2865",
+    "99937b8c02a02511fba7c67e602dce610aca453e": "L2866-L3092",
+    "e1382ca03cf1858b5d74e8fd472dcdadc4f59098": "L3093-L3122",
+    "f2603804d15af6e69ba074c082ed08639c0d6195": "L3123-L3231",
+    "132198680b02ca12a89c8127c412dd48d36bd338": "L3232-L3284",
+    "cde13afb3503f64717b468bdd38ca846f8465063": "L3285-L3531",
+    "15ec8b7621ebc26393d82bbf335293b7058f1f95": "L3532-L3559",
+    "cb3d526eb8f49e7ed3e09fcb146aea535587417a": "L3769-L4455"
+  },
+  "path_history": {
+    "logical/noc_arachne/.control_files/chariot_fault_injection.ctrl": [
+      "09d46bb1145ce13626725ad3b45806f8af95e8be 2021-09-27T17:15:39+01:00 Sean Steel adding get ports script to Asil-D",
+      "4aa2acc078502afa4acaff78b22245f0a532a3f5 2021-02-24T17:26:38Z Sean Steel updates to regressions to waive checks for user bits",
+      "22827d3471f874c5e7609b8c48c907d1c9dbfcd3 2020-12-10T20:12:11Z Sean Steel merge commit -merging dev into chariot-b",
+      "4ce7802d1d9d0037f6b86cc83da390b168d6431b 2020-12-10T15:52:10Z Sean Steel additional control_file fixes",
+      "492593a8f1b7a15c8f12174cda9bcf7cfd7f6c8b 2020-12-09T10:34:44Z Michael Coulter Add chariot package that includes the chariot_parity_generation and the chariot_parity_checker modules Add brunel_1x1_ACE5Lite_AXI5_chariot iyaml and corresponding generated syaml, and update chariot_fault_injection.ctrl to use new config Add --fullacc arg to ae simulate command in chariot_fault_injection.ctrl Add CHARIOT_ASIL_B defines and check_user condition to amba5_payload_checker_component.svh Modify testbench to instantiate parity read modules and associated signals Modify noc_testbench_wrapper.py to connect err_detection_code to ACELITE_SLAVE_S0_IF_WUSER Modify param_engine scripts to conditionally modify noc_testbench_wrapper.py for chariot by supplying the ae param_engine command with the '--chariot_b' flag large commit",
+      "0758416876564cb5d14aa3ebda85b1c173096482 2020-11-27T20:53:36Z Sean Steel adding +acc into chariot_fault_injection regression",
+      "c53d65457f8e62c88e46411fd533cf491782caeb 2020-11-25T14:31:17Z Sean Steel this commit does a couple of things",
+      "a8a7f9c1d538632db2acf330e0e51438adac1264 2020-11-25T21:02:32Z Sean Steel minor fixes to fault injection control file",
+      "3902fe3fb3feca6e2f06eb1424bb4c554cef2e42 2020-11-25T14:31:17Z Sean Steel this commit does a couple of things",
+      "23bcb2e434c8dfb1f10a24fcc590d8960b43a5d8 2020-11-09T16:06:16Z Sean Steel add --inject_faults as an option to ae simulate"
+    ],
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_ahb_hang_detector.sv": [
+      "3ba56bea53a1b7e239c7f609ef88bf8b60e83829 2021-02-19T07:01:29Z Michael Coulter Add chariot_ahb_hang_detector.sv (hang_error fires if HREADY is low for >=1000 cycles) Change delay_count to 5000 in chariot_fault_injection_scoreboard.svh"
+    ],
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_axi_hang_detector_read.sv": [
+      "a4866358adcf90898708e7b68f6ffba801db24d4 2021-09-21T22:15:33-05:00 swetalina Merging origin/dev to tower/dev"
+    ],
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_axi_hang_detector_write.sv": [
+      "a4866358adcf90898708e7b68f6ffba801db24d4 2021-09-21T22:15:33-05:00 swetalina Merging origin/dev to tower/dev"
+    ],
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_pkg.svh": [
+      "a4866358adcf90898708e7b68f6ffba801db24d4 2021-09-21T22:15:33-05:00 swetalina Merging origin/dev to tower/dev",
+      "c22154dd2c2f91d60d1f15c6b83053be63a708eb 2021-04-07T22:05:34+01:00 Michael Coulter Generalize the AXI hang detector to work for both reads and writes",
+      "5d88abb380368baa73f3e9e2b8b6f4d2033aa398 2021-03-26T22:00:06Z Michael Coulter Adding AXI read hang detector",
+      "9a1baceb97022342da39d95f0aaf39c1e227b87c 2021-03-22T18:05:10Z Sean Steel Improving the direct_ta scenario with several features",
+      "2cb79d4081f5d79cd0aba93217e2c121b4e6348f 2021-02-24T21:34:22Z Michael Coulter Replace chariot_wdat_parity_generator/chariot_wdat_parity_checker with chariot_wdat_ecc_generator/chariot_wdat_ecc_checker",
+      "3ba56bea53a1b7e239c7f609ef88bf8b60e83829 2021-02-19T07:01:29Z Michael Coulter Add chariot_ahb_hang_detector.sv (hang_error fires if HREADY is low for >=1000 cycles) Change delay_count to 5000 in chariot_fault_injection_scoreboard.svh",
+      "ff3fcf4dd41f5f0b212b2d6b3ef653b7b5b69012 2021-01-29T20:24:33Z Michael Coulter Add rdat parity generation and checker. 2 bits of user (1 valid bit, 1 parity bit) per 8 bits of data for both AXI and AHB. Set the 'invalid_byte_lanes_mode' on the transaction item in the testbench to 'INVALID_BYTE_LANES_RANDOM' to send random 0s and 1s instead of Xs for invalid read data.",
+      "2d1718066b9a38b5f333bf08106716ff9aa10b94 2021-01-06T20:22:04Z Sean Steel adding support for write req/rsp channel protection",
+      "806c7e9bb3d54d51e8af5c568d98ccb4f4364dc0 2021-01-03T19:41:16Z Sean Steel fixes for ahb configs",
+      "492593a8f1b7a15c8f12174cda9bcf7cfd7f6c8b 2020-12-09T10:34:44Z Michael Coulter Add chariot package that includes the chariot_parity_generation and the chariot_parity_checker modules Add brunel_1x1_ACE5Lite_AXI5_chariot iyaml and corresponding generated syaml, and update chariot_fault_injection.ctrl to use new config Add --fullacc arg to ae simulate command in chariot_fault_injection.ctrl Add CHARIOT_ASIL_B defines and check_user condition to amba5_payload_checker_component.svh Modify testbench to instantiate parity read modules and associated signals Modify noc_testbench_wrapper.py to connect err_detection_code to ACELITE_SLAVE_S0_IF_WUSER Modify param_engine scripts to conditionally modify noc_testbench_wrapper.py for chariot by supplying the ae param_engine command with the '--chariot_b' flag large commit"
+    ],
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_rdat_parity_checker.sv": [
+      "ff3fcf4dd41f5f0b212b2d6b3ef653b7b5b69012 2021-01-29T20:24:33Z Michael Coulter Add rdat parity generation and checker. 2 bits of user (1 valid bit, 1 parity bit) per 8 bits of data for both AXI and AHB. Set the 'invalid_byte_lanes_mode' on the transaction item in the testbench to 'INVALID_BYTE_LANES_RANDOM' to send random 0s and 1s instead of Xs for invalid read data."
+    ],
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_rdat_parity_generator.sv": [
+      "ff3fcf4dd41f5f0b212b2d6b3ef653b7b5b69012 2021-01-29T20:24:33Z Michael Coulter Add rdat parity generation and checker. 2 bits of user (1 valid bit, 1 parity bit) per 8 bits of data for both AXI and AHB. Set the 'invalid_byte_lanes_mode' on the transaction item in the testbench to 'INVALID_BYTE_LANES_RANDOM' to send random 0s and 1s instead of Xs for invalid read data."
+    ],
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wdat_ecc_checker.sv": [
+      "8e334abdefabadf66d4bf72040ca3c16ebfde876 2021-06-16T22:10:35+01:00 Sean Steel fixes for chariot wdat ecc correction",
+      "44793ed9c17389e739907a2e90c0fb8f0cf5d7a1 2021-06-02T21:54:34+01:00 Sean Steel fixes for error correction",
+      "cd82fd7e8e7896fb522af1608f3e5e93a83bc2db 2021-06-02T01:18:05+01:00 Sean Steel removed incorrect parity checking on AHB wdat channel",
+      "f2603804d15af6e69ba074c082ed08639c0d6195 2021-06-01T19:28:41+01:00 Sean Steel Turning on error correction",
+      "e1382ca03cf1858b5d74e8fd472dcdadc4f59098 2021-03-15T19:42:30Z Sean Steel fixes for wdat_ecc checker",
+      "2cb79d4081f5d79cd0aba93217e2c121b4e6348f 2021-02-24T21:34:22Z Michael Coulter Replace chariot_wdat_parity_generator/chariot_wdat_parity_checker with chariot_wdat_ecc_generator/chariot_wdat_ecc_checker"
+    ],
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wdat_ecc_generator.sv": [
+      "f2603804d15af6e69ba074c082ed08639c0d6195 2021-06-01T19:28:41+01:00 Sean Steel Turning on error correction",
+      "2cb79d4081f5d79cd0aba93217e2c121b4e6348f 2021-02-24T21:34:22Z Michael Coulter Replace chariot_wdat_parity_generator/chariot_wdat_parity_checker with chariot_wdat_ecc_generator/chariot_wdat_ecc_checker"
+    ],
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_checker.sv": [
+      "a4866358adcf90898708e7b68f6ffba801db24d4 2021-09-21T22:15:33-05:00 swetalina Merging origin/dev to tower/dev",
+      "d8e7d9edefe1c18d2cb15669cc682d7375d6c900 2021-02-02T04:21:30Z Michael Coulter Num unprotected bits = 15",
+      "0061d5b19fa53c919287bfa6ccc9150edba032df 2021-01-29T16:34:51Z Michael Coulter Reduce number of protected address bits to 21",
+      "41d2221e7973c21437e040d51dbe75cbf73ed3c0 2021-01-28T17:05:15Z Michael Coulter Revert \"Revert \"Add parity protection for read requests and responses\"\"",
+      "99937b8c02a02511fba7c67e602dce610aca453e 2021-01-27T18:42:44Z Sean Steel Revert \"Add parity protection for read requests and responses\"",
+      "8452bb85684afd82d80cdc2e90a7d3296dacaf4c 2021-01-25T18:21:50Z Michael Coulter Add parity protection for read requests and responses Increase number of protected address bits for write and read requests",
+      "2d1718066b9a38b5f333bf08106716ff9aa10b94 2021-01-06T20:22:04Z Sean Steel adding support for write req/rsp channel protection"
+    ],
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_generator.sv": [
+      "a4866358adcf90898708e7b68f6ffba801db24d4 2021-09-21T22:15:33-05:00 swetalina Merging origin/dev to tower/dev",
+      "d8e7d9edefe1c18d2cb15669cc682d7375d6c900 2021-02-02T04:21:30Z Michael Coulter Num unprotected bits = 15",
+      "0061d5b19fa53c919287bfa6ccc9150edba032df 2021-01-29T16:34:51Z Michael Coulter Reduce number of protected address bits to 21",
+      "41d2221e7973c21437e040d51dbe75cbf73ed3c0 2021-01-28T17:05:15Z Michael Coulter Revert \"Revert \"Add parity protection for read requests and responses\"\"",
+      "99937b8c02a02511fba7c67e602dce610aca453e 2021-01-27T18:42:44Z Sean Steel Revert \"Add parity protection for read requests and responses\"",
+      "8452bb85684afd82d80cdc2e90a7d3296dacaf4c 2021-01-25T18:21:50Z Michael Coulter Add parity protection for read requests and responses Increase number of protected address bits for write and read requests",
+      "2d1718066b9a38b5f333bf08106716ff9aa10b94 2021-01-06T20:22:04Z Sean Steel adding support for write req/rsp channel protection"
+    ],
+    "logical/shared/scripts/end_to_end/load_brunel.sh": [
+      "a2fba8dd81bfd1f69c6cf9c6978da22ea6f58251 2026-02-06T11:04:37-06:00 Kyan Kornfeld Brunel version update for Kelly",
+      "319a710f837348a4fd2b97358cdd5d6c726b649c 2025-04-30T18:46:05-05:00 Julian Mendoza fixes and checks for DRC_ASNI_022",
+      "a7e4ab5000308e4d058fc6fcd11c8fcf4b229ea4 2024-06-18T13:23:15+01:00 lingao01 Update brunel module to rc0",
+      "7b3ccc898e1bc50c5f47d8d47c44ee790be76be2 2024-06-13T20:42:34+01:00 lingao01 Update Brunel to 2024.06.01Fdev",
+      "0b81d26d38b4c875a5565af3025d718291a8a54d 2024-06-07T14:49:42+01:00 lingao01 Update Brunel to 2024.06.01Bdev",
+      "add7b4569e7b3c2d915514491e72151395e2c582 2024-06-05T02:22:52+01:00 lingao01 Update Brunel to 2024.06.01dev",
+      "88a70303c1ce04a175f9ea7ae62bac39ed10cb16 2024-05-29T02:59:19+01:00 lingao01 Update Brunel module to the latest",
+      "01ac770d804b44792bdc65821431658f01d6cd79 2024-05-09T20:50:18+01:00 lingao01 Update Brunel to 2024.05.01dev",
+      "2003760621179877ca61abdae7d91d15ec247f20 2024-04-09T00:02:39+01:00 lingao01 Update Brunel module used in end2end tests",
+      "fcd6b083726da9ef18da2071f4e724ecd7358024 2024-04-04T17:32:27+01:00 lingao01 Add header size compare step to end2end tests",
+      "23383cc220ae89254b20151e8d310d8231541496 2024-02-29T23:41:17-06:00 keerav01 Resolved DEV to EAC merge conflicts - misc",
+      "7d0f09aabf2efe515fd298227efd17b5a726f4b8 2024-02-29T10:34:47-06:00 keerav01 Checking in conflicts after merge",
+      "ac9c81b9122a9aecce2580da09b53b4ab23e190a 2024-02-21T14:29:04Z Chris Laycock TOWER-4115: Updating E2E tests to use brunel RC",
+      "405831aba40c0096ef96377d46c182edfc1c2caf 2024-02-10T00:59:39Z Christopher Alvarez updated load_brunel.sh to module 2024.02.01dev",
+      "eab9edfbb28764b947b58edcf4505db87ed1fb77 2024-02-02T20:45:55-06:00 Lin Gao Update Brunel module for end2end, fix tests",
+      "b22a71c91ba4f3ac4a39ad77d7c6c7d7ca18fc53 2024-02-02T11:53:06-06:00 keerav01 squash commit - dev to eac merge 1_29_2024",
+      "838062f078ce6fad83be327cf38ce736ee642f05 2024-01-31T16:06:45-06:00 Lin Gao Update brunel module for end2end, update end2end tests to skip gen_syml on si tower configs",
+      "860348c51f718d3d33eb09636e7b314edf38846d 2024-01-26T23:01:10Z lingao01 Update end2end Brunel module and tests",
+      "7ed3b9018698489bbb1f357a2e4f1860bdf9f9a4 2024-01-23T02:17:16Z lingao01 Update brunel module to 2024.01.02dev",
+      "6490fb21be08348132d63aa43d9af4ca2c83f972 2023-09-05T15:42:21-05:00 Ramesh Bodakunta Partner Configs Updates",
+      "b660dc668b562544c104eb0d9a213177ffd89742 2023-07-29T17:21:24+01:00 lingao01 Update brunel module for end2end",
+      "79aa4bb18cd456798ed2f77a2aea94c534a875aa 2023-05-24T09:38:39-05:00 Eser Unlu Resolving conflicts during releases/CHARIOT_R0P0_EAC_122422 to origin/dev merge",
+      "f9ee94d12bc73a69acdb7c56c59043dbff1c9884 2023-05-22T17:14:59-05:00 Eser Unlu Checking in conflicts after merge",
+      "1ee0f621128262c24e1e301468dea94f30d006bd 2023-05-16T15:26:56+01:00 lingao01 Update kronos config with a pipeline router, upgrade Brunel module",
+      "53973e81f61d68153ed0eb82265918623580b29f 2023-04-30T15:49:55+01:00 Chris Laycock Updating brunel version in e2e tests to match release version",
+      "0f99b87adcce6f221d3b4ec0b7fb2187848027bf 2023-04-25T00:29:29+01:00 Chris Laycock Adding optimized versions of LEM and Kronos configs with updates to the error network (both) and config netowrk (Kronos) based on physcial requirements",
+      "740e394c1daaaab35dbbf82675348bb08b638151 2023-04-18T14:14:01+01:00 Chris Laycock Updateing brunel e2e testing to use latest release candidate",
+      "d5fce03fc5f91ac00fffeac6cc67a2f28598695a 2023-04-17T17:34:54+01:00 Chris Laycock Updating Brunel version for e2e tests",
+      "f6b291bbda13c46fa41d45e60d4fc6bde844efa6 2023-03-27T14:59:00+01:00 lingao01 Upgrade Brunel version",
+      "5259fdf0d7672e73d01742eb06b5a5a25b701f18 2023-03-06T16:10:02Z lingao01 Update Brunel module for end2end testing",
+      "141cf253ec471b606fd71d24b78d2528973ff276 2023-02-27T15:33:53Z lingao01 Update Brunel module to lac RC4",
+      "e80315f9f8db4ff03d5e695ea62c77866bb11770 2023-02-15T02:18:39Z lingao01 Update Brunel to RC6",
+      "6227ee1edc2b4e4dd7c59535a36fe39d3c479e09 2023-02-01T15:52:23Z lingao01 Update Brunel module to the latest",
+      "39fa9cc60eaffc43824ad752a7a1a8cb90829daf 2023-01-26T16:50:21Z lingao01 Update Brunel module to the latest",
+      "91e7c4c771a860781f7bf6f1b44f37aa2909b000 2023-01-20T22:59:29Z lingao01 Update brunel to the latest",
+      "2554712082cf0981e504959b66af75990c2eee34 2023-01-20T22:34:43Z lingao01 Upgrade Brunel module, add brunel_pipeline test",
+      "51e4bf942a7f51274cf98583807c96c2c4de04e0 2023-01-12T15:16:09-06:00 lingao01 Upgrade brunel module for e2e tests",
+      "8086fe8f0c7dc94be5c6c594c22d98706d93b1f1 2023-01-06T19:59:34-06:00 lingao01 Update Brunel to the latest",
+      "a70b75bb661f3b59ebe16a9a8abed689426451a8 2022-12-19T09:01:10-06:00 lingao01 Update Brunel for end2end",
+      "9a37d5a4b0b756db9b730aa13dffec9f4e0f6463 2022-12-03T13:58:12-06:00 lingao01 Update brunel for end2end",
+      "d4f21ee3e58042d21d9a375a872c5dd42b3f22c9 2022-11-02T13:46:06-05:00 lingao01 Fix bcfggen_tower_tormore_apu configs, upgrade brunel and perl version",
+      "cb7247c896498bfd5b24829bd62cd015e5383b81 2022-10-20T15:56:34-05:00 lingao01 Update brunel module to 2022.10.02dev",
+      "8350f7b5bbc913dfb13156a9ee3cb524dd52716d 2022-10-13T22:38:47-05:00 lingao01 Update brunel module for e2e tests",
+      "a6a47bf54364e4daf9173884e287c742f19bd4b0 2022-09-30T18:03:26+01:00 Chris Laycock Updating e2e tests to use brunel 2022.09.03dev.",
+      "587b4d0befd994e909f7ec313bd475c641ef5d93 2022-09-19T08:46:03-05:00 Chris Laycock Updating brunel version to 2022.09.02dev",
+      "d4dd385c346480c7afd489b898fd21696c636cb1 2022-08-19T02:30:50+01:00 lingao01 Update Brunel module",
+      "bb39b3b3ed6a4922053e701192bf91b92995c9d7 2022-08-04T15:00:43-05:00 lingao01 Upgrade brunel module for e2e tests",
+      "6acbd740bcd4bd7bc8888a673999a8009a08a6eb 2022-07-27T21:36:21+01:00 Naveen Anumalla Update from Lin: Fix Brunel e2e tests",
+      "9ed6e83ab500c6dbbabc8ea333bdabfeb651af43 2022-07-23T17:21:21+01:00 lingao01 Update Brunel module, add R52 and R52P IP path",
+      "46e7ed9f7fb6d89a3a6f61b656f7531afda5fe5b 2022-06-23T12:10:56-05:00 lingao01 Upgrade brunel module in end2end tests",
+      "15ec8b7621ebc26393d82bbf335293b7058f1f95 2022-05-19T21:49:46+01:00 lingao01 Switch to Brunel modules in end_2_end tests"
+    ],
+    "logical/shared/scripts/fusa/qverify_get_flops.tcl": [
+      "c93c38388e3cce1973b4a4b30367da0f1b05c6a2 2024-11-24T22:48:00-06:00 jacpet01 Enable Pinata flow for DSNI/DMNI/CTB configs",
+      "a29f164b33c4fd231d7fb9a5fa5c55624c463e4d 2022-01-26T22:18:28Z Sean Steel improvements to get minifmu pinata task working",
+      "0469f78275941f8da434e51a634f53086e89f594 2021-11-24T20:19:37Z Sean Steel pinata updates for amni flops",
+      "09d46bb1145ce13626725ad3b45806f8af95e8be 2021-09-27T17:15:39+01:00 Sean Steel adding get ports script to Asil-D",
+      "132198680b02ca12a89c8127c412dd48d36bd338 2021-03-17T17:26:35Z Sean Steel Fixes to the get_flops script to avoid tied-off bits in register arrays",
+      "4df3354cc2c16df21f6cfeddf2cb3bcef3efac32 2020-11-05T16:57:56Z Michael Coulter Update qverify_get_flops.tcl to list regs in 3D arrays",
+      "bce47a50cf9fee013517d4bb33f71c70d4f730f1 2020-11-03T23:18:41Z Sean Steel Initial commit of fault injection scripts"
+    ]
+  },
+  "surviving_line_authors": {
+    "logical/noc_arachne/.control_files/chariot_fault_injection.ctrl": {
+      "Sean Steel": 14,
+      "Michael Coulter": 1
+    },
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_ahb_hang_detector.sv": {
+      "Michael Coulter": 55
+    },
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_axi_hang_detector_read.sv": {
+      "Michael Coulter": 145,
+      "swetalina": 63
+    },
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_axi_hang_detector_write.sv": {
+      "Michael Coulter": 170,
+      "swetalina": 1
+    },
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_pkg.svh": {
+      "Michael Coulter": 31,
+      "Sean Steel": 11,
+      "swetalina": 3
+    },
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_rdat_parity_checker.sv": {
+      "Michael Coulter": 39
+    },
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_rdat_parity_generator.sv": {
+      "Michael Coulter": 35
+    },
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wdat_ecc_checker.sv": {
+      "Michael Coulter": 62,
+      "Sean Steel": 24
+    },
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wdat_ecc_generator.sv": {
+      "Michael Coulter": 80,
+      "Sean Steel": 1
+    },
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_checker.sv": {
+      "Sean Steel": 31,
+      "swetalina": 14,
+      "Michael Coulter": 2
+    },
+    "logical/noc_arachne/validation/dynamic/top/components/chariot/chariot_wreq_parity_generator.sv": {
+      "Sean Steel": 28,
+      "swetalina": 8,
+      "Michael Coulter": 2
+    },
+    "logical/shared/scripts/end_to_end/load_brunel.sh": {
+      "lingao01": 2,
+      "Kyan Kornfeld": 1,
+      "Naveen Anumalla": 3
+    },
+    "logical/shared/scripts/fusa/qverify_get_flops.tcl": {
+      "Sean Steel": 91,
+      "Michael Coulter": 88,
+      "jacpet01": 1
+    }
+  },
+  "interpretation_limits": [
+    "No percentage of product ownership inferred from blame.",
+    "The original generic AXI monitor survives through a colleague rename to the write monitor; read beat-counting evolution belongs to that colleague.",
+    "ECC correction, tied-off-flop filtering and complete fault-injection scoreboard ownership are not attributed to Michael.",
+    "Legacy model top-level bindings were removed in 2022; retained model source is not evidence of current top-level use."
+  ]
+}

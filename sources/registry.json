@@ -443,6 +443,80 @@
         "src-ia-research-findings-2026-10-27"
       ],
       "notes": "Partial correction only: unsupported MCN expansion in the earlier persistence wording. Other original findings are retained. Reviewed source-bound application phrasing is grouped-node connectivity; this is analyst review, not a new owner statement."
+    },
+    {
+      "id": "src-arachne-history-2026-10-29",
+      "path": "sources/originals/src-arachne-history-2026-10-29/history-inventory.json",
+      "sha256": "76e00a57135d122c5b9d1aa58367c62034c03b0267b3d2b713654a32c81fc77b",
+      "title": "Local NoC complete authored-history inventory and patch classification",
+      "kind": "artifact",
+      "visibility": "private",
+      "added": "2026-10-29",
+      "derived_from": [],
+      "supersedes": [],
+      "notes": "Private local Git/source capture at c13c1beb89b07b46afd963706bb5d941ea4d36d0. Reported analyst interpretation, not owner confirmation or independent employer audit. No product execution, external upload or publication. Source excerpts normalize line endings and escape non-UTF-8 bytes; full raw blob/command hashes retain identity. Stash, historical implementation, current top-level use and test definitions remain distinct."
+    },
+    {
+      "id": "src-arachne-authored-diffs-2026-10-29",
+      "path": "sources/originals/src-arachne-history-2026-10-29/authored-diffs.md",
+      "sha256": "dc457e5ee411a3f717a99220570749e2a582572b4a9e6b652ffbfcd70d44eaec",
+      "title": "Complete authored-object diffs with stash and release classification",
+      "kind": "extraction",
+      "visibility": "private",
+      "added": "2026-10-29",
+      "derived_from": [
+        "src-arachne-history-2026-10-29"
+      ],
+      "supersedes": [],
+      "notes": "Private local Git/source capture at c13c1beb89b07b46afd963706bb5d941ea4d36d0. Reported analyst interpretation, not owner confirmation or independent employer audit. No product execution, external upload or publication. Source excerpts normalize line endings and escape non-UTF-8 bytes; full raw blob/command hashes retain identity. Stash, historical implementation, current top-level use and test definitions remain distinct."
+    },
+    {
+      "id": "src-arachne-implementation-2026-10-29",
+      "path": "sources/originals/src-arachne-history-2026-10-29/implementation-and-evolution.md",
+      "sha256": "0ce61bfff3c0b948fe457f5a884c3209e7a9c955d112706b1eebeeb02b88ee33",
+      "title": "Current NoC source excerpts, historical evolution and other-author boundaries",
+      "kind": "extraction",
+      "visibility": "private",
+      "added": "2026-10-29",
+      "derived_from": [
+        "src-arachne-history-2026-10-29"
+      ],
+      "supersedes": [],
+      "notes": "Private local Git/source capture at c13c1beb89b07b46afd963706bb5d941ea4d36d0. Reported analyst interpretation, not owner confirmation or independent employer audit. No product execution, external upload or publication. Source excerpts normalize line endings and escape non-UTF-8 bytes; full raw blob/command hashes retain identity. Stash, historical implementation, current top-level use and test definitions remain distinct."
+    },
+    {
+      "id": "src-arachne-review-map-2026-10-29",
+      "path": "sources/originals/src-arachne-history-2026-10-29/review-map.json",
+      "sha256": "f6ecd5a25ae58cc1aedce4424e94a8692f8cbad4a6ff12a3f9a91f00d8ce98d2",
+      "title": "NoC diff, current snapshot and ownership review map",
+      "kind": "generated_context",
+      "visibility": "private",
+      "added": "2026-10-29",
+      "derived_from": [
+        "src-arachne-history-2026-10-29",
+        "src-arachne-authored-diffs-2026-10-29",
+        "src-arachne-implementation-2026-10-29"
+      ],
+      "supersedes": [],
+      "notes": "Private local Git/source capture at c13c1beb89b07b46afd963706bb5d941ea4d36d0. Reported analyst interpretation, not owner confirmation or independent employer audit. No product execution, external upload or publication. Source excerpts normalize line endings and escape non-UTF-8 bytes; full raw blob/command hashes retain identity. Stash, historical implementation, current top-level use and test definitions remain distinct."
+    },
+    {
+      "id": "src-arachne-findings-2026-10-29",
+      "path": "sources/originals/src-arachne-history-2026-10-29/research-findings.md",
+      "sha256": "fa88e870fa552e9eb9940a8f75343d7c22473fc8113cbfc4c4407611421758ac",
+      "title": "Reviewed NoC contributions, technical decisions, ownership and evidence limits",
+      "kind": "generated_context",
+      "visibility": "private",
+      "added": "2026-10-29",
+      "derived_from": [
+        "src-arachne-history-2026-10-29",
+        "src-arachne-authored-diffs-2026-10-29",
+        "src-arachne-implementation-2026-10-29",
+        "src-arachne-review-map-2026-10-29",
+        "src-clarifications"
+      ],
+      "supersedes": [],
+      "notes": "Private local Git/source capture at c13c1beb89b07b46afd963706bb5d941ea4d36d0. Reported analyst interpretation, not owner confirmation or independent employer audit. No product execution, external upload or publication. Source excerpts normalize line endings and escape non-UTF-8 bytes; full raw blob/command hashes retain identity. Stash, historical implementation, current top-level use and test definitions remain distinct."
     }
   ]
 }
