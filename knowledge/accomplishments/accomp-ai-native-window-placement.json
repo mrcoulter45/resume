@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-native-window-placement",
+  "type": "accomplishment",
+  "title": "Native editor-window placement with bounds verification",
+  "summary": "macOS editor integration reconciles display coordinate systems and verifies actual Accessibility window bounds.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
+  },
+  "technologies": [
+    "Bash",
+    "JavaScript for Automation",
+    "AppKit",
+    "macOS Accessibility",
+    "Python"
+  ],
+  "competencies": [
+    "Native automation",
+    "Coordinate transformations",
+    "Defensive integration",
+    "Developer experience"
+  ],
+  "tags": [
+    "VS Code",
+    "multi-monitor",
+    "macOS",
+    "window management"
+  ],
+  "related": [
+    "project-ai-workbench",
+    "accomp-ai-vscode-navigation"
+  ],
+  "facts": [
+    {
+      "id": "coordinate-model",
+      "text": "Built a macOS editor-window placement utility translating AppKit display coordinates to Accessibility coordinates and fitting normal windows into the selected display’s usable viewport.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L6359-L6401"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    },
+    {
+      "id": "verification-loop",
+      "text": "Handled ambiguous display names, transient/nonstandard windows and native fullscreen explicitly, then re-enumerated windows and retried bounds updates with verification to cope with application window reflow.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L6386-L6483"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L6485-L6584"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    },
+    {
+      "id": "test-boundary",
+      "text": "The display helper has six Python test definitions covering shell CLI/configuration behavior with stubbed native automation and a static assertion that the JXA source contains retry constructs. They do not execute the native coordinate/bounds algorithm or establish live multi-monitor behavior or Accessibility permission validation.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L11725-L11822"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

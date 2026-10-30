@@ -10,7 +10,7 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
+    "as_of": "2026-10-29",
     "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
   },
   "technologies": [
@@ -55,6 +55,30 @@
         {
           "source_id": "src-ia-implementation-2026-10-27",
           "locator": "L2594-L2840"
+        }
+      ]
+    },
+    {
+      "id": "shared-tooling-context",
+      "text": "Integrated Playwright live test discovery, exact-ID selection and renderer-aware qualification/CI replay tooling; selected test definitions remain distinct from executed results.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L1072-L1162"
+        },
+        {
+          "source_id": "src-shared-ai-qualification-2026-10-29",
+          "locator": "L1158-L1203"
+        },
+        {
+          "source_id": "src-shared-ai-repair-2026-10-29",
+          "locator": "L1231-L1261"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
         }
       ]
     }

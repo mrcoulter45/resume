@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Python",
@@ -47,6 +47,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L370-L388"
+        },
+        {
+          "source_id": "src-shared-ai-qualification-2026-10-29",
+          "locator": "L1052-L1111"
+        },
+        {
+          "source_id": "src-shared-ai-qualification-2026-10-29",
+          "locator": "L2046-L2168"
         }
       ]
     },
@@ -59,6 +67,10 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L376-L376"
+        },
+        {
+          "source_id": "src-shared-ai-qualification-2026-10-29",
+          "locator": "L419-L448"
         }
       ]
     },
@@ -71,6 +83,18 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L382-L388"
+        },
+        {
+          "source_id": "src-shared-ai-qualification-2026-10-29",
+          "locator": "L491-L571"
+        },
+        {
+          "source_id": "src-shared-ai-qualification-2026-10-29",
+          "locator": "L937-L977"
+        },
+        {
+          "source_id": "src-shared-ai-qualification-2026-10-29",
+          "locator": "L1242-L1294"
         }
       ]
     },
@@ -83,6 +107,10 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L391-L397"
+        },
+        {
+          "source_id": "src-shared-ai-qualification-2026-10-29",
+          "locator": "L1845-L1891"
         }
       ]
     },
@@ -99,6 +127,46 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L16-L16"
+        },
+        {
+          "source_id": "src-shared-ai-qualification-2026-10-29",
+          "locator": "L2300-L2479"
+        },
+        {
+          "source_id": "src-shared-ai-test-definitions-2026-10-29",
+          "locator": "L6-L6"
+        }
+      ]
+    },
+    {
+      "id": "evidence-state-machine",
+      "text": "Made qualification depend on complete gate/cell/report evidence, raw coverage retention and tracked-tree preservation; interruptions and missing/skipped/synthetic inputs produce a null outcome and an explicit incomplete/interrupted state.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-qualification-2026-10-29",
+          "locator": "L1264-L1294"
+        },
+        {
+          "source_id": "src-shared-ai-qualification-2026-10-29",
+          "locator": "L1845-L1891"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    },
+    {
+      "id": "retained-interruption",
+      "text": "The retained September 21 coverage summary is INTERRUPTED with null outcome, 56 planned cells, 15 failed/40 pending/1 running and qualification_eligible=false; its manifest still says RUNNING. The discrepancy is preserved and does not establish completed matrix qualification or a coverage percentage.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-retained-outcomes-2026-10-29",
+          "locator": "L1327-L1371"
         }
       ]
     }

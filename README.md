@@ -17,6 +17,14 @@ covering parity/ECC models, protocol-progress monitors, generated fault-injectio
 integration and register enumeration. Read [its research scope and attribution](docs/arachne-noc-research.md)
 for complete local-history coverage, collaborative evolution and evidence gaps.
 
+The October 29 shared-AI review adds direct source/history support across the
+coding-agent harness, native Workbench, workspace/cluster tools, release and CI
+automation, packaged verification and engineering knowledge workflows. See the
+[22 achievement/narrative options](docs/shared-ai-contributions.md) and
+[scope, architecture and reconciliation](docs/shared-ai-research.md). The root
+shared-AI workspaces directory was excluded. Private implementation captures are
+registered but ignored by Git and require separate backup.
+
 | Location | Purpose |
 | --- | --- |
 | `sources/registry.json` | Evidence paths, SHA-256 fingerprints, authority, revisions and extraction relationships |

@@ -96,6 +96,34 @@
           "locator": "L4845-L4869"
         }
       ]
+    },
+    {
+      "id": "shared-platform-context",
+      "text": "Applied Python to metadata discovery, integrity-checked release/local-package workflows, CI failure reconstruction and qualification evidence state machines.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-bootstrap-2026-10-29",
+          "locator": "L509-L565"
+        },
+        {
+          "source_id": "src-shared-ai-publication-2026-10-29",
+          "locator": "L1631-L1708"
+        },
+        {
+          "source_id": "src-shared-ai-repair-2026-10-29",
+          "locator": "L1165-L1211"
+        },
+        {
+          "source_id": "src-shared-ai-qualification-2026-10-29",
+          "locator": "L1845-L1891"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
     }
   ],
   "notes": [

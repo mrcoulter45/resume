@@ -10,7 +10,7 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
+    "as_of": "2026-10-29",
     "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
   },
   "technologies": [
@@ -27,7 +27,8 @@
   ],
   "related": [
     "project-pelion-ml",
-    "project-pelion-space-analytics"
+    "project-pelion-space-analytics",
+    "project-ai-workbench"
   ],
   "facts": [
     {
@@ -43,6 +44,26 @@
         {
           "source_id": "src-docx-text",
           "locator": "L59-L61"
+        }
+      ]
+    },
+    {
+      "id": "workbench-context",
+      "text": "Built a React/TypeScript desktop frontend with TanStack Query, independent renderer actions, packaged-build state and event-driven updates over Tauri IPC.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L1999-L2125"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L3252-L3340"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
         }
       ]
     }

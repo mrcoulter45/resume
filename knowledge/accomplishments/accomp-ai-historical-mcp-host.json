@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Python",
@@ -45,6 +45,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L147-L168"
+        },
+        {
+          "source_id": "src-shared-ai-historical-2026-10-29",
+          "locator": "L354-L467"
+        },
+        {
+          "source_id": "src-shared-ai-historical-2026-10-29",
+          "locator": "L955-L994"
         }
       ]
     },
@@ -57,6 +65,18 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L156-L168"
+        },
+        {
+          "source_id": "src-shared-ai-historical-2026-10-29",
+          "locator": "L855-L885"
+        },
+        {
+          "source_id": "src-shared-ai-historical-2026-10-29",
+          "locator": "L61-L85"
+        },
+        {
+          "source_id": "src-shared-ai-historical-2026-10-29",
+          "locator": "L1084-L1120"
         }
       ]
     },
@@ -69,12 +89,41 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L150-L177"
+        },
+        {
+          "source_id": "src-shared-ai-historical-2026-10-29",
+          "locator": "L1132-L1146"
+        }
+      ]
+    },
+    {
+      "id": "sdk-and-trace-adaptation",
+      "text": "Adapted MCP SDK constructor differences and generated keyword signatures from Pydantic field definitions; routed synchronous/asynchronous handlers into trace records distinguishing success, blocked approval and execution failures.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-historical-2026-10-29",
+          "locator": "L333-L338"
+        },
+        {
+          "source_id": "src-shared-ai-historical-2026-10-29",
+          "locator": "L354-L422"
+        },
+        {
+          "source_id": "src-shared-ai-historical-2026-10-29",
+          "locator": "L955-L1032"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
         }
       ]
     }
   ],
   "notes": [
     "Historical implemented capability, not evidence that this shared host is the current deployment architecture.",
-    "Do not infer authorship of the separately owned Configuration Engine pack or completion of the placeholder workflow bridge."
+    "Do not infer authorship of the separately owned Configuration Engine pack or completion of the placeholder workflow bridge.",
+    "Approval checks are descriptor-controlled and inspect an approved request field; do not describe them as authenticated human authorization or an automatic ban on every mutating tool. Trace persistence is implemented, not a demonstrated tamper-proof audit service."
   ]
 }

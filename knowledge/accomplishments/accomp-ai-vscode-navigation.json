@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "JavaScript",
@@ -42,6 +42,38 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L357-L367"
+        },
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L1900-L2023"
+        },
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L2169-L2316"
+        }
+      ]
+    },
+    {
+      "id": "asynchronous-query-identity",
+      "text": "Prevented late file/symbol lookups from overwriting newer picker queries using revision tokens and picker identity checks; combined Git-aware multi-root file discovery with URI-preserving remote fallback and serialized frecency updates.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L1827-L1853"
+        },
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L1907-L1983"
+        },
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L2169-L2316"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
         }
       ]
     }

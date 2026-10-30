@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Python",
@@ -36,7 +36,9 @@
   ],
   "related": [
     "exp-arm-senior",
-    "project-ai-workbench"
+    "project-ai-workbench",
+    "accomp-ai-packaged-docs-smoke",
+    "accomp-ai-native-window-placement"
   ],
   "facts": [
     {
@@ -72,6 +74,26 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L22-L40"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L3491-L3563"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L11391-L11408"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L4371-L4384"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L16490-L16504"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L16510-L16523"
         }
       ]
     },
@@ -84,6 +106,10 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L28-L37"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L4722-L4757"
         }
       ]
     },
@@ -112,12 +138,57 @@
         {
           "source_id": "src-adoption",
           "locator": "L10-L12"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L4363-L4365"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L320-L322"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L4231-L4233"
+        }
+      ]
+    },
+    {
+      "id": "owner-attribution-scope",
+      "text": "Michael explicitly attributes all engineering work and authored project content in the shared-AI repository to himself regardless of Git authorship metadata; the review excludes the root workspaces directory and third-party dependency authorship.",
+      "status": "confirmed",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    },
+    {
+      "id": "direct-review-scope",
+      "text": "The October 29 review inventories 348 project/helper files and all 44 locally reachable commits from March 27 through October 5, 2026, including deleted MCP-host source, current tracked modifications and untracked implementations; it does not fetch remote history or execute employer tests.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-source-index-2026-10-29",
+          "locator": "L2-L7"
+        },
+        {
+          "source_id": "src-shared-ai-history-2026-10-29",
+          "locator": "L2-L11"
+        },
+        {
+          "source_id": "src-shared-ai-inventory-summary-2026-10-29",
+          "locator": "L3-L16"
         }
       ]
     }
   ],
   "notes": [
     "Several is qualitative adoption, not a precise active-user count. No productivity percentage, model-training claim, hosted inference service or fleet-scale operation is established.",
-    "The employer repositories referenced by the supplied analysis were not independently inspected in this repository."
+    "The original supplied-analysis review did not inspect the underlying repositories. The October 29 review directly inspected shared-AI source/history outside its excluded root workspaces directory. Product checkouts were not inspected as part of this review; earlier IA/NoC investigations remain separately sourced.",
+    "All current implementation claims must retain the captured working-tree context: 61 tracked modifications and 39 untracked files existed at review start. Code presence does not establish released deployment, adoption of every subsystem, or new execution results. The four manifests do not imply four equally implemented product packs."
   ]
 }

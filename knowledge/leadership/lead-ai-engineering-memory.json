@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Codex",
@@ -57,6 +57,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L403-L412"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L16779-L16859"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L16870-L16936"
         }
       ]
     },
@@ -69,6 +77,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L406-L412"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L17032-L17153"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L13765-L13864"
         }
       ]
     },
@@ -81,6 +97,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L424-L427"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L18309-L18405"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L18178-L18288"
         }
       ]
     },
@@ -93,6 +117,62 @@
         {
           "source_id": "src-role-fit",
           "locator": "L35-L37"
+        }
+      ]
+    },
+    {
+      "id": "domain-context-curation",
+      "text": "Authored source-aware engineering guidance connecting configuration-engine/RTL topology, interface/resource ownership, GUI lifecycle/renderers, regression selection and release behavior, with authoritative-source routing and explicit stale/generated-document boundaries.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L10392-L10458"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L8508-L8564"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L9472-L9571"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L15177-L15255"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    },
+    {
+      "id": "workflow-design-boundary",
+      "text": "The staged multi-agent workflow specifies planner/analyst/implementer/reviewer responsibilities, evidence handoffs and completion criteria. It is an authored engineering procedure; the shared root orchestrator/agent/evaluation directories remain placeholders rather than an implemented general scheduling engine.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L15436-L15615"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L4363-L4365"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L320-L322"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L4231-L4233"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
         }
       ]
     }

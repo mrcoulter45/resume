@@ -65,3 +65,24 @@ these narrower outcome questions separate:
 The older internship question about authored UVM coverage models remains distinct
 from this verified NoC safety-integration work. Formal titles, waveform-viewer use
 and the internal/public product-naming boundary remain as previously confirmed.
+
+## Gaps after direct shared-AI review
+
+The 2026-10-29 [shared-AI research](shared-ai-research.md) adds direct implementation
+and local-history evidence with Michael’s explicit repository-wide attribution.
+These remaining gaps concern outcomes/currency, not an unresolved author filter:
+
+| Area | Useful follow-up evidence | Record/source reference |
+| --- | --- | --- |
+| Release state of working-tree features | Dated landed/released versions and representative completed uses of current local-module, packaged-process, qualification and editor changes | `project-ai-harness#direct-review-scope`; `src-shared-ai-working-tree-2026-10-29` |
+| Current acceptance | Actual host-native and cluster/provider acceptance against current source/dependency/contract identities; four older complete publication manifests do not certify it | `accomp-ai-module-publication#operational-history`; `accomp-ai-isolated-agent-verification` |
+| Qualification completion | Complete current renderer/unit/matrix artifacts and consistent terminal manifests; retain September 21 interrupted evidence | `accomp-ai-gui-qualification#retained-interruption` |
+| Repair outcomes | More distinct patch-bound runs, skipped/retried/failed cases, intervention/time measurements and denominator; do not sum duplicate replay records | `accomp-ai-jenkins-repair#retained-run-evidence`, `#gate-semantics` |
+| Adoption and measured benefit | Dated user/team/workflow usage and measured before/after effort or latency; several engineers is already confirmed qualitatively | `project-ai-harness#design-adoption`; `project-ai-workbench#inspection-concurrency` |
+| Predecessor history | Authorized original umbrella/subtree history if needed; migration-doc hashes are absent locally and the initial publication is squashed | `src-shared-ai-history-2026-10-29`; `src-shared-ai-history-patches-2026-10-29` |
+| Native helpers | Dated live packaged-docs and multi-monitor checks; source/test definitions alone do not establish executed outcomes | `accomp-ai-packaged-docs-smoke`; `accomp-ai-native-window-placement` |
+| Evidence portability | Back up and restore ignored private source captures with their registered hashes before relying on another clone | `sources/private/shared-ai-review-2026-10-29/`; `sources/registry.json` |
+
+The explicit exclusion of the shared-AI root workspaces directory remains in force.
+This review does not reopen earlier IA/NoC attribution, degree/title corrections,
+Codex ownership boundaries or the separate historical 92-case integration baseline.

@@ -3,14 +3,14 @@
   "id": "skill-rust",
   "type": "skill",
   "title": "Rust",
-  "summary": "Rust asynchronous systems and shared native tooling core in supplied implementation analysis.",
+  "summary": "Rust/Tokio native developer-tool core verified through source inspection.",
   "organization": null,
   "role": null,
   "dates": {
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
+    "as_of": "2026-10-29",
     "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
   },
   "technologies": [
@@ -27,7 +27,8 @@
     "Rust"
   ],
   "related": [
-    "exp-arm-senior"
+    "exp-arm-senior",
+    "project-ai-workbench"
   ],
   "facts": [
     {
@@ -39,6 +40,30 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L436-L451"
+        }
+      ]
+    },
+    {
+      "id": "direct-workbench-context",
+      "text": "Applied Rust/Tokio to a shared desktop/CLI core, bounded asynchronous Git inspection, validated subprocess actions and persistent packaged-build/process management.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L8523-L8632"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L10144-L10250"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L6950-L6981"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
         }
       ]
     }

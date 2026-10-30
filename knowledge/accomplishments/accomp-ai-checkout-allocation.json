@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Git",
@@ -45,6 +45,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L86-L95"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L1851-L1888"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L2011-L2055"
         }
       ]
     },
@@ -57,6 +65,10 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L89-L104"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L1896-L2005"
         }
       ]
     },
@@ -69,6 +81,10 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L91-L95"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L2075-L2117"
         }
       ]
     },
@@ -85,9 +101,43 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L16-L16"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L7230-L7805"
+        },
+        {
+          "source_id": "src-shared-ai-test-definitions-2026-10-29",
+          "locator": "L14-L14"
+        }
+      ]
+    },
+    {
+      "id": "lease-identity",
+      "text": "Designed allocation as an ownership protocol with opaque lease tokens and paired checkout/session records: refresh and release require a matching token, while automatic expiry reclamation checks the marker's allocator metadata and untracked status before removal.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L1780-L1818"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L1896-L2005"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L2192-L2332"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
         }
       ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Expiry reclamation can remove a recognized, expired allocator marker without the original holder supplying its token. It validates marker metadata and untracked status, but does not prove that the original engineering session has stopped. Matching-token requirements apply to explicit refresh/release operations."
+  ]
 }

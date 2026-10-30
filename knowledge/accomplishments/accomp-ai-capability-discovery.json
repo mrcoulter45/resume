@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Python",
@@ -47,6 +47,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L43-L56"
+        },
+        {
+          "source_id": "src-shared-ai-bootstrap-2026-10-29",
+          "locator": "L521-L565"
+        },
+        {
+          "source_id": "src-shared-ai-bootstrap-2026-10-29",
+          "locator": "L930-L957"
         }
       ]
     },
@@ -59,6 +67,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L52-L56"
+        },
+        {
+          "source_id": "src-shared-ai-bootstrap-2026-10-29",
+          "locator": "L509-L518"
+        },
+        {
+          "source_id": "src-shared-ai-bootstrap-2026-10-29",
+          "locator": "L1255-L1278"
         }
       ]
     },
@@ -71,6 +87,10 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L59-L65"
+        },
+        {
+          "source_id": "src-shared-ai-bootstrap-2026-10-29",
+          "locator": "L1382-L1433"
         }
       ]
     },
@@ -87,9 +107,43 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L10-L16"
+        },
+        {
+          "source_id": "src-shared-ai-bootstrap-2026-10-29",
+          "locator": "L1619-L1932"
+        },
+        {
+          "source_id": "src-shared-ai-test-definitions-2026-10-29",
+          "locator": "L11-L11"
+        }
+      ]
+    },
+    {
+      "id": "metadata-and-fallback",
+      "text": "Made capability discovery validate required metadata and referenced prerequisites, normalize project aliases, and parse YAML through either PyYAML or a persistent Ruby/Psych fallback.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-bootstrap-2026-10-29",
+          "locator": "L290-L354"
+        },
+        {
+          "source_id": "src-shared-ai-bootstrap-2026-10-29",
+          "locator": "L604-L686"
+        },
+        {
+          "source_id": "src-shared-ai-bootstrap-2026-10-29",
+          "locator": "L1280-L1301"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
         }
       ]
     }
   ],
-  "notes": []
+  "notes": [
+    "The bootstrap scanner includes workspace instruction discovery. It was inspected as code but deliberately not invoked during this workspaces-excluded review. Catalog metadata and registration are discovery signals, not proof that every capability is healthy."
+  ]
 }

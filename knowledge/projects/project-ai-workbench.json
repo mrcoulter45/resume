@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Rust",
@@ -38,7 +38,9 @@
   "related": [
     "exp-arm-senior",
     "project-ai-harness",
-    "accomp-ai-workspace-isolation"
+    "accomp-ai-workspace-isolation",
+    "accomp-ai-packaged-docs-smoke",
+    "accomp-ai-native-window-placement"
   ],
   "facts": [
     {
@@ -50,6 +52,22 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L110-L144"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L16-L39"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L340-L386"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L3252-L3340"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L6807-L6921"
         }
       ]
     },
@@ -62,6 +80,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L122-L135"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L8523-L8541"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L2044-L2125"
         }
       ]
     },
@@ -74,6 +100,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L130-L132"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L7099-L7167"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L7309-L7459"
         }
       ]
     },
@@ -86,9 +120,55 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L116-L119"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L7016-L7097"
+        }
+      ]
+    },
+    {
+      "id": "inspection-concurrency",
+      "text": "Bound repository-inspection concurrency to four asynchronous tasks, then restore stable display ordering; keep renderer status updates separate from expensive dashboard Git refreshes.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L8523-L8541"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L2056-L2100"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    },
+    {
+      "id": "independent-ui-state",
+      "text": "Designed independent CPU/GPU controls and packaged-build/process views using React, TypeScript and TanStack Query, with targeted cache updates, build progress/error feedback and event-driven packaged-state invalidation.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L2044-L2125"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L1040-L1219"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
         }
       ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Bounded concurrency is an implemented responsiveness strategy, not a measured latency/speedup result. Cross-platform Rust structure does not prove every desktop action is supported or tested on every host; development renderer actions explicitly use a macOS backend."
+  ]
 }

@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Python",
@@ -45,6 +45,22 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L293-L299"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L1814-L1843"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L2359-L2423"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L226-L385"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L823-L982"
         }
       ]
     },
@@ -57,6 +73,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L302-L311"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L1483-L1549"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L2453-L2548"
         }
       ]
     },
@@ -69,6 +93,18 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L309-L311"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L2045-L2097"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L2168-L2171"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L2890-L2918"
         }
       ]
     },
@@ -85,11 +121,48 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L16-L16"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L4042-L4221"
+        },
+        {
+          "source_id": "src-shared-ai-test-definitions-2026-10-29",
+          "locator": "L7-L7"
+        },
+        {
+          "source_id": "src-shared-ai-test-definitions-2026-10-29",
+          "locator": "L8-L8"
+        },
+        {
+          "source_id": "src-shared-ai-test-definitions-2026-10-29",
+          "locator": "L9-L9"
+        }
+      ]
+    },
+    {
+      "id": "profile-preflight",
+      "text": "Separated lightweight MCP-runtime and full desktop-application package profiles, rejecting cross-host production builds and checking the product-owned asset/script contract before starting expensive packaging.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L2660-L2747"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L2777-L2887"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
         }
       ]
     }
   ],
   "notes": [
-    "Host-native local rehearsal is distinct from RHEL compatibility, Depot/Lmod publication, LSF execution and cluster-provider acceptance."
+    "Host-native local rehearsal is distinct from RHEL compatibility, Depot/Lmod publication, LSF execution and cluster-provider acceptance.",
+    "Read-only permissions, inventories and no-overwrite identities are integrity controls, not proof of bit-for-bit reproducible builds across machines. Builds include external interpreters/toolchains whose identities and compatibility remain part of the recorded context."
   ]
 }

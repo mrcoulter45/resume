@@ -10,7 +10,7 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
+    "as_of": "2026-10-29",
     "note": "No additional date precision is supplied. Skill usage belongs to associated projects and employment periods; no years of proficiency are inferred."
   },
   "technologies": [
@@ -26,7 +26,8 @@
   ],
   "related": [
     "project-interconnect-architect",
-    "exp-arm-senior"
+    "exp-arm-senior",
+    "project-ai-workbench"
   ],
   "facts": [
     {
@@ -58,6 +59,30 @@
         {
           "source_id": "src-ia-implementation-2026-10-27",
           "locator": "L2952-L3184"
+        }
+      ]
+    },
+    {
+      "id": "shared-workbench-context",
+      "text": "Applied TypeScript to typed Tauri IPC contracts, a React engineering dashboard and mocked/live-opt-in Playwright frontend verification assets.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L3970-L4099"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L4170-L4279"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L5027-L5126"
         }
       ]
     }

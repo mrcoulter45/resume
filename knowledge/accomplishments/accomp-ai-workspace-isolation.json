@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Git",
@@ -45,6 +45,18 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L74-L83"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L6151-L6240"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L1476-L1514"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L1567-L1587"
         }
       ]
     },
@@ -57,6 +69,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L77-L83"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L6262-L6352"
+        },
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L1168-L1205"
         }
       ]
     },
@@ -69,9 +89,39 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L80-L83"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L6081-L6191"
+        }
+      ]
+    },
+    {
+      "id": "task-lifecycle",
+      "text": "Separated persistent task definitions and context from disposable session state, with task aliases/nested paths, stale-binding warnings, refusal to archive bound tasks, and archive/restore history.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L6581-L6750"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L1476-L1514"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L1567-L1587"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
         }
       ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Task archival moves task metadata; it is distinct from creating a Git snapshot of a checkout. The scripts do not establish an atomic transaction across every archive/history write."
+  ]
 }

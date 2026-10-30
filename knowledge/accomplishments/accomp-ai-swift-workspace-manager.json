@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Swift",
@@ -44,6 +44,18 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L110-L119"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L3176-L3355"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L4359-L4430"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L4501-L4545"
         }
       ]
     },
@@ -56,9 +68,23 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L116-L116"
+        },
+        {
+          "source_id": "src-shared-ai-workbench-2026-10-29",
+          "locator": "L6965-L6975"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L413-L542"
+        },
+        {
+          "source_id": "src-shared-ai-workspaces-2026-10-29",
+          "locator": "L4099-L4216"
         }
       ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Native SwiftUI launcher and later Tauri Workbench are related interfaces over shared workspace scripts; do not count their delegated backend operations as separate product features."
+  ]
 }

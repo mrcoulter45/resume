@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Playwright",
@@ -45,6 +45,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L332-L338"
+        },
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L229-L316"
+        },
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L372-L414"
         }
       ]
     },
@@ -57,6 +65,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L341-L351"
+        },
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L1049-L1162"
+        },
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L1499-L1583"
         }
       ]
     },
@@ -69,6 +85,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L344-L351"
+        },
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L1049-L1162"
+        },
+        {
+          "source_id": "src-shared-ai-editor-2026-10-29",
+          "locator": "L1499-L1583"
         }
       ]
     },
@@ -81,9 +105,23 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L354-L367"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L14659-L14690"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L14838-L14978"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L14191-L14253"
         }
       ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Live discovery followed by a second exact-ID discovery is the mechanism supporting selection; this evidence strengthens the existing selection/ambiguity facts instead of adding a duplicate accomplishment."
+  ]
 }

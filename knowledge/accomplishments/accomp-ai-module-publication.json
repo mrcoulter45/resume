@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Python",
@@ -48,6 +48,10 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L257-L278"
+        },
+        {
+          "source_id": "src-shared-ai-publication-2026-10-29",
+          "locator": "L2165-L2176"
         }
       ]
     },
@@ -60,6 +64,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L260-L263"
+        },
+        {
+          "source_id": "src-shared-ai-publication-2026-10-29",
+          "locator": "L1631-L1708"
+        },
+        {
+          "source_id": "src-shared-ai-publication-2026-10-29",
+          "locator": "L2179-L2245"
         }
       ]
     },
@@ -72,6 +84,22 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L266-L275"
+        },
+        {
+          "source_id": "src-shared-ai-publication-2026-10-29",
+          "locator": "L2334-L2513"
+        },
+        {
+          "source_id": "src-shared-ai-publication-2026-10-29",
+          "locator": "L1864-L1929"
+        },
+        {
+          "source_id": "src-shared-ai-publication-2026-10-29",
+          "locator": "L2513-L2697"
+        },
+        {
+          "source_id": "src-shared-ai-publication-2026-10-29",
+          "locator": "L2698-L2829"
         }
       ]
     },
@@ -84,6 +112,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L278-L281"
+        },
+        {
+          "source_id": "src-shared-ai-publication-2026-10-29",
+          "locator": "L618-L662"
+        },
+        {
+          "source_id": "src-shared-ai-publication-2026-10-29",
+          "locator": "L867-L958"
         }
       ]
     },
@@ -100,11 +136,44 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L16-L16"
+        },
+        {
+          "source_id": "src-shared-ai-publication-2026-10-29",
+          "locator": "L3339-L3518"
+        },
+        {
+          "source_id": "src-shared-ai-publication-2026-10-29",
+          "locator": "L2905-L3044"
+        },
+        {
+          "source_id": "src-shared-ai-test-definitions-2026-10-29",
+          "locator": "L5-L5"
+        },
+        {
+          "source_id": "src-shared-ai-test-definitions-2026-10-29",
+          "locator": "L4-L4"
+        }
+      ]
+    },
+    {
+      "id": "operational-history",
+      "text": "Fifteen retained publication manifests contain four complete historical runs, ten failed runs and one rejected artifact. The four complete runs, dated July 31 through August 5, record all 13 phases complete, including publication/propagation and packaged acceptance under their historical contracts; later failures include build/install and acceptance. These are retained records, not new execution or a representative success-rate study.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-retained-outcomes-2026-10-29",
+          "locator": "L7-L36"
+        },
+        {
+          "source_id": "src-shared-ai-retained-outcomes-2026-10-29",
+          "locator": "L922-L924"
         }
       ]
     }
   ],
   "notes": [
-    "Do not claim every proposed publication/acceptance lane ran. Mechanism implementation and live publication outcomes are separate evidence categories."
+    "Do not claim every proposed publication/acceptance lane ran. Mechanism implementation and live publication outcomes are separate evidence categories.",
+    "The initial supplied analysis inspected mechanisms without running them. The October 29 review additionally reads retained historical manifests; that supports historical recorded use, not a current acceptance pass or independently replayed release."
   ]
 }

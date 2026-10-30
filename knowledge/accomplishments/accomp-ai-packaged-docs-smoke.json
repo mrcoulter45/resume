@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "id": "accomp-ai-packaged-docs-smoke",
+  "type": "accomplishment",
+  "title": "Isolated macOS packaged-documentation smoke automation",
+  "summary": "Copied-source builds regenerate documentation and check the actual packaged Electron documentation-opening path.",
+  "organization": "Arm",
+  "role": "Designer and implementer",
+  "dates": {
+    "start": null,
+    "end": null,
+    "ongoing": false,
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
+  },
+  "technologies": [
+    "Python",
+    "JavaScript",
+    "Node.js",
+    "Electron",
+    "CDP",
+    "WebSocket",
+    "Doxygen",
+    "rsync",
+    "macOS"
+  ],
+  "competencies": [
+    "Desktop packaging",
+    "Integration testing",
+    "Environment isolation",
+    "Failure diagnosis"
+  ],
+  "tags": [
+    "documentation",
+    "packaged application",
+    "smoke automation"
+  ],
+  "related": [
+    "project-ai-harness",
+    "project-interconnect-architect",
+    "accomp-ai-immutable-local-modules"
+  ],
+  "facts": [
+    {
+      "id": "pipeline",
+      "text": "Automated isolated macOS application builds by copying a selected checkout with root-anchored exclusions, creating a documentation environment, regenerating Doxygen and invoking the existing desktop builder.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-isolated-docs-2026-10-29",
+          "locator": "L142-L168"
+        },
+        {
+          "source_id": "src-shared-ai-isolated-docs-2026-10-29",
+          "locator": "L367-L450"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    },
+    {
+      "id": "electron-contract",
+      "text": "Added a packaged-documentation smoke check that launches Electron, waits for a debugging target, invokes the real documentation-opening IPC through CDP/WebSocket evaluation, and verifies the resulting page uses the packaged documentation asset path.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-isolated-docs-2026-10-29",
+          "locator": "L182-L192"
+        },
+        {
+          "source_id": "src-shared-ai-isolated-docs-2026-10-29",
+          "locator": "L453-L583"
+        },
+        {
+          "source_id": "src-shared-ai-isolated-docs-2026-10-29",
+          "locator": "L646-L715"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    },
+    {
+      "id": "slot-and-failure-controls",
+      "text": "Derived debugging ports from workspace slots and bounded application-readiness/documentation-window waits, reporting early process exit and failed IPC results.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-isolated-docs-2026-10-29",
+          "locator": "L246-L260"
+        },
+        {
+          "source_id": "src-shared-ai-isolated-docs-2026-10-29",
+          "locator": "L458-L484"
+        },
+        {
+          "source_id": "src-shared-ai-isolated-docs-2026-10-29",
+          "locator": "L543-L583"
+        },
+        {
+          "source_id": "src-shared-ai-isolated-docs-2026-10-29",
+          "locator": "L685-L702"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    },
+    {
+      "id": "implementation-boundary",
+      "text": "This ignored local helper has eight focused Python test definitions, not executed here. It deletes/rebuilds a selected target and uses process-pattern termination; it is distinct from the immutable module subsystem and does not have that subsystem’s process-identity guarantees.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-isolated-docs-2026-10-29",
+          "locator": "L331-L381"
+        },
+        {
+          "source_id": "src-shared-ai-isolated-docs-2026-10-29",
+          "locator": "L725-L801"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

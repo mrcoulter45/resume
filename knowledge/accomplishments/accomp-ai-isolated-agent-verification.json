@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Codex",
@@ -45,6 +45,10 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L314-L317"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L3106-L3270"
         }
       ]
     },
@@ -57,6 +61,10 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L314-L320"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L3487-L3685"
         }
       ]
     },
@@ -69,11 +77,40 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L320-L326"
+        },
+        {
+          "source_id": "src-shared-ai-architecture-knowledge-2026-10-29",
+          "locator": "L12109-L12177"
+        }
+      ]
+    },
+    {
+      "id": "provider-projection",
+      "text": "Projected only the selected provider configuration and required authentication inputs into session-local agent state, verified the provider fingerprint and exact packaged MCP registration, and rejected unexpected symlinks or source-checkout references.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L1630-L1711"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L3200-L3270"
+        },
+        {
+          "source_id": "src-shared-ai-local-modules-2026-10-29",
+          "locator": "L3593-L3663"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
         }
       ]
     }
   ],
   "notes": [
-    "The supplied analysis inspected verification implementation without executing it. Do not convert implementation checks into an unrecorded live run, repeated benchmark or pass percentage."
+    "The supplied analysis inspected verification implementation without executing it. Do not convert implementation checks into an unrecorded live run, repeated benchmark or pass percentage.",
+    "The isolated environment intentionally retains selected authentication/provider inputs, system executables and the user home; this is context isolation rather than an air gap or OS-enforced sandbox. Verification gates were read, not executed."
   ]
 }

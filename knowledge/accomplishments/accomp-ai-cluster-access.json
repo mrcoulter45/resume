@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "OpenSSH",
@@ -45,6 +45,18 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L180-L186"
+        },
+        {
+          "source_id": "src-shared-ai-cluster-2026-10-29",
+          "locator": "L3037-L3216"
+        },
+        {
+          "source_id": "src-shared-ai-cluster-2026-10-29",
+          "locator": "L3125-L3163"
+        },
+        {
+          "source_id": "src-shared-ai-cluster-2026-10-29",
+          "locator": "L3243-L3300"
         }
       ]
     },
@@ -57,6 +69,22 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L189-L189"
+        },
+        {
+          "source_id": "src-shared-ai-cluster-2026-10-29",
+          "locator": "L294-L493"
+        },
+        {
+          "source_id": "src-shared-ai-cluster-2026-10-29",
+          "locator": "L473-L510"
+        },
+        {
+          "source_id": "src-shared-ai-cluster-2026-10-29",
+          "locator": "L562-L643"
+        },
+        {
+          "source_id": "src-shared-ai-cluster-2026-10-29",
+          "locator": "L671-L722"
         }
       ]
     },
@@ -69,12 +97,25 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L207-L210"
+        },
+        {
+          "source_id": "src-shared-ai-cluster-2026-10-29",
+          "locator": "L1678-L1857"
+        },
+        {
+          "source_id": "src-shared-ai-cluster-2026-10-29",
+          "locator": "L1822-L1848"
+        },
+        {
+          "source_id": "src-shared-ai-cluster-2026-10-29",
+          "locator": "L1927-L1957"
         }
       ]
     }
   ],
   "notes": [
     "The 35-host pool is configured orchestration scope, not a measured scale or throughput outcome.",
-    "No numerical transfer-throughput improvement or enterprise-wide identity service is established."
+    "No numerical transfer-throughput improvement or enterprise-wide identity service is established.",
+    "Shell tools include dedicated mock/fixture tests as well as Python transfer tests. They were inspected without invoking SSH, SMB, host probes or network transfers."
   ]
 }

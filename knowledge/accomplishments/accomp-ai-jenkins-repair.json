@@ -10,8 +10,8 @@
     "start": null,
     "end": null,
     "ongoing": false,
-    "as_of": "2026-10-27",
-    "note": "Exact start/end dates are not documented. Technical mechanisms are reported in the October 5, 2026 snapshot; any later owner clarifications are cited per fact."
+    "as_of": "2026-10-29",
+    "note": "Exact project start/end dates remain unknown. Direct local source/history review on 2026-10-29 supplements the supplied October 5 snapshot and separately dated owner statements. Commit milestones and review dates are not project starts or release dates."
   },
   "technologies": [
     "Codex",
@@ -88,6 +88,14 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L219-L225"
+        },
+        {
+          "source_id": "src-shared-ai-repair-2026-10-29",
+          "locator": "L512-L620"
+        },
+        {
+          "source_id": "src-shared-ai-repair-2026-10-29",
+          "locator": "L1214-L1261"
         }
       ]
     },
@@ -112,6 +120,18 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L228-L242"
+        },
+        {
+          "source_id": "src-shared-ai-repair-2026-10-29",
+          "locator": "L1596-L1612"
+        },
+        {
+          "source_id": "src-shared-ai-repair-2026-10-29",
+          "locator": "L1690-L1714"
+        },
+        {
+          "source_id": "src-shared-ai-repair-2026-10-29",
+          "locator": "L1818-L1899"
         }
       ]
     },
@@ -128,6 +148,82 @@
         {
           "source_id": "src-ai-analysis",
           "locator": "L16-L16"
+        },
+        {
+          "source_id": "src-shared-ai-repair-2026-10-29",
+          "locator": "L2615-L2794"
+        },
+        {
+          "source_id": "src-shared-ai-test-definitions-2026-10-29",
+          "locator": "L10-L10"
+        }
+      ]
+    },
+    {
+      "id": "selection-sensitive-validation",
+      "text": "Prevented failed-only replays from certifying changes to matrix selection: finalization requires separate cluster validation of the updated matrix when pipeline/selection paths change, alongside failure classification and post-patch replay gates.",
+      "status": "reported",
+      "visibility": "public",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-repair-2026-10-29",
+          "locator": "L1013-L1018"
+        },
+        {
+          "source_id": "src-shared-ai-repair-2026-10-29",
+          "locator": "L1165-L1211"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    },
+    {
+      "id": "gate-semantics",
+      "text": "The implemented gate requires three clean latest-patch replays for faulty/flaky-test classifications; application/pipeline defects require a clean replay and passed focused validation. Legacy records without patch hashes can match by timestamp. A clean exit/selection/retry check alone does not establish that every selected test passed rather than skipped.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-repair-2026-10-29",
+          "locator": "L1021-L1046"
+        },
+        {
+          "source_id": "src-shared-ai-repair-2026-10-29",
+          "locator": "L1150-L1211"
+        },
+        {
+          "source_id": "src-shared-ai-owner-scope-2026-10-29",
+          "locator": "L6-L29"
+        }
+      ]
+    },
+    {
+      "id": "retained-run-evidence",
+      "text": "Retained repair session 1463 records three final, distinct-job replays of the same patch, each selecting one test and reporting one pass with no failures/skips/timeouts; retained log summaries agree. Finalization records three file inventories and staged=false/committed=false. Session 1243 instead ends with three passes and one skip per final replay and must retain that distinction.",
+      "status": "reported",
+      "visibility": "private",
+      "evidence": [
+        {
+          "source_id": "src-shared-ai-retained-outcomes-2026-10-29",
+          "locator": "L1173-L1372"
+        },
+        {
+          "source_id": "src-shared-ai-retained-outcomes-2026-10-29",
+          "locator": "L1031-L1220"
+        },
+        {
+          "source_id": "src-shared-ai-retained-outcomes-2026-10-29",
+          "locator": "L1297-L1305"
+        },
+        {
+          "source_id": "src-shared-ai-retained-outcomes-2026-10-29",
+          "locator": "L1307-L1315"
+        },
+        {
+          "source_id": "src-shared-ai-retained-outcomes-2026-10-29",
+          "locator": "L1317-L1325"
         }
       ]
     }
