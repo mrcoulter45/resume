@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "company": "Netflix",
+  "role": "Visualization Engineer 5 - AI Infrastructure & Productivity Tooling",
+  "example": false,
+  "source": "job.md",
+  "source_sha256": "b536da6afc618e730d1b197d5dc340f7e8030024a34c0b15d94082ec235612c4",
+  "captured": "2026-11-07",
+  "requirements": [
+    {
+      "id": "fullstack",
+      "text": "Build full-stack React/TypeScript and GraphQL-backed visual products.",
+      "importance": "required",
+      "terms": [
+        "Build",
+        "stack",
+        "React",
+        "TypeScript"
+      ],
+      "locator": "L7-L7"
+    },
+    {
+      "id": "data",
+      "text": "Work with SQL relational data modeling and analytics stakeholders.",
+      "importance": "required",
+      "terms": [
+        "relational",
+        "modeling",
+        "analytics",
+        "stakeholders"
+      ],
+      "locator": "L8-L8"
+    },
+    {
+      "id": "ownership",
+      "text": "Independently own data-rich engineering products end to end.",
+      "importance": "required",
+      "terms": [
+        "Independently",
+        "engineering",
+        "products"
+      ],
+      "locator": "L9-L9"
+    },
+    {
+      "id": "aiusage",
+      "text": "Build AI coding-agent productivity analytics and tooling.",
+      "importance": "responsibility",
+      "terms": [
+        "Build",
+        "coding",
+        "agent",
+        "productivity"
+      ],
+      "locator": "L10-L10"
+    },
+    {
+      "id": "analytics",
+      "text": "Cloud infrastructure efficiency analytics, Druid or Iceberg.",
+      "importance": "preferred",
+      "terms": [
+        "Cloud",
+        "infrastructure",
+        "efficiency",
+        "analytics"
+      ],
+      "locator": "L11-L11"
+    }
+  ]
+}

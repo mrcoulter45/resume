@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "company": "Netflix",
+  "role": "Visualization Engineer 5 - AI Infrastructure & Productivity Tooling",
+  "example": false,
+  "prepared_date": "2026-11-07",
+  "positioning": "Prioritize direct production engineering evidence for this role while preserving all documented scope boundaries.",
+  "identity": [
+    {
+      "text": "Michael Remington Coulter",
+      "refs": [
+        "profile-michael#name"
+      ],
+      "verbatim": false
+    },
+    {
+      "text": "Buda, TX | mrcoulter45@gmail.com | (760) 694-6310",
+      "refs": [
+        "profile-michael#location",
+        "profile-michael#email",
+        "profile-michael#phone"
+      ],
+      "verbatim": false
+    },
+    {
+      "text": "LinkedIn and GitHub links",
+      "refs": [
+        "profile-michael#linkedin",
+        "profile-michael#github"
+      ],
+      "verbatim": false
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Professional Summary",
+      "entries": [
+        {
+          "text": "Full-stack senior engineer building data-rich, interactive engineering products for technical stakeholders. Deep Angular/TypeScript/Python product ownership, professional React/Node/PostgreSQL delivery and current AI productivity-tooling expertise.",
+          "refs": [
+            "project-interconnect-architect#production",
+            "project-interconnect-architect#cross-layer-delivery",
+            "project-pelion-ml#dashboard-auth",
+            "project-pelion-ml#database"
+          ],
+          "kind": "paragraph",
+          "verbatim": false
+        }
+      ]
+    },
+    {
+      "heading": "Professional Experience",
+      "entries": [
+        {
+          "text": "Arm — Senior Software Engineer | Austin, TX | April 2023–Present",
+          "refs": [
+            "exp-arm-senior#employment"
+          ],
+          "kind": "subheading",
+          "verbatim": false
+        },
+        {
+          "text": "Owns coherent-mesh GUI tooling for Arm Interconnect Architect as functional CMN GUI Lead, turning hierarchical SoC hardware configurations into interactive editors and graph views.",
+          "refs": [
+            "leadership-cmn-gui#ownership",
+            "leadership-cmn-gui#scope"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Shipped customer-driven production features requested by external Arm interconnect licensees and senior technical stakeholders.",
+          "refs": [
+            "project-interconnect-architect#production"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Delivered cross-layer workflows integrating Angular/TypeScript components, Electron/Node, Python engine APIs and automated qualification tools.",
+          "refs": [
+            "project-interconnect-architect#cross-layer-delivery"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Created reusable, metadata-driven Angular controls for hardware bitfields and constrained parameters across editing surfaces.",
+          "refs": [
+            "accomplishment-metadata-parameter-controls#reusable-control",
+            "accomplishment-metadata-parameter-controls#mode-sensitive-fields"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Introduced Pixi.js to improve canvas performance; optimized interaction processing through cached geometry, frame-batched updates and event lifecycle cleanup.",
+          "refs": [
+            "accomplishment-canvas-performance#pixi",
+            "accomplishment-canvas-performance#optimizations",
+            "accomplishment-canvas-performance#cleanup"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Developed structured diagnostic trees surfacing validation severity, affected components and underlying backend logs.",
+          "refs": [
+            "accomplishment-structured-drc-diagnostics#diagnostic-tree"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Built an internally adopted Codex engineering harness and automatic engineering-memory workflows, gaining hands-on insight into developer-agent productivity.",
+          "refs": [
+            "project-ai-harness#design-adoption",
+            "lead-ai-engineering-memory#dynamic-memory"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Arm — Software Engineer | Austin, TX | April 2020–April 2023",
+          "refs": [
+            "exp-arm-software#employment"
+          ],
+          "kind": "subheading",
+          "verbatim": false
+        },
+        {
+          "text": "Implemented React dashboard components, Flask backend notebook-lifecycle services, PostgreSQL schemas and end-to-end system tests for the Pelion Machine Learning platform.",
+          "refs": [
+            "project-pelion-ml#dashboard-auth",
+            "project-pelion-ml#notebook-lifecycle",
+            "project-pelion-ml#database",
+            "project-pelion-ml#system-testing"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Used Kubernetes persistent storage backed by AWS EFS for Jupyter notebooks; developed related web services and sensor-data applications with React, Node.js/Express and PostgreSQL.",
+          "refs": [
+            "accomplishment-pelion-notebook-persistence#persistence",
+            "project-pelion-space-analytics#backend",
+            "project-pelion-space-analytics#frontend-auth",
+            "project-pelion-space-analytics#database"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Arm — Graduate Software Engineer | Austin, TX | January 2019–April 2020",
+          "refs": [
+            "exp-arm-graduate#employment"
+          ],
+          "kind": "subheading",
+          "verbatim": false
+        },
+        {
+          "text": "Built FPGA master/slave Verilog test modules and C++ Mbed OS firmware for embedded-board I/O qualification as part of the Mbed OS FPGA CI Test Shield.",
+          "refs": [
+            "project-mbed-fpga-test-shield#modules"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        }
+      ]
+    },
+    {
+      "heading": "Education",
+      "entries": [
+        {
+          "text": "**The University of Texas at Austin** — B.S. Electrical and Computer Engineering, December 2018. Focus: Computer Architecture and Embedded Systems; Integrated Circuits.",
+          "refs": [
+            "education-ut-austin-bs#degree",
+            "education-ut-austin-bs#focus"
+          ],
+          "kind": "paragraph",
+          "verbatim": false
+        }
+      ]
+    },
+    {
+      "heading": "Technical Skills",
+      "entries": [
+        {
+          "text": "Angular, TypeScript, JavaScript, React, RxJS, Electron, Pixi.js, Python, Flask, Node.js/Express, PostgreSQL/SQL, REST APIs, Codex, MCP, Git.",
+          "refs": [
+            "project-interconnect-architect#application",
+            "project-pelion-ml#dashboard-auth",
+            "project-pelion-ml#database",
+            "project-ai-harness#design-adoption",
+            "skill-playwright#desktop-qualification",
+            "project-ai-workbench#architecture",
+            "project-mbed-fpga-test-shield#modules"
+          ],
+          "kind": "paragraph",
+          "verbatim": false
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "requirement_id": "fullstack",
+      "coverage": "partial",
+      "refs": [
+        "project-interconnect-architect#cross-layer-delivery",
+        "project-pelion-ml#dashboard-auth"
+      ],
+      "reason": "Strong full stack evidence, direct GraphQL not documented."
+    },
+    {
+      "requirement_id": "data",
+      "coverage": "strong",
+      "refs": [
+        "project-pelion-ml#database",
+        "project-pelion-space-analytics#database"
+      ],
+      "reason": "Database implementation and performance testing."
+    },
+    {
+      "requirement_id": "ownership",
+      "coverage": "strong",
+      "refs": [
+        "project-interconnect-architect#production",
+        "leadership-cmn-gui#ownership"
+      ],
+      "reason": "Sustained technical lead and customer delivery."
+    },
+    {
+      "requirement_id": "aiusage",
+      "coverage": "partial",
+      "refs": [
+        "project-ai-harness#design-adoption"
+      ],
+      "reason": "Agent tool experience documented; direct tokenomics analytics not."
+    },
+    {
+      "requirement_id": "analytics",
+      "coverage": "gap",
+      "refs": [],
+      "reason": "No directly documented production cloud-spend/analytics stores."
+    }
+  ],
+  "decisions": [
+    "No invented metrics, titles or operating scale.",
+    "Preserve public confirmed/reported career-fact boundaries.",
+    "Digest references the original employer posting rather than reproducing it."
+  ],
+  "follow_up": [
+    "Confirm active vacancy and location-specific compensation.",
+    "Run career.py build/audit and check exported résumé layout."
+  ],
+  "review_notes": "All bullet paragraphs were individually mapped to public career records. This is a manually prepared selection; the repository CLI build and audit have not been executed."
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "company": "Netflix",
+  "role": "Software Engineer 5 - TV Developer Lifecycle: Test Infrastructure",
+  "example": false,
+  "source": "job.md",
+  "source_sha256": "b2725b8915fd023e734edb885ac4cee39b373eef5d657e211b684eedc591ab20",
+  "captured": "2026-11-07",
+  "requirements": [
+    {
+      "id": "testing",
+      "text": "Own distributed test orchestration, CLI tools, device suites and observability.",
+      "importance": "required",
+      "terms": [
+        "distributed",
+        "orchestration",
+        "tools",
+        "device"
+      ],
+      "locator": "L7-L7"
+    },
+    {
+      "id": "reliability",
+      "text": "Improve flaky-test diagnosis, quality and test pipeline reliability.",
+      "importance": "required",
+      "terms": [
+        "Improve",
+        "flaky",
+        "diagnosis",
+        "quality"
+      ],
+      "locator": "L8-L8"
+    },
+    {
+      "id": "javascript",
+      "text": "Develop TypeScript/JavaScript testing and CI infrastructure.",
+      "importance": "required",
+      "terms": [
+        "Develop",
+        "TypeScript",
+        "JavaScript",
+        "testing"
+      ],
+      "locator": "L9-L9"
+    },
+    {
+      "id": "agentic",
+      "text": "Engineer agentic pull-request and CI workflows.",
+      "importance": "preferred",
+      "terms": [
+        "Engineer",
+        "agentic",
+        "request",
+        "workflows"
+      ],
+      "locator": "L10-L10"
+    },
+    {
+      "id": "scale",
+      "text": "Manage TV device fleets, sharding and high-scale operational incidents.",
+      "importance": "preferred",
+      "terms": [
+        "Manage",
+        "device",
+        "fleets",
+        "sharding"
+      ],
+      "locator": "L11-L11"
+    }
+  ]
+}

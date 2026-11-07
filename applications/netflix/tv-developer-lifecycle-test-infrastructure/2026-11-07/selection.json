@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "company": "Netflix",
+  "role": "Software Engineer 5 - TV Developer Lifecycle: Test Infrastructure",
+  "example": false,
+  "prepared_date": "2026-11-07",
+  "positioning": "Prioritize direct production engineering evidence for this role while preserving all documented scope boundaries.",
+  "identity": [
+    {
+      "text": "Michael Remington Coulter",
+      "refs": [
+        "profile-michael#name"
+      ],
+      "verbatim": false
+    },
+    {
+      "text": "Buda, TX | mrcoulter45@gmail.com | (760) 694-6310",
+      "refs": [
+        "profile-michael#location",
+        "profile-michael#email",
+        "profile-michael#phone"
+      ],
+      "verbatim": false
+    },
+    {
+      "text": "LinkedIn and GitHub links",
+      "refs": [
+        "profile-michael#linkedin",
+        "profile-michael#github"
+      ],
+      "verbatim": false
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Professional Summary",
+      "entries": [
+        {
+          "text": "Senior software engineer shipping complex TypeScript/Python engineering applications and building practical developer-productivity infrastructure, with substantial Playwright/Jenkins experience and team-used agentic CI repair.",
+          "refs": [
+            "project-interconnect-architect#production",
+            "skill-playwright#desktop-qualification",
+            "accomp-ai-jenkins-repair#workflow"
+          ],
+          "kind": "paragraph",
+          "verbatim": false
+        }
+      ]
+    },
+    {
+      "heading": "Professional Experience",
+      "entries": [
+        {
+          "text": "Arm — Senior Software Engineer | Austin, TX | April 2023–Present",
+          "refs": [
+            "exp-arm-senior#employment"
+          ],
+          "kind": "subheading",
+          "verbatim": false
+        },
+        {
+          "text": "Built a team-used Codex skill to investigate failing GUI Playwright tests in actual Jenkins cluster checkouts, implement targeted fixes and replay the affected tests.",
+          "refs": [
+            "accomp-ai-jenkins-repair#workflow"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Engineered an autonomous diagnose/fix/retest loop with a three-consecutive-clean-run validation gate; returned patches to humans for review, commit and push.",
+          "refs": [
+            "accomp-ai-jenkins-repair#review-gate"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Developed product-aware Electron/Playwright regression infrastructure with configuration-engine-driven input fixtures and renderer/persistence assertions.",
+          "refs": [
+            "skill-playwright#desktop-qualification"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Built GUI qualification workflows spanning prerequisites, Angular/Karma and Playwright execution, artifact retention and explicit reporting of incomplete evidence.",
+          "refs": [
+            "accomp-ai-gui-qualification#runner",
+            "accomp-ai-gui-qualification#evidence-state-machine"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Implemented precise Playwright test selection using reporter-based discovery and exact-ID confirmation, safely refusing ambiguous selections.",
+          "refs": [
+            "accomp-ai-precise-test-selection#selection",
+            "accomp-ai-precise-test-selection#ambiguity"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Designed a modular Codex engineering harness with reusable tools, skills and persistent context used by several engineers.",
+          "refs": [
+            "project-ai-harness#design-adoption"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Shipped and maintained the Arm Interconnect Architect product across Angular/TypeScript, Electron/Node, Python backend APIs and regression tooling for sophisticated engineering users.",
+          "refs": [
+            "project-interconnect-architect#production",
+            "project-interconnect-architect#cross-layer-delivery"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Arm — Software Engineer | Austin, TX | April 2020–April 2023",
+          "refs": [
+            "exp-arm-software#employment"
+          ],
+          "kind": "subheading",
+          "verbatim": false
+        },
+        {
+          "text": "Implemented React dashboard components, Flask backend notebook-lifecycle services, PostgreSQL schemas and end-to-end system tests for the Pelion Machine Learning platform.",
+          "refs": [
+            "project-pelion-ml#dashboard-auth",
+            "project-pelion-ml#notebook-lifecycle",
+            "project-pelion-ml#database",
+            "project-pelion-ml#system-testing"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Used Kubernetes persistent storage backed by AWS EFS for Jupyter notebooks; developed related web services and sensor-data applications with React, Node.js/Express and PostgreSQL.",
+          "refs": [
+            "accomplishment-pelion-notebook-persistence#persistence",
+            "project-pelion-space-analytics#backend",
+            "project-pelion-space-analytics#frontend-auth",
+            "project-pelion-space-analytics#database"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Arm — Graduate Software Engineer | Austin, TX | January 2019–April 2020",
+          "refs": [
+            "exp-arm-graduate#employment"
+          ],
+          "kind": "subheading",
+          "verbatim": false
+        },
+        {
+          "text": "Built FPGA master/slave Verilog test modules and C++ Mbed OS firmware for embedded-board I/O qualification as part of the Mbed OS FPGA CI Test Shield.",
+          "refs": [
+            "project-mbed-fpga-test-shield#modules"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        }
+      ]
+    },
+    {
+      "heading": "Education",
+      "entries": [
+        {
+          "text": "**The University of Texas at Austin** — B.S. Electrical and Computer Engineering, December 2018. Focus: Computer Architecture and Embedded Systems; Integrated Circuits.",
+          "refs": [
+            "education-ut-austin-bs#degree",
+            "education-ut-austin-bs#focus"
+          ],
+          "kind": "paragraph",
+          "verbatim": false
+        }
+      ]
+    },
+    {
+      "heading": "Technical Skills",
+      "entries": [
+        {
+          "text": "TypeScript/JavaScript, Python, Playwright, Jenkins, CI/CD, Angular, Electron, Node.js, React, PostgreSQL, Rust, Git, Codex agent tooling.",
+          "refs": [
+            "project-interconnect-architect#application",
+            "project-pelion-ml#dashboard-auth",
+            "project-pelion-ml#database",
+            "project-ai-harness#design-adoption",
+            "skill-playwright#desktop-qualification",
+            "project-ai-workbench#architecture",
+            "project-mbed-fpga-test-shield#modules"
+          ],
+          "kind": "paragraph",
+          "verbatim": false
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "requirement_id": "testing",
+      "coverage": "partial",
+      "refs": [
+        "skill-playwright#desktop-qualification"
+      ],
+      "reason": "Real GUI test frameworks; no large device fleet operations evidenced."
+    },
+    {
+      "requirement_id": "reliability",
+      "coverage": "strong",
+      "refs": [
+        "accomp-ai-jenkins-repair#workflow",
+        "accomp-ai-jenkins-repair#review-gate"
+      ],
+      "reason": "Implemented autonomous repair and three-run qualification gate."
+    },
+    {
+      "requirement_id": "javascript",
+      "coverage": "strong",
+      "refs": [
+        "project-interconnect-architect#cross-layer-delivery",
+        "skill-playwright#desktop-qualification"
+      ],
+      "reason": "Production TypeScript and Playwright."
+    },
+    {
+      "requirement_id": "agentic",
+      "coverage": "strong",
+      "refs": [
+        "project-ai-harness#design-adoption",
+        "accomp-ai-jenkins-repair#workflow"
+      ],
+      "reason": "Shared Codex agent and CI repair system."
+    },
+    {
+      "requirement_id": "scale",
+      "coverage": "gap",
+      "refs": [],
+      "reason": "No documented TV-device fleet or on-call responsibility."
+    }
+  ],
+  "decisions": [
+    "No invented metrics, titles or operating scale.",
+    "Preserve public confirmed/reported career-fact boundaries.",
+    "Digest references the original employer posting rather than reproducing it."
+  ],
+  "follow_up": [
+    "Confirm active vacancy and location-specific compensation.",
+    "Run career.py build/audit and check exported résumé layout."
+  ],
+  "review_notes": "All bullet paragraphs were individually mapped to public career records. This is a manually prepared selection; the repository CLI build and audit have not been executed."
+}
