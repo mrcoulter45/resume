@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "company": "Hightouch",
+  "role": "Staff Engineer, AI Productivity",
+  "example": false,
+  "prepared_date": "2026-11-07",
+  "positioning": "Relevant professional engineering achievements prioritized to the target opening without inflating formal level, scope or metrics.",
+  "identity": [
+    {
+      "text": "Michael Remington Coulter",
+      "refs": [
+        "profile-michael#name"
+      ],
+      "verbatim": false
+    },
+    {
+      "text": "Buda, TX | mrcoulter45@gmail.com | (760) 694-6310",
+      "refs": [
+        "profile-michael#location",
+        "profile-michael#email",
+        "profile-michael#phone"
+      ],
+      "verbatim": false
+    },
+    {
+      "text": "https://www.linkedin.com/in/michael-coulter-164868153/ | https://github.com/mrcoulter45",
+      "refs": [
+        "profile-michael#linkedin",
+        "profile-michael#github"
+      ],
+      "verbatim": false
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Professional Summary",
+      "entries": [
+        {
+          "text": "Senior engineer and builder of production-facing AI developer workflows: a team-used Codex harness, typed Python MCP integrations, persistent engineering memory and agent-assisted CI repair, grounded in years shipping customer-facing engineering software.",
+          "refs": [
+            "project-ai-harness#design-adoption",
+            "project-ia-mcp#purpose",
+            "lead-ai-engineering-memory#dynamic-memory",
+            "accomp-ai-jenkins-repair#workflow"
+          ],
+          "kind": "paragraph",
+          "verbatim": false
+        }
+      ]
+    },
+    {
+      "heading": "Professional Experience",
+      "entries": [
+        {
+          "text": "Arm — Senior Software Engineer | Austin, TX | April 2023–Present",
+          "refs": [
+            "exp-arm-senior#employment"
+          ],
+          "kind": "subheading",
+          "verbatim": false
+        },
+        {
+          "text": "Designed a modular Codex engineering harness adopted by several Arm engineers, combining reusable tools, skills, project knowledge and workflow controls.",
+          "refs": [
+            "project-ai-harness#design-adoption",
+            "project-ai-harness#capabilities"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Built an internal Python MCP interface translating engineering intent into typed backend plans with semantic checks, checkpoints and controlled fallback.",
+          "refs": [
+            "project-ia-mcp#purpose"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Implemented checkpointed execution, semantic readback and rollback of interconnect configuration changes to support reliable agent-driven automation.",
+          "refs": [
+            "accomplishment-ia-mcp-checkpoint-replay#execution"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Developed autonomous creation and retrieval of durable technical memory during coding-agent tasks.",
+          "refs": [
+            "lead-ai-engineering-memory#dynamic-memory"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Built a team-used Codex CI-repair skill that inspects failed Jenkins/Playwright test cases and iterates targeted repair until three consecutive clean replays, leaving Git publication to human reviewers.",
+          "refs": [
+            "accomp-ai-jenkins-repair#workflow",
+            "accomp-ai-jenkins-repair#review-gate"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Created a Tauri 2 engineering workbench with React/TypeScript UI and a shared Rust core used by desktop and CLI interfaces.",
+          "refs": [
+            "project-ai-workbench#architecture"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Shipped production Angular/TypeScript and Python engineering workflows for Arm interconnect customers while serving as functional lead for coherent-mesh GUI tooling.",
+          "refs": [
+            "project-interconnect-architect#production",
+            "leadership-cmn-gui#ownership"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Arm — Software Engineer | Austin, TX | April 2020–April 2023",
+          "refs": [
+            "exp-arm-software#employment"
+          ],
+          "kind": "subheading",
+          "verbatim": false
+        },
+        {
+          "text": "Implemented React dashboard components, Flask backend notebook-lifecycle services, PostgreSQL schemas and end-to-end system tests for the Pelion Machine Learning platform.",
+          "refs": [
+            "project-pelion-ml#dashboard-auth",
+            "project-pelion-ml#notebook-lifecycle",
+            "project-pelion-ml#database",
+            "project-pelion-ml#system-testing"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Used Kubernetes persistent storage backed by AWS EFS for Jupyter notebooks; developed related web services and sensor-data applications with React, Node.js/Express and PostgreSQL.",
+          "refs": [
+            "accomplishment-pelion-notebook-persistence#persistence",
+            "project-pelion-space-analytics#backend",
+            "project-pelion-space-analytics#frontend-auth",
+            "project-pelion-space-analytics#database"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        },
+        {
+          "text": "Arm — Graduate Software Engineer | Austin, TX | January 2019–April 2020",
+          "refs": [
+            "exp-arm-graduate#employment"
+          ],
+          "kind": "subheading",
+          "verbatim": false
+        },
+        {
+          "text": "Built FPGA master/slave Verilog test modules and C++ Mbed OS firmware for embedded-board I/O qualification as part of the Mbed OS FPGA CI Test Shield.",
+          "refs": [
+            "project-mbed-fpga-test-shield#modules"
+          ],
+          "kind": "bullet",
+          "verbatim": false
+        }
+      ]
+    },
+    {
+      "heading": "Education",
+      "entries": [
+        {
+          "text": "**The University of Texas at Austin** — B.S. Electrical and Computer Engineering, December 2018. Focus: Computer Architecture and Embedded Systems; Integrated Circuits.",
+          "refs": [
+            "education-ut-austin-bs#degree",
+            "education-ut-austin-bs#focus"
+          ],
+          "kind": "paragraph",
+          "verbatim": false
+        }
+      ]
+    },
+    {
+      "heading": "Technical Skills",
+      "entries": [
+        {
+          "text": "Codex, MCP, Python, TypeScript/JavaScript, Rust, Tauri, React, Angular, Jenkins, Playwright, Git, CI/CD, Linux, Kubernetes, backend APIs.",
+          "refs": [
+            "project-ia-mcp#purpose",
+            "project-ai-harness#design-adoption",
+            "project-interconnect-architect#application",
+            "project-pelion-ml#dashboard-auth",
+            "skill-playwright#desktop-qualification",
+            "project-ai-workbench#architecture",
+            "project-mbed-fpga-test-shield#modules"
+          ],
+          "kind": "paragraph",
+          "verbatim": false
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "requirement_id": "agent-tools",
+      "coverage": "strong",
+      "refs": [
+        "project-ai-harness#design-adoption",
+        "accomp-ai-jenkins-repair#workflow"
+      ],
+      "reason": "Built tools adopted by colleagues, but no measured productivity percentage."
+    },
+    {
+      "requirement_id": "context",
+      "coverage": "strong",
+      "refs": [
+        "lead-ai-engineering-memory#dynamic-memory",
+        "project-ai-harness#capabilities"
+      ],
+      "reason": "Implemented dynamic engineering memory and project knowledge tooling."
+    },
+    {
+      "requirement_id": "developer-experience",
+      "coverage": "strong",
+      "refs": [
+        "accomp-ai-jenkins-repair#workflow",
+        "project-interconnect-architect#cross-layer-delivery"
+      ],
+      "reason": "Production CI and cross-stack developer tools."
+    },
+    {
+      "requirement_id": "mcp",
+      "coverage": "strong",
+      "refs": [
+        "project-ia-mcp#purpose",
+        "accomplishment-ia-mcp-checkpoint-replay#execution"
+      ],
+      "reason": "Built typed Python MCP plans and rollback."
+    },
+    {
+      "requirement_id": "cloud-scale",
+      "coverage": "gap",
+      "refs": [],
+      "reason": "No documented hosted cloud agent fleet ownership."
+    }
+  ],
+  "decisions": [
+    "Retain factual seniority and public source provenance.",
+    "Preserve required qualifications that are genuine gaps.",
+    "Research digest is an authored summary of the original employer job."
+  ],
+  "follow_up": [
+    "Confirm vacancy, compensation and location eligibility with the recruiter.",
+    "Run core career.py build/audit and check Markdown/PDF conversion."
+  ],
+  "review_notes": "Manually mapped current Markdown résumé sections and every role bullet to supported public normalized career facts. Local build/audit has not been run; do not claim a validated trace-manifest or a submission-quality PDF."
+}

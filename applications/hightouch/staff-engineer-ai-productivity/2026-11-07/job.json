@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "company": "Hightouch",
+  "role": "Staff Engineer, AI Productivity",
+  "example": false,
+  "source": "job.md",
+  "source_sha256": "4fe0d4b6ca9af06b9f0454c09d36f85441b0012d50692055a60df381ca6541bb",
+  "captured": "2026-11-07",
+  "requirements": [
+    {
+      "id": "agent-tools",
+      "text": "Build agentic coding workflows and measurable improvements for other engineers.",
+      "importance": "required",
+      "terms": [
+        "Build",
+        "agentic",
+        "coding",
+        "workflows"
+      ],
+      "locator": "L7-L7"
+    },
+    {
+      "id": "context",
+      "text": "Build effective agent instructions, documentation and persistent engineering context.",
+      "importance": "required",
+      "terms": [
+        "Build",
+        "effective",
+        "agent",
+        "instructions"
+      ],
+      "locator": "L8-L8"
+    },
+    {
+      "id": "developer-experience",
+      "text": "Improve CI, backend and application engineering productivity end to end.",
+      "importance": "required",
+      "terms": [
+        "Improve",
+        "backend",
+        "application",
+        "engineering"
+      ],
+      "locator": "L9-L9"
+    },
+    {
+      "id": "mcp",
+      "text": "Implement Model Context Protocol servers and safe API tooling.",
+      "importance": "preferred",
+      "terms": [
+        "Implement",
+        "Model",
+        "Context",
+        "Protocol"
+      ],
+      "locator": "L10-L10"
+    },
+    {
+      "id": "cloud-scale",
+      "text": "Enable cloud-based autonomous agent development environments at scale.",
+      "importance": "responsibility",
+      "terms": [
+        "Enable",
+        "cloud",
+        "based",
+        "autonomous"
+      ],
+      "locator": "L11-L11"
+    }
+  ]
+}

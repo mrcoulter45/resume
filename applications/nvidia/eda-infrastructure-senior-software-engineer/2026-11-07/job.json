@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "company": "NVIDIA",
+  "role": "Senior Software Engineer - Distributed Systems Engineer, EDA Infrastructure",
+  "example": false,
+  "source": "job.md",
+  "source_sha256": "bbf01813f8871794b3fc55598b7b71d9fa6397c68766393adfdf64327cf461fc",
+  "captured": "2026-11-07",
+  "requirements": [
+    {
+      "id": "eda",
+      "text": "Build tooling for large-scale electronic design automation users.",
+      "importance": "required",
+      "terms": [
+        "Build",
+        "tooling",
+        "large",
+        "scale"
+      ],
+      "locator": "L7-L7"
+    },
+    {
+      "id": "python-linux",
+      "text": "Implement Python/Linux automation and engineering services.",
+      "importance": "required",
+      "terms": [
+        "Implement",
+        "Python",
+        "Linux",
+        "automation"
+      ],
+      "locator": "L8-L8"
+    },
+    {
+      "id": "job-scheduling",
+      "text": "Understand distributed batch schedulers and cluster workload management.",
+      "importance": "preferred",
+      "terms": [
+        "Understand",
+        "distributed",
+        "batch",
+        "schedulers"
+      ],
+      "locator": "L9-L9"
+    },
+    {
+      "id": "fleet-ops",
+      "text": "Operate large CPU/GPU compute fleets, fault-tolerant network/storage systems.",
+      "importance": "required",
+      "terms": [
+        "Operate",
+        "large",
+        "compute",
+        "fleets"
+      ],
+      "locator": "L10-L10"
+    },
+    {
+      "id": "release",
+      "text": "Improve qualification infrastructure and CI reliability for engineering users.",
+      "importance": "responsibility",
+      "terms": [
+        "Improve",
+        "qualification",
+        "infrastructure",
+        "reliability"
+      ],
+      "locator": "L11-L11"
+    }
+  ]
+}
