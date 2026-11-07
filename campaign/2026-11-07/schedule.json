@@ -1,0 +1,12 @@
+{
+  "campaign": "24-hour career resume search",
+  "started": "2026-11-07",
+  "timezone": "America/Chicago",
+  "first_execution": "manual immediate run",
+  "automation_id": "6aef97b5cf88819187f0dd7e866b4b37",
+  "scheduled_future_runs": 23,
+  "recurrence": "BEGIN:VEVENT\nDTSTART:20261107T162700\nRRULE:FREQ=HOURLY;COUNT=23\nEND:VEVENT",
+  "last_scheduled_local": "2026-11-08T14:27:00",
+  "github_branch": "campaign/2026-11-07-hourly-job-search",
+  "warning": "An automation is scheduled, but each execution's actual GitHub actions, searches and validation remain subject to run-time tool access and success."
+}
