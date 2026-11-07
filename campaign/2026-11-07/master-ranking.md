@@ -11,6 +11,8 @@ The ratings and interview/offer ranges are *subjective, uncalibrated planning es
 | 3 | 87/100 | [Hightouch — Staff Engineer, AI Productivity](https://jobs.ashbyhq.com/hightouch-inc/b065eb2f-aea7-4044-99f9-7bc948039e1a/) | Remote North America / US eligible | Conditional: offer above $286k not guaranteed | 15-30% / 3-8% | [Tailored draft](../../applications/hightouch/staff-engineer-ai-productivity/2026-11-07/resume.md) |
 | 4 | 83/100 | [NVIDIA — Senior Software Engineer - Distributed Systems Engineer, EDA Infrastructure](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Software-Engineer---Distributed-Systems-Engineer--EDA-Infrastructure_JR2024825-1) | Austin TX or US Remote | Conditional: actual recurring RSU value required | 12-22% / 2-5% | [Tailored draft](../../applications/nvidia/eda-infrastructure-senior-software-engineer/2026-11-07/resume.md) |
 
+| 5 | 82/100 | [Hightouch — Software Engineer, AI Agents](https://jobs.ashbyhq.com/hightouch-inc/83b879e6-628e-41b4-a601-191e2dc69a54) | Remote North America (US eligibility to confirm) | Conditional: $180k–$400k base; offer must exceed $286k | Not calibrated | [Tailored draft](../../applications/hightouch/software-engineer-ai-agents/2026-11-07/resume.md) |
+
 ## Detailed prioritization and evidence gaps
 
 ### Netflix — Software Engineer 5 - TV Developer Lifecycle: Test Infrastructure
@@ -44,6 +46,13 @@ The ratings and interview/offer ranges are *subjective, uncalibrated planning es
 - **Fit:** 87/100. EDA, SoC interconnect, Python, Linux/LSF-aware cluster engineering.
 - **Gap:** Large-scale cluster operations, networking, storage and on-call.
 - **Research:** [role analysis](../../applications/nvidia/eda-infrastructure-senior-software-engineer/2026-11-07/research.md).
+
+### Hightouch — Software Engineer, AI Agents
+
+- **Job ID:** 83b879e6-628e-41b4-a601-191e2dc69a54; employer listing observed **2026-11-07**.
+- **Compensation:** $180k–$400k base plus private equity; wide band means $286k+ is conditional, not expected.
+- **Fit:** 90/100 qualitative topical fit; no calibrated interview probability. Python MCP, coding-agent tooling and full-stack engineering. Gap: customer marketing data agent deployments.
+- **Research:** [role analysis](../../applications/hightouch/software-engineer-ai-agents/2026-11-07/research.md).
 
 ## Pending additional compensation and fit review
 
