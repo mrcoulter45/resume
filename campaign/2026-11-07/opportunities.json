@@ -360,7 +360,7 @@
       "disposition": "priority_ml_platform_evidence_gap_compensation_verified",
       "reason": "Employer posting dated 2026-10-20; L4/L5 remote, but hands-on ML model development/management platform experience and published compensation not checked; do not promote. Fresh Netflix employer listing verifies $466k-$750k range and ML-platform UI, Python plus Scala/Java/C++, ML lifecycle/tooling and 5+ years with specified degree condition. Evidence gap for hands-on ML platforms and degree wording; not promoted.",
       "checked": "2026-11-08",
-      "source": "Netflix official employer careers full job posting"
+      "source": "Official Netflix careers index"
     },
     {
       "company": "Google",
@@ -866,10 +866,22 @@
       "reason": "Production computer vision/perception not established; only distinguished top band exceeds baseline.",
       "checked": "2026-11-08",
       "source": "Official employer careers/ATS page"
+    },
+    {
+      "company": "Netflix",
+      "role": "Software Engineer 4/5 – Model Serving Systems, AI Platform",
+      "requisition_id": "not_confirmed",
+      "posting_url": "https://explore.jobs.netflix.net/careers?query=-netflix.com",
+      "location": "Remote, United States (employer careers index)",
+      "compensation": "Not verified",
+      "disposition": "conditional_compensation_and_ml_serving_specialization",
+      "reason": "Fresh official Netflix careers index lists remote US. Specific requisition, salary and production model-serving qualifications not verified; do not promote.",
+      "checked": "2026-11-08",
+      "source": "Official Netflix careers index; indexed listing, not full requisition"
     }
   ],
-  "dashboard_last_reviewed": "2026-11-08 10:26 CST",
-  "dashboard_notes": "Cumulative structured ledger: 6 ranked + 55 screened; 3 new conditional employer ATS leads (Pareto, Loancrate, Yobi), zero promotions. Official Netflix remote careers index refreshed; no vacancy/headcount guarantee. Prior checks preserved. Historical run-log-only discovery count unreconciled. NVIDIA priority leads remain conditional. Branch main.",
+  "dashboard_last_reviewed": "2026-11-08T12:32:00-06:00",
+  "dashboard_notes": "Cumulative structured ledger: 6 ranked + 55 screened; 3 new conditional employer ATS leads (Pareto, Loancrate, Yobi), zero promotions. Official Netflix remote careers index refreshed; no vacancy/headcount guarantee. Prior checks preserved. Historical run-log-only discovery count unreconciled. NVIDIA priority leads remain conditional. Branch main. | 2026-11-08 12:32 CST: indexed Netflix AI-platform opening screened; official listings checked; NVIDIA four lead statuses retained without claiming live verification; no promotion.",
   "applications_submitted": [
     {
       "company": "Netflix",
