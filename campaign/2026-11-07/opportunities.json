@@ -1,7 +1,7 @@
 {
   "start": "2026-11-07",
   "baseline_tc": 286000,
-  "branch": "campaign/2026-11-07-hourly-job-search",
+  "branch": "main",
   "ranking_method": "35% hiring attainability, 30% fit, 20% compensation, 15% career growth",
   "active": [
     {
