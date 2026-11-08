@@ -878,10 +878,46 @@
       "reason": "Fresh official Netflix careers index lists remote US. Specific requisition, salary and production model-serving qualifications not verified; do not promote.",
       "checked": "2026-11-08",
       "source": "Official Netflix careers index; indexed listing, not full requisition"
+    },
+    {
+      "company": "Docker",
+      "role": "Staff Software Engineer, AI Developer Tools",
+      "requisition_id": "87bda848-01ed-4641-beaa-829373d0ed56",
+      "posting_url": "https://jobs.ashbyhq.com/docker/87bda848-01ed-4641-beaa-829373d0ed56",
+      "location": "Remote label but San Francisco/Seattle specified; Texas eligibility unverified",
+      "compensation": "Not verified",
+      "disposition": "conditional_location_compensation_and_level",
+      "reason": "Employer ATS search index shows agent-focused developer tooling and remote label, but names SF/Seattle only. No Texas eligibility or reliable >$286k annual offer established; staff-level scope requires evidence mapping.",
+      "checked": "2026-11-08",
+      "source": "Employer Ashby indexed page; JS prevented full live detail"
+    },
+    {
+      "company": "Docker",
+      "role": "Senior Software Engineer, AI Developer Tools",
+      "requisition_id": "48ef7134-5d54-4662-b8d3-a70b55eb9a58",
+      "posting_url": "https://jobs.ashbyhq.com/docker/48ef7134-5d54-4662-b8d3-a70b55eb9a58",
+      "location": "Remote label but San Francisco/Seattle specified; Texas eligibility unverified",
+      "compensation": "Not verified",
+      "disposition": "conditional_location_and_compensation",
+      "reason": "Relevant agentic developer tooling, but indexed locations SF/Seattle despite remote label; Texas eligibility and credible recurring >$286k total pay unverified.",
+      "checked": "2026-11-08",
+      "source": "Employer Ashby indexed page; JS prevented full live detail"
+    },
+    {
+      "company": "Supabase",
+      "role": "Software Engineer - AI Tooling Infrastructure",
+      "requisition_id": "fb0b563a-e541-43fd-8555-9eb6473aaa11",
+      "posting_url": "https://jobs.ashbyhq.com/supabase/fb0b563a-e541-43fd-8555-9eb6473aaa11",
+      "location": "Remote Global (US eligibility plausible, not explicitly confirmed)",
+      "compensation": "Not published in accessible indexed excerpt",
+      "disposition": "conditional_compensation_and_production_operations",
+      "reason": "Official employer ATS indexed posting specifically names MCP server, agent skills and dashboard assistant; strong topical overlap, but production on-call and actual compensation need verification. No >$286k TC inference.",
+      "checked": "2026-11-08",
+      "source": "Employer Ashby indexed page; JS prevented full live detail"
     }
   ],
-  "dashboard_last_reviewed": "2026-11-08T12:32:00-06:00",
-  "dashboard_notes": "Cumulative structured ledger: 6 ranked + 55 screened; 3 new conditional employer ATS leads (Pareto, Loancrate, Yobi), zero promotions. Official Netflix remote careers index refreshed; no vacancy/headcount guarantee. Prior checks preserved. Historical run-log-only discovery count unreconciled. NVIDIA priority leads remain conditional. Branch main. | 2026-11-08 12:32 CST: indexed Netflix AI-platform opening screened; official listings checked; NVIDIA four lead statuses retained without claiming live verification; no promotion.",
+  "dashboard_last_reviewed": "2026-11-08 13:24 CST",
+  "dashboard_notes": "Cumulative structured ledger: 6 ranked + 55 screened; 3 new conditional employer ATS leads (Pareto, Loancrate, Yobi), zero promotions. Official Netflix remote careers index refreshed; no vacancy/headcount guarantee. Prior checks preserved. Historical run-log-only discovery count unreconciled. NVIDIA priority leads remain conditional. Branch main. | 2026-11-08 12:32 CST: indexed Netflix AI-platform opening screened; official listings checked; NVIDIA four lead statuses retained without claiming live verification; no promotion. | 2026-11-08 13:24 CST: 3 conditional indexed employer ATS records; no promotion, no salary or Texas eligibility inferred; see runs/2026-11-08-1324-cst.md.",
   "applications_submitted": [
     {
       "company": "Netflix",
