@@ -13,6 +13,16 @@ The ratings and interview/offer ranges are *subjective, uncalibrated planning es
 
 | 5 | 82/100 | [Hightouch — Software Engineer, AI Agents](https://jobs.ashbyhq.com/hightouch-inc/83b879e6-628e-41b4-a601-191e2dc69a54) | Remote North America (US eligibility to confirm) | Conditional: $180k–$400k base; offer must exceed $286k | Not calibrated | [Tailored draft](../../applications/hightouch/software-engineer-ai-agents/2026-11-07/resume.md) |
 
+## Submitted applications (candidate-confirmed)
+
+These are historical applications, **not additional unsubmitted prospects**. An unanswered application is not a rejection.
+
+| Employer | Role | Requisition | Applied | Status as of 2026-11-07 |
+| --- | --- | --- | --- | --- |
+| Netflix | [Software Engineer 5 — Agent Platform, AI Platform](https://explore.jobs.netflix.net/careers/job/790316292023) | JR41100 | **2026-10-23** | **Applied — awaiting response; no reply reported** |
+
+See [application-status tracker](../../applications/application-status.md) for the status history. Do not place this role in an *unsubmitted application* queue or generate duplicate application instructions.
+
 ## Detailed prioritization and evidence gaps
 
 ### Netflix — Software Engineer 5 - TV Developer Lifecycle: Test Infrastructure
