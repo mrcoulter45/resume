@@ -916,8 +916,8 @@
       "source": "Employer Ashby indexed page; JS prevented full live detail"
     }
   ],
-  "dashboard_last_reviewed": "2026-11-08 13:24 CST",
-  "dashboard_notes": "Cumulative structured ledger: 6 ranked + 55 screened; 3 new conditional employer ATS leads (Pareto, Loancrate, Yobi), zero promotions. Official Netflix remote careers index refreshed; no vacancy/headcount guarantee. Prior checks preserved. Historical run-log-only discovery count unreconciled. NVIDIA priority leads remain conditional. Branch main. | 2026-11-08 12:32 CST: indexed Netflix AI-platform opening screened; official listings checked; NVIDIA four lead statuses retained without claiming live verification; no promotion. | 2026-11-08 13:24 CST: 3 conditional indexed employer ATS records; no promotion, no salary or Texas eligibility inferred; see runs/2026-11-08-1324-cst.md.",
+  "dashboard_last_reviewed": "2026-11-08 14:23 CST",
+  "dashboard_notes": "Cumulative structured ledger: 6 ranked + 55 screened; 3 new conditional employer ATS leads (Pareto, Loancrate, Yobi), zero promotions. Official Netflix remote careers index refreshed; no vacancy/headcount guarantee. Prior checks preserved. Historical run-log-only discovery count unreconciled. NVIDIA priority leads remain conditional. Branch main. | 2026-11-08 12:32 CST: indexed Netflix AI-platform opening screened; official listings checked; NVIDIA four lead statuses retained without claiming live verification; no promotion. | 2026-11-08 13:24 CST: 3 conditional indexed employer ATS records; no promotion, no salary or Texas eligibility inferred; see runs/2026-11-08-1324-cst.md.\n2026-11-08 14:23 CST: final scheduled review; 6 ranked, 64 screened, 0 confirmed closed; no new unique structured record. Official NVIDIA JR2024972/JR2023962/JR2014880/JR2028279 listings rechecked (indexed current, recruiter-side vacancy not confirmed). JR2028279 excluded geography; other three conditional fit/pay. Search breadth partial, historical discovery count unverified. See runs/2026-11-08-1423-cst.md and final-summary.md.",
   "applications_submitted": [
     {
       "company": "Netflix",
