@@ -382,10 +382,58 @@
       "reason": "Official Apple indexed listing posted 2026-05-18 describes database-managed services and streaming data platform; data platform specialization and >$286k total compensation not established.",
       "checked": "2026-11-08",
       "source": "Apple official careers indexed listing"
+    },
+    {
+      "company": "Anthropic",
+      "role": "Staff+ Software Engineer, Developer Acceleration",
+      "requisition_id": "5290360008",
+      "posting_url": "https://job-boards.greenhouse.io/anthropic/jobs/5290360008",
+      "location": "SF/Seattle onsite locations only",
+      "compensation": "not independently checked",
+      "disposition": "excluded_location",
+      "reason": "Employer posting lists SF and Seattle, not Austin/Tampa/US-remote. Agentic productivity fit otherwise promising.",
+      "checked": "2026-11-08",
+      "source": "Official employer careers/ATS posting"
+    },
+    {
+      "company": "Anthropic",
+      "role": "Staff+ Software Engineer, Platform Acceleration",
+      "requisition_id": "5451889008",
+      "posting_url": "https://job-boards.greenhouse.io/anthropic/jobs/5451889008",
+      "location": "SF/NYC/Seattle",
+      "compensation": "not independently checked",
+      "disposition": "excluded_location",
+      "reason": "Employer posting requires listed nonqualifying office locations; developer productivity relevance does not override geography.",
+      "checked": "2026-11-08",
+      "source": "Official employer careers/ATS posting"
+    },
+    {
+      "company": "Anthropic",
+      "role": "Staff+ Software Engineer, Inference Velocity",
+      "requisition_id": "5257650008",
+      "posting_url": "https://job-boards.greenhouse.io/anthropic/jobs/5257650008",
+      "location": "Remote-friendly travel-required; SF/Seattle/NYC listed",
+      "compensation": "not independently checked",
+      "disposition": "conditional_remote_policy_and_specialist_fit",
+      "reason": "Remote-friendly does not establish Texas eligibility; frontier inference infrastructure technical requirements not supported by career evidence.",
+      "checked": "2026-11-08",
+      "source": "Official employer careers/ATS posting"
+    },
+    {
+      "company": "Databricks",
+      "role": "Sr. Staff Software Engineer, AI Native Web Platform",
+      "requisition_id": "P-1579",
+      "posting_url": "https://www.databricks.com/company/careers/integration-data-engineering-and-applications/sr-staff-software-engineer-ai-native-web-platform-8560783002",
+      "location": "Mountain View CA",
+      "compensation": "not independently checked",
+      "disposition": "excluded_location_and_seniority",
+      "reason": "12+ years and Mountain View location; no qualifying Austin/Tampa/remote arrangement.",
+      "checked": "2026-11-08",
+      "source": "Official employer careers/ATS posting"
     }
   ],
   "dashboard_last_reviewed": "2026-11-08 01:22 America/Chicago (focused broad discovery and employer-page validation; not exhaustive)",
-  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified. NVIDIA EDA screenshot follow-up: JR2024972 and JR2023962 prioritized for evidence mapping; JR2014880 conditional seniority/NPI; JR2028279 excluded based on enumerated non-TX/FL remote states and security specialization. Official indexed listings located; live headcount not independently confirmed. 00:23 iteration: reconciled Netflix JR41877 official title to Platform Data Products (prior resume stale), resolved Tesla Staff Infrastructure req 281111, added Netflix JR43443/JR42179/JR40898, Google Staff Enterprise Architecture and Apple AI Data Platforms as conditional leads. No salary/requirements-qualified new resume. Existing five drafts preserved. 01:22 run: Netflix JR43443 official $388k-$558k verified, promoted to provisional rank #2 and evidence-grounded resume/claims package added; JR40898 $466k-$750k verified but ML platform fit gap. New Anthropic and Databricks leads screened for disqualifying geography; NVIDIA EDA listings refreshed. Five historical drafts preserved.",
+  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified. NVIDIA EDA screenshot follow-up: JR2024972 and JR2023962 prioritized for evidence mapping; JR2014880 conditional seniority/NPI; JR2028279 excluded based on enumerated non-TX/FL remote states and security specialization. Official indexed listings located; live headcount not independently confirmed. 00:23 iteration: reconciled Netflix JR41877 official title to Platform Data Products (prior resume stale), resolved Tesla Staff Infrastructure req 281111, added Netflix JR43443/JR42179/JR40898, Google Staff Enterprise Architecture and Apple AI Data Platforms as conditional leads. No salary/requirements-qualified new resume. Existing five drafts preserved. 01:22 run: Netflix JR43443 official $388k-$558k verified, promoted to provisional rank #2 and evidence-grounded resume/claims package added; JR40898 $466k-$750k verified but ML platform fit gap. New Anthropic and Databricks leads screened for disqualifying geography; NVIDIA EDA listings refreshed. Five historical drafts preserved. Four additional exact employer requisitions screened: Anthropic 5290360008, 5451889008, 5257650008; Databricks P-1579. No qualified geography-confirmed candidate.",
   "applications_submitted": [
     {
       "company": "Netflix",
