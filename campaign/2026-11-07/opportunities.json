@@ -493,10 +493,70 @@
       "reason": "Official Austin posting is founding staff engineering role owning internal engineering design tools, collaboration and AI-assisted 3DEXPERIENCE workflows. User's engineering software and EDA UI work may transfer, but requires hands-on SolidWorks/3DEXPERIENCE/PLM, manufacturing design/supplier integration, team founding/hiring; unverified compensation. Do not promote.",
       "checked": "2026-11-08",
       "source": "Tesla official careers page, directly readable"
+    },
+    {
+      "company": "NVIDIA",
+      "role": "Senior Linux Systems Engineer - EDA Infrastructure",
+      "requisition_id": "JR2025019",
+      "posting_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Linux-Systems-Engineer---EDA-Infrastructure_JR2025019",
+      "location": "Austin TX; US Remote",
+      "compensation": "Not verified in accessible indexed excerpt; NVIDIA equity eligibility/pay unknown for this req",
+      "disposition": "conditional_specialist_infrastructure_and_compensation",
+      "reason": "Official NVIDIA Workday indexed job listing gives Austin and US Remote, EDA RPM-based Linux compute farm maintenance and infrastructure-as-code. Strong EDA/Linux proximity but production fleet Linux administration and IaC ownership not substantiated by public career records; no confirmed >$286k recurring offer.",
+      "checked": "2026-11-08",
+      "source": "Official NVIDIA Workday search result; direct page text unreadable"
+    },
+    {
+      "company": "NVIDIA",
+      "role": "Senior AI Infrastructure Engineer - EDA Infrastructure",
+      "requisition_id": "JR2024816",
+      "posting_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-AI-infrastructure-engineer---Hardware-Infrastructure-Engineering_JR2024816",
+      "location": "Austin TX; other listed states; nationwide remote not established",
+      "compensation": "Not verified in accessible indexed excerpt",
+      "disposition": "conditional_telemetry_cloud_ops_and_compensation",
+      "reason": "Official NVIDIA Workday indexed posting lists Austin, EDA infrastructure and scalable metrics/logs/traces telemetry across GPU cloud and on-prem clusters. Production observability/cloud cluster ownership not supported; salary and actual RSUs unverified.",
+      "checked": "2026-11-08",
+      "source": "Official NVIDIA Workday search result; direct page text unreadable"
+    },
+    {
+      "company": "NVIDIA",
+      "role": "Senior Compute Platform Engineer, LSF - EDA Infrastructure",
+      "requisition_id": "JR2023960",
+      "posting_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Compute-Platform-Engineer--LSF-_JR2023960",
+      "location": "Austin TX; US Remote",
+      "compensation": "Not verified in accessible indexed excerpt",
+      "disposition": "excluded_deep_lsf_scheduler_specialization_and_unverified_compensation",
+      "reason": "Official Workday listing explicitly requires LSF scheduler internals (mbatchd/mbschd), 15–25 federated cells, MultiCluster forwarding, contention/latency tuning. EDA domain familiarity does not establish this specialized scheduler production ownership; compensation unverified.",
+      "checked": "2026-11-08",
+      "source": "Official NVIDIA Workday search result"
+    },
+    {
+      "company": "Anthropic",
+      "role": "Staff+ Software Engineer, Developer Productivity",
+      "requisition_id": "5110511008",
+      "posting_url": "https://job-boards.greenhouse.io/anthropic/jobs/5110511008",
+      "location": "San Francisco CA; New York NY; Seattle WA; no qualifying US Remote listed",
+      "compensation": "$405,000–$625,000 annual salary",
+      "disposition": "excluded_location_and_15_year_specialization",
+      "reason": "Official ATS page is readable, location explicitly SF/NYC/Seattle. Strong developer productivity theme but 15+ years large-scale infrastructure cited as strong candidate criterion; no qualifying location and no production remote build fleet evidence.",
+      "checked": "2026-11-08",
+      "source": "Official Anthropic Greenhouse job page"
+    },
+    {
+      "company": "Databricks",
+      "role": "Sr. Staff Security Software Engineer - Agentic Security Engineering",
+      "requisition_id": "RDQ327R179",
+      "posting_url": "https://www.databricks.com/company/careers/security/sr-staff-security-software-engineer---agentic-security-engineering-8612865002",
+      "location": "Remote California preferred; other US locations explicitly considered (TX/FL not guaranteed)",
+      "compensation": "Zone 1 base $228,600–$314,250; zones 2–4 $182,900–$282,800 base; bonus/equity possible but unquantified",
+      "disposition": "excluded_senior_staff_security_experience_and_conditional_location_compensation",
+      "reason": "Official page says other US locations considered, but requires 10+ years, L7/Sr Staff technical authority, multi-VP org architecture and deep production AI/security infrastructure. Unverified >$286k realistic package for eligible TX/FL zone; agentic overlap alone insufficient.",
+      "checked": "2026-11-08",
+      "source": "Official Databricks careers posting"
     }
   ],
-  "dashboard_last_reviewed": "2026-11-08 03:24 America/Chicago",
-  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified. NVIDIA EDA screenshot follow-up: JR2024972 and JR2023962 prioritized for evidence mapping; JR2014880 conditional seniority/NPI; JR2028279 excluded based on enumerated non-TX/FL remote states and security specialization. Official indexed listings located; live headcount not independently confirmed. 00:23 iteration: reconciled Netflix JR41877 official title to Platform Data Products (prior resume stale), resolved Tesla Staff Infrastructure req 281111, added Netflix JR43443/JR42179/JR40898, Google Staff Enterprise Architecture and Apple AI Data Platforms as conditional leads. No salary/requirements-qualified new resume. Existing five drafts preserved. 01:22 run: Netflix JR43443 official $388k-$558k verified, promoted to provisional rank #2 and evidence-grounded resume/claims package added; JR40898 $466k-$750k verified but ML platform fit gap. New Anthropic and Databricks leads screened for disqualifying geography; NVIDIA EDA listings refreshed. Five historical drafts preserved. Four additional exact employer requisitions screened: Anthropic 5290360008, 5451889008, 5257650008; Databricks P-1579. No qualified geography-confirmed candidate. 02:26 run: four new exact employer requisitions screened (Tesla 268132,253398,256514; Anthropic 5466480008); no verified >$286k TC plus documented fit, no new résumé. Existing six ranked and 24 screened preserved. Broad 15-query sweep across preferred employers was uneven; not an exhaustive census. 03:24 CST: Tesla 281729 exact requisition resolved from earlier no-ID lead; Tesla 287827 newly screened. No compensation-qualified promotion; NVIDIA JR2024972 and JR2023962 official Workday pages refreshed. Broad employer-domain search attempted, limited detailed verification.",
+  "dashboard_last_reviewed": "2026-11-08 04:28 CST",
+  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified. NVIDIA EDA screenshot follow-up: JR2024972 and JR2023962 prioritized for evidence mapping; JR2014880 conditional seniority/NPI; JR2028279 excluded based on enumerated non-TX/FL remote states and security specialization. Official indexed listings located; live headcount not independently confirmed. 00:23 iteration: reconciled Netflix JR41877 official title to Platform Data Products (prior resume stale), resolved Tesla Staff Infrastructure req 281111, added Netflix JR43443/JR42179/JR40898, Google Staff Enterprise Architecture and Apple AI Data Platforms as conditional leads. No salary/requirements-qualified new resume. Existing five drafts preserved. 01:22 run: Netflix JR43443 official $388k-$558k verified, promoted to provisional rank #2 and evidence-grounded resume/claims package added; JR40898 $466k-$750k verified but ML platform fit gap. New Anthropic and Databricks leads screened for disqualifying geography; NVIDIA EDA listings refreshed. Five historical drafts preserved. Four additional exact employer requisitions screened: Anthropic 5290360008, 5451889008, 5257650008; Databricks P-1579. No qualified geography-confirmed candidate. 02:26 run: four new exact employer requisitions screened (Tesla 268132,253398,256514; Anthropic 5466480008); no verified >$286k TC plus documented fit, no new résumé. Existing six ranked and 24 screened preserved. Broad 15-query sweep across preferred employers was uneven; not an exhaustive census. 03:24 CST: Tesla 281729 exact requisition resolved from earlier no-ID lead; Tesla 287827 newly screened. No compensation-qualified promotion; NVIDIA JR2024972 and JR2023962 official Workday pages refreshed. Broad employer-domain search attempted, limited detailed verification.\n2026-11-08 04:28 CST: focused fresh broad official-domain sweep (16 employer groups, 2 follow-up batches). Added five new screened requisitions: NVIDIA JR2025019/JR2024816/JR2023960, Anthropic 5110511008, Databricks RDQ327R179. No promotions. Direct NVIDIA Workday pages unreadable; indexed employer snippets not live headcount confirmation. All earlier records preserved.",
   "applications_submitted": [
     {
       "company": "Netflix",
