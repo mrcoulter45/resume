@@ -140,7 +140,8 @@
     "NVIDIA JR2024972 — Senior Systems Software Engineer, EDA Infrastructure (priority fit/pay review)",
     "NVIDIA JR2023962 — Senior Infrastructure Automation Engineer, Compute Platform (priority fit/pay review)",
     "NVIDIA JR2014880 — System Validation EDA Infrastructure (seniority/NPI review)",
-    "Netflix JR42179 — TV Client Foundations (priority pay/TV-stack verification)"
+    "Netflix JR42179 — TV Client Foundations (priority pay/TV-stack verification)",
+    "Tesla 256514 — Generative AI Platform Engineering (Austin; verify pay and full description)"
   ],
   "screened": [
     {
@@ -430,10 +431,58 @@
       "reason": "12+ years and Mountain View location; no qualifying Austin/Tampa/remote arrangement.",
       "checked": "2026-11-08",
       "source": "Official employer careers/ATS posting"
+    },
+    {
+      "company": "Tesla",
+      "role": "Software Engineer, Fleet Management",
+      "requisition_id": "268132",
+      "posting_url": "https://www.tesla.com/careers/search/job/software-engineer-fleet-management--268132",
+      "location": "Austin TX, onsite",
+      "compensation": "No salary range or recurring equity value stated on employer posting",
+      "disposition": "excluded_unverified_compensation_and_go_specialization",
+      "reason": "Employer page verified Austin onsite and req 268132. Interesting robotics fleet control, frontend and automation overlap, but primary Go scheduling/routing algorithms and NATS/Kafka/gRPC experience not documented; $286k+ recurring total compensation cannot be established.",
+      "checked": "2026-11-08",
+      "source": "Tesla official job page"
+    },
+    {
+      "company": "Tesla",
+      "role": "Sr. Software Engineer, AI Inference Ops",
+      "requisition_id": "253398",
+      "posting_url": "https://www.tesla.com/careers/search/job/sr-software-engineer-ai-inference-ops-253398",
+      "location": "Austin TX",
+      "compensation": "Not verified from employer page",
+      "disposition": "conditional_compensation_and_gpu_hpc_infrastructure_fit",
+      "reason": "Official Tesla req 253398 describes AI/HPC GPU cluster infrastructure control plane; requires 5+ years infrastructure/datacenter software and production cluster operations. Python overlaps but large GPU/HPC cluster ownership not established, and no verified credible >$286k offer route.",
+      "checked": "2026-11-08",
+      "source": "Tesla official job page"
+    },
+    {
+      "company": "Tesla",
+      "role": "Software Engineer, Generative AI Platform Engineering",
+      "requisition_id": "256514",
+      "posting_url": "https://www.tesla.com/careers/search/job/software-engineer-generative-ai-platform-engineering-256514",
+      "location": "Austin TX",
+      "compensation": "Not published in accessible employer excerpt",
+      "disposition": "priority_followup_exact_requirements_and_compensation",
+      "reason": "Official Tesla careers page shows Austin and exact req 256514, but accessible text lacks requirements and pay; cannot establish fit or $286k+ TC. Recheck full listing before promotion or tailored résumé.",
+      "checked": "2026-11-08",
+      "source": "Tesla official job page"
+    },
+    {
+      "company": "Anthropic",
+      "role": "Staff+ Software Engineer, Deployment",
+      "requisition_id": "5466480008",
+      "posting_url": "https://job-boards.greenhouse.io/anthropic/jobs/5466480008",
+      "location": "SF/Seattle/NYC, remote-friendly with travel required; Texas remote eligibility unverified",
+      "compensation": "Not verified this run",
+      "disposition": "excluded_location_unverified_and_platform_specialization",
+      "reason": "Official ATS lists SF/Seattle/NYC with travel-required remote-friendly wording; Texas or unrestricted US remote not established. Deployment pipeline, fleet config and staged rollout experience partly overlaps but production fleet ownership not proven.",
+      "checked": "2026-11-08",
+      "source": "Anthropic official ATS"
     }
   ],
-  "dashboard_last_reviewed": "2026-11-08 01:22 America/Chicago (focused broad discovery and employer-page validation; not exhaustive)",
-  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified. NVIDIA EDA screenshot follow-up: JR2024972 and JR2023962 prioritized for evidence mapping; JR2014880 conditional seniority/NPI; JR2028279 excluded based on enumerated non-TX/FL remote states and security specialization. Official indexed listings located; live headcount not independently confirmed. 00:23 iteration: reconciled Netflix JR41877 official title to Platform Data Products (prior resume stale), resolved Tesla Staff Infrastructure req 281111, added Netflix JR43443/JR42179/JR40898, Google Staff Enterprise Architecture and Apple AI Data Platforms as conditional leads. No salary/requirements-qualified new resume. Existing five drafts preserved. 01:22 run: Netflix JR43443 official $388k-$558k verified, promoted to provisional rank #2 and evidence-grounded resume/claims package added; JR40898 $466k-$750k verified but ML platform fit gap. New Anthropic and Databricks leads screened for disqualifying geography; NVIDIA EDA listings refreshed. Five historical drafts preserved. Four additional exact employer requisitions screened: Anthropic 5290360008, 5451889008, 5257650008; Databricks P-1579. No qualified geography-confirmed candidate.",
+  "dashboard_last_reviewed": "2026-11-08 02:26 America/Chicago",
+  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified. NVIDIA EDA screenshot follow-up: JR2024972 and JR2023962 prioritized for evidence mapping; JR2014880 conditional seniority/NPI; JR2028279 excluded based on enumerated non-TX/FL remote states and security specialization. Official indexed listings located; live headcount not independently confirmed. 00:23 iteration: reconciled Netflix JR41877 official title to Platform Data Products (prior resume stale), resolved Tesla Staff Infrastructure req 281111, added Netflix JR43443/JR42179/JR40898, Google Staff Enterprise Architecture and Apple AI Data Platforms as conditional leads. No salary/requirements-qualified new resume. Existing five drafts preserved. 01:22 run: Netflix JR43443 official $388k-$558k verified, promoted to provisional rank #2 and evidence-grounded resume/claims package added; JR40898 $466k-$750k verified but ML platform fit gap. New Anthropic and Databricks leads screened for disqualifying geography; NVIDIA EDA listings refreshed. Five historical drafts preserved. Four additional exact employer requisitions screened: Anthropic 5290360008, 5451889008, 5257650008; Databricks P-1579. No qualified geography-confirmed candidate. 02:26 run: four new exact employer requisitions screened (Tesla 268132,253398,256514; Anthropic 5466480008); no verified >$286k TC plus documented fit, no new résumé. Existing six ranked and 24 screened preserved. Broad 15-query sweep across preferred employers was uneven; not an exhaustive census.",
   "applications_submitted": [
     {
       "company": "Netflix",
