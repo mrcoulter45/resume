@@ -1,6 +1,6 @@
 # Career campaign: cumulative application priority
 
-Research began November 7, 2026. Current Arm annual TC: **$286,000**. Branch: `campaign/2026-11-07-hourly-job-search`.
+Research began November 7, 2026. Current Arm annual TC: **$286,000**. Branch: `main`.
 
 The ratings and interview/offer ranges are *subjective, uncalibrated planning estimates*. Employer-posted range ceilings are not actual job offers; private equity is not equivalent to liquid cash. Preserve all opportunities between hourly runs.
 
