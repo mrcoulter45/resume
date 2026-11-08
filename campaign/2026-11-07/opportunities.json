@@ -187,8 +187,80 @@
       "reason": "Listed on official Austin careers index, but specific requisition page and pay not confirmed",
       "checked": "2026-11-07",
       "source": "official careers index"
+    },
+    {
+      "company": "Google",
+      "role": "Staff Software Engineer, Core Systems and Capacity Assurance",
+      "requisition_id": "80847978566165190",
+      "posting_url": "https://www.google.com/about/careers/applications/jobs/results/80847978566165190-staff-software-engineer-core-systems-and-capacity-assurance",
+      "location": "Austin TX (20% travel)",
+      "compensation": "$207k-$300k base + 20% target bonus + public equity",
+      "disposition": "conditional_compensation_and_fit_review",
+      "reason": "Credible total-compensation route above $286k with public equity and target bonus, but 8 years software/5 years testing, embedded/data-center hardware diagnostics and fleet-scale systems requirements require evidence mapping; not assumed qualified.",
+      "checked": "2026-11-07",
+      "source": "Google official careers page"
+    },
+    {
+      "company": "Apple",
+      "role": "Gen AI Software Engineer",
+      "requisition_id": "200626209-0157",
+      "posting_url": "https://jobs.apple.com/en-us/details/200626209-0157/gen-ai-software-engineer",
+      "location": "Austin TX",
+      "compensation": "not verified",
+      "disposition": "closed_or_unavailable_official_page",
+      "reason": "Indexed description strongly overlaps silicon AI agent workflows, but live official page explicitly says role does not exist or is no longer available. Do not promote.",
+      "checked": "2026-11-07",
+      "source": "Apple official careers page; live unavailable"
+    },
+    {
+      "company": "Netflix",
+      "role": "Software Engineer 4/5 – Data and Feature Infrastructure, AI Platform",
+      "requisition_id": "JR31232",
+      "posting_url": "https://explore.jobs.netflix.net/careers/job/790300763299-software-engineer-4-5-%E2%80%93-data-and-feature-infrastructure-ai-platform-remote-united-states",
+      "location": "Remote US",
+      "compensation": "not verified this run",
+      "disposition": "pending_compensation_and_fit",
+      "reason": "Employer indexed role remote US; requires ML data/feature infrastructure specialization and current salary verification; no ungrounded promotion.",
+      "checked": "2026-11-07",
+      "source": "Netflix employer careers indexed result"
+    },
+    {
+      "company": "NextPatient",
+      "role": "Staff Software Engineer",
+      "requisition_id": "fdee7acd-be25-4dda-bbf3-21e1bed92efb",
+      "posting_url": "https://jobs.ashbyhq.com/nextpatient/fdee7acd-be25-4dda-bbf3-21e1bed92efb/",
+      "location": "Remote (US eligibility not explicitly verified)",
+      "compensation": "Estimated $250k-$300k salary + equity",
+      "disposition": "conditional_compensation_and_location",
+      "reason": "Estimated salary band crosses $286k but realistic offer and US eligibility not established; equity unspecified.",
+      "checked": "2026-11-07",
+      "source": "Employer Ashby ATS"
+    },
+    {
+      "company": "Patreon",
+      "role": "Staff Software Engineer, Data Infrastructure",
+      "requisition_id": "e8f0fe39-1a3f-4672-8857-0258800dc24f",
+      "posting_url": "https://jobs.ashbyhq.com/patreon/e8f0fe39-1a3f-4672-8857-0258800dc24f",
+      "location": "Remote; state eligibility unverified",
+      "compensation": "Zone A $257k-$386k, Zone B $232k-$347.5k base + equity",
+      "disposition": "conditional_compensation_location_and_fit",
+      "reason": "State pay zone and actual offer not established; data infrastructure specialization not yet mapped to evidence.",
+      "checked": "2026-11-07",
+      "source": "Employer Ashby ATS"
+    },
+    {
+      "company": "R37 Lab / R1 RCM",
+      "role": "Staff Software Engineer - Data Platform (HL7/FHIR)",
+      "requisition_id": "b2b4e127-97ce-4544-93e9-9f70db418e24",
+      "posting_url": "https://jobs.ashbyhq.com/r37/b2b4e127-97ce-4544-93e9-9f70db418e24",
+      "location": "Austin TX or Remote",
+      "compensation": "$120k-$300k base + bonus/equity unspecified",
+      "disposition": "excluded_compensation_and_domain_fit",
+      "reason": "Top of extremely broad salary range does not establish realistic $286k+; HL7/FHIR healthcare data specialization not substantiated.",
+      "checked": "2026-11-07",
+      "source": "Employer Ashby ATS"
     }
   ],
-  "dashboard_last_reviewed": "2026-11-07 22:27 America/Chicago",
-  "dashboard_notes": "Five ranked applications retained; conditional pay entries are not guaranteed qualifying compensation. Screened records are distinct from active ranked opportunities."
+  "dashboard_last_reviewed": "2026-11-07 23:27 America/Chicago",
+  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created."
 }
