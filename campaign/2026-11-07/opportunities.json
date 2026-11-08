@@ -26,7 +26,29 @@
       "research": "applications/netflix/tv-developer-lifecycle-test-infrastructure/2026-11-07/research.md"
     },
     {
+      "company": "Netflix",
+      "role": "Senior Software Engineer (L5), N-Tech Software Engineering",
+      "requisition_id": "JR43443",
+      "posting_url": "https://explore.jobs.netflix.net/careers/job/790319372667-senior-software-engineer-l5-n-tech-software-engineering-remote-united-states",
+      "location": "Remote US",
+      "compensation": "$388,000–$558,000 published annual salary/stock-option election; no annual bonus; location dependent",
+      "disposition": "high_priority_fit_conditional_compensation",
+      "reason": "Official Netflix careers listing dated 2026-11-05 describes employee productivity software and cross-functional product engineering; excellent thematic match for documented developer tools and full-stack work, but exact stack, seniority and compensation require full employer posting verification before qualification or tailored resume.",
+      "checked": "2026-11-08",
+      "source": "Official Netflix careers indexed posting",
       "rank": 2,
+      "priority_score": 91,
+      "fit_score": 91,
+      "compensation_gate": "Published floor exceeds $286k; Texas offer not guaranteed",
+      "status": "employer_listing_verified_resume_draft_created_cloud_gap",
+      "advantages": "Python, internal enterprise productivity applications, agentic workflows, MCP, React/TypeScript, backend APIs and AI engineering tools",
+      "gaps": "Production AWS/GCP and company-wide AI feature rollout not substantiated; employer years-of-experience number malformed",
+      "verified": "2026-11-08",
+      "resume": "applications/netflix/n-tech-productivity-experience/2026-11-08/resume.md",
+      "research": "applications/netflix/n-tech-productivity-experience/2026-11-08/research.md"
+    },
+    {
+      "rank": 3,
       "priority_score": 90,
       "company": "Netflix",
       "role": "Software Engineer 5 - Platform Data Products",
@@ -47,7 +69,7 @@
       "research": "applications/netflix/visualization-engineer-ai-infrastructure/2026-11-07/research.md"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "priority_score": 87,
       "company": "Hightouch",
       "role": "Staff Engineer, AI Productivity",
@@ -68,7 +90,7 @@
       "research": "applications/hightouch/staff-engineer-ai-productivity/2026-11-07/research.md"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "priority_score": 83,
       "company": "NVIDIA",
       "role": "Senior Software Engineer - Distributed Systems Engineer, EDA Infrastructure",
@@ -89,7 +111,7 @@
       "research": "applications/nvidia/eda-infrastructure-senior-software-engineer/2026-11-07/research.md"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "priority_score": 82,
       "company": "Hightouch",
       "role": "Software Engineer, AI Agents",
@@ -118,7 +140,6 @@
     "NVIDIA JR2024972 — Senior Systems Software Engineer, EDA Infrastructure (priority fit/pay review)",
     "NVIDIA JR2023962 — Senior Infrastructure Automation Engineer, Compute Platform (priority fit/pay review)",
     "NVIDIA JR2014880 — System Validation EDA Infrastructure (seniority/NPI review)",
-    "Netflix JR43443 — N-Tech employee productivity engineering (priority pay/requirements verification)",
     "Netflix JR42179 — TV Client Foundations (priority pay/TV-stack verification)"
   ],
   "screened": [
@@ -316,18 +337,6 @@
     },
     {
       "company": "Netflix",
-      "role": "Senior Software Engineer (L5), N-Tech Software Engineering",
-      "requisition_id": "JR43443",
-      "posting_url": "https://explore.jobs.netflix.net/careers/job/790319372667-senior-software-engineer-l5-n-tech-software-engineering-remote-united-states",
-      "location": "Remote US",
-      "compensation": "Not verified in current employer indexed excerpt",
-      "disposition": "high_priority_fit_conditional_compensation",
-      "reason": "Official Netflix careers listing dated 2026-11-05 describes employee productivity software and cross-functional product engineering; excellent thematic match for documented developer tools and full-stack work, but exact stack, seniority and compensation require full employer posting verification before qualification or tailored resume.",
-      "checked": "2026-11-08",
-      "source": "Official Netflix careers indexed posting"
-    },
-    {
-      "company": "Netflix",
       "role": "Software Engineer 5 - TV Client Foundations",
       "requisition_id": "JR42179",
       "posting_url": "https://explore.jobs.netflix.net/careers/job/790317890482",
@@ -344,11 +353,11 @@
       "requisition_id": "JR40898",
       "posting_url": "https://explore.jobs.netflix.net/careers/job/790316165312-software-engineer-4-5-%E2%80%93-model-development-and-management-ai-platform-usa-remote",
       "location": "Remote US",
-      "compensation": "Not verified in current employer indexed excerpt",
-      "disposition": "conditional_ml_platform_specialization_and_compensation",
-      "reason": "Employer posting dated 2026-10-20; L4/L5 remote, but hands-on ML model development/management platform experience and published compensation not checked; do not promote.",
+      "compensation": "$466,000–$750,000 published annual salary/stock-option election; location dependent",
+      "disposition": "priority_ml_platform_evidence_gap_compensation_verified",
+      "reason": "Employer posting dated 2026-10-20; L4/L5 remote, but hands-on ML model development/management platform experience and published compensation not checked; do not promote. Fresh Netflix employer listing verifies $466k-$750k range and ML-platform UI, Python plus Scala/Java/C++, ML lifecycle/tooling and 5+ years with specified degree condition. Evidence gap for hands-on ML platforms and degree wording; not promoted.",
       "checked": "2026-11-08",
-      "source": "Official Netflix careers indexed posting"
+      "source": "Netflix official employer careers full job posting"
     },
     {
       "company": "Google",
@@ -375,8 +384,8 @@
       "source": "Apple official careers indexed listing"
     }
   ],
-  "dashboard_last_reviewed": "2026-11-08 00:23 America/Chicago (focused search; no comprehensive employer census)",
-  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified. NVIDIA EDA screenshot follow-up: JR2024972 and JR2023962 prioritized for evidence mapping; JR2014880 conditional seniority/NPI; JR2028279 excluded based on enumerated non-TX/FL remote states and security specialization. Official indexed listings located; live headcount not independently confirmed. 00:23 iteration: reconciled Netflix JR41877 official title to Platform Data Products (prior resume stale), resolved Tesla Staff Infrastructure req 281111, added Netflix JR43443/JR42179/JR40898, Google Staff Enterprise Architecture and Apple AI Data Platforms as conditional leads. No salary/requirements-qualified new resume. Existing five drafts preserved.",
+  "dashboard_last_reviewed": "2026-11-08 01:22 America/Chicago (focused broad discovery and employer-page validation; not exhaustive)",
+  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified. NVIDIA EDA screenshot follow-up: JR2024972 and JR2023962 prioritized for evidence mapping; JR2014880 conditional seniority/NPI; JR2028279 excluded based on enumerated non-TX/FL remote states and security specialization. Official indexed listings located; live headcount not independently confirmed. 00:23 iteration: reconciled Netflix JR41877 official title to Platform Data Products (prior resume stale), resolved Tesla Staff Infrastructure req 281111, added Netflix JR43443/JR42179/JR40898, Google Staff Enterprise Architecture and Apple AI Data Platforms as conditional leads. No salary/requirements-qualified new resume. Existing five drafts preserved. 01:22 run: Netflix JR43443 official $388k-$558k verified, promoted to provisional rank #2 and evidence-grounded resume/claims package added; JR40898 $466k-$750k verified but ML platform fit gap. New Anthropic and Databricks leads screened for disqualifying geography; NVIDIA EDA listings refreshed. Five historical drafts preserved.",
   "applications_submitted": [
     {
       "company": "Netflix",
