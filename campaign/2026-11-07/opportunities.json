@@ -621,10 +621,11 @@
       "posting_url": "https://explore.jobs.netflix.net/careers/job/790316292023",
       "location": "Remote, United States (current employer metadata; remote_local)",
       "compensation": "Not available in directly accessible official job description; Netflix salary not assumed from other requisitions",
-      "disposition": "priority_conditional_full_job_requirements_and_pay",
-      "reason": "Direct Netflix careers page on 2026-11-08 shows exact JR41100, public listing and US remote. Agent platform thematic fit with public Arm AI-tooling evidence is promising, but official job_description field is blank in accessible page and no job-specific salary or hard requirements could be verified. Do not promote or tailor until verified $286k+ realistic offer and full requirements.",
+      "disposition": "already_applied_do_not_queue",
+      "reason": "Candidate-confirmed application submitted 2026-10-23; awaiting response as of 2026-11-07. The 07:27 conditional screening was a duplicate of an already-submitted application, not a new unsubmitted prospect. Retain screening record for history, exclude from future application queue.",
       "checked": "2026-11-08 07:27 CST",
-      "source": "Direct Netflix official careers page (position metadata; blank job_description)"
+      "source": "Direct Netflix official careers page (position metadata; blank job_description)",
+      "reconciled": "2026-11-08 08:29 CST"
     },
     {
       "company": "Render",
@@ -673,10 +674,58 @@
       "reason": "Relevant industrial AI deployment and application engineering, but $240k salary ceiling below baseline and unspecified bonus does not substantiate >$286k annual TC.",
       "checked": "2026-11-08 07:27 CST",
       "source": "Official IFS Nexus Black Ashby indexed posting"
+    },
+    {
+      "company": "AMD",
+      "role": "Software Solutions Engineer",
+      "requisition_id": "92706",
+      "posting_url": "https://careers.amd.com/careers-home/jobs/92706",
+      "location": "Austin TX",
+      "compensation": "$168,000–$252,000 published base; bonus/equity not quantified",
+      "disposition": "excluded_compensation_unverified_liquid_bridge",
+      "reason": "Official AMD posting; base ceiling $34k below $286k baseline; datacenter HW/SW ecosystem work relevant but no credible documented cash/public equity bridge. Not promoted.",
+      "checked": "2026-11-08 08:29 CST",
+      "source": "Official AMD careers posting"
+    },
+    {
+      "company": "AMD",
+      "role": "Senior GPU Performance Software Engineer",
+      "requisition_id": "92004",
+      "posting_url": "https://careers.amd.com/careers-home/jobs/92004",
+      "location": "Austin TX",
+      "compensation": "$174,400–$261,600 published base; bonus/equity not quantified",
+      "disposition": "excluded_compensation_and_gpu_performance_specialization",
+      "reason": "Official AMD posting; base below threshold and requires deep GPU workload performance architecture not established in public career evidence.",
+      "checked": "2026-11-08 08:29 CST",
+      "source": "Official AMD careers posting"
+    },
+    {
+      "company": "AMD",
+      "role": "Software System Design Engineer",
+      "requisition_id": "92635",
+      "posting_url": "https://careers.amd.com/careers-home/jobs/92635",
+      "location": "Austin TX",
+      "compensation": "$140,000–$210,000 published base; bonus/equity not quantified",
+      "disposition": "excluded_compensation",
+      "reason": "Official AMD posting; salary ceiling $76k below baseline and no documented liquid equity/bonus bridge. Cross-functional CPU cloud enablement not enough to overcome pay gate.",
+      "checked": "2026-11-08 08:29 CST",
+      "source": "Official AMD careers posting"
+    },
+    {
+      "company": "Patreon",
+      "role": "Senior Engineering Manager, Infrastructure + Developer Productivity",
+      "requisition_id": "ba5de6c4-a6e2-448c-b599-9acc4abce962",
+      "posting_url": "https://jobs.ashbyhq.com/patreon/ba5de6c4-a6e2-448c-b599-9acc4abce962",
+      "location": "Remote (Texas eligibility not expressly established); NYC; SF",
+      "compensation": "$296,000–$444,000 advertised compensation plus equity; geographic applicability unknown",
+      "disposition": "conditional_location_and_management_experience",
+      "reason": "Official Ashby listing with developer productivity and AI enablement focus; salary floor above baseline but engineering management of infrastructure teams and remote Texas eligibility not established by verified public career evidence. Do not promote without both.",
+      "checked": "2026-11-08 08:29 CST",
+      "source": "Official Patreon Ashby posting"
     }
   ],
-  "dashboard_last_reviewed": "2026-11-08 07:27 CST",
-  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified. NVIDIA EDA screenshot follow-up: JR2024972 and JR2023962 prioritized for evidence mapping; JR2014880 conditional seniority/NPI; JR2028279 excluded based on enumerated non-TX/FL remote states and security specialization. Official indexed listings located; live headcount not independently confirmed. 00:23 iteration: reconciled Netflix JR41877 official title to Platform Data Products (prior resume stale), resolved Tesla Staff Infrastructure req 281111, added Netflix JR43443/JR42179/JR40898, Google Staff Enterprise Architecture and Apple AI Data Platforms as conditional leads. No salary/requirements-qualified new resume. Existing five drafts preserved. 01:22 run: Netflix JR43443 official $388k-$558k verified, promoted to provisional rank #2 and evidence-grounded resume/claims package added; JR40898 $466k-$750k verified but ML platform fit gap. New Anthropic and Databricks leads screened for disqualifying geography; NVIDIA EDA listings refreshed. Five historical drafts preserved. Four additional exact employer requisitions screened: Anthropic 5290360008, 5451889008, 5257650008; Databricks P-1579. No qualified geography-confirmed candidate. 02:26 run: four new exact employer requisitions screened (Tesla 268132,253398,256514; Anthropic 5466480008); no verified >$286k TC plus documented fit, no new résumé. Existing six ranked and 24 screened preserved. Broad 15-query sweep across preferred employers was uneven; not an exhaustive census. 03:24 CST: Tesla 281729 exact requisition resolved from earlier no-ID lead; Tesla 287827 newly screened. No compensation-qualified promotion; NVIDIA JR2024972 and JR2023962 official Workday pages refreshed. Broad employer-domain search attempted, limited detailed verification.\n2026-11-08 04:28 CST: focused fresh broad official-domain sweep (16 employer groups, 2 follow-up batches). Added five new screened requisitions: NVIDIA JR2025019/JR2024816/JR2023960, Anthropic 5110511008, Databricks RDQ327R179. No promotions. Direct NVIDIA Workday pages unreadable; indexed employer snippets not live headcount confirmation. All earlier records preserved.\n2026-11-08 05:30 CST: official employer discovery sweep yielded two newly screened Austin Tesla roles JR not applicable: 288087 and 280585; both excluded for specialized production robotics/embedded firmware and unverified compensation. NVIDIA JR2024972 and JR2023962 rechecked via official indexed postings; direct Workday content inaccessible, pay/ops gaps unresolved. 0 promotions, 0 new resumes.\n2026-11-08 06:26 CST: Broad official-domain indexed sweep across Netflix, NVIDIA, Tesla, OpenAI, Anthropic, Google, Apple, Meta, Microsoft, Amazon, SpaceX, Databricks, Palantir, AMD, Disney, robotics and cross-company remote boards. Four distinct newly screened: Netflix JR42274 (official onsite/remote metadata conflict), Patreon Staff Data Infrastructure (zone pay/remote uncertainty), Thumbtack Staff AI/ML Infrastructure (specialist pay gap), Sleeper Staff Backend (narrow pay range/remote uncertainty). Rechecked NVIDIA JR2024972 and JR2023962 indexed official pages; no promotion. Six ranked, 39 screened, 45 structured records. Historical run-log unique discovery count remains unreconciled.\n2026-11-08 07:27 CST: broad official employer-domain search, five new structured screening records (Netflix Agent Platform JR41100, Render Product, Phantom AI Engineer, Omni AI Engineer, IFS Nexus Black AI Engineer). No promotion: compensation or complete hard requirements unverified. All six ranked entries preserved. NVIDIA JR2024972/JR2023962 remain conditional, JR2014880 seniority conditional, JR2028279 location excluded. Employer indexing != recruiter-confirmed headcount.",
+  "dashboard_last_reviewed": "2026-11-08 08:29 CST",
+  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified. NVIDIA EDA screenshot follow-up: JR2024972 and JR2023962 prioritized for evidence mapping; JR2014880 conditional seniority/NPI; JR2028279 excluded based on enumerated non-TX/FL remote states and security specialization. Official indexed listings located; live headcount not independently confirmed. 00:23 iteration: reconciled Netflix JR41877 official title to Platform Data Products (prior resume stale), resolved Tesla Staff Infrastructure req 281111, added Netflix JR43443/JR42179/JR40898, Google Staff Enterprise Architecture and Apple AI Data Platforms as conditional leads. No salary/requirements-qualified new resume. Existing five drafts preserved. 01:22 run: Netflix JR43443 official $388k-$558k verified, promoted to provisional rank #2 and evidence-grounded resume/claims package added; JR40898 $466k-$750k verified but ML platform fit gap. New Anthropic and Databricks leads screened for disqualifying geography; NVIDIA EDA listings refreshed. Five historical drafts preserved. Four additional exact employer requisitions screened: Anthropic 5290360008, 5451889008, 5257650008; Databricks P-1579. No qualified geography-confirmed candidate. 02:26 run: four new exact employer requisitions screened (Tesla 268132,253398,256514; Anthropic 5466480008); no verified >$286k TC plus documented fit, no new résumé. Existing six ranked and 24 screened preserved. Broad 15-query sweep across preferred employers was uneven; not an exhaustive census. 03:24 CST: Tesla 281729 exact requisition resolved from earlier no-ID lead; Tesla 287827 newly screened. No compensation-qualified promotion; NVIDIA JR2024972 and JR2023962 official Workday pages refreshed. Broad employer-domain search attempted, limited detailed verification.\n2026-11-08 04:28 CST: focused fresh broad official-domain sweep (16 employer groups, 2 follow-up batches). Added five new screened requisitions: NVIDIA JR2025019/JR2024816/JR2023960, Anthropic 5110511008, Databricks RDQ327R179. No promotions. Direct NVIDIA Workday pages unreadable; indexed employer snippets not live headcount confirmation. All earlier records preserved.\n2026-11-08 05:30 CST: official employer discovery sweep yielded two newly screened Austin Tesla roles JR not applicable: 288087 and 280585; both excluded for specialized production robotics/embedded firmware and unverified compensation. NVIDIA JR2024972 and JR2023962 rechecked via official indexed postings; direct Workday content inaccessible, pay/ops gaps unresolved. 0 promotions, 0 new resumes.\n2026-11-08 06:26 CST: Broad official-domain indexed sweep across Netflix, NVIDIA, Tesla, OpenAI, Anthropic, Google, Apple, Meta, Microsoft, Amazon, SpaceX, Databricks, Palantir, AMD, Disney, robotics and cross-company remote boards. Four distinct newly screened: Netflix JR42274 (official onsite/remote metadata conflict), Patreon Staff Data Infrastructure (zone pay/remote uncertainty), Thumbtack Staff AI/ML Infrastructure (specialist pay gap), Sleeper Staff Backend (narrow pay range/remote uncertainty). Rechecked NVIDIA JR2024972 and JR2023962 indexed official pages; no promotion. Six ranked, 39 screened, 45 structured records. Historical run-log unique discovery count remains unreconciled.\n2026-11-08 07:27 CST: broad official employer-domain search, five new structured screening records (Netflix Agent Platform JR41100, Render Product, Phantom AI Engineer, Omni AI Engineer, IFS Nexus Black AI Engineer). No promotion: compensation or complete hard requirements unverified. All six ranked entries preserved. NVIDIA JR2024972/JR2023962 remain conditional, JR2014880 seniority conditional, JR2028279 location excluded. Employer indexing != recruiter-confirmed headcount.\n08:29: Five employer-indexed leads screened (three AMD compensation failures, Patreon conditional, Databricks geography failure). JR41100 reconciled as already applied 2026-10-23; do not queue again. NVIDIA JR2024972/JR2023962 official pages reconfirm Austin/US Remote and posted within five/two days as indexed, not recruiter-side confirmation. No new ranked promotions.",
   "applications_submitted": [
     {
       "company": "Netflix",
