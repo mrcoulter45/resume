@@ -7,6 +7,6 @@
   "scheduled_future_runs": 23,
   "recurrence": "BEGIN:VEVENT\nDTSTART:20261107T162700\nRRULE:FREQ=HOURLY;COUNT=23\nEND:VEVENT",
   "last_scheduled_local": "2026-11-08T14:27:00",
-  "github_branch": "campaign/2026-11-07-hourly-job-search",
+  "github_branch": "main",
   "warning": "An automation is scheduled, but each execution's actual GitHub actions, searches and validation remain subject to run-time tool access and success."
 }
