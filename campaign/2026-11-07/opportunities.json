@@ -114,7 +114,10 @@
     "Google Staff Core Systems and Capacity Assurance",
     "Amazon Senior SoC DevOps Annapurna Labs",
     "Render Software Engineer Dev Velocity",
-    "Netflix JR31232 — Software Engineer 4/5 Data and Feature Infrastructure, AI Platform (priority review)"
+    "Netflix JR31232 — Software Engineer 4/5 Data and Feature Infrastructure, AI Platform (priority review)",
+    "NVIDIA JR2024972 — Senior Systems Software Engineer, EDA Infrastructure (priority fit/pay review)",
+    "NVIDIA JR2023962 — Senior Infrastructure Automation Engineer, Compute Platform (priority fit/pay review)",
+    "NVIDIA JR2014880 — System Validation EDA Infrastructure (seniority/NPI review)"
   ],
   "screened": [
     {
@@ -260,10 +263,58 @@
       "reason": "Top of extremely broad salary range does not establish realistic $286k+; HL7/FHIR healthcare data specialization not substantiated.",
       "checked": "2026-11-07",
       "source": "Employer Ashby ATS"
+    },
+    {
+      "company": "NVIDIA",
+      "role": "Senior Systems Software Engineer - EDA Infrastructure",
+      "requisition_id": "JR2024972",
+      "posting_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Systems-Software-Engineer--EDA-Infrastructure_JR2024972-1",
+      "location": "Austin TX; US Remote listed",
+      "compensation": "L4 $184,000-$287,500 base or L5 $224,000-$356,500 base, plus equity",
+      "disposition": "priority_evidence_fit_and_compensation_review",
+      "reason": "High overlap with EDA/Python automation, AI coding assistants, MCP and agent tooling. Requires 8+ years, production cloud infrastructure tooling, containers/Linux, distributed systems, operational on-call/SLI-SLO. Public career evidence must establish specifics. L4/L5 equity/offer must credibly exceed $286k annual TC. Official Workday indexed listing found; live headcount/recruiter confirmation unavailable.",
+      "checked": "2026-11-08",
+      "source": "Official NVIDIA Workday indexed listing"
+    },
+    {
+      "company": "NVIDIA",
+      "role": "Senior Software Engineer, System Validation - EDA Infrastructure",
+      "requisition_id": "JR2014880",
+      "posting_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880",
+      "location": "Austin TX among five locations; other remote state not nationwide",
+      "compensation": "L5 $224,000-$356,500 base or L6 $272,000-$431,250 base, plus equity",
+      "disposition": "conditional_seniority_and_platform_fit_review",
+      "reason": "Relevant EDA system-level hardware/software, validation and deployment; requires 12+ years overall and strong next-generation infrastructure NPI at scale, cloud/platform engineering; no unsupported seniority or delivery claims. Location possible through Austin; verify live posting, level and realistic pay.",
+      "checked": "2026-11-08",
+      "source": "Official NVIDIA Workday indexed listing"
+    },
+    {
+      "company": "NVIDIA",
+      "role": "Senior Infrastructure Security Engineer - EDA Clusters",
+      "requisition_id": "JR2028279",
+      "posting_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Infrastructure-Security-Engineer---EDA-Clusters_JR2028279",
+      "location": "CA/NC/CO/WA/MA remote only on listing; Austin/Tampa or US-anywhere remote NOT listed",
+      "compensation": "L4 $184,000-$287,500 base or L5 $224,000-$356,500 base, plus equity",
+      "disposition": "excluded_geography_and_infrastructure_security_gap",
+      "reason": "Official listing enumerates remote states not including Texas or Florida and requires substantial production fleet security, networking and response ownership. Do not promote unless employer confirms nationwide/Texas/Florida remote eligibility and missing relevant capabilities are documented.",
+      "checked": "2026-11-08",
+      "source": "Official NVIDIA Workday indexed listing"
+    },
+    {
+      "company": "NVIDIA",
+      "role": "Senior Infrastructure Automation Engineer, Compute Platform - EDA Infrastructure",
+      "requisition_id": "JR2023962",
+      "posting_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Infrastructure-Automation-Engineer--Compute-Platform_JR2023962",
+      "location": "Austin TX; US Remote listed",
+      "compensation": "L4 $184,000-$287,500 base or L5 $224,000-$356,500 base, plus equity",
+      "disposition": "priority_evidence_fit_and_compensation_review",
+      "reason": "Relevant EDA tooling, Python/shell automation, CI/CD regression testing, staged deployment and rollback. Requires 6+ years infrastructure engineering, Ansible/Salt/Puppet/Chef-class configuration management, GitOps at scale and operating stateful long-lived infrastructure. Must map exact public evidence; actual recurring RSU plus salary package must credibly exceed $286k annual TC; indexed posting not recruiter-verified.",
+      "checked": "2026-11-08",
+      "source": "Official NVIDIA Workday indexed listing"
     }
   ],
-  "dashboard_last_reviewed": "2026-11-07 23:27 America/Chicago",
-  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified.",
+  "dashboard_last_reviewed": "2026-11-08 (focused user-supplied NVIDIA lead review; not full hourly reconciliation)",
+  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified. NVIDIA EDA screenshot follow-up: JR2024972 and JR2023962 prioritized for evidence mapping; JR2014880 conditional seniority/NPI; JR2028279 excluded based on enumerated non-TX/FL remote states and security specialization. Official indexed listings located; live headcount not independently confirmed.",
   "applications_submitted": [
     {
       "company": "Netflix",
