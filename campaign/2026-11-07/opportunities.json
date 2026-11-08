@@ -113,7 +113,8 @@
     "GitHub Staff Enterprise Platform",
     "Google Staff Core Systems and Capacity Assurance",
     "Amazon Senior SoC DevOps Annapurna Labs",
-    "Render Software Engineer Dev Velocity"
+    "Render Software Engineer Dev Velocity",
+    "Netflix JR31232 — Software Engineer 4/5 Data and Feature Infrastructure, AI Platform (priority review)"
   ],
   "screened": [
     {
@@ -216,13 +217,13 @@
       "company": "Netflix",
       "role": "Software Engineer 4/5 – Data and Feature Infrastructure, AI Platform",
       "requisition_id": "JR31232",
-      "posting_url": "https://explore.jobs.netflix.net/careers/job/790300763299-software-engineer-4-5-%E2%80%93-data-and-feature-infrastructure-ai-platform-remote-united-states",
+      "posting_url": "https://netflix.wd108.myworkdayjobs.com/en-US/Netflix/job/Software-Engineer-L4-L5---Data-and-Feature-Infrastructure--Machine-Learning-Platform_JR31232",
       "location": "Remote US",
-      "compensation": "not verified this run",
-      "disposition": "pending_compensation_and_fit",
-      "reason": "Employer indexed role remote US; requires ML data/feature infrastructure specialization and current salary verification; no ungrounded promotion.",
+      "compensation": "$466,000–$750,000 published annual compensation, salary/stock-option election; varies by location",
+      "disposition": "priority_review_verified_compensation_conditional_specialist_fit",
+      "reason": "Official Netflix Workday and Netflix Careers listings identify US-remote L4/L5 opening, JR31232, $466k–$750k published annual compensation. Strong Python, engineering tooling and ML-practitioner productivity transferability, but required production ML/data infrastructure, Spark/Flink/Kafka, Iceberg/Cassandra, AWS and high-traffic low-latency operations are not established by reviewed public career evidence. Do not imply L4 removes hard requirements. User requested priority evaluation; no tailored resume until evidence mapping.",
       "checked": "2026-11-07",
-      "source": "Netflix employer careers indexed result"
+      "source": "Official Netflix Workday and Netflix Careers listing"
     },
     {
       "company": "NextPatient",
@@ -262,5 +263,5 @@
     }
   ],
   "dashboard_last_reviewed": "2026-11-07 23:27 America/Chicago",
-  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created."
+  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified."
 }
