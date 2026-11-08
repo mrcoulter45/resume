@@ -806,6 +806,66 @@
       "reason": "Base crosses baseline only at upper end; private equity not treated as liquid and ad-platform specialization not evidenced. Do not promote.",
       "checked": "2026-11-08",
       "source": "Official employer Ashby ATS"
+    },
+    {
+      "company": "Google",
+      "role": "Software Engineer, AI Infrastructure, Core",
+      "requisition_id": "88041202678407878",
+      "posting_url": "https://www.google.com/about/careers/applications/jobs/results/88041202678407878-software-engineer-ai-infrastructure-core",
+      "location": "Austin TX",
+      "compensation": "$174k-$252k base + 15% target bonus + discretionary equity",
+      "disposition": "conditional_compensation_and_fit_gap",
+      "reason": "5 years Java and ML infrastructure minimums not established; top base plus target bonus $289.8k is not expected pay.",
+      "checked": "2026-11-08",
+      "source": "Official employer careers/ATS page"
+    },
+    {
+      "company": "Netflix",
+      "role": "Software Engineer 4 - Android",
+      "requisition_id": "JR42271",
+      "posting_url": "https://explore.jobs.netflix.net/careers?pid=790318040862",
+      "location": "Remote US",
+      "compensation": "Not verified",
+      "disposition": "excluded_fit_gap",
+      "reason": "Kotlin and production Android delivery not substantiated.",
+      "checked": "2026-11-08",
+      "source": "Official employer careers/ATS page"
+    },
+    {
+      "company": "Etched",
+      "role": "Physical Design Engineer - Block Level, Subsystem Implementation",
+      "requisition_id": "127f9760-3069-4152-b882-4e76b8f4ff1d",
+      "posting_url": "https://jobs.ashbyhq.com/etched/127f9760-3069-4152-b882-4e76b8f4ff1d",
+      "location": "Austin onsite",
+      "compensation": "$200k-$300k base + private equity",
+      "disposition": "excluded_fit_gap_and_conditional_compensation",
+      "reason": "Advanced-node physical design/signoff not established; top band and private equity not expected pay.",
+      "checked": "2026-11-08",
+      "source": "Official employer careers/ATS page"
+    },
+    {
+      "company": "R37 Lab",
+      "role": "Software Engineer - MLOps",
+      "requisition_id": "90802880-4c90-4917-b064-fc9eb86f1434",
+      "posting_url": "https://jobs.ashbyhq.com/r37/90802880-4c90-4917-b064-fc9eb86f1434",
+      "location": "NY or remote; TX unverified",
+      "compensation": "$140k-$300k base + private equity",
+      "disposition": "conditional_compensation_location_and_fit",
+      "reason": "Remote eligibility, MLOps specialization and expected compensation unverified.",
+      "checked": "2026-11-08",
+      "source": "Official employer careers/ATS page"
+    },
+    {
+      "company": "9 Mothers",
+      "role": "Perception Engineer",
+      "requisition_id": "fd8c2655-efe2-490e-bff8-e8fed5dbf9aa",
+      "posting_url": "https://jobs.ashbyhq.com/9-mothers/fd8c2655-efe2-490e-bff8-e8fed5dbf9aa",
+      "location": "Austin onsite",
+      "compensation": "Staff $190k-$230k; principal $235k-$275k; distinguished $280k-$300k + equity",
+      "disposition": "excluded_fit_gap_and_compensation",
+      "reason": "Production computer vision/perception not established; only distinguished top band exceeds baseline.",
+      "checked": "2026-11-08",
+      "source": "Official employer careers/ATS page"
     }
   ],
   "dashboard_last_reviewed": "2026-11-08 10:26 CST",
