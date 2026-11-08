@@ -263,5 +263,19 @@
     }
   ],
   "dashboard_last_reviewed": "2026-11-07 23:27 America/Chicago",
-  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified."
+  "dashboard_notes": "Five ranked application drafts retained; six additional distinct screening entries this pass. Netflix JR41877 indexed search result showed conflicting job title versus current ranked title: title must be reconciled with live official posting before application. Apple Gen AI 200626209-0157 official live page unavailable; not promoted. No new qualified resume created. JR31232 official compensation and US-remote L4/L5 status verified; high-priority conditional specialist-fit review, not ranked as qualified.",
+  "applications_submitted": [
+    {
+      "company": "Netflix",
+      "role": "Software Engineer 5 - Agent Platform, AI Platform",
+      "requisition_id": "JR41100",
+      "posting_url": "https://explore.jobs.netflix.net/careers/job/790316292023",
+      "applied_on": "2026-10-23",
+      "last_status_reported": "2026-11-07",
+      "application_status": "applied_awaiting_response",
+      "status_source": "candidate confirmation",
+      "status_note": "Candidate confirms applying October 23, 2026 and reports no response as of November 7, 2026. No rejection or recruiter interaction confirmed.",
+      "tracker": "applications/application-status.md"
+    }
+  ]
 }
