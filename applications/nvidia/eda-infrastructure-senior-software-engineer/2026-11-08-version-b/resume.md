@@ -5,7 +5,7 @@ Buda, TX | mrcoulter45@gmail.com | (760) 694-6310
 
 ## Professional Summary
 
-Senior Software Engineer combining shipped SoC electronic design automation (EDA) applications with Linux/LSF-aware engineering automation, Python backend integration and hardware/software foundations. Built safe cluster-host tooling, integrity-checked cross-site transfer and reproducible CI repair; also designed agentic systems and sophisticated EDA visualization. Demonstrated ability to move between embedded/FPGA engineering, web platforms, EDA and AI-assisted infrastructure without claiming ownership of production compute fleets.
+Senior Software Engineer combining shipped SoC electronic design automation (EDA) software with Python backend integration, Linux/LSF-aware engineering automation and hardware/software foundations. Built safe cluster-access tooling, integrity-checked cross-site transfer and reproducible CI repair while also designing agentic systems and sophisticated EDA visualization. Brings firsthand understanding of EDA engineers' workflows and a track record of adapting across embedded, product and infrastructure engineering.
 
 ## Professional Experience
 
@@ -15,7 +15,7 @@ Senior Software Engineer combining shipped SoC electronic design automation (EDA
 - As functional CMN GUI Lead, owned coherent-mesh configuration and validation interfaces spanning complex port devices, grouped resources, custom routing and mesh-deadlock investigation.
 - Contributed to shared Python backend APIs and configuration adapters that preserve hardware hierarchy, interface relationships and YAML/JSON semantics.
 - Built user-scoped Linux cluster tooling with run-owned temporary paths, ownership checks, credential-safe transport and LSF-aware execution policies for shared engineering hosts.
-- Developed bounded host-selection probes and ranking for a configured 35-host login pool; this was a tooling configuration, not operational ownership of a compute fleet.
+- Developed bounded host-selection probes and ranking across a configured 35-host login pool to help engineers select shared compute hosts.
 - Implemented SHA-256-verified cross-site file transfer with safe conflict rejection, idempotent reuse, partial destinations and atomic finalization.
 - Built Jenkins/Playwright repair automation that reconstructs matrix-specific failures, uses LSF-constrained test replays and requires three clean passes before human review.
 - Designed Python MCP agent automation with typed planning, semantic validation, checkpoints, rollback and safe retries, transferring correctness principles from EDA workflows into agentic systems.

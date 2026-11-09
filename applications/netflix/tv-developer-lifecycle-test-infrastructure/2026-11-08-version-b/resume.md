@@ -15,7 +15,7 @@ Senior Software Engineer building reliable CI and test workflows for production 
 - Designed an autonomous diagnose–fix–retest loop with isolated worktrees, three consecutive clean replays and human review before commit/publication.
 - Created a GUI qualification runner covering prerequisites, Angular/Karma, renderer builds, Playwright, retained artifacts and explicit interrupted/incomplete evidence states.
 - Engineered exact Playwright test selection with reporter discovery, escaped anchored filters and second-pass test-ID verification; rejected ambiguous matches.
-- Defined regression fixtures across 28 interconnect IP projects and two renderers (56 configured validation cells, not a claim of 56 passing tests).
+- Defined regression fixtures across 28 interconnect IP projects and two renderers, establishing 56 configured validation cells.
 - Built product-aware desktop regression scenarios with real configuration-engine inputs, renderer/persistence checks and checkout-specific debugging workflows.
 - Designed a shared Codex harness, engineering memory and Python MCP integration with typed plans, semantic postconditions, rollback and safe retries—extending reliability thinking beyond CI into agent-driven development.
 - Shipped customer-facing Angular/TypeScript, Electron/Node and Python EDA software; as functional CMN GUI Lead, owned complex coherent-mesh GUI tooling and validation workflows.
