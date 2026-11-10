@@ -4,6 +4,21 @@ Research began November 7, 2026. Current Arm annual TC: **$286,000**. Branch: `m
 
 The ratings and interview/offer ranges are *subjective, uncalibrated planning estimates*. Employer-posted range ceilings are not actual job offers; private equity is not equivalent to liquid cash. Preserve all opportunities between hourly runs.
 
+## Application-status update — 2026-11-10
+
+**Five additional applications confirmed submitted by the candidate; exact submission dates were not provided.** They are no longer prospective “to apply” items. No recruiter response, interview, rejection or hiring outcome has been reported for these five. Track current status in [applications/application-status.md](../../applications/application-status.md). The original priority table and historical research below are retained as snapshots, **not** an up-to-date unsubmitted application queue.
+
+| Reported submitted role | Requisition | Confirmed status |
+| --- | --- | --- |
+| [Hightouch — Software Engineer, AI Agents](https://jobs.ashbyhq.com/hightouch-inc/83b879e6-628e-41b4-a601-191e2dc69a54) | 83b879e6-628e-41b4-a601-191e2dc69a54 | **Applied**, reported 2026-11-10; date/outcome unspecified |
+| [Hightouch — Staff Engineer, AI Productivity](https://jobs.ashbyhq.com/hightouch-inc/b065eb2f-aea7-4044-99f9-7bc948039e1a/) | b065eb2f-aea7-4044-99f9-7bc948039e1a | **Applied**, reported 2026-11-10; date/outcome unspecified |
+| [Netflix — Senior Software Engineer (L5), Productivity Software Engineering](https://explore.jobs.netflix.net/careers/job/790319372667-senior-software-engineer-l5-n-tech-software-engineering-remote-united-states) | JR43443 | **Applied**, reported 2026-11-10; date/outcome unspecified |
+| [Netflix — Visualization Engineer 5 - AI Infrastructure & Productivity Tooling](https://explore.jobs.netflix.net/careers/job/790317589519) | JR41877 | **Applied**, reported 2026-11-10; date/outcome unspecified |
+| [Netflix — Software Engineer 4/5 – Model Development and Management, AI Platform](https://explore.jobs.netflix.net/careers/job/790316165312?microsite=netflix.com) | JR40898 | **Applied**, reported 2026-11-10; date/outcome unspecified |
+
+Previously recorded application: Netflix JR41100, applied October 23, remains separate. **Current candidate-confirmed submitted total: six.** JR43443 and JR41877 have alternate titles in older indexed research; the candidate-reported titles above are preserved without rewriting historical postings. JR40898 was previously in the screened pool and is now applied; do not requeue it as unsubmitted.
+
+
 | Rank | Score | Opening | Location | Pay qualification | Interview / offer estimates | Resume |
 |---:|---:|---|---|---|---|---|
 | 1 | 92/100 | [Netflix — Software Engineer 5 - TV Developer Lifecycle: Test Infrastructure (JR42270)](https://netflix.wd108.myworkdayjobs.com/netflix/job/usa---remote/software-engineer-5---tv-developer-lifecycle--test-infrastructure_jr42270) | Remote US | Published floor above $286k | 10-20% / 2-5% | [Tailored draft](../../applications/netflix/tv-developer-lifecycle-test-infrastructure/2026-11-07/resume.md) |
@@ -17,11 +32,16 @@ The ratings and interview/offer ranges are *subjective, uncalibrated planning es
 
 ## Submitted applications (candidate-confirmed)
 
-These are historical applications, **not additional unsubmitted prospects**. An unanswered application is not a rejection.
+These are candidate-confirmed applications, **not additional unsubmitted prospects**. Older entries and rankings below are historical snapshots. An unanswered application is not a rejection. Five applications were newly reported on 2026-11-10; their exact application dates and outcomes were not provided.
 
-| Employer | Role | Requisition | Applied | Status as of 2026-11-07 |
+| Employer | Role | Requisition | Applied | Latest candidate-reported status |
 | --- | --- | --- | --- | --- |
 | Netflix | [Software Engineer 5 — Agent Platform, AI Platform](https://explore.jobs.netflix.net/careers/job/790316292023) | JR41100 | **2026-10-23** | **Applied — awaiting response; no reply reported** |
+| Hightouch | [Software Engineer, AI Agents](https://jobs.ashbyhq.com/hightouch-inc/83b879e6-628e-41b4-a601-191e2dc69a54) | 83b879e6-628e-41b4-a601-191e2dc69a54 | **Date unknown; reported 2026-11-10** | **Submitted; outcome not reported** |
+| Hightouch | [Staff Engineer, AI Productivity](https://jobs.ashbyhq.com/hightouch-inc/b065eb2f-aea7-4044-99f9-7bc948039e1a/) | b065eb2f-aea7-4044-99f9-7bc948039e1a | **Date unknown; reported 2026-11-10** | **Submitted; outcome not reported** |
+| Netflix | [Senior Software Engineer (L5), Productivity Software Engineering](https://explore.jobs.netflix.net/careers/job/790319372667-senior-software-engineer-l5-n-tech-software-engineering-remote-united-states) | JR43443 | **Date unknown; reported 2026-11-10** | **Submitted; outcome not reported** |
+| Netflix | [Visualization Engineer 5 - AI Infrastructure & Productivity Tooling](https://explore.jobs.netflix.net/careers/job/790317589519) | JR41877 | **Date unknown; reported 2026-11-10** | **Submitted; outcome not reported** |
+| Netflix | [Software Engineer 4/5 – Model Development and Management, AI Platform](https://explore.jobs.netflix.net/careers/job/790316165312?microsite=netflix.com) | JR40898 | **Date unknown; reported 2026-11-10** | **Submitted; outcome not reported** |
 
 See [application-status tracker](../../applications/application-status.md) for the status history. Do not place this role in an *unsubmitted application* queue or generate duplicate application instructions.
 
